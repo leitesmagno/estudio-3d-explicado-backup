@@ -1,0 +1,24 @@
+# 081. orçamento de almadina
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentoalmadina · Nome: OrcamentoAlmadina
+- MODO AUTÔNOMO (liberado pelo coordenador em 09/11/2026, Região Sul). Molde UBAITABA (092) + Camacan; brief projetos/_brief-molde-ubaitaba.md; SEM tarifa bancária (regra 60); máx. 3:00; sem pasta própria em Documentos (regra 59).
+- Levantamento: ~/Documents/RECEITAS-DESPESAS-ALMADINA/
+- e-TCM: município 9 "ALMADINA"; Prefeitura UJ 613, Câmara UJ 43; sem autarquias. Último mês de 2026: 09/2026.
+- Documentos (todos os fundamentais, 0 pendências): Balanço (PCAGO015), Anexos 7 e 9 de 2024 e 2025, Anexo 16 de 2025; PCMGE015/016 de 12/2024; PCMGE065/066 consolidados de 12/2025 (o PCMGE015/016 da prestação de dezembro/2025 veio com competência 11/2025); PCMGE015/016/018/065/066 de 09/2026; Câmara: PCMGE015 de 12/2024 (escaneado, lido na imagem), 12/2025 e 09/2026, PCAGE062 2024 e 2025, PCMGE018 12/2025 e 09/2026; Decisões do TCM (09/11/2026).
+- Totais: 2024 arrecadou 34,44 / liquidou 34,86 (416 mil a mais) · 2025 38,93 / 41,65 (2,73 mi a mais) · 2026 até set. 42,24 arrecadado, 38,51 liquidado, 43,95 empenhado.
+- Achados: festejos 691 mil (2024) → 1,37 mi (2025, previsto 702 mil) → 2,6 mi até set/2026 (LOA previa 806,6 mil; dotação foi a 3,0 mi); assistência 2026 1,27 mi; ações de agricultura 2026 R$ 0; casas populares 0/0/2,4 mil; diárias 2025 417 mil; benefícios eventuais 2025 38 mil de 189 mil; TCM 3 processos (2 pregões 2024, transparência Câmara 2025).
+- Roteiro v1 revisado = APROVADO (modo autônomo), 09/11/2026: 479 palavras. Números conferidos no PDF (fontes.md, 1ª conferência).
+- Voz: Google Chirp 3 HD Algenib, speakingRate 1,3, 13 partes + 0,35 s, pausas 0,28 s, atempo 1,110, -15,4 LUFS = 177,51 s. Transcrição conferida: nada pulado.
+- Sincronia: palavras.ts com 479 palavras, última em 177,16 s; todos os gatilhos quando() achados.
+- Plano aprovado no modo autônomo (plano.md). Código src/videos/orcamentoalmadina/ (molde Ubaitaba; 10 setores; 1 pilha = R$ 500 mil; achados com 1 pilha = R$ 100 mil). tsc limpo; composições no Root (Estúdio) depois do tsc (regra 54).
+- Kit Mapas: src/videos/orcamento-almadina (IBGE 2900900 conferido na API; satélite próprio copiado de Coaraci/Itajuípe/Ubaitaba/Ibicaraí, 0 tiles baixados); registrado no Root do Kit.
+- Folhas: 3 de receita + 30 por setor (scripts/folhas.py → saida/folha-pdf/config-setores.json), todas fecham com o total; faixa de pessoal e diárias; Câmara com duodécimo (2024 e 2025 recebido/devolvido, 2026 repasse até set.).
+- fontes.md pronto (cópia em ~/Documents/FONTES/), 2ª conferência feita (22 de 22). Legenda pronta em edicoes/ (sem tarifa bancária).
+- Mapa gerado (mapas/almadina.mp4, 18,9 s) e 73 quadros de revisão (05:13–05:15). Revisão feita por mim, quadro a quadro (regra 13).
+- Defeitos corrigidos (quadros refeitos em revisao2/, 05:28): casinha que só subia na fala deixava gramado vazio em fala curta (Assistência 2024 aos 34 s): agora sobe 1 s antes; o gasto dos benefícios eventuais (38 mil) sumia dentro da torre branca do previsto (189 mil): agora fica ao lado; plaquinhas da pergunta final saem no "Segue o" (o selo do @ cobria a de R$ 2,6 mi).
+- ★ Melhoria (regra 14): nas festas, o previsto em branco fica AO LADO do gasto (702 mil x 1,37 mi; 806 mil x 2,6 mi), com plaquinha própria: a comparação aparece de primeira.
+- Revisão APROVADA (modo autônomo), 09/11/2026 05:30.
+- Vídeo final (trava 05:37–06:03): render sem folha (a 1ª tentativa caiu com erro do Node; a 2ª passou), 33 folhas aplicadas (9 translúcidas, nenhuma pulada, regra 34): 5.352 quadros, 178,4 s, volume médio -18,4 dB, pico -3,8 dB. Conferido em 5 quadros com folha.
+- Capa: "Festa 2026: / R$ 2,6 mi. / Previsto: / R$ 806 mil." sobre o quadro 3583 do OrcamentoAlmadinaLimpo (gaveta das festas), pela entrada isolada (regra 66).
+- Etapa atual: 8. ENTREGUE em 09/11/2026 (modo autônomo, molde Ubaitaba): ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/ALMADINA.mp4; edicoes/081. orçamento de almadina/ (ALMADINA.mp4, ALMADINA - capa.jpg, ALMADINA - legenda.txt com ⚖️ AVISO e comentário fixado). Sem pasta própria em Documentos (regra 59). Sem tarifa bancária (regra 60). 0 pendências no TCM.
+- Falta: o Magno assistir e publicar.

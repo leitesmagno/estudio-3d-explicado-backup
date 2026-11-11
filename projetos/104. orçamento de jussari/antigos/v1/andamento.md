@@ -1,0 +1,21 @@
+# 104. orçamento de jussari
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentojussari · Nome: OrcamentoJussari (composições OrcamentoJussari, …Guia, …Limpo, CapaOrcamentoJussari)
+- MODO AUTÔNOMO (coordenador, 10/11/2026): lote de 40, única cidade trabalhando (regra 84). Brief `projetos/_brief-lote-40.md`, molde 093 Ilhéus / 103 Itapebi, regras 82 a 87 (só 2024, 2025 e 2026). SEM tarifa bancária. Máx. 3:00. Hashtags só #Jussari #MagnoLeiteExplica.
+- e-TCM: município 221, Prefeitura UJ 825, Câmara UJ 254, SAAE UJ 1052 (presta contas mensais próprias). Último mês de 2026: 08/2026 (Prefeitura; 09 pendente). Sistema E&L nos anuais e consolidados; SIGA nos mensais.
+- Downloads (10/11/2026 06:24–06:52, trava do navegador, recebedor 8778 pasta JUSSARI, fetch + /salva, sem janela): 56 PDFs em ~/Documents/RECEITAS-DESPESAS-JUSSARI/documentos_tcm/ com "JUSSARI" no texto. 2024_PCAGO003 era de Ibicaraí: movido para fora_do_municipio/.
+- Totais (liquidado): 2024 arrecadou 58,90 / gastou 57,45 (sobrou 1,46) · 2025 arrecadou 68,40 / gastou 60,77 (sobraram 7,63) · 2026 até ago arrecadou 53,58 / gastou 53,36 (sobraram 0,22) / empenhado 65,00.
+- Achados: festas 147 mil (2024) → 2,16 mi (2025) → 2,67 mi até ago/2026; programas de agricultura 396 reais em 2026; IPTU 6.376 (2024), zero (2025) e zero até ago/2026 com previsão de 575 mil; Câmara 2025 recebeu 1,74 mi e devolveu 86 mil (consultoria 174 mil, diárias 20 mil); INSS parcelado 39,6 mi (fim 2024) → 72,5 mi (fim 2025).
+- Roteiro v1 revisado = APROVADO no modo autônomo (10/11/2026). 1ª conferência dos números feita (scripts/achar.py).
+- Voz: Google Chirp 3 HD Algenib, speakingRate 1,3, 14 partes + 0,35 s, pausas 0,28 s, sem atempo, -15 LUFS = 170,77 s.
+- Transcrição: Whisper escreveu "68 .400 .000" e puxou 2025 0,7 s para trás; números normalizados no palavras.json (original em palavras-original.json) e realinhado. palavras.ts com 408 palavras, última em 169,92 s. transcript.md refeito do roteiro com os tempos (67 frases, para o site); transcript-whisper.md guardado.
+- Plano aprovado no modo autônomo (plano.md). Mapa (Kit Mapas): src/videos/orcamento-jussari (satélite de Camacan + Itapebi + npm run tiles), registrado no Root do Kit (KITJS); mapas/jussari.mp4.
+- Código: src/videos/orcamentojussari/OrcamentoJussari.tsx (molde 103). tsc ok; registrado no Root.tsx depois do tsc.
+- Revisão 1 (72 quadros): plaquinhas arredondadas como a fala (980 mil, 100 mil, 220 mil), câmera do IPTU mais à direita (torre das festas dominava), dívida com 1 pilha = R$ 5 mi. Revisão 2 (9 quadros): ok. Revisão APROVADA (modo autônomo).
+- 2ª CONFERÊNCIA: valores do fontes.md procurados no texto dos PDFs (scripts/achar.py); somas marcadas como conta própria.
+- Folhas: 3 de receita + 30 por setor (scripts/folhas_jussari.py); Câmara 2024 pelo Anexo II, Câmara 2025 pelos elementos do PCMGE015 dela, Agricultura 2024 com as ações sem gasto, Esporte 2025 pelos elementos.
+- Legenda escrita (edicoes/104.../JUSSARI - legenda.txt, 2.115 caracteres no post). fontes.md copiado para ~/Documents/FONTES.
+- Vídeo final (07:01–07:15): render-sem-folha/JUSSARI.mp4 + 33 folhas → edicoes/104. orçamento de jussari/JUSSARI.mp4 (5.150 quadros, 171,7 s, 1080x1920, áudio médio -18,6 dB, pico -3,8 dB). Quadros conferidos depois das folhas.
+- Capa: "IPTU: / R$ 0. / Festas: / R$ 2,2 mi." (fundo OrcamentoJussariLimpo quadro 4985, desce = 820). Legenda com ⚖️ AVISO e comentário fixado; hashtags só #Jussari #MagnoLeiteExplica.
+- Pendências no TCM: 2024_PCAGO003 da Prefeitura é de Ibicaraí; PCMGE015 12/2024 do SAAE com competência 09/2024; PCMGE015 12/2024 da Câmara escaneado; prestação 12/2025 da Prefeitura sem PCMGE015/016/018.
+- Etapa: ENTREGUE 10/11/2026 ~07:20: ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/JUSSARI.mp4; edicoes/104.../JUSSARI - capa.jpg e JUSSARI - legenda.txt; fontes.md copiado para ~/Documents/FONTES; transcricao/transcript.md pronto. PDFs guardados em ~/Documents/RECEITAS-DESPESAS-JUSSARI/documentos_tcm (56). Travas soltas. Atualização do site: com o coordenador.

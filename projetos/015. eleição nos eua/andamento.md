@@ -1,0 +1,16 @@
+# 015. eleição nos eua
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: eleicaoeua · Nome: EleicaoEua
+- Etapa atual: ENTREGUE em 02/11/2026
+- Aprovações: roteiro aprovado em 02/11/2026 (versão 1, depois trocado para "hoje") · plano aprovado em 02/11/2026 (versão 1) · revisão aprovada em 02/11/2026
+- Seguir sem pausas: não
+- Pedido: explicar como funcionam as midterms dos EUA de 03/11/2026 e mostrar, de forma didática, a diferença para o Brasil, usando o Kit Mapas junto com o Estúdio 3D (02/11/2026).
+- Chamada final: "E segue o @eumagnoleite para mais informações."
+- Título da capa sugerido: EUA votam / hoje. / Mas não pra / presidente.
+- Mapas previstos (Kit Mapas, encaixados como no 013): EUA com os 36 estados que elegem governador; EUA cortado em distritos; Brasil com os estados.
+- Roteiro trocado de "amanhã" para "hoje": post na manhã de 03/11 (02/11/2026).
+- Narração pronta: 101,17 s (voz Adam, modelo v4, velocidade 1,00, estabilidade 50, similaridade 75; arquivo das 21h08; pausas cortadas em 0,35 s e 1,2x). Original: 121,39 s. AUDIO_SEG 101.17 · QUADROS 3062 (02/11/2026). Áudio completo (conferido o final).
+- Sincronia: 318 palavras no roteiro e no palavras.ts; última ("informações.") termina em 100,66 s. Cópia em palavras-original.json.
+- Cenas programadas em 02/11/2026: src/videos/eleicaoeua + Kit Mapas src/videos/eleicao-eua (mapas em projetos/015.../mapas/eua.mp4, 646 quadros: A 0-157, B 157-420, C 420-646). 43 quadros de revisão olhados por mim; corrigido: placas EUA/BRASIL tapavam o assunto (foram para as laterais), câmera da contagem e da linha do tempo do Brasil mais perto.
+- Vídeo final pronto em 02/11/2026: edicoes/015. eleição nos eua/video final.mp4 · 3.062 quadros · 102,1 s · 4 partes · média -19,0 dB, pico -3,5 dB · emendas OK · mapas entram em 18,3 s e 34,7 s. Capa: fundo do quadro 870 (placar das duas casas, cadeiras nas duas cores), desce 300. Legenda: edicoes/.../legenda do post.txt. Pendência: postar na manhã de 03/11 (a fala diz "hoje").
+- Pedido da pessoa (02/11/2026): Congresso dos EUA mais simbólico. Peça nova Capitolio (cúpula, tambor de colunas, pórtico, alas e escadaria) no lugar do Congresso genérico; vídeo e capa gerados de novo (3.062 quadros, -19,0 dB, pico -3,5 dB). Versão anterior em edicoes/.../antigos/.

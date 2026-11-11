@@ -1,0 +1,38 @@
+# 018. pec da segurança
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: pecseguranca · Nome: PecSeguranca
+- Etapa atual: ENTREGUE em 04/11/2026
+- Aprovações: roteiro aprovado em 04/11/2026 (v5, enxugado na v6 a pedido) · plano v1 aprovado em 04/11/2026 · revisão aprovada em 04/11/2026
+- Seguir sem pausas: não
+- Pedido (04/11/2026): todo o histórico até a PEC e a aprovação, o que muda, o que não muda, o que entra e o que sai. Usar o Kit Mapas junto com o Estúdio 3D, como no 015 e no 016.
+- Título da capa: 75 a 0. / O que muda / na sua / segurança?
+- Mapas previstos (Kit Mapas): Brasil com os 27 estados (governadores, autonomia das polícias); municípios acendendo (polícias municipais); Brasil com ferrovias e hidrovias federais (PRF); Brasil com metade do dinheiro indo para os estados.
+- 04/11/2026, versão 2 do roteiro: a pessoa pediu que a história comece antes de 2024. Entraram 1988 (art. 144), 2018 (intervenção no Rio e Susp por lei) e 2019 (polícias penais). Versão 1 em antigos/.
+- 04/11/2026, versão 3: a pessoa aprovou a história desde 1988 e pediu para sintetizar sem perder o sentido. Cortados: placar do 2º turno da Câmara, 73 a zero do 1º turno no Senado, reunião no Planalto e nomes de Lula, Lewandowski e Hugo Motta. Versão 2 em antigos/.
+- 04/11/2026, versão 4: entraram 38 a 36 da maioridade, fiscalização do MP nas polícias municipais, presos provisórios sem direitos políticos, Congresso contra excessos do CNJ e do CNMP, e o Ministério da Segurança como próximo passo. Saiu a frase das polícias penais. Versão 3 em antigos/.
+- 04/11/2026, versão 5: a pessoa pediu o roteiro mais didático e compreensível, com olhar de copywriter. Termos técnicos traduzidos (PEC, prisão provisória, promulgar, CNJ, superávit = sobra, hidrovias = rios), analogia da casa com vários donos e do SUS, "cinco coisas" numeradas. "Juristas" virou "especialistas" (fonte única). Gancho novo: "75 a zero. Nenhum senador votou contra...". Versão 4 em antigos/.
+- 04/11/2026, versão 6: a pessoa pediu para reduzir a cerca de 2:55 sem perder a essência. Cortes de redação (sem tirar fato), PRF repetida no "não muda" saiu. roteiro-tags refeito. Versão 5 em antigos/.
+- Narração pronta (04/11/2026): voz Adam - Dominant, Firm, v4 (vel. 1,00, estab. 50, simil. 75), arquivo ElevenLabs_2026-11-04T04_07_52. Original 199,63 s. Preparo: 1,2x, pausas acima de 0,35 s cortadas, -15 LUFS, mono 44100 Hz. Final: 166,19 s. AUDIO_SEG 166.19 · QUADROS 5013.
+- Transcrição conferida frase por frase com o roteiro v6: completa, sem palavra pulada, final inteiro.
+- Sincronia: 517 palavras no roteiro e no palavras.ts; última ("direitos.") termina em 165,94 s. Tempos em ordem, sem buracos acima de 1,5 s. Único aviso: "10%" casou com "10" (certo). Cópia em palavras-original.json.
+- Palavras repetidas, para o quando() (ocorrência: segundo):
+  - 75: 0,00 · 64,98 · zero: 1,02 · 65,94
+  - Susp: 32,30 · 75,34 · PEC: 40,30 · 149,58
+  - Constituição: 42,50 · 76,26 · 136,42
+  - Câmara: 47,42 · 55,78 · União: 16,26 · 51,32
+  - polícia: 14,56 · 78,40 · 83,10 · 143,36 · 158,84
+  - Federal: 16,88 · 30,62 · 91,50 · 94,92
+  - maioridade: 54,50 · 68,34 · 145,76 · penal: 55,02 · 68,80 · 134,74 · 146,18
+  - governador: 13,68 · 144,82 · municipal: 83,44 · 159,16
+  - dinheiro: 24,14 · 61,78 · 85,88 · 98,48 · dados: 23,50 · 79,98
+  - Congresso: 130,66 · 150,80 · Ministério: 89,00 · 156,16
+  - bens: 115,28 · 139,66 · pena: 111,70 · 138,32 · lei: 31,70 · 35,22 · 140,92
+- 04/11/2026: Kit Mapas pronto (src/videos/pec-seguranca no kit; mapas/pec.mp4, 992 quadros: A 0-445, B 445-717, C 717-992; satélite NASA/EOX; malha IBGE de estados e 5.570 municípios). Cenas 3D programadas em src/videos/pecseguranca (peças novas: CasaSeguranca, Alicerce, ArmarioDados, Guarita, Policial, TremMini, Trilho, Rio, PlacarParede, Cartao, MesaRedonda, Presidio, Cela, LivroPorta, AndarObra, PredioSigla, Arvore, Tora). Corrigidos nos quadros de teste: placa UNIÃO sem til (tapada pelo beiral), boneco "você" na frente dos closes (foi para o lado), câmeras do Congresso mais altas (a casa tapava), trem e rio filmados por trás da casa, barco grande demais, presídio e Diário Oficial mais perto.
+- 04/11/2026: 58 quadros de revisão (Guia) olhados por mim; corrigidos ainda: carimbo BARRADO em cima do REGRA, cofre pequeno. Folhas em revisao-folha 1 a 3.jpg.
+- Vídeo final pronto em 04/11/2026: edicoes/018. pec da segurança/video final.mp4 · 5.013 quadros · 167,1 s · 7 partes · média -19,3 dB, pico -3,0 dB · 6 emendas conferidas, sem salto. Memória chegou a 7,7 de 8 GB na parte 7 (passou, mas no limite).
+- Capa: fundo do quadro 4695 (casa com o andar em obra do Ministério), título "75 a 0. / O que muda / na sua / segurança?". Legenda: edicoes/.../legenda do post.txt (fontes no comentário fixado).
+- Conferir antes de publicar: "ontem" só vale postando em 04/11/2026; se a emenda já foi promulgada; se o ministério foi criado.
+- 04/11/2026, pedido da pessoa: vídeo renomeado para "PEC SEG.mp4"; capa nova com o título "PEC / SEGURANÇA / PÚBLICA. / O que muda / na sua / segurança?" (6 linhas, letra 112, fundo desce 470). Capa antiga em edicoes/.../antigos/capa (versão 1).jpg.
+- 04/11/2026: capa renomeada para "congresso.jpg" a pedido da pessoa.
+- 04/11/2026, pedido da pessoa: chamada final trocada para "E segue o @eumagnoleite para entender o que mexe com o seu bolso e quais são seus direitos." Roteiro e texto da voz na versão 7 (versão 6 em antigos/). Esperando a pessoa gerar só o último parágrafo.
+- 04/11/2026: chamada final nova emendada (último parágrafo regerado, Adam v4; corte em 157,82 s). Áudio 166,65 s · QUADROS 5027. Partes 6 e 7 refeitas. PEC SEG.mp4: 5.027 quadros, 167,6 s, média -19,3 dB, pico -3,0 dB; emendas 133,3 s e 160 s sem salto. Cartão "SEGUE @eumagnoleite" no fim. Versão anterior em edicoes/.../antigos/.

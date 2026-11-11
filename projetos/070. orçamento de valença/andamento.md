@@ -1,0 +1,21 @@
+# 070. orçamento de valença
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentovalenca · Nome: OrcamentoValenca (composições OrcamentoValenca, …Guia, …Limpo, CapaOrcamentoValenca)
+- MODO AUTÔNOMO (coordenador, 09/11/2026): molde Ubaitaba (092), brief `projetos/_brief-molde-ubaitaba.md`. SEM tarifa bancária (regra 60). Sem pasta própria em Documentos (regra 59).
+- e-TCM: município 405, Prefeitura 1009, Câmara 439, SAAE 1069 (sem prestação própria; o SAAE está no Balanço e nos consolidados). Último mês de 2026: 08/2026.
+- Levantamento: ~/Documents/RECEITAS-DESPESAS-VALENCA/ (documentos_tcm + .txt; scripts p065.py, p015_2025.py, anexo7.py, anexo10.py, setores.py, folhas.py, vez_render.sh; saida/*.json). Todos os PDFs conferidos pelo nome do município.
+- Totais: 2024 arrecadou 368,97 mi / liquidado 408,77 mi (39,8 a mais) · 2025 arrecadou 398,35 / liquidado 401,65 (3,3 a mais) · 2026 até ago arrecadou 270,03 / liquidado 290,33 / empenhado 423,75.
+- Achados: festas 5,1 mi (2025) e 4,5 mi (2024) x agricultura 1 mi e esporte 384 mil (2025); ações de agricultura R$ 0 até ago/2026 (secretaria conjunta gastou 967 mil na manutenção); pessoal 2025 237 mi (58,6 mi de contratados por tempo determinado); Câmara 12,5 mi; dívidas e sentenças 20,5 mi; TCM: 23 processos abertos 2024–2026.
+- Roteiro v1 revisado = aprovado (modo autônomo), 09/11/2026: 472 palavras. Cortes para caber em 3:00 (versão 1 em antigos/).
+- Voz: Google Chirp 3 HD Algenib, speakingRate 1,3, 13 partes + 0,35 s, pausas 0,28 s, atempo 1,155, -15 LUFS = 178,22 s (média -15,5 dB, pico -1,4 dB). Transcrição conferida: nada pulado.
+- Sincronia: palavras.ts com 472 palavras, última em 177,96 s.
+- Mapa (Kit Mapas): src/videos/orcamento-valenca (satélite copiado do Cairu + 8 blocos). Composição OrcamentoValenca registrada no Root do Kit.
+- Código 3D: src/videos/orcamentovalenca/OrcamentoValenca.tsx (molde Ubaitaba; 13 setores; 1 pilha = R$ 10 mi; achados com 1 pilha = R$ 500 mil e R$ 2 mi). Root.tsx registrado depois do tsc ok (regra 54).
+- Folhas: 3 de receita + 39 por setor (saida/folha-pdf/config-setores.json, scripts/folhas.py), soma = valor falado. Pendência: duodécimo da Câmara 2024 e 2026.
+- fontes.md pronto (cópia em ~/Documents/FONTES/). Legenda rascunho pronta (2.179 caracteres).
+- Mapa gerado (mapas/valenca.mp4) e 79 quadros de revisão (04:16–04:18). Revisão feita por mim, quadro a quadro: sem sobreposição; tela bate com a fala.
+- Correções da revisão (quadros conferidos de novo em revisao2/, 04:33): agricultura 2026 e meio ambiente num plano só (a plaquinha "R$ 0 nas ações" ficava 1 s); chip final encurtado. Melhoria (regra 14): torre rosa dos R$ 967 mil da secretaria na sacada.
+- Revisão APROVADA (modo autônomo), 09/11/2026 04:35.
+- Vídeo final (04:49–05:00): render-sem-folha/VALENÇA.mp4 + 42 folhas aplicadas → edicoes/070. orçamento de valença/VALENÇA.mp4 (5.374 quadros, 179,13 s, 1080x1920, áudio médio -18,5 dB, pico -3,3 dB). Capa refeita com o fundo mais baixo (o acento verde não fica sobre a mesa verde).
+- ENTREGUE 09/11/2026 ~05h05: ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/VALENÇA.mp4; edicoes/070.../VALENÇA - capa.jpg e VALENÇA - legenda.txt (2.179 caracteres, AVISO no fim e comentário fixado depois do ---).
+- Pendências: duodécimo da Câmara 2024 e 2026 (folhas da Câmara desses anos sem a faixa). A folha da agricultura 2026 fica 1 s (o trecho falado é curto), translúcida.

@@ -1,0 +1,17 @@
+# 014. orçamento de ilhéus
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentoilheus · Nome: OrcamentoIlheus
+- Etapa atual: 8. entregue (vídeo, capa e legenda prontos em 02/11/2026)
+- Aprovações: roteiro v6 aprovado em 02/11/2026 (só dados dos PDFs do portal; educação 2025 com PDF e Tesouro)
+- Plano de cenas versão 1 aprovado em 02/11/2026.
+- Título da capa: "790 milhões. / Para onde / foi cada / real?" (sugerido, confirmar na capa)
+- Seguir sem pausas: sim, a partir do plano ("aprovado o plano. pode gerar o video", 02/11/2026); o diretor confere os quadros de revisão antes do vídeo final
+- Narração pronta: 155,55 s (voz Adam - Dominant, Firm, modelo v4, velocidade 1,00, estabilidade 50, similaridade 75; 1,2x e pausas cortadas em 0,35 s). Original emendado: 187,93 s. AUDIO_SEG 155.55 · QUADROS 4694 (02/11/2026).
+  - A 1ª geração pulou palavras no parágrafo dos pisos ("precisa de vinte e cinco", "aparece com vinte e quatro", "por cento. Os dois são"). O parágrafo foi regerado ("parte pisos.mp3") e emendado: original 0 a 128,5 s + parte 0 a 45,75 s + original de 169,15 s ao fim. Versão antiga em audio/antigos/.
+- Sincronia: 396 palavras (roteiro = palavras.ts), última "informações." termina em 155,10 s. Ajuste no palavras.json: percentuais quebrados ("53" + ",2%.") juntados numa palavra só (407 → 398). Cópia em transcricao/palavras-original.json.
+- Palavras repetidas (início em s): educação 32,26 / 117,88 / 127,64 · saúde 40,44 / 108,18 · 2025 3,04 / 59,46 / 123,58 · prefeitura 5,26 / 10,18 / 18,22 / 45,36 / 89,82 · portal e transparência 11,18 / 147,28 · lei 89,24 / 102,94 / 107,48 · milhões (11 vezes). Usar trechos únicos no quando().
+- Cenas programadas em 02/11/2026: src/videos/orcamentoilheus (OrcamentoIlheus.tsx + pecas.tsx) + Kit Mapas src/videos/orcamento-ilheus (mapas em projetos/014.../mapas/ilheus.mp4, 1062 quadros: A 0-243, B 243-690, C 690-1062, renderizado mudo). Composições OrcamentoIlheus, Guia, Limpo e CapaOrcamentoIlheus registradas. 4694 quadros.
+  - Corrigido nos quadros de teste: guindaste trocado por material de obra (o braço cruzava a tela), cartão 53,2% foi para a esquerda da régua, letreiro da prefeitura na frente das colunas.
+- Revisão (02/11/2026): 52 quadros olhados por mim. Corrigido: pilhas enterradas na areia (grade de 100 moedas não aparecia), 10 moedas grandes maiores, rótulos da balança com mais tempo na tela, selo da fonte opaco, ônibus e balança maiores.
+- Vídeo final pronto em 02/11/2026: edicoes/014. orçamento de ilhéus/video final.mp4 · 4.694 quadros · 156,5 s · 6 partes · média -18,8 dB, pico -3,5 dB · 5 emendas OK. Capa: fundo do quadro 1033 (escola com as pilhas da educação e o cofre), desce 300, título "790 milhões. / Para onde / foi cada / real?". Legenda: edicoes/.../legenda do post.txt.
+- Conferir antes de publicar: se saiu RGF ou RREO de set/out de 2026 no portal (atualiza o 53,2% e os "até agosto"); se a prefeitura ou o TCM-BA falaram do 24,18% da educação em 2025.

@@ -1,0 +1,19 @@
+# 056. orçamento de dário meira
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentodariomeira · Nome: OrcamentoDarioMeira
+- MODO AUTÔNOMO (projetos/_coordenacao-sessoes.md, Lote 2, liberado pelo coordenador em 08/11/2026): roteiro, plano e revisão aprovados pela própria sessão.
+- e-TCM: município 117 "DÁRIO MEIRA", Prefeitura 722, Câmara 155 (só essas duas unidades). Sistema SIAFIC.
+- Levantamento: ~/Documents/RECEITAS-DESPESAS-DARIO-MEIRA/ (documentos_tcm, documentos_tcm/tcm, saida/acoes_*.json, saida/setores056.json, scripts/acoes056.py, setores056.py, pega.sh).
+- Documentos (todos os fundamentais, 0 pendências): Balanço (PCAGO015), Anexos 2, 6, 7, 8, 9 e 10 de 2024 e 2025; PCMGE015/016 da Prefeitura de 12/2024, 12/2025 e 09/2026 (último mês entregue); PCMGE015 da Câmara de 12/2024, 12/2025 e 09/2026 (a Câmara não tem PCMGE016).
+- Totais: 2024 arrecadou 74,50 / gastou 82,86 (déficit 8,36) · 2025 81,66 / 92,71 (déficit 11,05) · 2026 até 09: arrecadou 67,57, liquidou 71,00, empenhou 84,82.
+- Foco: gasto acima da arrecadação nos três anos; folha (Pessoal e Encargos) 52,9 → 65,5 mi (+12,6) x arrecadação +7,2; casas populares R$ 0 em 2024–2025 e R$ 2,25 mi reservados em 2026, nada pago até setembro (licitação de 20 casas em 23/06/2026, PNCP); esgoto e campos/quadras no zero; TCM: 01923E25 sem decisão e multa de R$ 1.500 mantida em 07/10/2025 (22269E23).
+- Roteiro v1 (459 palavras) revisado e APROVADO no modo autônomo em 08/11/2026. 1ª conferência no PDF: 78 valores do fontes.md procurados de novo nos textos (66 literais + 12 somas/contas próprias).
+- Título da capa: "2025: gastou / R$ 11 mi a / mais do que / arrecadou."
+- Narração: Google Chirp 3 HD Algenib, speakingRate 1,3, 13 partes, unidas com 0,35 s, pausas 0,28 s, atempo 1,06, -15 LUFS = 174,07 s. Conferida frase a frase (Whisper pulou "e 600" em 0:29; retranscrito: a voz está certa).
+- Sincronia: 459 palavras, última em 173,68 s. AUDIO_SEG = 174.07 · QUADROS = 5249.
+- Plano aprovado no modo autônomo em 08/11/2026 (plano.md).
+- Mapa: ~/Kit-Mapas-Animados/src/videos/orcamento-dariomeira (IBGE 2910008) → mapas/dariomeira.mp4 (15,1 s).
+- Revisão: v1 (62 quadros) → corrigido: na cena das casas a plaquinha "R$ 0 PAGO" ficava fora da faixa e sumia; agora fica no topo da torre por 1,5 s (6 quadros refeitos em revisao/v2 correção casas). Aprovada no modo autônomo.
+- 2ª conferência (PDFs reabertos e extraídos de novo: 66 literais + 12 somas; PNCP e TCM de novo) feita antes do final: tudo igual (audio/fontes.md).
+- Etapa atual: 8. ENTREGUE em 08/11/2026 (modo autônomo): edicoes/056. orçamento de dário meira/DÁRIO MEIRA.mp4 (5249 quadros, 174,97 s, 7 partes, volume médio -18,5 dB, pico -3,7 dB, emendas conferidas), DÁRIO MEIRA - capa.jpg (fundo OrcamentoDarioMeiraLimpo quadro 5100, desce 820) e DÁRIO MEIRA - legenda.txt (2.200 caracteres antes do comentário fixado, com ⚖️ AVISO). Trava liberada; pastas temporárias do Remotion desta sessão apagadas.
+- Falta: o Magno assistir e publicar.

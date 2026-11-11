@@ -1,0 +1,19 @@
+# 099. orçamento de guaratinga
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentoguaratinga · Nome: OrcamentoGuaratinga (composições OrcamentoGuaratinga, …Guia, …Limpo, CapaOrcamentoGuaratinga)
+- MODO AUTÔNOMO (coordenador, 10/11/2026): lote de 40, única cidade trabalhando (regra 84). Brief `projetos/_brief-lote-40.md`, molde 093 Ilhéus / 098 Floresta Azul, regras 82 a 87 (só 2024, 2025 e 2026). SEM tarifa bancária. Máx. 3:00. Hashtags só #Guaratinga #MagnoLeiteExplica.
+- IBGE 2911808 (microrregião Porto Seguro). e-TCM: município 144, Prefeitura UJ 748, Câmara UJ 177 (sem autarquia). Último mês de 2026: 09/2026.
+- Downloads (10/11/2026 02:22–02:36, trava do navegador, recebedor 8778 pasta GUARATINGA, sem janela): 32 PDFs em ~/Documents/RECEITAS-DESPESAS-GUARATINGA/documentos_tcm/, município conferido no cabeçalho de cada um. Não há PCMGE065/066 consolidados: setores pelo PCMGE015 da Prefeitura + PCMGE015 da Câmara (fecha centavo a centavo com o Balanço).
+- Totais (liquidado): 2024 arrecadou 86,96 / gastou 92,31 (5,34 a mais) · 2025 arrecadou 95,88 / gastou 93,11 (sobraram 2,77) · 2026 até set arrecadou 79,75 / gastou 81,84 (2,09 a mais) / empenhado 90,79.
+- Achados: festas tradicionais R$ 0 (2024) → 1,52 mi (2025) → 2,32 mi (2026 até set); IPTU 2025 R$ 334 mil; esporte 2026 R$ 1 mi só para a secretaria, quadras/ginásio/eventos com empenho zero; Câmara 3,3 → 4 mi (consultoria 489,5 mil), mais de 3 vezes agricultura e meio ambiente; dívidas pagas 11,1 mi (2024+2025); INSS parcelado 63,5 mi no fim de 2024. Observação: Anexo 16 de 2025 não fecha (TOTAIS ≠ soma); não usado.
+- Roteiro v1 revisado = APROVADO no modo autônomo (10/11/2026): 422 palavras.
+- Voz: Google Chirp 3 HD Algenib, speakingRate 1,3, 14 partes + 0,35 s, pausas 0,28 s, sem atempo, -15 LUFS = 168,57 s.
+- Transcrição: o Whisper inventou "serviços urbanos" repetido (duração zero) aos 29,9 s e escreveu "R $ 3 ,3"; limpo no palavras.json (original em palavras-original.json, transcript-whisper.md). transcript.md refeito do roteiro com os tempos do palavras.ts (para o site).
+- Sincronia: palavras.ts com 422 palavras, última em 168,20 s.
+- Plano aprovado no modo autônomo (plano.md). Mapa (Kit Mapas): src/videos/orcamento-guaratinga (satélite copiado de orcamento-itabela + npm run tiles), mapas/guaratinga.mp4 (18,6 s).
+- Revisão 1 (69 quadros): corrigidos gaveta das festas tapando a cena do esporte, plaquinha do INSS caindo em cima da torre (câmera mais alta) e plaquinha dos salários encostando na do esporte. Revisão 2 (6 quadros): ok. Revisão APROVADA (modo autônomo).
+- 2ª CONFERÊNCIA: 82 valores do fontes.md; 66 achados literalmente nos PDFs, 16 são somas (conta própria).
+- Legenda escrita (edicoes/099.../GUARATINGA - legenda.txt, 2.086 caracteres no post).
+- Vídeo final (02:53–03:06): render-sem-folha/GUARATINGA.mp4 + 33 folhas → edicoes/099. orçamento de guaratinga/GUARATINGA.mp4 (5.084 quadros, 169,5 s, 1080x1920, áudio médio -18,5 dB, pico -3,6 dB). Quadros conferidos depois das folhas.
+- Capa: "Festas: / R$ 2,3 mi. / Quadras: / R$ 0." (fundo OrcamentoGuaratingaLimpo quadro 4815, desce = 820).
+- Etapa: ENTREGUE 10/11/2026 ~03:08: ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/GUARATINGA.mp4; edicoes/099.../GUARATINGA - capa.jpg e GUARATINGA - legenda.txt; fontes.md copiado para ~/Documents/FONTES. PDFs guardados em ~/Documents/RECEITAS-DESPESAS-GUARATINGA/documentos_tcm (32). Travas soltas; temporários do Remotion apagados. Atualização do site: com o coordenador.

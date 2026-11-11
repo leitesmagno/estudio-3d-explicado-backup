@@ -1,0 +1,87 @@
+# Regra 33/33b: folha da Câmara = duodécimo recebido (+ devolvido) e custos por grupo de elemento, pelo LIQUIDADO.
+# uso: python3 -I camara_folha.py <pasta RECEITAS-DESPESAS-X> <ano> <PCMGE015 da Câmara .txt> [PCAGE062.txt | PCMGE018.txt]
+# imprime JSON: {"total_liq":..., "total_emp":..., "linhas":[[nome,valor],...], "destaque": "...", "rodape": "..."}
+import re, sys, json, collections
+
+NUM = r"-?\d{1,3}(?:\.\d{3})*,\d{2}"
+def f(s): return float(s.replace(".", "").replace(",", "."))
+def br(v): return f"{v:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+
+GRUPOS = [  # (prefixo do elemento, nome do grupo)
+    ("3.1.90.11", "Pessoal (vereadores e servidores)"), ("3.1.90.04", "Pessoal (vereadores e servidores)"),
+    ("3.1.90.16", "Pessoal (vereadores e servidores)"), ("3.1.90.94", "Pessoal (vereadores e servidores)"),
+    ("3.1.90.96", "Pessoal (vereadores e servidores)"), ("3.1.90.01", "Pessoal (vereadores e servidores)"),
+    ("3.1.90.13", "Encargos (INSS e patronais)"), ("3.1.91.13", "Encargos (INSS e patronais)"), ("3.1.90.03", "Encargos (INSS e patronais)"),
+    ("3.3.90.40", "Sistemas e softwares (TI)"), ("3.3.90.39.15", "Sistemas e softwares (TI)"), ("3.3.90.39.57", "Sistemas e softwares (TI)"),
+    ("3.3.90.39.58", "Sistemas e softwares (TI)"), ("3.3.90.39.97", "Sistemas e softwares (TI)"),
+    ("3.3.90.14", "Diárias e passagens"), ("3.3.90.33", "Diárias e passagens"),
+    ("3.3.90.30", "Combustível e material"),
+    ("3.3.90.35", "Serviços de terceiros (assessoria, publicidade, locação)"), ("3.3.90.36", "Serviços de terceiros (assessoria, publicidade, locação)"),
+    ("3.3.90.39", "Serviços de terceiros (assessoria, publicidade, locação)"), ("3.3.90.37", "Serviços de terceiros (assessoria, publicidade, locação)"),
+    ("4.4.90.51", "Obras na sede"), ("4.4.90.52", "Equipamentos"), ("4.4.90.61", "Equipamentos"),
+]
+def grupo(el):
+    for p, n in sorted(GRUPOS, key=lambda g: -len(g[0])):
+        if el.startswith(p):
+            return n
+    return "Outras despesas (auxílios, indenizações)"
+
+def custos(txt):
+    linhas = open(txt, encoding="utf-8", errors="ignore").read().splitlines()
+    rx = re.compile(r"^\s*([34]\.[0-9]\.[0-9]{2}\.[0-9]{2}\.[0-9]{2})\s+(.*)$")
+    det = collections.OrderedDict()
+    for l in linhas:
+        m = rx.match(l)
+        if not m:
+            continue
+        el = m.group(1)
+        nums = re.findall(NUM, m.group(2))
+        if len(nums) < 10:
+            continue
+        # SIGA: dot_ini, supl, red, dot_atual, emp_mes, emp_ate, liq_mes, liq_ate, pago_mes, pago_ate, ...
+        v = nums[-12:] if len(nums) >= 12 else nums
+        emp, liq = f(v[5]), f(v[7])
+        det.setdefault(el, [0.0, 0.0])
+        det[el][0] += emp; det[el][1] += liq
+    # usa o detalhe (xx.yy com yy != 00) quando existir para o mesmo elemento
+    base = {e[:-3] for e in det if not e.endswith(".00")}
+    g = collections.defaultdict(lambda: [0.0, 0.0])
+    for el, (emp, liq) in det.items():
+        if el.endswith(".00") and el[:-3] in base:
+            continue
+        g[grupo(el)][0] += emp; g[grupo(el)][1] += liq
+    return g
+
+def duodecimo(txt):
+    if not txt:
+        return None, None
+    s = open(txt, encoding="utf-8", errors="ignore").read()
+    rec = dev = None
+    m = re.search(r"Recebimento de Duod[eé]cimo\s*\n?\s*(" + NUM + ")", s, re.I)
+    if m: rec = f(m.group(1))
+    m = re.search(r"Devolu[cç][aã]o de Duod[eé]cimo\s*\n?\s*(" + NUM + ")", s, re.I)
+    if m: dev = f(m.group(1))
+    if rec is None:  # PCMGE018: conta 4.5.1.1.2.02 'REPASSE RECEBIDO' -> último número da linha seguinte (saldo credor)
+        L = s.splitlines()
+        for i, l in enumerate(L):
+            if "REPASSE RECEBIDO" in l.upper() or "4.5.1.1.2.02" in l:
+                for j in range(i, min(i + 3, len(L))):
+                    ns = re.findall(NUM, L[j])
+                    if len(ns) >= 6:
+                        rec = f(ns[-1]); break
+                if rec is not None:
+                    break
+    return rec, dev
+
+if __name__ == "__main__":
+    pasta, ano, c015 = sys.argv[1:4]
+    dd = sys.argv[4] if len(sys.argv) > 4 else None
+    g = custos(c015)
+    rec, dev = duodecimo(dd)
+    te = round(sum(v[0] for v in g.values()), 2); tl = round(sum(v[1] for v in g.values()), 2)
+    lin = sorted(([n, round(v[1], 2)] for n, v in g.items() if abs(v[1]) >= 0.01), key=lambda t: -t[1])
+    dest = None
+    if rec:
+        dest = f"Recebeu da prefeitura (duodécimo): R$ {br(rec)}" + (f" · sobrou e devolveu R$ {br(dev)}" if dev else "")
+    print(json.dumps({"ano": ano, "total_emp": te, "total_liq": tl, "linhas": lin, "destaque": dest,
+                      "recebeu": rec, "devolveu": dev}, ensure_ascii=False))

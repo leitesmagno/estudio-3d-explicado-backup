@@ -1,0 +1,26 @@
+# 080. orçamento de xique-xique
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentoxiquexique · Nome: OrcamentoXiqueXique (composições OrcamentoXiqueXique, …Guia, …Limpo, CapaOrcamentoXiqueXique)
+- MODO AUTÔNOMO (lotes 4 e 5, liberado pelo coordenador em 11/11/2026 ~01:30 com "LIBERADO: pode começar"). Molde 093 Ilhéus / 112 Pojuca / 110 Catu (SAAE). Só 2024, 2025 e 2026. SEM tarifa bancária; máx. 3:00; regra 99 (Festas e eventos separado de Cultura); regra 101 (nice 15, concorrência 1, ffmpeg 2 threads, pmset antes dos passos pesados).
+- e-TCM: município 417 XIQUE-XIQUE, Prefeitura UJ 1021, Câmara UJ 450, SAAE UJ 1071, Agência Reguladora de Saneamento UJ 1 (Fundação do Ensino Superior 562 e Empresa de Produção Alimentícia 529 sem prestação mensal). Último mês: 09/2026 (10/2026 "Pendente").
+- Regra 89: lista de prestações mensais (22 linhas, 01/2025 a 10/2026) gravada em dados/prestacoes-etcm/xique-xique.json (11/11 ~01:40).
+- Downloads: 11/11 ~01:35 a ~02:20, Google Chrome (aba própria, fechada no fim), recebedor 8778 (/salva), sem janela. PDFs em ~/Documents/RECEITAS-DESPESAS-XIQUE-XIQUE/documentos_tcm (mensais 12/2024, 12/2025, 09/2026 de Prefeitura, Câmara e SAAE; Agência 09/2026; anuais 2024 e 2025 da Prefeitura, PCAGO001 a 016). Município e competência conferidos.
+- Totais (liquidado; consolidado do município = Balanço em 2024 e 2025): 2024 arrecadou 232,78 / gastou 240,86 (8,08 a mais; Balanço com déficit) · 2025 259,66 / 248,61 (sobraram 11,04) · 2026 até set 197,85 / 194,07 (sobraram 3,78) / empenhado 243,32.
+- Setores (12): Educação, Saúde, Administração, Obras e serviços urbanos, Dívidas e encargos, Assistência social, Água e saneamento (função 17 + SAAE + Agência), Câmara, Festas e eventos, Cultura, Agricultura e meio ambiente, Esporte.
+- Achados: festas 2,44 (2024) → 2,98 (2025) → 4,14 só até set/2026 (bandas 2,09; palco e cenário 1,70); cultura sem festas 44 mil em 2026; benefícios eventuais 262 mil até set/2026; Câmara recebeu 6,42/devolveu 1,07/gastou 5,17 (2024) e 7,34/1,23/6,11 (2025); consultoria da Câmara 220 mil → 273 mil → 282 mil até set/2026.
+- Roteiro revisado = APROVADO no modo autônomo (480 palavras). Conferência 1 dos números feita (fontes.md).
+- Voz: Google Chirp 3 HD Algenib, speakingRate 1,3, 13 partes + 0,35 s, pausas 0,28 s, atempo 1,1577, loudnorm -15,4 LUFS = 178,50 s.
+- Sincronia: 480 palavras (= roteiro), última em 178,22 s. Trechos duvidosos do Whisper ("24." repetido e "e 200") retranscritos: a voz não repete nem pula nada. transcript.md do roteiro (67 frases); o do Whisper em transcript-whisper.md.
+- Fontes: audio/fontes.md (cada número com valor exato, PDF, página e linha/coluna), copiado para ~/Documents/FONTES.
+- Plano aprovado no modo autônomo (plano.md). Código src/videos/orcamentoxiquexique (molde 110 Catu), tsc ok, Root registrado depois do tsc (regra 54). Todas as frases do quando() conferidas com tsx.
+- Kit Mapas: src/videos/orcamento-xiquexique (IBGE 2933604), satélite próprio (npm run tiles, 326 tiles); Root do Kit como KITXIQUEXIQUE. mapas/xique-xique.mp4 (11/11 02:22–02:27 com a trava, 1 núcleo).
+- "Água e saneamento" = função 17 (aqui só a limpeza urbana, que é saneamento básico pela Lei 11.445/2007) + SAAE + Agência Reguladora; explicado na folha e no fontes.md.
+- Folhas: 3 de receita + 36 por setor (scripts/folhas.py → saida/folha-pdf/config-setores.json), soma = valor falado.
+- Revisão 1 (83 quadros, todas as viradas de fala): valores, anos e setores certos, 90 px das laterais, selo do @ na abertura e no "Segue o". Ajuste: plaquinhas da gaveta das festas apertadas e câmera cortando as torres de 2024 na hora da ajuda → torres afastadas (1,1), gaveta larga 6,8 e câmera na gaveta inteira; chips encurtados. Revisão 2 (9 quadros): ok. Revisão APROVADA (modo autônomo).
+- ★ Melhoria (regra 14): torres das bandas e do palco de 2026 ao lado da das festas e a torre clarinha da ajuda às famílias na mesma gaveta, para comparar no olho.
+- Vídeo final (02:30–02:44, trava de render, nice 15, concorrência 1, sem aviso de calor): render-sem-folha/XIQUE-XIQUE.mp4 + 39 folhas → edicoes/080. orçamento de xique-xique/XIQUE-XIQUE.mp4 (5.382 quadros, 179,40 s, 1080x1920, áudio médio -18,5 dB, pico -3,5 dB).
+- 2ª conferência dos números (36 setores + totais, Câmara, festas, bandas, palco, ajuda) ok, anotada no fontes.md.
+- Capa: "Bandas 2026: / R$ 2,1 mi. / Ajuda social: / R$ 262 mil." (fundo OrcamentoXiqueXiqueLimpo quadro 5215).
+- Legenda: edicoes/080.../XIQUE-XIQUE - legenda.txt (hashtags só #XiqueXique #MagnoLeiteExplica, ⚖️ AVISO, comentário fixado).
+- Etapa: ENTREGUE 11/11/2026 ~02:50: ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/XIQUE-XIQUE.mp4; capa e legenda em edicoes/080. orçamento de xique-xique/; fontes.md em ~/Documents/FONTES; transcricao/transcript.md (67 frases). PDFs em ~/Documents/RECEITAS-DESPESAS-XIQUE-XIQUE/documentos_tcm. Travas soltas; apagados (meus): render-sem-folha, audio/partes-google, audio/curto.wav, revisao/*.jpg, folha-pdf/tmp e out/OrcamentoXiqueXique.mp4 do Kit. Nenhum chrome-headless-shell meu aberto. Site: com o coordenador.
+- Pendências no TCM (não afetam o vídeo): PCMGE015/016 do SAAE escaneados; Agência sem PCMGE015/016 classificados (vieram em Documentos Adicionais); PCMGE065 de 12/2025 e 09/2026 só da Prefeitura.

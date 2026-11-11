@@ -1,0 +1,13 @@
+# 022. orçamento de vitória da conquista
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentoconquista · Nome: OrcamentoConquista
+- Etapa atual: entregue em 04/11/2026 (vídeo final 4.533 quadros, 151,1 s, média -19,0 dB, pico -3,2 dB; capa e legenda prontas)
+- Plano: versão 1 (aprovada antecipadamente); mapa do Kit Mapas pronto (mapas/conquista.mp4, 37 s); cenas programadas (src/videos/orcamentoconquista); revisão: 43 quadros olhados, régua corrigida (rótulo 54% para a esquerda)
+- Capa: edicoes/022.../capa.jpg ("1,48 bilhão. / Para onde / foi cada / real?", pílula VITÓRIA DA CONQUISTA) · Legenda: edicoes/022.../legenda do post.txt (1.771 caracteres + comentário fixado)
+- Vídeo final: `node scripts/render.mjs OrcamentoConquista "edicoes/022. orçamento de vitória da conquista"` (4.533 quadros)
+- Narração: 150.19 s (1,3x), 4533 quadros; voz completa (conferida frase por frase contra o roteiro); original copiado de Downloads
+- Sincronia: 432 palavras (igual ao roteiro), última em 150.02 s; src/videos/orcamentoconquista/palavras.ts
+- Aprovações: roteiro aprovado em 04/11/2026 (versão 3, linha do 014)
+- Título da capa (sugerido): "1,48 bilhão. / Para onde / foi cada / real?"
+- Seguir sem pausas: sim (a pessoa aprovou em 04/11/2026: plano e vídeo final sem parar; o diretor confere todos os quadros de revisão)
+- Formato: igual ao 017 e ao 020 (quanto recebe, de onde vem, quanto vai para cada área). Fonte pedida: portal da transparência de Vitória da Conquista. Só documentos de Vitória da Conquista.

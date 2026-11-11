@@ -1,0 +1,101 @@
+# Pendências do TCM (documentos que não baixaram sozinhos)
+O Magno baixa/salva estes quando acordar. Cada sessão só ACRESCENTA linhas, nunca apaga a de outra.
+Formato: `NNN Município | documento (ex.: PCMGE015 dez/2025, Balanço Orçamentário 2025) | unidade (Prefeitura/Câmara) e código e-TCM | o que aconteceu (captcha, janela de salvar, não existe no e-TCM, erro) | onde salvar (~/Documents/RECEITAS-DESPESAS-X/documentos_tcm/) | o vídeo seguiu sem ele? (sim, usando Y / não, parado)`
+
+## Lista
+053 Caetité | PCMGE015 e PCMGE016 de 08/2026 e 09/2026 | Prefeitura, UJ 669 | não existem ainda no e-TCM: a prefeitura mandou DECLARAÇÃO ("será anexado posteriormente", inconsistência entre o sistema contábil e o SIGA) | se a prefeitura anexar depois: ~/Documents/RECEITAS-DESPESAS-CAETITE/documentos_tcm/ | sim, usando os demonstrativos CONSOLIDADOS PCMGE065 (despesa) e PCMGE066 (receita) de 09/2026 da mesma prestação, mesmos números do SIAFIC (soma das ações = total geral; Câmara confere com o PCMGE015 próprio dela). Não é falha de download.
+058 Itacaré | PCMGE015 09/2026 (despesa orçamentária) | Câmara, UJ 211 | o arquivo enviado com a classificação PCMGE015 é o "Demonstrativo de Desembolsos Extraorçamentários" (SIGA, 23/10/2026); a despesa orçamentária de setembro não está em nenhuma classificação da prestação (conferidas as 5 páginas de documentos) | ~/Documents/RECEITAS-DESPESAS-ITACARE/documentos_tcm/2026-09_CAMARA_PCMGE015.pdf | sim: 2026 usa o último mês completo das duas unidades, AGOSTO/2026 (PCMGE015/016 08/2026 da Prefeitura + PCMGE015 08/2026 da Câmara); a fala diz "2026, até agosto". Não é falha de download.
+064 Teixeira de Freitas | ENTREGUE | assistir e postar (edicoes/064. orçamento de teixeira de freitas/TEIXEIRA DE FREITAS.mp4, 174,8 s, selo do @ opção B na abertura); 0 pendências no TCM (e-TCM município 388, Prefeitura 992, Câmara 421; sem autarquias; 2026 até setembro, PCMGE consolidado). Escala: 1 moeda = R$ 1 mi, 1 pilha = R$ 10 mi. Achados: 2024 sobra 25,5 mi, 2025 sobra 19 mi; 2026 até set. arrecadou 644,7 (99 mi de EMPRÉSTIMO), gastou 534,1, empenhou 690,4; empréstimos de 32,5 mi em 2024 e leis 1.360/1.361 (abril/2025: até 50 mi Caixa + até 50 mi BB); pavimentação 2026: previsto 40,1 → 92,1, gasto 58,3 (46,2 com dinheiro de empréstimo); parcelas de dívidas 42 / 48,5 / 43,5 (até set.), em 2025 mais de 5 vezes a assistência social; TCM: concorrência 012/2026 de limpeza urbana com 5 denúncias, cautelar de 30/07 revogada em 10/08/2026, sem julgamento | não
+066 Rio de Contas | conferência federal (não é documento do TCM) | Banco do Brasil, demonstrativo DAF (FPM/ICMS/Fundeb) | o formulário não respondeu no navegador do app (08/11/2026); substituto: Portal da Transparência (FPM 20,5 mi x TCM 23,5 mi, pergunta no fontes.md). Magno pode conferir em demonstrativos.apps.bb.com.br/arrecadacao-federal
+066 Rio de Contas | conferência federal (não é documento do TCM) | MDS, SUASweb Parcelas Pagas (FNAS) | pede hCaptcha; valor do TCM 1.7.1.6 = 342.662,34 até set/2026 (fora da fala)
+- FOLHA POR SETOR (regra 33, 08/11/2026): DUODÉCIMO (quanto a Câmara recebeu da Prefeitura) não está em nenhum documento baixado de Itabela, Barro Preto, Itacaré, Potiraguá, Dário Meira, Cândido Sales, Caetité e Rio de Contas (falta o demonstrativo de transferências financeiras / Portal do Gestor). As folhas da Câmara mostram só PARA ONDE FOI (elementos do PCMGE015 da Câmara).
+- FOLHA POR SETOR (regra 33): Câmara com 1 linha só (PDF escaneado, girado e ilegível no centavo): Rio de Contas 2025-12_CAMARA_PCMGE015.pdf e Cândido Sales 2026-08_CAMARA_PCMGE015.pdf; Potiraguá 2024 sem PCMGE015 da Câmara (valor do Anexo 9).
+- FOLHA POR SETOR (regra 32): Itacaré 2024 e 2025 seguem pelo Anexo 6 (empenhado), porque o PCMGE015 de 2024 é escaneado e o de 2025 traz liquidado maior que empenhado em algumas ações; diferença considerada desprezível (regra 32b).
+- CORREÇÃO LIQUIDADO (regra 33, 08/11/2026): DUODÉCIMO da Câmara também não está nos documentos baixados de Camacan, Uruçuca, Jequié, Barreiras, Luís Eduardo Magalhães, Bom Jesus da Lapa e Lauro de Freitas; folhas da Câmara mostram só PARA ONDE FOI (elementos, liquidado). Câmaras de Jequié e LEM lidas na imagem (PDF escaneado).
+- Cândido Sales: Câmara PCMGE015 2026 (detalhe) + duodécimo 2024 (PCAGE062) e 2026 (PCMGE018) — baixar quando o navegador liberar; depois rodar lote_coord CANDIDO-SALES de novo (09/11 01:05)
+- 070 Valença (09/11/2026 01:3x): não baixados ainda (trava do navegador solta para outras abas): Câmara PCAGE062 (fluxo financeiro/duodécimo) 2024 e 2025; Câmara PCMGE015 12/2024; Prefeitura PCMGE018 12/2025 e PCAGO012 (Anexo 16) 2025. Prefeitura 12/2024: PCMGE015 e PCMGE065 são só DECLARAÇÃO (uso Anexos 7/9 e Balanço 2024). SAAE de Valença (UJ 1069): busca no e-TCM sem nenhuma prestação.
+- 070 Valença (09/11/2026 04h): baixados depois PCMGE065 e PCMGE018 de dez/2025 (resolvem 2025). Continuam faltando: duodécimo da Câmara de 2024 (PCAGE062) e de 2026 (razão da Câmara escaneado). O vídeo segue sem a faixa de duodécimo nessas duas folhas.
+- 084 Paramirim (09/11/2026 12:55): Prefeitura PCMGE015 e PCMGE065 de 12/2024 no e-TCM são só a capa (1 página). Setores de 2024 pelo Anexo 9 (empenhado, por secretaria); folhas de 2024 com 1 a 3 linhas. Falta tentar o Anexo 6 de 2024 (PCAGO004) quando a trava do navegador soltar. Razão da Câmara 2026 escaneado: sem duodécimo 2026 na folha.
+- 10/11/2026 02:15 (baixador do Chrome) ANAGE 2016: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 02:15 (baixador do Chrome) ANAGE 2017: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 02:16 (baixador do Chrome) ANAGE 2018: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 02:16 (baixador do Chrome) ANAGE 2019: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 02:16 (baixador do Chrome) ANAGE 2020: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 02:17 (baixador do Chrome) ANAGE 2021: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 02:17 (baixador do Chrome) ANAGE 2022: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 02:17 (baixador do Chrome) ANAGE 2023: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 02:18 (baixador do Chrome) BARREIRAS 2016: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 02:19 (baixador do Chrome) BARREIRAS 2017: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 02:19 (baixador do Chrome) BARREIRAS 2018: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 02:20 (baixador do Chrome) BARREIRAS 2019: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026: 104 Jussari: 2024_PCAGO003 (prestação anual 2024 da Prefeitura) é de Ibicaraí; PCMGE015 12/2024 do SAAE traz competência 09/2024; prestação 12/2025 da Prefeitura sem PCMGE015/016/018 (só consolidados E&L). Nenhum usado.
+- 10/11/2026 11:18 (baixador do Chrome) ANAGE 2016: Balanço Orçamentário anual não baixou (não achado na prestação ou falha)
+- 10/11/2026 11:27 (baixador do Chrome) BARRA-DA-ESTIVA 2016: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:27 (baixador do Chrome) BARRA-DA-ESTIVA 2017: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:28 (baixador do Chrome) BARRA-DA-ESTIVA 2018: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:28 (baixador do Chrome) BARRA-DA-ESTIVA 2019: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:28 (baixador do Chrome) BARRA-DA-ESTIVA 2020: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:29 (baixador do Chrome) BARRA-DA-ESTIVA 2021: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:29 (baixador do Chrome) BARRA-DA-ESTIVA 2022: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:30 (baixador do Chrome) BARRA-DA-ESTIVA 2023: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:30 (baixador do Chrome) BARREIRAS 2016: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:31 (baixador do Chrome) BARREIRAS 2017: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:31 (baixador do Chrome) BARREIRAS 2018: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:32 (baixador do Chrome) BARREIRAS 2019: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:32 (baixador do Chrome) BARREIRAS 2021: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:33 (baixador do Chrome) BARREIRAS 2022: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:33 (baixador do Chrome) BARREIRAS 2023: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:33 (baixador do Chrome) BARRO-PRETO: município não achado no e-TCM
+- 10/11/2026 11:34 (baixador do Chrome) BELMONTE 2016: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:36 (baixador do Chrome) BELMONTE 2017: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:37 (baixador do Chrome) BOM-JESUS-DA-LAPA 2016: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:49 (baixador do Chrome) BOTUPORA 2016: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:50 (baixador do Chrome) BOTUPORA 2017: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:50 (baixador do Chrome) BOTUPORA 2018: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:52 (baixador do Chrome) BOTUPORA 2019: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:52 (baixador do Chrome) BOTUPORA 2020: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:53 (baixador do Chrome) BOTUPORA 2021: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:53 (baixador do Chrome) BOTUPORA 2022: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:54 (baixador do Chrome) BOTUPORA 2023: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:55 (baixador do Chrome) BUERAREMA 2016: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:55 (baixador do Chrome) BUERAREMA 2017: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:55 (baixador do Chrome) BUERAREMA 2018: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:56 (baixador do Chrome) BUERAREMA 2019: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:56 (baixador do Chrome) BUERAREMA 2020: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:57 (baixador do Chrome) BUERAREMA 2021: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:57 (baixador do Chrome) BUERAREMA 2022: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:57 (baixador do Chrome) BUERAREMA 2023: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:58 (baixador do Chrome) CABRALIA 2016: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:58 (baixador do Chrome) CABRALIA 2017: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:59 (baixador do Chrome) CABRALIA 2018: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:59 (baixador do Chrome) CABRALIA 2019: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 11:59 (baixador do Chrome) CABRALIA 2020: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 12:00 (baixador do Chrome) CABRALIA 2021: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 12:00 (baixador do Chrome) CABRALIA 2022: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 12:01 (baixador do Chrome) CABRALIA 2023: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 12:01 (baixador do Chrome) CACULE 2016: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 12:01 (baixador do Chrome) CACULE 2017: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 12:02 (baixador do Chrome) CACULE 2018: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 12:02 (baixador do Chrome) CACULE 2019: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 12:03 (baixador do Chrome) CACULE 2020: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 12:04 (baixador do Chrome) CACULE 2021: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 12:06 (baixador do Chrome) CACULE 2022: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 12:08 (baixador do Chrome) CACULE 2023: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 12:08 (baixador do Chrome) CAETITE 2016: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 12:09 (baixador do Chrome) CAETITE 2017: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 12:10 (baixador do Chrome) CAETITE 2018: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 12:27 (baixador do Chrome) CAIRU 2016: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 12:32 (baixador do Chrome) CAIRU 2017: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 12:33 (baixador do Chrome) CAIRU 2018: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 12:34 (baixador do Chrome) CAIRU 2019: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 12:36 (baixador do Chrome) CAIRU 2020: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 12:39 (baixador do Chrome) CAIRU 2021: prestação anual de Governo não aparece no e-TCM
+- 10/11/2026 14:30 (117 Tanhaçu) Prefeitura de TANHAÇU, prestação 09/2026: o razão 'PMT_09.2026_Razão.pdf' (PCMGE018 e PCMGE064) é da PREFEITURA MUNICIPAL DE BELO CAMPO (CNPJ 14.237.333/0001-43). Não usado; guardado fora do site em ~/Documents/RECEITAS-DESPESAS-TANHACU/logs/outra_cidade/. Usado o razão do SIGA (PCMGE018 2).
+- 10/11/2026 22:30 (088 Castro Alves) Prefeitura de CASTRO ALVES: PCMGE064 de 12/2024 e de 12/2025 vieram como "DEMONSTRATIVO EM ELABORAÇÃO" (não usados). PCMGE015 da Câmara de 12/2024 (emitido 27/01/2025) traz liquidado 2.894.838,61, menor que o da Câmara no consolidado PCMGE065 e no Balanço (3.608.674,28): usado o consolidado.
+- 11/11/2026 (112 Pojuca): PCMGE066 consolidado de 09/2026 traz o convênio estadual 1.7.2.4.01 com 1.170.000,00 até o mês, e o PCMGE016 da Prefeitura traz 1.870.000,00 (diferença 691.176,47 na receita líquida); usado o PCMGE016 (o razão consolidado PCMGE064 confirma). PCMGE015 de 12/2024 da Prefeitura com 29.388,52 a mais na ação 2040 (eventos) que o consolidado PCMGE065 e o Balanço (usado o Balanço). PCMGE018 da Câmara de 12/2025 não enviado (declaração: vai na prestação anual); repasse de 2025 lido no razão da Prefeitura.
+- 11/11/2026 (069 Paulo Afonso): razão (PCMGE018) da Câmara de 12/2024 e 09/2026 escaneado (texto ilegível) e PCMGE015 da Câmara de 12/2024 só com a capa "gerado pelo SIGA"; não usados (Câmara pelo consolidado PCMGE065 e repasse pelo razão consolidado PCMGE064). PCMGE016 da Prefeitura de 12/2025 dá 516.224,71 a menos que o Balanço 2025 (receita patrimonial e transferências de capital só no Balanço); usado o Balanço.
+- 11/11/2026 · IBOTIRAMA (089): PCMGE064/065/066 de 12/2024, 12/2025 e 09/2026 da Prefeitura não baixados (prestação com 500+ documentos; não usados: Prefeitura + Câmara fecham com os Balanços 2024 e 2025).
+- 11/11/2026 Serra do Ramalho (119): SAAE (UJ 1074) com todas as prestações de 2025 e 2026 "Pendente" no e-TCM (nada declarado; fora do vídeo). PCMGE015/018 da Câmara 12/2024 e razão 09/2026 escaneados (lidos na imagem).
+- 11/11/2026 Jaguarari (122): razão (PCMGE018) da Câmara de 12/2025 mostra REPASSE RECEBIDO 8.363.838,91 sem o lançamento de dezembro, mas o razão da Prefeitura de 12/2025 traz "REPASSES CONCEDIDOS AO PODER LEGISLATIVO" 10.168.154,64 (= 12 x 847.346,22; comprovante PCMGE008 de 16/12/2025). Usado o da Prefeitura no vídeo. Em 2024 o Balanço conta a amortização da dívida liquidada em 8.064.521,17 e o PCMGE015 em 8.010.326,04 (diferença 54.195,13, somada em Dívidas e encargos).
+- 11/11/2026 Ruy Barbosa (124): PCMGE018 (razão) e PCMGE064 (razão consolidado) de 12/2025 da Prefeitura vieram como "NADA CONSTA" (não usados: Balanço 2025 e razão da Câmara fecham). PCMGE015 da Prefeitura de 12/2025 com 46,22 a mais de liquidado na ação 2065 da Assistência social (usado o consolidado PCMGE065 = Balanço). SUS não conferido no FNS.
+- 11/11/2026 Riachão do Jacuípe (090): Prefeitura só entregou ao e-TCM até 06/2026 (07 a 10/2026 "Pendente"; todas as mensais de 2025 e 2026 "Entregue fora do prazo"); vídeo usa 2026 até junho para Prefeitura, Câmara e Fundação. PCMGE016 SIGA da Prefeitura de 12/2025 (153,2 mi líquido) não fecha com o Balanço 2025 (165.571.952,59; FPM 47,0 x 57,2 bruto no Anexo 10); usado o Balanço/Anexo 10. PCMGE015/016 de 12/2024 da Prefeitura em sistema próprio (lidos com acoes_sdb/receita). 0 downloads falhos.

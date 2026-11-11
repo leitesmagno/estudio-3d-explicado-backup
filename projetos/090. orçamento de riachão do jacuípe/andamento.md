@@ -1,0 +1,21 @@
+# 090. orçamento de riachão do jacuípe
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentoriachaodojacuipe · Nome: OrcamentoRiachaoDoJacuipe (composições OrcamentoRiachaoDoJacuipe, …Guia, …Limpo, CapaOrcamentoRiachaoDoJacuipe). Kit Mapas: orcamento-riachao-do-jacuipe (IBGE 2926301, Nordeste Baiano; satélite copiado de Ipirá, vizinha da região).
+- MODO AUTÔNOMO (lote LARANJA, cidade L19, liberado pelo coordenador em 11/11/2026 com "pode começar"). Molde 093 Ilhéus / 124 Ruy Barbosa. SEM tarifa bancária; máx. 3:00; festas separadas da cultura (regra 99); calor (regra 101).
+- e-TCM: município 324 RIACHÃO DO JACUÍPE, Prefeitura UJ 928, Câmara UJ 358, Fundação de Saúde e Assistência Social UJ 550 (prestação mensal própria).
+- Último mês da Prefeitura: 06/2026 (07 a 10/2026 "Pendente"; todas as mensais de 2025 e 2026 "Entregue fora do prazo"). Câmara até 09/2026; Fundação até 08/2026. O vídeo usa 2026 até JUNHO (último mês da Prefeitura) para as três unidades.
+- Lista de prestações (regra 89): dados/prestacoes-etcm/riachao-do-jacuipe.json (22 linhas + Câmara e Fundação em "outras").
+- Downloads: 11/11/2026 08:30 a ~08:55, Claude in Chrome com _navegador.lock (solta, aba fechada), fetch + recebedor 8778 /salva, sem janela. 115 PDFs, 0 falhas, em ~/Documents/RECEITAS-DESPESAS-RIACHAO-DO-JACUIPE/documentos_tcm (mensais 12/2024, 12/2025, 06/2026 de Prefeitura, Câmara e Fundação; anuais 2024 e 2025 da Prefeitura; consolidados PCMGE064/065/066 de 06/2026 pelo filtro de Classificação). Município e competência conferidos.
+- Totais (liquidado = Prefeitura + Câmara + Fundação): 2024 arrecadou 130,14 / gastou 136,45 (6,31 a mais) · 2025 165,57 / 150,47 (sobraram 15,10) · 2026 até jun 83,80 / 74,45 / empenhado 105,29. 2024 e 2025 = Balanço centavo a centavo; 2026 = consolidado PCMGE065/066.
+- Setores (11): Educação, Saúde (com a Fundação/hospital), Obras e serviços urbanos, Administração, Dívidas e encargos, Assistência social, Câmara, Festas e eventos, Cultura, Agricultura e meio ambiente, Esporte.
+- Achados: ação de eventos culturais previa 4,65 / gastou 10,21 (2024, com 3,56 de despesas de anos anteriores); 4,5 / 5,74 (2025; bandas 2,72, palco 1,96); 3,2 / autorizado 8,35 / gastou 3,68 / empenhado 6,78 até jun (2026). Em 2024 assistência 4,43 + agricultura 1,49 + esporte 0,64 = 6,56 < eventos 10,21. Câmara recebeu 4,42 e devolveu 1,34 (2024); 5,14 / 0,07 (2025); 2,88 até jun/2026.
+- Roteiro v1 revisado = APROVADO no modo autônomo (478 palavras), números conferidos 2x.
+- Voz: Google Chirp 3 HD Algenib, speakingRate 1,3, 13 partes + 0,35 s, pausas 0,28 s, atempo 1,1468, loudnorm -15,4 LUFS = 177,50 s.
+- Fontes: audio/fontes.md (cópia em ~/Documents/FONTES); receita detalhada em audio/receita-detalhada.md.
+- Plano aprovado no modo autônomo (plano.md).
+- Sincronia: 478 palavras (= roteiro). Voz conferida frase a frase: 3 trechos estranhos no Whisper ("e 100" depois da Câmara 2024, "Obras, Dívidas" em 2026, "junho de Em 2026") retranscritos à parte: a voz está certa, era alucinação. Tempos dos setores de 2024 acertados pela transcrição original (o Whisper escreveu "R$ 44.600.00"). transcript.md do roteiro (67 frases); o do Whisper em transcript-whisper.md.
+- Código src/videos/orcamentoriachaodojacuipe (molde 124), tsc ok, Root registrado depois do tsc. Kit Mapas orcamento-riachao-do-jacuipe (satélite de Ipirá + tiles refeitos REFAZER=5..10); mapa conferido (sem emenda).
+- Folhas: 3 de receita + 33 por setor (scripts/folhas.py, somas conferidas; IPTU mantido na folha de 2025 porque é falado).
+- Revisão (78 quadros em todas as viradas de fala, olhados em folhas de contato): tela igual à fala, nada sobreposto, 90 px das laterais. Corrigido: Esporte 2025 aparecia "R$ 579 MIL" (fala "578 mil"): valor com 5 casas no ANOS. Revisão APROVADA (modo autônomo).
+- ★ Melhoria (regra 14): torre do valor COMPROMETIDO (empenhado) de 2026 ao lado do gasto, e a comparação de 2024 na mesma gaveta e escala da torre dos eventos (assistência + agricultura + esporte), com chip "OS TRÊS JUNTOS: R$ 6,6 MI · EVENTOS: R$ 10,2 MI".
+- Etapa: vídeo final (esperando a trava de render).

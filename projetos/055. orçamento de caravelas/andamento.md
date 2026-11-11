@@ -1,0 +1,20 @@
+# 055. orçamento de caravelas
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentocaravelas · Nome: OrcamentoCaravelas
+- MODO AUTÔNOMO (projetos/_coordenacao-sessoes.md, Lote 2, liberado pelo coordenador em 08/11/2026): roteiro, plano e revisão aprovados pela própria sessão.
+- e-TCM: município 85 "CARAVELAS", Prefeitura 690, Câmara 117 (só essas duas unidades). Sistema SIAFIC (2024 Modelo 01; 2025–2026 SIGA).
+- Levantamento: ~/Documents/RECEITAS-DESPESAS-CARAVELAS/ (documentos_tcm, saida/acoes_*.json, scripts/acoes_siga_cons.py, acoes_siga_unid.py, acoes_modelo01.py, conferir.py, pega.sh).
+- Documentos (todos os fundamentais, 0 pendências): Balanço (PCAGO015), Anexos 7, 9 e 10 de 2024 e 2025; PCMGE015/016 da Prefeitura de 12/2024, 12/2025 e 09/2026 (o de 09/2026 é consolidado e inclui Câmara e fundos); PCMGE015 da Câmara de 12/2024, 12/2025 e 09/2026.
+- Totais: 2024 arrecadou 132,25 / gastou 140,56 (déficit 8,31) · 2025 137,20 / 128,73 (sobra 8,47) · 2026 até 09: 118,33 arrecadado, 111,28 liquidado, 117,82 empenhado.
+- Foco: festas 3,66 → 4,12 → 3,72 (2026 até set.), maior que toda a assistência social em 2025 e 2026; casas populares 2026 com 2,87 mi previstos (2,8 de convênio) e nada gasto até set. (contrato de 2,74 mi assinado em 06/08/2026); saneamento zero; esporte zero em 2025; Câmara multada (R$ 1.500 ao presidente) por transparência; representação do MP (2020–2024) e temporários sem seleção (2026) sem decisão.
+- Roteiro v1 (509 palavras, em antigos/) revisado e APROVADO no modo autônomo em 08/11/2026 (v2, 461 palavras). 1ª conferência no PDF: 39 de 39 valores achados (scripts/conferir.py; linhas no fontes.md).
+- Título da capa: "2026: festa / R$ 3,7 mi. / Casas: / R$ 0?" (2026 até setembro; ação "Construção e reforma de casas populares").
+- Narração: Google Chirp 3 HD Algenib, speakingRate 1,3, 13 partes, unidas com 0,35 s, pausas 0,28 s, atempo 1,124, -15 LUFS = 174,01 s. Conferida frase a frase no transcript.md (nada pulado; números e nomes certos; Whisper ouviu "arroba e o Magno Leite", o texto da voz é "arroba eu magno leite", igual aos vídeos anteriores).
+- Sincronia: 463 palavras, última em 173,72 s. AUDIO_SEG = 174.01 · QUADROS = 5247.
+- Mapa: ~/Kit-Mapas-Animados/src/videos/orcamento-caravelas (IBGE 2906907, conferido) → mapas/caravelas.mp4. Satélite baixado (305 blocos).
+- Plano aprovado no modo autônomo em 08/11/2026 (plano.md). Código: src/videos/orcamentocaravelas/ (typecheck ok); composições registradas no Root.
+- Mapa renderizado: mapas/caravelas.mp4 (13,47 s), conferido em 3 quadros.
+- Revisão: v1 (63 quadros, em antigos/revisao v1) → corrigido: casinha do saneamento colorida (agora PredioTexto cinza); torre do previsto das casas na cor do ano parecia gasto (agora branco-fantasma, com placa PREVISTOS também na pergunta); câmera das festas mais de cima. v2 (14 quadros refeitos) aprovada no modo autônomo.
+- 2ª conferência (PDFs reabertos, texto extraído de novo: 39 de 39; notícias de novo; Tribunal) feita antes do final: tudo igual (audio/fontes.md).
+- Etapa atual: 8. ENTREGUE em 08/11/2026 (modo autônomo): edicoes/055. orçamento de caravelas/CARAVELAS.mp4 (5247 quadros, 174,9 s, 7 partes, volume médio -18,6 dB, pico -3,5 dB, emendas conferidas), CARAVELAS - capa.jpg (fundo OrcamentoCaravelasLimpo quadro 5181, desce 620) e CARAVELAS - legenda.txt (2.182 caracteres antes do comentário fixado, com ⚖️ AVISO). Trava liberada; 3 pastas temporárias do Remotion desta sessão apagadas.
+- Falta: o Magno assistir e publicar.

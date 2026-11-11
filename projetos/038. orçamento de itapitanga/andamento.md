@@ -1,0 +1,15 @@
+# 038. orçamento de itapitanga
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentoitapitanga · Nome: OrcamentoItapitanga (o número 036 já era "educação de ilhéus"; sessão principal mandou usar 038 em 07/11/2026)
+- Molde: 035 Paratinga (prompt em projetos/_prompt-orcamento-prefeitura.md)
+- Roteiro APROVADO em 07/11/2026 (456 palavras), com o título da capa.
+- Narração: voz Mário (ElevenLabs 12_26_42, 223,7 s), 1,2x + pausas 0,22 s = 178,56 s (AUDIO_SEG 178.56, QUADROS 5384). Sincronia: 456 palavras, última em 178,14 s, sem ajuste manual.
+- Plano APROVADO em 07/11/2026. Pedido: além do @eumagnoleite, acrescentar a marca d'água @z4politica (o Magno disse "@z4Política").
+- Seguir sem pausas: SIM a partir da revisão (07/11/2026, o Magno disse: "depois que tiver tudo pronto aí, pode já seguir pra gerar o vídeo final"). Eu confiro todos os quadros antes.
+- Revisão: 61 quadros conferidos por mim em 07/11/2026; corrigidos tela preta (ang fora da lista), calendário, plaquinhas atrás dos botões na vista de cima (troquei por closes), Embasa e 389 antes da fala, tempos das contas antigas. Legenda pronta (2.189 caracteres).
+- Etapa atual: 8. ENTREGUE em 07/11/2026: edicoes/038. orçamento de itapitanga/ITAPITANGA.mp4 (179,5 s, 5.384 quadros, -15,7 LUFS, emendas conferidas), ITAPITANGA - capa.jpg (fundo do quadro 3630, galpão + calendário) e ITAPITANGA - legenda.txt (2.189 caracteres, com ⚖️ AVISO e comentário fixado).
+- Observação: 179,5 s passa do limite de 2:55 anotado no _aprendizados (o 035 saiu com 2:57). Se precisar, acelerar a voz para 1,23x e renderizar de novo.
+- Título da capa (aprovado): "R$ 1 mi / por mês em / mão de obra / terceirizada"
+- Foco: terceirização (4,85 mi em 5 meses de 2024 / 8,67 mi 2025 / 8,69 mi jan–set 2026); festas > asfalto, esporte zero em programas; 2026 asfalto 1,91 previsto x 0,29 usado e vicinais 0,096 x 1,27; 5 mi de contas de anos anteriores em 2026; TCM: 484 temporários (cautelar deferida), terceirização, combustível 4,5 mi e limpeza 2,4 mi em análise.
+- Levantamento: ~/Documents/RECEITAS-DESPESAS-ITAPITANGA (RELATORIO_TCM_ITAPITANGA_2024_2026.md). e-TCM município 196, Prefeitura 800, Câmara 228.
+- Falta: nada. Publicação fica com o Magno.

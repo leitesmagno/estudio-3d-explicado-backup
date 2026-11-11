@@ -1,0 +1,22 @@
+# 049. quem quer o distrital misto
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: quemdistrital · Nome: QuemDistrital
+- Etapa atual: ENTREGUE em 07/11/2026 (vídeo final, capa e legenda em edicoes/049...)
+- Aprovações: (nenhuma ainda)
+- Seguir sem pausas: não
+- Pedido (07/11/2026): vídeo de **opinião**, contra o voto distrital misto (pessoa pediu de propósito para NÃO seguir a regra de neutralidade). Mostrar quem defende, da esquerda e da direita (notícias, quem são), e listar todos os argumentos contra. Kit Estúdio 3D (pode usar Kit Mapas). Diferente do 031 (foco em Motta/Centrão, roteiro não aprovado) e do 013 (explicativo).
+- Chamada final: "E segue o @eumagnoleite para mais informações."
+- Roteiro versão 1 aprovado em 07/11/2026; depois a pessoa pediu mais didática: versão 2 (542 palavras, cerca de 2:53 com 1,2x) APROVADA em 07/11/2026. Versão 1 em audio/antigos/ Título da capa sugerido: Esquerda e / direita / juntas? / Contra você.
+- Na pesquisa: PT, PCdoB, PSOL e PL estão contra; da esquerda, só o PSB articula a favor. Simulação do Ranking: PL ganharia cadeiras no compensatório, então o roteiro NÃO diz que a PEC é para derrubar o PL.
+- Áudio: chegou só a PARTE 3 (Adam, 74,7 s, conferida: completa e sem erro). Faltam partes 1 e 2 (07/11/2026).
+- Narração pronta (07/11/2026): voz Adam (pre, estabilidade 50, similaridade 75, v4), texto inteiro de uma vez (arquivo de 13:33, 217,97 s). Pausas cortadas em 0,35 s e acelerado 1,23x (1,2x dava 2:58, acima do limite). AUDIO_SEG 173.63 · QUADROS 5236. Todas as frases conferidas na transcrição. A parte 3 avulsa ficou em audio/parte 3.mp3 (reserva).
+- Sincronia: 542 palavras no roteiro e no palavras.ts; última ("informações.") termina em 173,22 s. Ajuste: "arroba eu magno leite" → "@eumagnoleite". Cuidado no quando(): "Um." "Dois." ... "Oito." e "Três"/"Oito"/"Seis" aparecem antes ("três passos", "oito motivos"): chamar com a palavra seguinte ("Três. Voto"). "PEC", "Motta", "PSD", "PL", "lista", "distrito", "Constituição", "relator" repetem.
+- Cenas programadas em 07/11/2026: src/videos/quemdistrital (QuemDistrital.tsx + pecas.tsx), registradas no Root (QuemDistrital, Guia, Limpo, CapaQuemDistrital). tsc ok; os 129 trechos de quando() conferidos.
+- Kit Mapas: src/videos/quem-distrital (composição QuemDistritalBahia, 9,16 s + 7,86 s, dados e satélite do 013). Render pendente (esperando a trava _render.lock do 048) → copiar para mapas/bahia.mp4.
+- Marca d'água: só @eumagnoleite (a @z4politica foi pedido do 037; perguntado ao Magno, sem resposta ainda).
+- Mapa renderizado (511 quadros) em mapas/bahia.mp4; precisou de `npm run tiles -- quem-distrital` (16 tiles novos perto de Ilhéus, nenhum do 013 removido).
+- Revisão (07/11/2026): 53 quadros (revisao/folha1-5) + correções (folha6 e folha7): câmera mostrando as 8 cancelas, siglas da mesa e do contra somando num chip, mapa do Brasil claro, medidor próprio, plenário maior, final enquadrado.
+- Versão 3 (07/11/2026): o Magno aprovou ao baixar os trechos A (48,6 s) e B (10,0 s). Montagem: original v2 com as 4 frases cortadas + A + B → audio/narracao-original.mp3 (v2 em audio/antigos). Pausas de no máximo 0,2 s e 1,3x: 173,05 s (QUADROS 5219). Sincronia: 592 palavras, última termina em 172,68 s. Mapa refeito (A 5,54 s + B 6,98 s). Cena nova "AS TRÊS FASES" e motivo 8 corrigido ("MÍNIMO DE 10%"). Revisão em revisao/folha1-4 + folha5.
+- Vídeo final pronto em 07/11/2026: edicoes/049. quem quer o distrital misto/video final.mp4 · 5.219 quadros · 2:54 · média -18,8 dB, pico -3,0 dB · emendas das 7 partes conferidas.
+- Capa: fundo do quadro 2497 (mesa do acordo, aperto de mãos), título "Esquerda e / direita / juntas? / Contra você." Legenda com aviso jurídico (1.958 caracteres).
+- Conferir antes de publicar: se a PEC foi protocolada; se PSB, PSOL, PV ou Novo fecharam posição; se o encontro do relator com empresários já aconteceu.

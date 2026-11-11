@@ -1,0 +1,40 @@
+# 016. ônibus de ilhéus
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: onibusilheus · Nome: OnibusIlheus
+- Etapa atual: entregue (vídeo final, capa e legenda)
+- Aprovações: roteiro v5 aprovado em 03/11/2026 · plano v1 aprovado em 03/11/2026 · revisão aprovada em 03/11/2026
+- Seguir sem pausas: não
+- Pedido da pessoa (03/11/2026): analisar o transporte público de Ilhéus com notícias de 2024 a 2026, licitações e contratações, cruzadas com o portal da transparência; roteiro criativo, revisado para não ter erro.
+- Título da capa: "Ilhéus paga / o ônibus? / 32 milhões / em 8 meses." (aprovado com o roteiro)
+- 03/11/2026, versão 2 do roteiro: gancho novo ("dez vezes 2024"), explicação do salto de 2026, parentesco atribuído a Pimenta e A Tarde, números da prefeitura (30 ônibus novos, Brisa, 110 no total). Para o plano: todas as notícias e documentos citados viram cartão de notícia na tela (lista em audio/fontes.md). A versão 1 está em antigos/.
+- 03/11/2026, versão 3: entrou a regra de renovação do contrato de 2003 (5 anos + 5 renovações, até 2033) e o aditivo sem licitação nova.
+- 03/11/2026, versão 4: a pessoa mandou LOA, LDO, PPA, balanços e transição. Entraram as suspeitas como "perguntas sem resposta oficial" (4). O limite pedido é de 2:50. A hipótese das indenizações de 2024 foi descartada.
+- 03/11/2026, versão 5: roteiro reescrito em ordem cronológica (2003, 2024, abr/mai 2025, mai 2026, ago 2026, out/nov 2026), com as 3 perguntas no fecho.
+- Pedidos para o plano e as cenas (03/11/2026):
+  - Fontes em tela mais em evidência que no 014: selo de fonte maior e legível, com documento e página. Tem gente na internet duvidando das informações.
+  - Sem cartões de notícia (a pessoa desistiu deles): só a fonte de cada informação, bem visível.
+  - Conferir no plano que nada fica sobreposto (texto, selo, chip, legenda, mapa).
+  - Usar o Kit Mapas Animados (mapa de Ilhéus, zona urbana e rural) junto com o Estúdio 3D, como no 014.
+- Narração pronta: 147,12 s (voz Adam - Dominant, Firm, v4, vel. 1,00, estab. 50, simil. 75; original 176,67 s; 1,2x, pausas acima de 0,35 s cortadas, -15 LUFS) (03/11/2026).
+- Narração v1 (03/11/2026): a voz pulou "do TCM, a empresa" (01:28) e "a Via Metrô assume a cidade" (01:59), e falou "Brissá". Pedido para regerar só esses 2 parágrafos.
+- Narração final (03/11/2026): 152,19 s. O original de 176,67 s recebeu 2 parágrafos regerados ("Maio de 2026..." e "Outubro de 2026..."), emendados nos silêncios (cortes em 80,96 a 95,57 s e 112,59 a 128,27 s do áudio acelerado). Depois: 1,2x, pausas acima de 0,35 s cortadas, -15,7 LUFS. A versão 1 está em antigos/.
+- Sincronia: 438 palavras, a última ("direitos.") termina em 151,90 s. Sem desordem nem buracos acima de 1,5 s. AUDIO_SEG 152.19 · QUADROS 4593.
+- Palavras repetidas, para o quando() (ocorrência: segundo):
+  - Viametro: 11,24 · 71,08 · 122,70 · 127,56
+  - 2003: 10,06 · 130,92
+  - 2024: 4,86 · 21,62 · 33,22 · 140,18 · 144,54
+  - 2025: 37,22 · 40,68 · 78,08
+  - 2026: 0,84 · 81,52 · 99,02 · 116,06
+  - subsídio: 48,84 · 58,88 · 103,34 · 136,36
+  - licitação: 12,12 · 20,44 · 43,54 · 85,50 · 132,32 · 142,22
+  - Atlântico: 41,98 · 84,12 · 95,40 · 119,48
+  - milhões: 24,60 · 50,90 · 54,14 · 80,26 · 92,84 · 97,10 · 101,62 · 113,04
+  - conta: 23,04 · 79,36 · 100,38 · 146,24
+  - prefeitura: 9,16 · 29,14 · 55,44 · 76,46 · 121,82
+  - maio: 40,26 · 81,06 · orçamento: 107,30 · 113,56 · lei: 45,32 · 104,96 · 137,66 · ritmo: 104,56 · 137,26 · balanço: 32,72 · 139,06 · contrato: 14,50 · 94,28 · 130,34
+  - Únicas: TCM 89,82 · Brisa 125,78 · Sutram 26,92 · Guarda 35,86 · aditivo 129,24
+- 03/11/2026: Kit Mapas pronto (mapas/onibus.mp4, 710 quadros) e cenas 3D programadas (src/videos/onibusilheus). 52 quadros de revisão em revisao/. Corrigidos: rótulos que se encostavam, bonecos pequenos, câmera do "Resultado" e a grama clara demais.
+- 03/11/2026: vídeo final pronto em edicoes/016. ônibus de ilhéus/video final.mp4. São 4593 quadros e 153,1 s, feitos em 6 partes de cerca de 60 a 70 s cada. Volume: média de -18,8 dB e pico de -3,8 dB. As 5 emendas foram conferidas, sem salto.
+- Capa: fundo do quadro 3070 (agosto de 2026, com as 32 pilhas e o ônibus), título "Ilhéus paga / o ônibus? / 32 milhões / em 8 meses."
+- Legenda: o post tem 2.157 caracteres. A lista de documentos vai no comentário fixado, porque não coube no limite de 2.200.
+- Conferir antes de publicar (ver audio/fontes.md): a Lei 4.337; se saiu o edital da licitação; Cactos ou Brisa e 20 ou 30 ônibus; a resposta da prefeitura à vereadora e ao parentesco; o RREO do 5º bimestre de 2026.

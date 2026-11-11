@@ -1,0 +1,11 @@
+# 032. orçamento de belmonte
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentobelmonte · Nome: OrcamentoBelmonte
+- Etapa atual: VERSÃO 4 ENTREGUE em 06/11/2026: edicoes/032.../BELMONTE.mp4 (5230 quadros, 174,3 s, -18,2 dB), BELMONTE - capa.jpg ("O show ganhou. A cultura perdeu.", fundo do quadro 2978, desce 420) e BELMONTE - legenda.txt (com aviso jurídico). Versões 1 a 3 em edicoes/032.../antigos.
+- Pedido da pessoa (06/11/2026, v4): refazer no molde de Canavieiras (034, versão mais nova): sem segurança pública; só dados do TCM-BA; receita = só o total arrecadado declarado; 100% da despesa por setor em cada ano, com a Câmara; pilhas de dinheiro de CADA ANO em frente a cada setor (uma cor por ano, saindo do cofre e voando até o setor), poucas pilhas proporcionais (1 pilha = R$ 2 mi), sem anel de dinheiro no meio; prédios sobem e ficam; plaquinhas dos anos anteriores do setor juntas.
+- Roteiro v4: audio/roteiro-falado.txt (421 palavras, ~2:53 a 1,15x). Versão 3 em antigos/.
+- Versão 3 entregue antes: edicoes/032.../BELMONTE.mp4 (125 s, com receita por origem e segurança). Mover para edicoes/032.../antigos quando sair a v4.
+- Falta: narração v4 (a pessoa gera no ElevenLabs) → sincronia → código no molde do 034 → mapa do Kit Mapas sem setas de origem → revisão → vídeo final → capa e legenda.
+- 06/11/2026 (2ª revisão pedida pela pessoa): todos os números conferidos de novo nos PDFs; corrigidos turismo 2024/2025 (estava escondido em Cultura e em Esporte), "quase 10 a mais", a frase da multa, a da advertência e "mais da metade" (virou "mais de 2 milhões e 200", porque junho veio sem lista). Plano v4 escrito (plano.md, para aprovação), com a barra dos 100 reais, o cofre que enche e as pilhas de cada ano voando para cada prédio. Tempos do plano entram depois da sincronia.
+- 06/11/2026: roteiro v4 e plano v4 APROVADOS pela pessoa. Etapa 2: esperando a narração (voz Mário).
+- 06/11/2026: narração v4 (voz Mário, arquivo das 22:28 em Downloads) preparada: "transporte" cortado 3x, 1,2x, 173,44 s (QUADROS 5230). Sincronia 415/415. Mapa v4 renderizado (mapas/belmonte.mp4, 11,8 s). Código v4 em src/videos/orcamentobelmonte (molde 034, peças copiadas). Revisão feita por mim (2 rodadas). Vídeo final em geração. Legenda com aviso jurídico pronta.

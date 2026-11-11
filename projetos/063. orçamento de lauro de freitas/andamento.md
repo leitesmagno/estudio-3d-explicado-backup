@@ -1,0 +1,32 @@
+# 063. orçamento de lauro de freitas
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentolauro · Nome: OrcamentoLauro
+- MODO AUTÔNOMO (projetos/_coordenacao-sessoes.md, Lote 3, liberado pelo coordenador em 08/11/2026; renumerado: Lauro = 063): roteiro, plano e revisão aprovados pela própria sessão; vídeo final sem pedir autorização (item 17).
+- e-TCM: município 231 "LAURO DE FREITAS"; Prefeitura 835, Câmara 264. Sem autarquia, instituto de previdência ou empresa com conta própria. Sistema Contabilis (anual e PCMGE015 de 09/2026) e SIGA (demais mensais).
+- Levantamento: ~/Documents/RECEITAS-DESPESAS-LAURO-DE-FREITAS/ (documentos_tcm, decisoes/, saida/, scripts/anexo6.py, acoes2026.py, setores.py, conferir.py, pega.sh, pdf2txt.py).
+- Documentos (todos os fundamentais, 0 pendências): Balanço (PCAGO015), Anexos 6, 9 e 10 de 2024 e 2025; PCMGE015/016 da Prefeitura de 12/2024, 12/2025 e 09/2026 (último mês entregue) e PCMGE015 de 08/2026 (SIGA, para achar a função das ações de setembro); PCMGE015 da Câmara de 12/2024, 12/2025 e 09/2026.
+- Totais: 2024 arrecadou 1.056,12 / gastou 1.103,81 (déficit 47,69) · 2025 1.126,99 / 1.019,42 (superávit 107,56) · 2026 até 09 (Prefeitura + Câmara): 873,83 arrecadado, 903,74 liquidado, 1.108,67 empenhado.
+- Achados: calamidade financeira decretada em 07/01/2025 (Correio); de 2024 para 2025 a arrecadação subiu 70,9 mi e a saúde gastou 40,3 mi a menos (assistência 10,8 a menos); conta de eventos culturais 8,82 (2024), 5,32 (2025), 2026 previsto 11,0 → 21,1, pago 14,37 até set. (mais que 2024 + 2025 = 14,13); maternidade municipal (ordem de serviço 07/05/2026, A Tarde): previsto 17,44 em 2026, pago 0,68 até set. TCM: representação do MP sobre 2024 improcedente (25659e24); 7 processos de 2025/2026 sem julgamento publicado.
+- Roteiro v1 (465 palavras, antigos/roteiro-falado-v1.txt) revisado e APROVADO no modo autônomo (v2, 458 palavras, enxugado para caber em 2:55). 1ª conferência no PDF: 37 de 37 valores achados (scripts/conferir.py) + setores somados = total de cada ano, centavo a centavo.
+- Narração: Algenib, 16 partes (3, 4, 5, 12, 14 refeitas), pausas 0,28 s, atempo 1,136, -15 LUFS = 174,81 s. Conferida frase a frase: nada pulado (o Whisper pulou 76–104 s na passada longa; transcrevi esse trecho de novo e o áudio está completo). Números "R $ 34 .300 .000" normalizados no palavras.json (original em transcricao/palavras-original.json).
+- Sincronia: 458 palavras, última em 174,47 s. Todos os 70 quando() conferidos (em ordem).
+- Plano aprovado no modo autônomo (plano.md). Código src/videos/orcamentolauro/ (typecheck ok); composições no Root.
+- Mapa: Kit Mapas orcamento-lauro → mapas/lauro.mp4 (13,5 s).
+- Revisão: v1 (72 quadros, antigos/revisao v1) → corrigido: plaquinhas de 2 e 3 anos do mesmo setor se encostavam (limite de colisão 72 → 86 px); câmera mais alta nas cenas de eventos e maternidade (casinhas da borda atrás do cabeçalho); plaquinha "R$ 14,1 MI · 2024 + 2025" saiu da frente do letreiro da gaveta e foi para cima das torres. v2 (30 quadros) e v3 (12 quadros) aprovadas no modo autônomo.
+- ★ Melhorias para prender a atenção (regra 14): no gancho, os chips "DECRETO Nº 5.432, DE 7/1/2025" e "EVENTOS 2026: R$ 14,4 MI · 2024 + 2025: R$ 14,1 MI" entram no mapa junto da fala, com baque leve; a torre do previsto de 2026 CRESCE de 11 para 21,1 mi na palavra "subiu", com som de subida; impacto no "já pagou" e no "somados". Nenhum número, fonte ou fala mudou.
+- 2ª conferência (texto dos 17 PDFs extraído de novo: 37 de 37; ações e setores idênticos; notícias e TCM de novo) feita antes do final: tudo igual (audio/fontes.md).
+- Etapa atual: 8. ENTREGUE em 08/11/2026 (modo autônomo, item 17): edicoes/063. orçamento de lauro de freitas/LAURO DE FREITAS.mp4 (5271 quadros, 175,7 s, 14 partes, volume médio -18,5 dB, pico -3,6 dB, emendas conferidas), LAURO DE FREITAS - capa.jpg ("Calamidade em 2025. Eventos de R$ 14 mi?") e LAURO DE FREITAS - legenda.txt (2.169 caracteres antes do comentário fixado, com ⚖️ AVISO). Trava liberada; pastas temporárias do Remotion desta sessão apagadas; 0 pendências no TCM.
+- Falta: o Magno assistir e publicar.
+
+## v3 (09/11/2026, pedido do coordenador: molde UBAITABA, brief projetos/_brief-molde-ubaitaba.md, regras até a 66)
+- v2 (empenhado) guardada em antigos/v2 (empenhado)/ e edicoes/063.../antigos/.
+- GASTOU = LIQUIDADO (regra 32): 2024 R$ 1.102.986.562,98 (Balanço), 2025 R$ 993.342.358,72 (Balanço = PCMGE015 dez/2025 + Câmara), 2026 até set R$ 903.740.899,33. Liquidado por ação: scripts/liquidado.py (2024 e 2026 Contabilis, 2025 SIGA; soma = total de cada PDF, centavo a centavo).
+- Roteiro v3 (421 palavras) aprovado no modo autônomo: abre pela receita dos três anos; sem calamidade e sem maternidade (só tinham notícia; regra 25) e sem tarifa bancária (regra 60). Sacadas: saúde −42,7 mi e assistência −13,4 mi de 2024 para 2025 com a arrecadação +71 mi; eventos 2026 (14,4 mi até set.) mais que 2024 + 2025 (12,8 mi); pessoal 2025 com a Câmara 602,7 mi, Câmara 43,7 mi, esporte 498 mil; Tribunal.
+- Voz: Algenib, partes 3, 4, 5, 12 e 14 da v3 regeradas, tarifa (parte 14 da v3a) fora; atempo 1,064, -15 LUFS = 176,52 s. Whisper pulou 77–85 s de novo: trecho transcrito à parte e emendado (transcricao/palavras-original.json guardado). Sincronia: 421 palavras, última em 176,16 s.
+- Código: CabecalhoCidade (já colocado pelo coordenador), T e valores novos, cena "no mesmo 2025" (Câmara e esporte), sem maternidade; typecheck ok; todos os quando() em ordem.
+- Mapa v3 (Kit Mapas orcamento-lauro, 17,8 s): as três receitas, PREFEITURA, TCM-BA, 2024.
+- Duodécimo da Câmara baixado (trava do navegador): PCAGE062 2024 e 2025, Repasses 2025, PCMGE018 set/2026.
+- Folhas: 3 de receita + 30 por setor (ações ou tipos de despesa, faixa de pessoal e diárias, Câmara com duodécimo); config saida/folha-pdf/config-setores-v3.json (scripts/folhas_setores.py + tools/lista_pdf/setor_folhas.py).
+- Revisão v3: 66 quadros olhados; nada sobreposto, 3D igual à fala. Aprovada no modo autônomo.
+- Legenda v3 em edicoes/063.../LAURO DE FREITAS - legenda.txt (2.029 caracteres, ⚖️ AVISO). Capa: "Saúde caiu R$ 42 mi. E as festas?".
+- Etapa atual: 8. ENTREGUE v3 em 09/11/2026 ~04h: ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/LAURO DE FREITAS.mp4 (5323 quadros, 177,4 s, volume médio -18,5 dB, pico -3,4 dB, 33 folhas); capa e legenda em edicoes/063.../. Sem pasta própria (regra 59). Trava liberada; bundles apagados. Falta: o Magno assistir e postar.

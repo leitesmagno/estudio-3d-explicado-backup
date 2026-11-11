@@ -1,0 +1,23 @@
+# 037. orçamento de itajuípe
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentoitajuipe · Nome: OrcamentoItajuipe · Molde: 035 Paratinga (src/videos/orcamentoparatinga/)
+- Mapa (Kit Mapas): ~/Kit-Mapas-Animados/src/videos/orcamento-itajuipe/ (feito)
+- Levantamento: ~/Documents/RECEITAS-DESPESAS-ITAJUIPE (documentos_tcm, saida, scripts). e-TCM município 185, Prefeitura 789, Câmara 218, SAAE 1048. Sistema SIAFIC da Fator (anual) e SIGA (mensal): scripts anexo9b.py, anexo6.py (novo, ações do ano pelo Anexo 6) e acoes015c.py (novo, PCMGE015 SIGA com unidade e dotação inicial).
+- Roteiro e título da capa APROVADOS pelo Magno em 07/11/2026 (depois da 2ª conferência).
+- Narração (07/11/2026): ElevenLabs Mário (arquivo das 09:26 de Downloads, 228 s; o das 09:27 é de Itapitanga). Pausas 0,28 s + 1,25x (1,2x dava 184 s, acima do limite de 3:00 do Reels) = 177,03 s. AUDIO_SEG 177.03 · QUADROS 5338.
+- Sincronia: 459 palavras, última em 176,68 s, sem buracos. Avisos do alinhador: "SAAE" (Whisper ouviu "esse..."), ok.
+- Repetidas: Educação 14,86/59,93/93,58 · Gastou 10,26/54,92/90,16 · 2024 6,34/136,1/152,16/161,54 · 2026 86,04/120,12/171,04 · festa 121,22/169,18/172,24 (usar ocorrência no quando()).
+- Plano v1 APROVADO em 07/11/2026, com pedido extra: 2ª marca d'água @z4politica (além do @eumagnoleite).
+- Mapa (Kit Mapas): OrcamentoItajuipe, 324 quadros, em mapas/itajuipe.mp4 (07/11/2026).
+- Código: src/videos/orcamentoitajuipe/ (OrcamentoItajuipe.tsx, pecas.tsx com PeCacau e ArvoreCinza); Root.tsx com OrcamentoItajuipe, Guia, Limpo e CapaOrcamentoItajuipe. tsc ok.
+- AUTORIZAÇÃO (07/11/2026): o Magno disse "depois que tiver tudo pronto, pode já seguir pra gerar o vídeo final". Eu confiro todos os quadros de revisão e sigo para o final, a capa e a legenda sem pedir aprovação da revisão.
+- Revisão (07/11/2026): 62 quadros + 4 do Guia conferidos por mim; corrigidos cacau escuro, moedas na frente da câmera na borda, colégio com letreiro EDUCAÇÃO, plaquinhas duplicadas sobre placas 3D, câmera escorregando na placa rural, final longe. Detalhes no _aprendizados.md (037).
+- Vídeo final: 14 partes de 400 quadros, 10 min (11:19–11:29), 5.338 quadros, 177,93 s, volume médio -18,9 dB e pico -3,4 dB, 13 emendas conferidas. 1ª tentativa parou por disco cheio (cópias remotion-webpack-bundle das sessões; limpas).
+- Capa: fundo do quadro 5220 (Limpo, palco e assistência acesos), "Em 2026, / festa levou / mais que a / assistência".
+- Legenda: 2.179 caracteres + comentário fixado com os documentos.
+- Etapa atual: 8. ENTREGUE em 07/11/2026: edicoes/037. orçamento de itajuípe/ITAJUÍPE.mp4, ITAJUÍPE - capa.jpg, ITAJUÍPE - legenda.txt.
+- Roteiro: audio/roteiro-falado.txt (459 palavras, ~3:00 a 1,2x). Fontes: audio/fontes.md.
+- Diferente de Paratinga: Itajuípe arrecadou mais do que gastou em 2024 (sobra 5,3 mi) e 2025 (1,8 mi). Em 2026 liquidou 105,5 de 110,6 arrecadados, mas o empenhado (113,6) já passa: fala "já comprometeu mais 8 milhões". Sem torre vermelha "A MAIS" em 2024/2025; pilha "SOBROU"; em 2026 pilha "COMPROMETIDO".
+- Foco: Micapedro + São Sebastião (5,3 mi) > assistência social (2,9 mi) em 2026, com a reserva dos benefícios eventuais cortada de 1,9 mi para 970 mil; ação de obras de infraestrutura 2024 (11 mi previstos, 2 usados); ação de acesso à zona rural com R$ 0; colégio estadual (obra do Estado); TCM: 2 multas de R$ 1.500 (contas atrasadas, frota paga acima do contrato), 2 editais corrigidos, 2 processos em análise.
+- Título proposto da capa (trocado na 2ª conferência): "Em 2026, / festa levou / mais que a / assistência"
+- Falta: nada. Magno publica.

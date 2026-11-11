@@ -1,0 +1,21 @@
+# 059. orçamento de jequié
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentojequie · Nome: OrcamentoJequie
+- MODO AUTÔNOMO (projetos/_coordenacao-sessoes.md, Lote 2, liberado pelo coordenador em 08/11/2026): roteiro, plano e revisão aprovados pela própria sessão.
+- e-TCM: município 213 "JEQUIÉ"; Prefeitura 817, Câmara 246, Instituto de Previdência (IPREJ) 577, Superintendência de Trânsito (SUMTRANS) 1100, Agência Reguladora (ARJES) 9. Sistema SIGA (mensal) e Contabilis/3Tecnos (anual).
+- Levantamento: ~/Documents/RECEITAS-DESPESAS-JEQUIE/ (documentos_tcm, saida/acoes_*.json, saida/setores.json, scripts/acoes_jequie.py, anexo9.py, elementos.py, conferir.py, pega.sh).
+- Documentos (todos os fundamentais, 0 pendências): Balanço (PCAGO015), Anexos 7 (2025), 9 e 10 de 2024 e 2025; PCMGE015/016 da Prefeitura de 12/2024, 12/2025 e 09/2026; PCMGE015 da Câmara de 12/2024, 12/2025 e 09/2026 (o de 09/2026 é digitalizado, lido na imagem); PCMGE015/016 de 09/2026 do IPREJ, da SUMTRANS e da ARJES.
+- Totais: 2024 arrecadou 764,69 / gastou 797,34 (déficit 32,65) · 2025 830,09 / 819,10 (superávit 11,00) · 2026 até 09 (5 unidades): 639,27 arrecadado, 691,02 liquidado, 860,41 empenhado.
+- Escala da maquete: 1 moeda = R$ 1 mi, 1 pilha = R$ 10 mi (cidade grande, como Camaçari).
+- Foco: conta de festas populares (previsto 8,7 → gasto 10,7 em 2024; 11,9 → 13,9 em 2025) x meio ambiente (R$ 355 / 931 / 305 nas ações próprias; preservação de rios e lagoas: 295 mil previstos, 371 reais gastos em 2025) e a condenação em 1ª instância pela Lagoa do Derba (A Tarde). Limpeza/aterro mudou da função 17 para a 15 em 2026: juntei Urbanismo + Saneamento em "Obras e serviços urbanos".
+- Tribunal: São João 2025 (denúncia improcedente); folha do 1º quadrimestre 2024 (advertência).
+- Roteiro v1 (445 palavras, antigos/roteiro-falado-v1.txt) revisado e APROVADO no modo autônomo em 08/11/2026 (v2, 420 palavras). 1ª conferência no PDF: 38 de 38 valores achados (scripts/conferir.py) + setores somados pelo anexo9.py (soma = Total Geral) e 2026 (soma = 691.018.172,24).
+- Narração: Google Chirp 3 HD Algenib, 12 partes (6 e 7 refeitas para "51 milhões e 800"), pausas 0,28 s, atempo 1,141, -15 LUFS = 174,02 s. Conferida frase a frase (transcript.md): nada pulado; números do Whisper "R$ 41,4" normalizados para "41 milhões e 400" no palavras.json (original em palavras-original.json).
+- Sincronia: 420 palavras, última em 173,72 s. Todos os quando() conferidos em ordem.
+- Plano aprovado no modo autônomo (plano.md). Código src/videos/orcamentojequie/ (typecheck ok); composições no Root. Mapa: Kit Mapas orcamento-jequie, satélite baixado.
+- Mapa: Kit Mapas orcamento-jequie → mapas/jequie.mp4 (12,27 s); AREA_DE_PERTO ampliada para 8° (a 1ª versão tinha emenda no satélite).
+- Revisão: v1 (76 quadros, em antigos/revisao v1) → corrigido: pasta da Lagoa do Derba achatada e com carimbo ilegível (agora de frente, câmera baixa, num lugar livre); plaquinhas dos rios saem antes da pasta. v2 (16 quadros refeitos) aprovada no modo autônomo.
+- ★ Melhorias para prender a atenção (regra 14): no gancho, "2025: GASTOU R$ 819,1 MI" e "MEIO AMBIENTE EM 2025: R$ 931" entram no mapa junto da fala, com baque leve no "menos de mil reais"; impacto nos R$ 13,9 mi das festas e baque no "Gasto: 371 reais". Nenhum número, fonte ou fala mudou.
+- 2ª conferência (PDFs reabertos, texto extraído de novo: 38 de 38; festas, rios, somas por função e totais de 2026 iguais; Câmara na imagem; notícias de novo) feita antes do final: tudo igual (audio/fontes.md).
+- Etapa atual: 8. ENTREGUE em 08/11/2026 (modo autônomo): edicoes/059. orçamento de jequié/JEQUIÉ.mp4 (5248 quadros, 174,9 s, 7 partes, volume médio -18,5 dB, pico -3,5 dB, emendas conferidas), JEQUIÉ - capa.jpg ("2025. Festas: R$ 13,9 mi. Meio ambiente: R$ 931.") e JEQUIÉ - legenda.txt (2.122 caracteres antes do comentário fixado, com ⚖️ AVISO). Trava liberada; pastas temporárias do Remotion desta sessão apagadas; 0 pendências no TCM.
+- Falta: o Magno assistir e publicar.

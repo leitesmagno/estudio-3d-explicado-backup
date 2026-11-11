@@ -1,0 +1,22 @@
+# 072. orçamento de mata de são joão
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentomatadesaojoao · Nome: OrcamentoMataDeSaoJoao (composições OrcamentoMataDeSaoJoao, …Guia, …Limpo, CapaOrcamentoMataDeSaoJoao)
+- MODO AUTÔNOMO (coordenador, 09/11/2026 ~07:05, PRIORIDADE: pedido de seguidor): molde Ubaitaba/Gandu, brief `projetos/_brief-molde-ubaitaba.md`. SEM tarifa bancária (regra 60). Sem pasta própria em Documentos (regra 59). Máx. 3:00.
+- e-TCM: município 253, Prefeitura UJ 857, Câmara UJ 286, EMAS UJ 537 (sem prestação própria). Último mês de 2026: 09/2026.
+- Downloads (09/11/2026 07:20–07:58, trava do navegador): 34 PDFs em ~/Documents/RECEITAS-DESPESAS-MATA-DE-SAO-JOAO/documentos_tcm/ + lista de processos do TCM. Pendências no TCM: 0.
+- Totais (liquidado): 2024 arrecadou 427,95 / gastou 448,04 (20,1 a mais) · 2025 arrecadou 487,54 / gastou 463,88 (sobrou 23,7) · 2026 até set arrecadou 384,75 / gastou 351,05 / empenhado 494,16. Setores por secretaria (scripts/setores.py), soma = total centavo a centavo.
+- Achados: festas 15,9 → 18,2 → 17,0 mi (até set/2026) com ~12 mi previstos x benefícios eventuais 4,9 / 5,1 / 2,9; promoção do turismo 70 / 132 / 16,7 mil; ações de meio ambiente R$ 199,28 em 2024 (compostagem 4,55 mi pela Sec. de Obras); Câmara 21,1 mi em 2025 (quase o dobro da assistência), diárias 1,48 mi até set/2026; TCM: denúncias de trios elétricos, decoração de Natal e buffet da festa dos servidores.
+- Roteiro v1 revisado = APROVADO no modo autônomo (09/11/2026 ~08:20): 496 palavras. 1ª conferência dos números no PDF (audio/fontes.md, cópia em ~/Documents/FONTES/).
+- Voz: Google Chirp 3 HD Algenib, speakingRate 1,3, 13 partes + 0,35 s, pausas 0,28 s, atempo 1,128, -15 LUFS = 178,18 s (média -15,3 dB, pico -1,5 dB).
+- Transcrição conferida frase a frase: nada pulado ("festas de São João" no transcript é o Whisper; a voz diz "festas e São João"). palavras-original.json guardado.
+- Sincronia: palavras.ts com 497 palavras, última em 177,80 s. Todos os quando() conferidos (scripts/checa_quando.py).
+- Plano aprovado no modo autônomo (plano.md). Código: src/videos/orcamentomatadesaojoao/OrcamentoMataDeSaoJoao.tsx (molde Gandu/Ubaitaba, 1 pilha = R$ 10 mi). tsc ok; registrado no Root.tsx depois do tsc (regra 54).
+- Mapa (Kit Mapas): src/videos/orcamento-matadesaojoao (satélite copiado do 063 Lauro + npm run tiles: 12 baixados; IBGE 2921005 conferido na API). Registrado no Root do Kit.
+- Folhas: 3 de receita + 36 por setor (scripts/folhas.py → saida/folha-pdf/config-setores.json), soma = valor falado; Câmara com duodécimo (razão da Câmara).
+- Legenda pronta (2.179 caracteres antes do ---, AVISO e comentário fixado).
+- Mapa gerado (mapas/matadesaojoao.mp4) e 83 quadros de revisão (08:16–08:19, revisao1-antes-das-correcoes/). Revisão feita por mim, quadro a quadro.
+- Correções da revisão (revisao/, 08:24–08:27, 86 quadros): plaquinhas da ajuda às famílias ficavam 1 s e em cima das festas → ficam no pé das torres da frente, câmera mais baixa, trecho vai até o "70 mil"; compostagem ficava < 1 s → torre cresce no começo da frase e a cena da Câmara entra 0,9 s depois; câmera do "previsto" e de 2026 abertas (a torre de 2024 saía cortada); casinha do turismo virou galpão com letreiro; tag "2024" do mapa ficava 0,6 s → fica até o "R$ 428". ★ Melhorias (regra 14): previsto (branco) ao lado das festas de cada ano; torre verde "SOBRARAM" em 2025; câmera da pergunta final mais perto.
+- Revisão APROVADA (modo autônomo), 09/11/2026 08:30. Aprendizados registrados em _aprendizados.md (072).
+- Vídeo final (09:09–09:22): render-sem-folha/MATA DE SÃO JOÃO.mp4 + 39 folhas (3 de receita + 36 por setor) → edicoes/072. orçamento de mata de são joão/MATA DE SÃO JOÃO.mp4 (5.372 quadros, 179,07 s, 1080x1920, áudio médio -18,3 dB, pico -3,4 dB). Quadros conferidos depois das folhas.
+- Capa: "Festas: / R$ 18,2 mi. / Turismo: / R$ 132 mil." (fundo OrcamentoMataDeSaoJoaoLimpo quadro 3832). Legenda: 2.179 caracteres antes do ---, ⚖️ AVISO no fim e comentário fixado.
+- Etapa: ENTREGUE 09/11/2026 ~09:25: ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/MATA DE SÃO JOÃO.mp4; edicoes/072. orçamento de mata de são joão/MATA DE SÃO JOÃO - capa.jpg e MATA DE SÃO JOÃO - legenda.txt. Pendências no TCM: 0.

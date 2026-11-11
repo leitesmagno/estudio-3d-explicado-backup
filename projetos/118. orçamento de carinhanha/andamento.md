@@ -1,0 +1,21 @@
+# 118. orçamento de carinhanha
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentocarinhanha · Nome: OrcamentoCarinhanha (composições OrcamentoCarinhanha, …Guia, …Limpo, CapaOrcamentoCarinhanha). Kit Mapas: orcamento-carinhanha (IBGE 2907103), Root do Kit como KITCARINHANHA.
+- MODO AUTÔNOMO (lote LARANJA, cidade L8, liberado pelo coordenador em 11/11/2026 com "pode começar"). Molde 093 Ilhéus / 069 Paulo Afonso. SEM tarifa bancária; máx. 3:00; festas separadas da cultura (regra 99); calor (regra 101).
+- e-TCM: município 87 CARINHANHA, Prefeitura UJ 692, Câmara UJ 120, SAAE UJ 1033 (autarquia de água e esgoto). Último mês: 09/2026 (10/2026 "Pendente"). Lista de prestações (regra 89): dados/prestacoes-etcm/carinhanha.json (22 linhas + Câmara e SAAE em "outras").
+- Downloads: 11/11/2026, Claude in Chrome com _navegador.lock (solta no fim), fetch + recebedor 8778 /salva, sem janela. ~400 PDFs em ~/Documents/RECEITAS-DESPESAS-CARINHANHA/documentos_tcm (mensais 12/2024, 12/2025, 09/2026 da Prefeitura, Câmara e SAAE; anuais 2024 e 2025 da Prefeitura; parte do anual 2024 da Câmara). Sem PCMGE065 consolidado (declaração de não existência).
+- Totais (liquidado): 2024 arrecadou 142,18 / gastou 162,96 (faltaram 20,79) · 2025 155,75 / 152,46 (sobraram 3,29; soma das três unidades = Balanço) · 2026 até set 124,52 / 129,89 (faltaram 5,37) / empenhado 147,92.
+- Setores (11): Educação, Saúde, Obras e serviços urbanos, Administração, Água e esgoto (SAAE), Assistência social, Câmara, Festas e eventos, Cultura, Dívidas e encargos, Agricultura e meio ambiente.
+- Achados: comemoração de festividades previsto x gasto 3,52 x 3,37 (2024), 3,86 x 5,81 (2025: bandas 2,28, palco 3,09), 3,75 x 4,95 até set (2026); benefícios eventuais 2025 previsto 375 mil x gasto 89 mil; contribuição de iluminação pública prevista e R$ 0 arrecadado nos 3 anos (manutenção da iluminação 2025: 1,59); Câmara recebeu 3,87/devolveu 0,19 (2024), 4,96/0,002 (2025), 3,85 até set/2026.
+- Roteiro v1 revisado = APROVADO no modo autônomo (455 palavras). Enxugado de 480 para caber em 3:00 (2º e 3º anos com "Obras", "Dívidas" e "Agricultura").
+- Voz: Google Chirp 3 HD Algenib, speakingRate 1,3, 14 partes + 0,35 s, pausas 0,28 s, atempo 1,1057, loudnorm -15,4 LUFS = 178,01 s. Conferida frase a frase com Whisper (trechos duvidosos retranscritos: nada pulado nem repetido; o "4." depois de "2024." era erro do Whisper e foi tirado).
+- Sincronia: 455 palavras (= roteiro). transcript.md do roteiro (70 frases); o do Whisper em transcript-whisper.md.
+- Fontes: audio/fontes.md (cada número com valor exato, PDF, página e linha/coluna). Conferido 2 vezes. Pendência: SUS não conferido no FNS.
+- Plano aprovado no modo autônomo (plano.md). Código src/videos/orcamentocarinhanha (molde 069), tsc ok, Root registrado depois do tsc.
+- Folhas: 3 de receita + 33 por setor (scripts/folhas.py), soma = valor falado.
+- Mapa: mapas/carinhanha.mp4 (Kit Mapas, 1 núcleo, com trava, AREA_DE_PERTO com ~3° de folga).
+- Revisão (79 quadros em todas as viradas de fala): tempos, chips, plaquinhas e margem de 90 px conferidos; "educação" do bloco do Fundeb pegava o 1º setor (corrigido com a 2ª ocorrência). Revisão APROVADA (modo autônomo).
+- Vídeo final (05:24 a 05:37, trava de render, nice e concorrência 1, sem aviso de calor): 5.367 quadros, 178,90 s, 1080x1920, áudio médio -18,4 dB, pico -3,7 dB, 36 folhas.
+- Capa: "Ajuda 2025: / R$ 89 mil. / Festas 2025: / R$ 5,8 mi." (fundo OrcamentoCarinhanhaLimpo quadro 5216).
+- Legenda: edicoes/118.../CARINHANHA - legenda.txt (2.153 caracteres no post; hashtags só #Carinhanha #MagnoLeiteExplica, ⚖️ AVISO, comentário fixado).
+- Etapa: ENTREGUE 11/11/2026 ~05:38: ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/CARINHANHA.mp4; edicoes/118.../CARINHANHA.mp4, CARINHANHA - capa.jpg e CARINHANHA - legenda.txt; fontes.md em ~/Documents/FONTES; transcricao/transcript.md (70 frases). Travas soltas; apagados (meus): render-sem-folha, partes-google, junto.wav, curto.wav, revisao/*.jpg, folha-pdf/tmp e out/OrcamentoCarinhanha.mp4 do Kit. Site: com o coordenador.

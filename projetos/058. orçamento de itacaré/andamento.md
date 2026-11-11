@@ -1,0 +1,21 @@
+# 058. orçamento de itacaré
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentoitacare · Nome: OrcamentoItacare
+- MODO AUTÔNOMO (projetos/_coordenacao-sessoes.md, Lote 2, liberado pelo coordenador em 08/11/2026): roteiro, plano e revisão aprovados pela própria sessão.
+- e-TCM: município 178 "ITACARÉ", Prefeitura 782, Câmara 211, Autarquia Municipal de Turismo (Itacaré-Tur) 13 (orçamento de R$ 23,7 mil, nada gasto), Caixa de Previdência 16 (sem prestações). Sistema E&L (SIAFIC) e SIGA.
+- Levantamento: ~/Documents/RECEITAS-DESPESAS-ITACARE/ (documentos_tcm, documentos_tcm/noticias, saida/anexo6_*.json, acoes_*.json, setores058.json, scripts/anexo6_itacare.py, setores058.py, pega.sh).
+- Documentos: Balanço (PCAGO015), Anexos 6, 9 e 10 de 2024 e 2025; PCMGE015/016 da Prefeitura de 12/2024, 12/2025, 08/2026 e 09/2026 (+ PCMGE065/066 de 09/2026); PCMGE015 da Câmara de 12/2024, 12/2025 e 08/2026; PCMGE015/016 da Itacaré-Tur de 09/2026.
+- PENDÊNCIA (não fundamental para a regra 12, com substituto): o PCMGE015 de 09/2026 da Câmara é outro relatório (desembolsos extraorçamentários). 2026 vai até AGOSTO para Prefeitura e Câmara (último mês completo das duas). Anotado em projetos/_pendencias-tcm.md.
+- Totais: 2024 arrecadou 165,67 / gastou 168,97 (déficit 3,31) · 2025 180,69 / 175,97 (superávit 4,71) · 2026 até 08: arrecadou 134,31, liquidou 132,43, empenhou 139,41.
+- Foco: eventos (ação "promoção e realização de eventos culturais e tradicionais") 2,7 → 3,7 → 4,9 mi (2026 só até agosto, com 3,5 mi previstos) x conservação das estradas vicinais 1,9 mi → 900 mil → 441 mil (de 2,7 mi previstos); autarquia de turismo com R$ 24 mil e nada gasto; nenhuma taxa de turismo nas receitas; saneamento zero (esgoto da Embasa); TCM: denúncia 02244E25 (pregão de estrutura e gerador para eventos, 2025), sem decisão.
+- Roteiro v1 (525 palavras, em antigos/) enxugado e APROVADO no modo autônomo em 08/11/2026 (v2, 473 palavras). 1ª conferência no PDF feita (audio/fontes.md).
+- Título da capa: "Festa sobe, / estrada / desce. Quem / escolheu?"
+- Narração: Google Chirp 3 HD Algenib, speakingRate 1,3, 14 partes, unidas com 0,35 s, pausas 0,28 s, atempo 1,138, -15 LUFS = 173,96 s. Conferida frase a frase (nada pulado; "em em" de 2:20 era do Whisper).
+- Sincronia: 473 palavras, última em 173,66 s.
+- Plano aprovado no modo autônomo em 08/11/2026 (plano.md).
+- Mapa: ~/Kit-Mapas-Animados/src/videos/orcamento-itacare (IBGE 2914901) → mapas/itacare.mp4 (12,37 s, 305 tiles).
+- Item 14 (aprimorar na revisão), feito em 08/11/2026: (1) gancho visual: chip "GASTOU R$ 176 MI EM 2025" em destaque sobre o mapa de 0,75 s até "Eu abri", com um pop; (2) a revelação principal ("4 milhões e 900" de eventos em 2026, só até agosto) ganhou o som de impacto no lugar do baque. Dados, fontes e estrutura iguais.
+- Revisão (regra 13), 08/11/2026: v1 com 77 quadros em todas as viradas de fala (revisao/v1). Corrigido: (1) nas cenas do miolo (eventos, estradas, autarquia, tribunal, pergunta) as casinhas da borda ficavam atrás da marca e da pílula: câmera mais alta (direção y 1,9 a 2,3; pasta 1,75); (2) moedas da cena anterior ainda apareciam quando a gaveta seguinte subia: cada achado some 0,15 s antes da frase seguinte, com as plaquinhas; (3) chip das estradas na pergunta durava 0,9 s: agora 1,5 s, e a pergunta entra 0,5 s depois. v2 (revisao/) conferida: nada sobreposto, tela igual à fala. APROVADA no modo autônomo.
+- 2ª conferência (PDFs reabertos e extraídos de novo: 57 de 57 valores literais; TCM 02244E25 ainda sem decisão) feita antes do final (audio/fontes.md e cópia em ~/Documents/FONTES).
+- Etapa atual: 8. ENTREGUE em 08/11/2026 (modo autônomo): edicoes/058. orçamento de itacaré/ITACARÉ.mp4 (5246 quadros, 174,87 s, 7 partes, volume médio -18,6 dB, pico -3,5 dB), ITACARÉ - capa.jpg (fundo OrcamentoItacareLimpo quadro 5130, desce 660) e ITACARÉ - legenda.txt (2.176 caracteres antes do comentário fixado, com ⚖️ AVISO). Partes do render movidas para antigos/. Trava liberada; as 3 pastas temporárias do Remotion desta sessão apagadas.
+- Falta: o Magno assistir e publicar.

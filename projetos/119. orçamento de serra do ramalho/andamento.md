@@ -1,0 +1,22 @@
+# 119. orçamento de serra do ramalho
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentoserradoramalho · Nome: OrcamentoSerraDoRamalho (composições OrcamentoSerraDoRamalho, …Guia, …Limpo, CapaOrcamentoSerraDoRamalho). Kit Mapas: orcamento-serra-do-ramalho (IBGE 2930154), Root do Kit como KITSERRARAMALHO.
+- MODO AUTÔNOMO (lote LARANJA, cidade L9, liberado pelo coordenador em 11/11/2026 com "pode começar"; madrugada, junto com 118 Carinhanha no Chrome). Molde 093 Ilhéus / 069 Paulo Afonso. SEM tarifa bancária; máx. 3:00; festas separadas da cultura (regra 99); calor (regra 101).
+- e-TCM: município 372 SERRA DO RAMALHO, Prefeitura UJ 976, Câmara UJ 392, Instituto de Previdência (IMUP) UJ 600, Agência Reguladora de Saneamento UJ 8 (as duas dentro do consolidado), SAAE UJ 1074 (todas as prestações "Pendente", não entra). Último mês: 09/2026. Lista de prestações (regra 89): dados/prestacoes-etcm/serra-do-ramalho.json (22 linhas + outras unidades).
+- Downloads: 11/11/2026 04:08 a 04:25, navegador do app com _navegador.lock (solta no fim), fetch + recebedor 8778 /salva, sem janela. 112 PDFs em ~/Documents/RECEITAS-DESPESAS-SERRA-DO-RAMALHO/documentos_tcm. 0 falhas. Município e competência conferidos.
+- Totais (liquidado): 2024 arrecadou 184,02 / gastou 178,18 (sobraram 5,84) · 2025 221,02 / 212,67 (sobraram 8,35) · 2026 até set 181,99 / 176,78 (sobraram 5,21) / empenhado 206,56.
+- Setores (12): Educação, Saúde, Previdência dos servidores, Obras e serviços urbanos, Administração, Dívidas e encargos, Assistência social, Câmara, Festas e eventos, Cultura, Agricultura e meio ambiente, Esporte.
+- Achados: ação de festas previsto x gasto 0,39 x 4,37 (2024), 1,66 x 6,32 (2025), 2,48 x 6,83 até set (2026); bandas e palco 5,8 até set/2026; festas maiores que a assistência social inteira nos três anos (4,70 x 3,50; 6,34 x 4,32; 6,84 x 3,65); benefícios eventuais 2025 481 mil; esporte 160 / 109 / 120 mil. Câmara recebeu 4,61 / devolveu 0,057 (2024); 5,45 / 0,612 (2025); 4,31 / 0,25 até set/2026.
+- Roteiro v2 = APROVADO no modo autônomo (457 palavras). v1 (antigos/) tinha 464 palavras e passava de 3:00; cortei "de Vereadores" na lista de 2024 e "E o esporte, 109 mil" (já dito na lista).
+- Voz: Google Chirp 3 HD Algenib, speakingRate 1,3, 13 partes + 0,35 s, pausas 0,28 s, atempo 1,11, loudnorm -15,3 LUFS = 178,74 s. Conferida com o Whisper: nada pulado nem repetido.
+- Sincronia: 457 palavras (= roteiro). transcript.md do roteiro (69 frases); o do Whisper em transcript-whisper.md.
+- Fontes: audio/fontes.md (valor exato, PDF, página e linha/coluna), copiado para ~/Documents/FONTES.
+- Plano aprovado no modo autônomo (plano.md). Código src/videos/orcamentoserradoramalho (molde 069), tsc ok, Root registrado depois do tsc (regra 54).
+- Folhas: 3 de receita + 36 por setor (scripts/folhas.py), soma = valor falado.
+- Mapa: mapas/serradoramalho.mp4 (Kit Mapas, 1 núcleo, com trava; satélite copiado de Bom Jesus da Lapa e completado com npm run tiles).
+- Revisão (79 quadros em todas as viradas de fala, olhados em folhas de contato): tela igual à fala, nada sobreposto, 90 px das laterais. Corrigido: a casinha da Previdência saía pequena e escura; virou galpão com o letreiro PREVIDÊNCIA (conferido em quadro avulso). Revisão APROVADA (modo autônomo).
+- ★ Melhoria (regra 14): torre da assistência social de 2025 na mesma gaveta e na mesma escala das festas, para a pergunta final comparar lado a lado; galpão com letreiro na Previdência.
+- Vídeo final (04:37 a 04:50, trava de render, nice e concorrência 1, sem aviso de calor): 179,63 s, 1080x1920, áudio médio -18,4 dB, pico -3,5 dB, 39 folhas.
+- Capa: "Festas 2025: / R$ 6,3 mi. / Assistência: / R$ 4,3 mi." (fundo OrcamentoSerraDoRamalhoLimpo quadro 5224).
+- Legenda: edicoes/119.../SERRA DO RAMALHO - legenda.txt (hashtags só #SerraDoRamalho #MagnoLeiteExplica, ⚖️ AVISO, comentário fixado).
+- Etapa: ENTREGUE 11/11/2026 ~04:52: ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/SERRA DO RAMALHO.mp4; edicoes/119.../SERRA DO RAMALHO.mp4, capa e legenda; fontes.md em ~/Documents/FONTES; transcricao/transcript.md (69 frases). Travas soltas; apagados (meus): render-sem-folha, audio/partes-google, partes-curtas, junto.wav, revisao/*.jpg, folha-pdf/tmp, out do Kit. Site: com o coordenador.

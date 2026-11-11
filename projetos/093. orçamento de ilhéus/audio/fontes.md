@@ -1,0 +1,362 @@
+# Fontes · 093. orçamento de Ilhéus (2024, 2025, 2026 até agosto)
+
+Consulta: e-TCM Consulta Pública (https://e.tcm.ba.gov.br/epp/ConsultaPublica/listView.seam), município 164 ILHÉUS: Prefeitura UJ 768, Câmara UJ 197, SUTRAM UJ 1086, Universidade Livre do Mar e da Mata (Fundação Maramata) UJ 1104. Fundação Cultural (544) e Empresa de Turismo (534): sem prestação de contas no e-TCM. Downloads e conferência em 08 e 09/11/2026. Todo PDF teve o nome de Ilhéus e a competência conferidos no cabeçalho.
+Regra: "gastou" = LIQUIDADO. Receita = total declarado ao TCM (Balanço = Receitas Realizadas; 2026 = TOTAL DA RECEITA do PCMGE016 + receitas próprias da SUTRAM e da Fundação). Função 06 (segurança/ordem pública e defesa civil) fica fora da fala.
+
+## Totais (fala, chips, mapa, capa)
+- Receita 2024: 764.754.395,21 → 2024-13_ANUAL_PCAGO015.pdf, Balanço Orçamentário, linha SUBTOTAL DAS RECEITAS (III), coluna Receitas Realizadas → fala "764 milhões e 800", mapa, chip
+- Gastou 2024: 809.707.176,65 → 2024-13_ANUAL_PCAGO015.pdf, linha SUBTOTAL DAS DESPESAS (XI), coluna Despesas Liquidadas (empenhada 810.254.523,32) → fala "809 milhões e 700", chip
+- A mais 2024: 44.952.781,44 → conta própria: 809.707.176,65 - 764.754.395,21 → fala "45 milhões a mais", torre vermelha
+- Soma dos PCMGE015 2024: 809.702.293,65 → Prefeitura 784.266.293,28 + Câmara 21.752.235,87 + SUTRAM 3.022.150,44 + Fundação 661.614,06 (linhas "Total do Poder", liquidações até mês). Diferença de 4.883,00 para o Balanço = empenhado e não liquidado no Fundo de Educação, que o Balanço conta como liquidado → setores 2024
+- Receita 2025: 827.151.896,90 → 2025-13_ANUAL_PCAGO015.pdf, Balanço Orçamentário, SUBTOTAL DAS RECEITAS (III), Receitas Realizadas → fala "827 milhões e 200"
+- Gastou 2025: 789.998.780,31 → 2025-13_ANUAL_PCAGO015.pdf, SUBTOTAL DAS DESPESAS (XI), Despesas Liquidadas; igual à linha "Total" do 2025-12_PCMGE015.pdf (Liq Até Per) → fala "790 milhões"
+- Sobra 2025: 37.153.116,59 → conta própria: 827.151.896,90 - 789.998.780,31 → fala "Sobraram 37 milhões", torre verde
+- Receita 2026 até ago: 575.814.420,90 → 2026-08_PCMGE016.pdf TOTAL DA RECEITA 573.159.660,46 (Acumulado, já com a dedução do Fundeb) + 2026-08_SUTRAM_PCMGE016.pdf Total até mês 2.645.904,65 + 2026-08_ULMM_PCMGE016.pdf 8.855,79 → fala "575 milhões e 800"
+- Gastou 2026 até ago: 576.717.542,10 → Prefeitura 520.551.000,93 (2026-08_PCMGE015.pdf "Total Geral", Liquidações Acumulado) + Câmara 23.243.398,29 (2026-08_CAMARA_PCMGE015.pdf, RESUMO "Total" Liquidada até o mês) + SUTRAM 32.363.495,10 + Fundação 559.647,78 (Total do Poder) → fala "576 milhões e 700"
+- A mais 2026: 903.121,20 → conta própria: 576.717.542,10 - 575.814.420,90 → fala "903 mil a mais"
+- Repasses da Prefeitura à Câmara e à SUTRAM em 2026 não são despesa → 2026-08_PCMGE018.pdf: 3.5.1.1.2.02.02 REPASSE CONCEDIDO AO PODER LEGISLATIVO 24.155.504,56; 3.5.1.1.2.02.03.01 REPASSE CONCEDIDO A SUTRAN 27.894.317,26 (contas de interferência, fora do PCMGE015) → conferência: sem contar duas vezes
+
+## Setores (fala, plaquinhas, folha de cada setor) · valores liquidados
+
+### 2024 · ~/Documents/RECEITAS-DESPESAS-ILHEUS/documentos_tcm/2024-12_PCMGE015.pdf (Prefeitura, SIGA) + 2024-12_CAMARA_PCMGE015.pdf + 2024-12_SUTRAM_PCMGE015.pdf + 2024-12_ULMM_PCMGE015.pdf
+- Educação: 269.265.298,36 · faixa: Pessoal (salários e encargos): R$ 165.335.540,63 · diárias: R$ 20.329,28
+    - Gestão das ações do FUNDEB 70% - ensino fundam…: 184.494.666,10
+    - Gestão das ações da secretaria de educação: 22.840.999,44
+    - Gestão das ações do FUNDEB 30% - ensino fundam…: 20.863.173,39
+    - Construcao, reforma e ampliação de unidades es…: 15.490.351,01
+    - Manutenção do programa de transporte escolar: 11.390.203,93
+    - Manutenção do programa de alimentação escolar: 4.799.469,35
+    - Outras 7 ações: 9.386.435,14
+- Saúde: 181.083.887,45 · faixa: Pessoal (salários e encargos): R$ 76.556.697,17 · diárias: R$ 227.996,60
+    - Gestão da atenção a saude da população para pr…: 74.139.649,98
+    - Incentivo financeiro da aps - capitação ponder…: 24.103.961,14
+    - Manutencao da secretaria de saude: 18.360.836,27
+    - Incentivo financeiro para os agentes comunitár…: 14.146.945,00
+    - Gestão das ações da vigilancia em saude - assi…: 11.155.256,63
+    - Serviços de atendimento movel as urgencias - S…: 9.887.288,29
+    - Outras 17 ações: 29.289.950,14
+- Administração: 107.418.337,10 · faixa: Pessoal (salários e encargos): R$ 67.567.822,32 · diárias: R$ 247.127,80
+    - Manutenção da secretaria de gestão: 45.428.681,94
+    - Proventos inativos e pensionistas: 25.688.659,89
+    - Manutenção da secretaria da fazenda e orçament…: 12.538.058,83
+    - Gestão das ações do gabinete do prefeito: 9.004.489,05
+    - Coordenação e manutenção dos serviços administ…: 3.678.805,06
+    - Secretaria municipal de desenvolvimento econom…: 3.448.374,70
+    - Outras 11 ações: 7.631.267,63
+- Obras e infraestrutura: 53.337.075,08 · faixa: Pessoal (salários e encargos): R$ 4.608.403,77 · diárias: R$ 3.562,50
+    - Gestão da secretaria infraestrutura e defesa c…: 21.343.672,25
+    - Coordenação, execução e fiscalização dos serv.…: 13.297.450,41
+    - Gestão das ações regionais: 5.827.104,76
+    - Projeto alegria no morro: 5.580.536,93
+    - Pavimentação e drenagem de vias urbanas: 4.791.276,65
+    - Construção de praças e jardins: 1.400.599,68
+    - Outras 1 ações: 1.096.434,40
+- Limpeza e iluminação: 66.370.725,42 · faixa: Pessoal (salários e encargos): R$ 16.701.718,30 · diárias: R$ 1.685,00
+    - Gestão da limpeza pública: 24.489.454,83
+    - Gestão das ações da secretaria de serviços urb…: 24.475.024,85
+    - Gestão da gerencia de serviços públicos: 8.927.924,93
+    - Gestão da iluminação pública: 8.478.320,81
+- Câmara de Vereadores: 21.752.235,87 · faixa: Recebeu da prefeitura (duodécimo): R$ 24.968.939,26 · sobrou e devolveu R$ 3.245.040,68
+    - Salários e subsídios (vereadores e servidores): 14.140.644,59
+    - Encargos (INSS e FGTS): 3.212.613,17
+    - Auxílio-alimentação: 1.579.764,50
+    - Serviços de empresas, assessoria e consultoria: 1.533.691,13
+    - Indenizações e restituições: 961.263,63
+    - Diárias, passagens e material: 324.258,85
+- Dívidas: 52.447.743,37 · faixa: Pessoal (salários e encargos): R$ 0,00
+    - Parcelas da dívida (principal): 37.339.704,64
+    - Sentenças judiciais: 12.250.000,00
+    - PASEP, tributos e contribuições: 2.858.038,73
+- Transporte e trânsito: 3.022.150,44 · faixa: Pessoal (salários e encargos): R$ 0,00 · diárias: R$ 130.530,00
+    - Gestão administrativa da autarquia de transpor…: 1.878.629,02
+    - Implant. de equipamentos de sinalização e fisc…: 715.776,88
+    - Gestão do policiamento e fiscalização: 420.754,54
+    - Manutenção de sinalização de trânsito: 6.990,00
+- Assistência social: 16.823.523,17 · faixa: Pessoal (salários e encargos): R$ 10.573.702,97 · diárias: R$ 55.154,47
+    - Gestão adm. das ações da sec. de secretaria mu…: 11.292.725,21
+    - Benefícios eventuais: 1.304.136,72
+    - Gestão das ações do bloco proteção social bási…: 1.169.794,18
+    - Gestão das ações do bl. da gestão do prog. bol…: 1.158.318,91
+    - Gestão das ações do bloco da proteção social e…: 830.650,89
+    - Gestão das ações do bl. de gestão do suas - ig…: 531.201,06
+    - Outras 3 ações: 536.696,20
+- Meio ambiente: 3.550.306,59 · faixa: Pessoal (salários e encargos): R$ 3.192.302,84 · diárias: R$ 5.697,00
+    - Manutenção da secretaria especial de meio ambi…: 2.888.692,53
+    - Fundação maramata: gestão administrativa das a…: 651.614,06
+    - Fundação maramata: construção, ampliação e ref…: 10.000,00
+- Agricultura e pesca: 2.296.471,76 · faixa: Pessoal (salários e encargos): R$ 2.089.987,04 · diárias: R$ 29.199,50
+    - Salários dos servidores: 1.978.410,82
+    - Despesas de anos anteriores: 153.675,00
+    - Indenizações trabalhistas: 111.576,22
+    - Diárias: 29.199,50
+    - Material e combustível: 15.216,67
+    - Serviços de empresas: 8.393,55
+- Esporte e lazer: 1.211.590,06 · faixa: Pessoal (salários e encargos): R$ 459.512,33 · diárias: R$ 2.342,10
+    - Coordenação e manutenção dos serviços administ…: 565.014,43
+    - Incentivos a eventos esportivos e ao esporte a…: 520.200,00
+    - Constr. ref. ampl. e conserv. de quadras polie…: 126.375,63
+- Cultura e turismo: 6.349.115,05 · faixa: Pessoal (salários e encargos): R$ 2.973.065,04 · diárias: R$ 2.520,00
+    - Gestao da secretaria municipal de cultura: 2.645.452,38
+    - Viva ilhéus: 1.341.000,00
+    - Promoção e realização de eventos, ações cultur…: 755.033,49
+    - Prom. das ativ. e potencialidade turísticas: 693.700,00
+    - Coordenação e manutenção dos serviços administ…: 573.434,18
+    - Promoção e realização do carnaval: 292.020,00
+    - Outras 3 ações: 48.475,00
+
+### 2025 · ~/Documents/RECEITAS-DESPESAS-ILHEUS/documentos_tcm/2025-12_PCMGE015.pdf (consolidado: Prefeitura, Câmara, SUTRAM, Fundação)
+- Educação: 231.152.117,22 · faixa: Pessoal (salários e encargos): R$ 196.259.542,26 · diárias: R$ 27.761,60
+    - Gestão das ações do FUNDEB 70% - ensino fundam…: 110.771.695,28
+    - Manutenção do ensino fundamental: 31.146.321,62
+    - Gestão das ações da secretaria de educação: 29.037.993,65
+    - Gestão das ações do FUNDEB 70% - ensino infant…: 14.456.463,19
+    - Manutenção das ações da educação infantil: 11.085.470,84
+    - Gestão das ações do FUNDEB 30% - ensino fundam…: 10.959.329,21
+    - Outras 7 ações: 23.694.843,43
+- Saúde: 184.892.318,26 · faixa: Pessoal (salários e encargos): R$ 95.492.556,22 · diárias: R$ 408.573,28
+    - Gestão da atenção a saude da população para pr…: 57.860.373,84
+    - Incentivo financeiro da aps - capitação ponder…: 25.490.485,03
+    - Manutencao da secretaria de saude: 22.700.296,48
+    - Incentivo financeiro para os agentes comunitár…: 22.082.017,43
+    - Gestão das ações da vigilancia em saude - assi…: 13.273.326,20
+    - Serviços de atendimento movel as urgencias - S…: 9.129.645,96
+    - Outras 17 ações: 34.356.173,32
+- Administração: 130.010.324,63 · faixa: Pessoal (salários e encargos): R$ 90.335.187,70 · diárias: R$ 259.946,78
+    - Manutenção da secretaria de gestão: 63.097.317,74
+    - Proventos inativos e pensionistas: 32.862.787,47
+    - Manutenção da secretaria da fazenda e orçament…: 13.201.845,17
+    - Coordenação e manutenção dos serviços administ…: 4.925.223,88
+    - Gestão das ações da procuradoria: 4.466.849,15
+    - Gestão das ações do gabinete do prefeito: 3.794.441,32
+    - Outras 12 ações: 7.661.859,90
+- Obras e infraestrutura: 17.272.862,58 · faixa: Pessoal (salários e encargos): R$ 4.275.681,85 · diárias: R$ 23.519,00
+    - Gestão da secretaria infraestrutura e defesa c…: 8.433.479,30
+    - Pavimentação e drenagem de vias urbanas: 5.051.665,41
+    - Gestão das ações regionais: 2.610.566,21
+    - Coordenação, execução e fiscalização dos serv.…: 778.488,86
+    - Construção de praças e jardins: 398.662,80
+- Limpeza e iluminação: 65.849.463,23 · faixa: Pessoal (salários e encargos): R$ 19.434.488,95
+    - Gestão da limpeza pública: 24.740.060,81
+    - Gestão das ações da secretaria de serviços urb…: 23.424.574,47
+    - Gestão da iluminação pública: 11.930.518,99
+    - Gestão da gerencia de serviços públicos: 5.754.308,96
+- Câmara de Vereadores: 29.477.684,83 · faixa: Recebeu da prefeitura (duodécimo): R$ 29.777.689,56 · sobrou e devolveu R$ 300.000,00
+    - Salários e subsídios (vereadores e servidores): 18.972.409,95
+    - Encargos (INSS e FGTS): 3.987.185,09
+    - Serviços de empresas, assessoria e consultoria: 3.135.408,72
+    - Auxílio-alimentação: 1.403.040,00
+    - Indenizações e restituições: 1.112.185,90
+    - Diárias, passagens e material: 753.070,17
+    - Obras e equipamentos na sede: 114.385,00
+- Dívidas: 59.235.782,35 · faixa: Pessoal (salários e encargos): R$ 0,00
+    - Parcelas da dívida (principal): 35.849.990,09
+    - Sentenças judiciais (precatórios): 8.056.107,88
+    - Sentenças judiciais: 8.053.701,98
+    - PASEP, tributos e contribuições: 7.275.982,40
+- Transporte e trânsito: 12.004.093,64 · faixa: Pessoal (salários e encargos): R$ 953.083,90 · diárias: R$ 25.808,00
+    - Concessão de subsídio do transporte coletivo: 7.350.000,00
+    - Gestão administrativa da autarquia de transpor…: 3.052.809,11
+    - Manutenção de engenharia: 708.718,88
+    - Implant. de equipamentos de sinalização e fisc…: 528.178,68
+    - Manutenção de sinalização de trânsito: 364.386,97
+- Assistência social: 11.715.314,81 · faixa: Pessoal (salários e encargos): R$ 7.750.488,12 · diárias: R$ 64.515,46
+    - Gestão adm. das ações da sec. de secretaria mu…: 7.720.928,22
+    - Gestão das ações do bloco proteção social bási…: 1.232.915,57
+    - Benefícios eventuais: 981.195,00
+    - Gestão das ações do bloco da proteção social e…: 966.660,23
+    - Gestão das ações do bl. de gestão do suas - ig…: 283.693,50
+    - Manutenção do programa criança feliz - primeir…: 255.047,86
+    - Outras 3 ações: 274.874,43
+- Meio ambiente: 4.395.877,20 · faixa: Pessoal (salários e encargos): R$ 3.705.255,13 · diárias: R$ 38.592,70
+    - Manutenção da secretaria especial de meio ambi…: 3.394.388,31
+    - Gestão administrativa das ações da fundação ma…: 949.879,89
+    - Gestão dos serviços e educação ambiental: 35.300,00
+    - Promoção de eventos esportivos, culturais e só…: 16.309,00
+- Agricultura e pesca: 2.120.980,31 · faixa: Pessoal (salários e encargos): R$ 2.067.409,63 · diárias: R$ 16.930,50
+    - Salários dos servidores: 2.064.668,52
+    - Despesas de anos anteriores: 36.640,18
+    - Diárias: 16.930,50
+    - Indenizações trabalhistas: 2.111,11
+    - Auxílio-alimentação: 630,00
+- Esporte e lazer: 847.887,40 · faixa: Pessoal (salários e encargos): R$ 834.111,42
+    - Salários dos servidores: 834.111,42
+    - Despesas de anos anteriores: 13.775,98
+- Cultura e turismo: 9.792.035,72 · faixa: Pessoal (salários e encargos): R$ 2.816.527,26 · diárias: R$ 68.832,40
+    - Prom. das ativ. e potencialidade turísticas: 5.227.446,66
+    - Gestao da secretaria municipal de cultura: 2.410.663,92
+    - Promoção e realização de eventos, ações cultur…: 1.368.500,00
+    - Coordenação e manutenção dos serviços administ…: 545.425,14
+    - Promoção e realização do carnaval: 140.000,00
+    - Subvenção para a banda marcial guerreiros da b…: 100.000,00
+
+### 2026 · ~/Documents/RECEITAS-DESPESAS-ILHEUS/documentos_tcm/2026-08_PCMGE015.pdf (Prefeitura) + 2026-08_CAMARA_PCMGE015.pdf (escaneado, lido na imagem) + 2026-08_SUTRAM_PCMGE015.pdf + 2026-08_ULMM_PCMGE015.pdf
+- Educação: 150.235.199,12 · faixa: Pessoal (salários e encargos): R$ 132.829.371,44 · diárias: R$ 5.882,00
+    - Funcionamento da rede de educação básica - ens…: 96.549.767,09
+    - Funcionamento da rede de educação básica - pré…: 18.291.634,75
+    - Administração de pessoal, encargos e benefício…: 8.752.973,59
+    - Funcionamento da rede de educação básica - cre…: 8.163.731,79
+    - Gestão do serviço de transporte escolar - educ…: 5.499.315,39
+    - Melhorias e expansão da infraestrutura da rede…: 3.793.545,90
+    - Outras 7 ações: 9.184.230,61
+- Saúde: 127.265.202,42 · faixa: Pessoal (salários e encargos): R$ 66.750.357,86 · diárias: R$ 298.529,23
+    - Funcionamento dos serviços de atenção especial…: 57.326.715,98
+    - Funcionamento dos serviços da rede de atenção …: 18.360.507,62
+    - Funcionamento dos serviços de vigilância epide…: 18.112.682,72
+    - Administração de pessoal, encargos e benefício…: 12.345.390,78
+    - Funcionamento dos serviços de urgência e emerg…: 5.731.106,17
+    - Manutenção dos serviços técnicos e apoio admin…: 3.727.071,10
+    - Outras 16 ações: 11.661.728,05
+- Administração: 92.459.299,00 · faixa: Pessoal (salários e encargos): R$ 67.375.786,75 · diárias: R$ 145.048,40
+    - Administração de pessoal, encargos e benefício…: 58.755.499,32
+    - Manutenção dos serviços técnicos e apoio admin…: 23.386.590,15
+    - Manutenção de serviços de tecnologia da inform…: 2.797.634,84
+    - Funcionamento das atividades da procuradoria m…: 2.531.372,99
+    - Publicidade institucional e de utilidade públi…: 2.390.823,20
+    - Manutenção e uso de frota veicular: 978.947,35
+    - Outras 11 ações: 1.618.431,15
+- Obras e infraestrutura: 22.087.949,73 · faixa: Pessoal (salários e encargos): R$ 3.096.347,19 · diárias: R$ 15.670,00
+    - Pavimentação de vias: 8.837.095,75
+    - Manutenção e uso de frota veicular: 4.572.911,14
+    - Administração de pessoal, encargos e benefício…: 3.096.347,19
+    - Reestruturação de vias urbanas e calçadas: 3.038.011,92
+    - Manutenção dos serviços técnicos e apoio admin…: 1.930.855,89
+    - Manutenção e conservação de bens imóveis: 541.221,36
+    - Outras 2 ações: 71.506,48
+- Limpeza e iluminação: 58.562.949,27 · faixa: Pessoal (salários e encargos): R$ 13.686.499,50 · diárias: R$ 2.099,00
+    - Funcionamento do serviço de limpeza urbana: 25.913.854,20
+    - Administração de pessoal, encargos e benefício…: 13.686.499,50
+    - Funcionamento do sistema de iluminação pública: 10.696.306,85
+    - Manutenção e uso de frota veicular: 3.456.411,00
+    - Manutenção dos serviços técnicos e apoio admin…: 2.978.113,86
+    - Manutenação e conservação de praças, parques j…: 1.289.397,66
+    - Outras 2 ações: 542.366,20
+- Câmara de Vereadores: 23.243.398,29 · faixa: Recebeu da prefeitura até agosto (duodécimo): R$ 24.155.504,56 · gastou R$ 23.243.398,29
+    - Salários, 13º e férias dos servidores: 12.050.438,54
+    - Subsídios dos vereadores: 2.906.400,00
+    - Encargos (INSS e FGTS): 2.795.201,42
+    - Indenizações e restituições: 1.855.119,03
+    - Serviços de empresas, assessoria e consultoria: 2.267.670,69
+    - Publicidade institucional: 582.247,66
+    - Diárias, passagens, material e obras na sede: 786.320,95
+- Dívidas: 27.331.853,41 · faixa: Pessoal (salários e encargos): R$ 0,00
+    - Serviço da dívida interna (juros e amortizaçõe…: 9.261.613,95
+    - Obrigações tributárias e contributivas: 8.908.162,00
+    - Sentenças judiciais transitadas em julgado (pr…: 8.883.449,23
+    - Restituições de recursos recebidos: 278.628,23
+- Transporte e trânsito: 32.363.495,10 · faixa: Pessoal (salários e encargos): R$ 8.145.925,44 · diárias: R$ 43.500,90
+    - Concessao de subsidio do transporte coletivo: 21.236.000,00
+    - Administracao de pessoal, encargos e beneficio…: 8.146.411,74
+    - Funcionamendo da fiscalizacao e operacionaliza…: 2.981.083,36
+- Assistência social: 10.974.815,98 · faixa: Pessoal (salários e encargos): R$ 6.398.677,11 · diárias: R$ 58.908,20
+    - Administração de pessoal, encargos e benefício…: 4.815.758,17
+    - Funcionamento dos serviços de proteção social …: 2.186.854,56
+    - Benefícios eventuais da assistência social: 1.966.786,30
+    - Manutenção dos serviços técnicos e apoio admin…: 873.253,27
+    - Gestão descentralizada do sistema único de ass…: 276.181,31
+    - Gestão das ações do programa primeira infância…: 227.001,23
+    - Outras 10 ações: 628.981,14
+- Meio ambiente: 2.793.136,25 · faixa: Pessoal (salários e encargos): R$ 2.562.917,62 · diárias: R$ 36.214,48
+    - Administração de pessoal, encargos e benefício…: 2.140.185,88
+    - Fundação maramata: administracao de pessoal, e…: 383.531,74
+    - Fundação maramata: manutencao dos servicos tec…: 175.781,04
+    - Manutenção dos serviços técnicos e apoio admin…: 93.302,59
+    - Fundação maramata: manutencao de servicos de t…: 335,00
+- Agricultura e pesca: 1.141.571,95 · faixa: Pessoal (salários e encargos): R$ 722.202,65 · diárias: R$ 34.019,30
+    - Administração de pessoal, encargos e benefício…: 722.202,65
+    - Fomento à agricultura e pesca: 370.000,00
+    - Manutenção dos serviços técnicos e apoio admin…: 49.369,30
+- Esporte e lazer: 651.822,47 · faixa: Pessoal (salários e encargos): R$ 583.214,88
+    - Administração de pessoal, encargos e benefício…: 583.214,88
+    - Construção de equipamento esportivo: 48.607,59
+    - Ações integradas e articuladas em parceria com…: 20.000,00
+- Cultura e turismo: 13.369.304,51 · faixa: Pessoal (salários e encargos): R$ 1.840.189,28 · diárias: R$ 66.204,28
+    - Promoção de eventos de turismo: 10.990.053,46
+    - Administração de pessoal, encargos e benefício…: 1.840.189,28
+    - Gestão do desenvolvimento do turismo: 440.000,00
+    - Manutenção dos serviços técnicos e apoio admin…: 72.561,77
+    - Fomento às atividades artísticas e culturais: 26.500,00
+
+Classificação: por secretaria/unidade do PCMGE015 (script ~/Documents/RECEITAS-DESPESAS-ILHEUS/scripts/setores.py). Dívidas = função 28 (2024, 2025) e, em 2026, as ações 0001, 0006, 0007, 0008, 0020, 0099 da Sec. da Fazenda (PASEP, precatórios, serviço da dívida, restituições). Cultura e turismo = Sec. de Cultura + Sec. de Turismo (com os fundos). Administração e demais secretarias = gabinetes, procuradoria, controladoria, casa civil, relações institucionais, gestão, fazenda (sem a dívida), interior, desenvolvimento econômico, políticas para mulheres, transição. Fora da fala: Ordem Pública/Guarda/Defesa Civil (função 06): 2024 24.773.833,93; 2025 31.232.038,13; 2026 14.237.544,60.
+Câmara 2026: PCMGE015 escaneado, lido na imagem (páginas 2 a 5) e conferido com o total de cada ação: 1001 ampliação 160.894,60; 2001 administração 4.759.844,70; 2002 pessoal e encargos 744.765,23; 2003 gabinetes dos vereadores 219.000,00 (só diárias); 2166 gestão de pessoal 17.358.893,76 (vencimentos 10.370.711,51, 13º 795.502,41, férias 154.100,13, subsídios dos agentes políticos 2.906.400,00, INSS 2.780.560,68 lido como 2.780.560/580, fechado pelo total, indenizações 351.619,03); 2164 e 2165 zero. Soma 23.243.398,29 = RESUMO.
+Duodécimo: 2024 → 2024-13_CAMARA_PCAGE062.pdf (Recebimento do Duodécimo 24.968.939,26; Devolução 3.245.040,68; Despesas Orçamentárias 21.752.235,87). 2025 → 2025-13_CAMARA_PCAGE062.pdf página 2, escaneada (Recebimento 29.777.689,56; Devolução 300.000,00; Despesas 29.477.684,83; saldo 4,73). 2026 → 2026-08_PCMGE018.pdf da Prefeitura, conta 3.5.1.1.2.02.02 Repasse concedido ao Poder Legislativo 24.155.504,56.
+
+## Receita por ano (folha de receita; não falada)
+
+### 2024 · total 764.754.395,21 · PCMGE016 dez/2024 e Balanço 2024 · TCM-BA
+    - IPTU: 30.527.213,12
+    - ITBI: 18.431.095,85
+    - ISS: 54.094.163,45
+    - Imposto de Renda retido: 20.101.386,70
+    - Taxas: 40.575.336,99
+    - Iluminação pública (COSIP): 9.594.897,18
+    - Multas: 2.099,80
+    - FPM: 160.420.887,09
+    - ICMS: 95.843.502,60
+    - IPVA: 12.227.623,41
+    - Saúde · SUS da União: 103.938.933,37
+    - Saúde · SUS do Estado: 3.542.927,55
+    - Educação · FNDE: 13.853.641,45
+    - Fundeb: 152.911.308,50
+    - Assistência social: 4.007.437,07
+    - Convênios (União e Estado): 2.972.572,33
+    - Outras receitas: 38.225.717,55
+    - Outros lançamentos do Balanço anual: 3.483.651,20
+
+### 2025 · total 827.151.896,90 · PCMGE016 dez/2025 e Balanço 2025 · TCM-BA
+    - IPTU: 45.732.616,17
+    - ITBI: 20.883.613,61
+    - ISS: 77.605.568,38
+    - Imposto de Renda retido: 32.447.559,11
+    - Taxas: 24.092.669,83
+    - Iluminação pública (COSIP): 8.052.747,72
+    - Multas: 1.655.908,90
+    - FPM: 175.999.715,41
+    - ICMS: 136.508.353,31
+    - IPVA: 13.369.303,60
+    - Saúde · SUS da União: 97.186.377,37
+    - Saúde · SUS do Estado: 910.266,76
+    - Educação · FNDE: 12.076.276,52
+    - Fundeb: 156.242.772,39
+    - Assistência social: 4.226.656,73
+    - Convênios (União e Estado): 2.778,17
+    - Outras receitas: 18.199.119,29
+    - Outros lançamentos do Balanço anual: 1.959.593,63
+
+### 2026 · total 575.814.420,90 · PCMGE016 ago/2026 (Prefeitura, SUTRAM e Fundação) · TCM-BA
+    - IPTU: 45.256.762,43
+    - ITBI: 14.601.118,15
+    - ISS: 41.361.279,21
+    - Imposto de Renda retido: 14.725.760,88
+    - Taxas: 19.784.530,30
+    - Iluminação pública (COSIP): 9.851.402,10
+    - Multas: 0,00
+    - FPM: 120.346.143,66
+    - ICMS: 73.687.227,80
+    - IPVA: 9.415.790,21
+    - Saúde · SUS da União: 86.054.748,55
+    - Saúde · SUS do Estado: 1.385.996,57
+    - Educação · FNDE: 11.258.905,44
+    - Fundeb: 102.424.602,99
+    - Assistência social: 2.128.989,72
+    - Emendas Pix (transf. especial): 5.538.071,80
+    - Convênios (União e Estado): 993.690,30
+    - Outras receitas: 14.344.640,35
+    - SUTRAM (multas de trânsito): 2.645.904,65
+    - Fundação Maramata (rendimentos): 8.855,79
+
+2025: FPM, ICMS e IPVA mostrados líquidos (arrecadado no 2025-12_PCMGE016.pdf menos a dedução do Fundeb das linhas 9.7.1.1.51.1.1, 9.7.2.1.50.0.1, 9.7.2.1.51.0.1). 2024 e 2026 lidos por tools/lista_pdf/lista_pdf.py receita. "Outros lançamentos do Balanço anual" = Balanço - PCMGE016 da Prefeitura (receitas da SUTRAM e da Fundação e lançamentos de fechamento).
+
+## Sacadas (fala e tela)
+- Promoção de eventos de turismo 2026 até ago: 10.990.053,46 → 2026-08_PCMGE015.pdf, Sec. de Turismo / Fundo Municipal de Turismo, ação "PROMOÇÃO DE EVENTOS DE TURISMO", Liquidações Acumulado → fala "11 milhões"
+- Cultura + esporte + agricultura + meio ambiente 2026: 6.130.075,54 → conta própria: 1.543.544,87 + 651.822,47 + 1.141.571,95 + 2.793.136,25 (setores acima) → fala "mais do que ... juntos", plaquinha R$ 6,1 MI
+- Benefícios eventuais 2026 até ago: 1.966.786,30 → 2026-08_PCMGE015.pdf, Fundo Municipal de Assistência Social, ação "BENEFÍCIOS EVENTUAIS DA ASSISTÊNCIA SOCIAL" → fala "1 milhão e 970 mil", "menos de 2"
+- Câmara 2024 21.752.235,87 → 2025 29.477.684,83 → 2024-12_CAMARA_PCMGE015.pdf Total do Poder; 2025-12_PCMGE015.pdf unidade 01001, Total da Unidade (Liq Até Per) → fala
+- Assistência social 2025: 11.715.314,81 → 2025-12_PCMGE015.pdf, unidades 12001 + 12002 (liquidado) → fala "mais que o dobro"; 29.477.684,83 > 2 x 11.715.314,81 = 23.430.629,62
+- Subsídio do transporte coletivo 2025: 7.350.000,00 → 2025-12_PCMGE015.pdf, unidade 23002 Fundo Municipal de Transporte e Trânsito, ação "CONCESSÃO DE SUBSÍDIO DO TRANSPORTE COLETIVO" → fala "7 milhões e 350 mil"
+- Subsídio do transporte coletivo 2026 até ago: 21.236.000,00 → 2026-08_SUTRAM_PCMGE015.pdf, ação 25.2501.26.453.18.3.19 "CONCESSAO DE SUBSIDIO DO TRANSPORTE COLETIVO", Total do Projeto/Atividade, Liquidações até mês → fala "21 milhões e 200"
+- Pessoal e encargos 2025: 473.912.724,34 → 2025-13_ANUAL_PCAGO015.pdf, Despesas Correntes > Pessoal e Encargos Sociais, Despesas Liquidadas (inclui Câmara, aposentadorias e pensões pagas pelo município) → fala "474 milhões", chip
+- Rendimento no banco 2025: 5.964.548,92 → 2025-12_PCMGE016.pdf, linha 1.3.2.1.01.0.0.00.00 Remuneração de Depósitos Bancários, coluna Até Período (rodado tools/lista_pdf/tarifas_bancarias.py; 2024: 4.434.405,11 líquido no 2024-12_PCMGE016.pdf; 2026 até ago: 5.258.010,60 no 2026-08_PCMGE016.pdf) → fala "5 milhões e 960 mil", plaquinha
+- Tarifa bancária da Prefeitura: não aparece lançamento → busca por "bancári", "39.81", "33903981" nos PCMGE015 de 2024, 2025 e 2026 da Prefeitura e da Câmara: nenhuma linha (o de 2025 só traz o elemento sem subelemento, então a fala diz "não aparece lançamento", nunca "zero"). Só aparecem 3.3.90.39.81 SERVIÇOS BANCÁRIOS na SUTRAM (9.527,86 liquidado até ago/2026) e na Fundação (1.067,06) → fala "Nas contas da prefeitura, não aparece lançamento de tarifa bancária com esse nome", chip, pasta
+- Tarifas das autarquias 2026 até ago: 10.594,92 → SUTRAM 9.527,86 (fonte 1752) + Fundação 1.067,06 (fonte 1500), elemento 3.3.90.39.81, Liquidações até mês, 2026-08_SUTRAM_PCMGE015.pdf e 2026-08_ULMM_PCMGE015.pdf; 2024: nenhuma linha nos PCMGE015 da SUTRAM, Fundação e Câmara; 2025: PCMGE015 consolidado sem subelemento → não falado (fica no fontes)
+- "Tarifa pode ser negociada: já existe prefeitura com isenção total no contrato com o banco" → pesquisa do coordenador, regra 51b de projetos/_coordenacao-sessoes.md (09/11/2026): convênio de folha que isentou município e servidores de tarifas; editais de folha que proíbem tarifa na conta do município. Frase aprovada pelo coordenador; nenhum município citado → fala, chip
+- (cortado da fala na v3) Contas anuais 2024 e 2025 sem julgamento → TCM-BA > Decisões > Contas Anuais > Detalhe: 2024 processo 09700e25 e 2025 processo 10094e26, "Transitado em julgado: Não", última decisão em branco. Registro: documentos_tcm/decisoes/contas-anuais-2024-2025_consulta-09-11-2026.txt (09/11/2026 00:24) → fala, pastas

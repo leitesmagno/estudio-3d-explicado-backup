@@ -1,0 +1,22 @@
+# 120. orçamento de riachão das neves
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentoriachaodasneves · Nome: OrcamentoRiachaoDasNeves (composições OrcamentoRiachaoDasNeves, …Guia, …Limpo, CapaOrcamentoRiachaoDasNeves). Kit Mapas: orcamento-riachao-das-neves (IBGE 2926202), Root do Kit como KITRIACHAONEVES.
+- MODO AUTÔNOMO (lote LARANJA, cidade L10, liberado pelo coordenador em 11/11/2026 com "pode começar"; madrugada, junto com 118 Carinhanha no Chrome). Molde 093 Ilhéus / 119 Serra do Ramalho. SEM tarifa bancária; máx. 3:00; festas separadas da cultura (regra 99); calor (regra 101).
+- e-TCM: município 323 RIACHÃO DAS NEVES, Prefeitura UJ 927, Câmara UJ 357 (sem autarquias). Último mês: 09/2026. Lista de prestações (regra 89): dados/prestacoes-etcm/riachao-das-neves.json (22 linhas + Câmara).
+- Downloads: 11/11/2026 ~05:05 a 05:25, navegador do app com a trava própria _navegador-app.lock (pedido do coordenador; solta no fim), fetch + recebedor 8778 /salva, sem janela. 71 PDFs em ~/Documents/RECEITAS-DESPESAS-RIACHAO-DAS-NEVES/documentos_tcm. 0 falhas. Município e competência conferidos.
+- Totais (liquidado): 2024 arrecadou 156,44 / gastou 158,00 (gastou 1,56 a mais) · 2025 178,83 / 171,57 (sobraram 7,26) · 2026 até set 129,58 / 128,03 (sobraram 1,55) / empenhado 149,79.
+- Setores (11): Educação, Saúde, Obras e serviços urbanos, Administração, Dívidas e encargos, Assistência social, Câmara, Festas e eventos, Cultura, Agricultura e meio ambiente, Esporte (não dito em 2024: sem ação própria, ficava na secretaria de cultura).
+- Achados: ação de festas previa 2,47 e gastou 5,42 (2025); previa 4,57 e gastou 4,16 até set (2026); festas e eventos 2024 2,83 (1,50 de bandas na secretaria de cultura); festas 2025 (5,42) acima da assistência social inteira (3,76); benefícios eventuais 2025 78 mil. Câmara recebeu 7,98 / devolveu 29 mil (2024); 9,02 / 2 mil (2025); 7,50 até set/2026.
+- Roteiro v1 = APROVADO no modo autônomo (453 palavras).
+- Voz: Google Chirp 3 HD Algenib, speakingRate 1,3, 13 partes + 0,35 s, pausas 0,28 s, atempo 1,11, loudnorm -15,5 LUFS = 174,42 s. Conferida com o Whisper: nada pulado nem repetido (o "2 milhões" extra em 0:51,9 tem duração zero: invenção do Whisper; "Festas" acertado para 52,18 s).
+- Sincronia: 453 palavras (= roteiro). transcript.md do roteiro (64 frases); o do Whisper em transcript-whisper.md.
+- Fontes: audio/fontes.md (valor exato, PDF, página e linha/coluna).
+- Plano aprovado no modo autônomo (plano.md). Código src/videos/orcamentoriachaodasneves (molde 119), tsc ok, Root registrado depois do tsc.
+- Folhas: 3 de receita + 32 por setor (scripts/folhas.py), soma = valor falado.
+- Mapa: mapas/riachaodasneves.mp4 (Kit Mapas, 1 núcleo, com trava; satélite copiado de Barreiras e completado com npm run tiles). Refeito uma vez: a etiqueta do SUS encostava no nome da cidade.
+- Revisão (76 quadros em todas as viradas de fala, olhados em folhas de contato + 4 quadros avulsos): tela igual à fala, nada sobreposto, 90 px das laterais. Corrigido: plaquinha "R$ 0" do Esporte de 2024 (setor não dito naquele ano) e etiquetas do mapa. Revisão APROVADA (modo autônomo).
+- ★ Melhoria (regra 14): torre da assistência social de 2025 na mesma gaveta e na mesma escala das festas, para a pergunta final comparar lado a lado.
+- Vídeo final (05:41 a 05:57, trava de render, nice e concorrência 1, sem aviso de calor): 175,33 s, 1080x1920, áudio médio -18,6 dB, pico -3,5 dB, 35 folhas.
+- Capa: "Festas 2025: / R$ 5,4 mi. / Assistência: / R$ 3,8 mi." (fundo OrcamentoRiachaoDasNevesLimpo quadro 5100).
+- Legenda: edicoes/120.../RIACHÃO DAS NEVES - legenda.txt (hashtags só #RiachaoDasNeves #MagnoLeiteExplica, ⚖️ AVISO, comentário fixado).
+- Etapa: ENTREGUE 11/11/2026 ~06:00: ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/RIACHÃO DAS NEVES.mp4; edicoes/120.../RIACHÃO DAS NEVES.mp4, capa e legenda; fontes.md em ~/Documents/FONTES; transcricao/transcript.md (64 frases). Travas soltas; apagados (meus): render-sem-folha, audio/partes-google, partes-curtas, junto.wav, revisao/*.jpg, folha-pdf/tmp, out do Kit. Site: com o coordenador.

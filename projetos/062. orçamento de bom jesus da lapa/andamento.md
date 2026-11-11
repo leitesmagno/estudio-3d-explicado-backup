@@ -1,0 +1,33 @@
+# 062. orçamento de bom jesus da lapa
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentobomjesus · Nome: OrcamentoBomJesus
+- MODO AUTÔNOMO (projetos/_coordenacao-sessoes.md, Lote 3, 1º município): roteiro, plano e revisão aprovados pela própria sessão.
+- e-TCM: município 46 "BOM JESUS DA LAPA"; Prefeitura 651, Câmara 81, SAAE 1029 (autarquia da água, conta mensal própria). Sistema SIGA (mensal) e SIAFIC (anual).
+- Levantamento: ~/Documents/RECEITAS-DESPESAS-BOM-JESUS-DA-LAPA/ (documentos_tcm, saida/, scripts/acoes_bj.py, setores.py, conferir.py, conferir2.py, pega.sh).
+- Documentos (todos os fundamentais, 0 pendências): Balanço (PCAGO015), Anexos 6, 9 e 10 de 2024 e 2025 (consolidados: já somam Câmara e SAAE); PCMGE015/016 da Prefeitura de 12/2024, 12/2025 e 09/2026; PCMGE015 da Câmara de 12/2024, 12/2025 e 09/2026; PCMGE015/016 do SAAE de 09/2026 (digitalizado: totais lidos na imagem).
+- Totais: 2024 arrecadou 345,30 / gastou 359,89 (déficit 14,59) · 2025 400,77 / 364,55 (superávit 36,22) · 2026 até 09 (Prefeitura + Câmara + SAAE): 355,08 arrecadado, 325,04 liquidado, 354,40 empenhado.
+- Achado: ação "festas culturais e religiosas" (inclui a romaria, sem separar): 2024 previsto 4,26 / gasto 10,11; 2025 6,30 / 8,17; 2026 até set. 7,60 / 9,57 (bandas e shows 5,89). Gastou mais que toda a assistência social nos três anos (7,43 / 4,68 / 4,96). Lei 15.197/2025 (romaria = cultura nacional). Obra do Estado: aeroporto R$ 26,1 mi (A Tarde). TCM: denúncias em análise, uma sobre o pregão 023/2026 de estrutura de eventos.
+- Roteiro v1 (499 palavras, antigos/roteiro-falado-v1.txt) enxugado e APROVADO no modo autônomo (v2, 460 palavras; a sigla SAAE virou "a autarquia da água" na voz). 1ª conferência no PDF: 46 de 46 valores (scripts/conferir.py) + setores somados = total de cada ano, centavo a centavo.
+- Narração: Algenib, 18 partes (4 e 8 refeitas por causa da sigla), pausas 0,28 s, atempo 1,1193, -15 LUFS = 174,91 s. Conferida frase a frase (transcript.md): nada pulado. Whisper "15 .800 .000", "6 ,3 milhões" e um "1." no começo normalizados no palavras.json (original em transcricao/palavras-original.json).
+- Sincronia: 460 palavras, última em 174,58 s. Todos os quando() conferidos (o "Gastou 364" usa a 2ª ocorrência).
+- Plano aprovado no modo autônomo (plano.md). Código src/videos/orcamentobomjesus/ (typecheck ok); composições no Root. Escala 1 moeda = R$ 500 mil, 1 pilha = R$ 5 mi.
+- Mapa: Kit Mapas orcamento-bomjesus → mapas/bomjesus.mp4 (13,6 s); satélite em pasta própria (copiada de Paratinga e completada).
+- Revisão: v1 (80 quadros, antigos/revisao v1) → corrigido: plaquinha "SÓ BANDAS E SHOWS" saiu de cima da torre de 2026; câmera mais perto das placas da romaria e do aeroporto (texto legível); o chip de 2026 só mostra R$ 9,6 mi depois que a voz diz. v2 (9 quadros refeitos) aprovada no modo autônomo.
+- ★ Melhorias para prender a atenção (regra 14): no gancho, "2025: GASTOU R$ 364,5 MI" e "FESTAS R$ 8,2 MI × ASSISTÊNCIA R$ 4,7 MI" entram no mapa junto da fala, com baque leve; impacto no "Mais que o dobro", nas bandas e no "Nos três anos"; a gaveta das festas pulsa no "Só com bandas e shows". Nenhum número, fonte ou fala mudou.
+- 2ª conferência (texto dos 19 PDFs extraído de novo: 46 de 46; ações e setores idênticos; SAAE de novo na imagem; TCM e notícias de novo) feita antes do final: tudo igual (audio/fontes.md).
+- Selo do @ na abertura: opção B aprovada (src/videos/comum/SeloArroba.tsx), quadros em revisao/abertura-arroba/.
+- Etapa atual: 8. ENTREGUE em 08/11/2026 (modo autônomo): edicoes/062. orçamento de bom jesus da lapa/BOM JESUS DA LAPA.mp4 (5274 quadros, 175,8 s, 14 partes, volume médio -18,5 dB, pico -3,5 dB, emendas sem salto), BOM JESUS DA LAPA - capa.jpg ("Festa gastou mais que a assistência social?") e BOM JESUS DA LAPA - legenda.txt (2.005 caracteres antes do comentário fixado, com ⚖️ AVISO). Trava liberada; pastas temporárias do Remotion desta sessão apagadas; 0 pendências no TCM.
+- Falta: o Magno assistir e publicar.
+
+## v3 (09/11/2026): refeito no molde UBAITABA (pedido do coordenador; regras 32, 33, 37, 42, 42b, 45, 48, 54, 59, 60, 66)
+- "Gastou" = LIQUIDADO: 2024 R$ 359,9 mi (14,6 a mais do que arrecadou), 2025 R$ 354,4 mi (menos do que arrecadou), 2026 até set. R$ 325 mi (comprometeu 354,4). Receita igual: 345,3 / 400,8 / 355,1.
+- Abertura pela receita dos três anos (como Ubaitaba); CabecalhoCidade com o selo que viaja (já estava no código pelo coordenador).
+- Sacadas no fim: festas x assistência social (três anos), Câmara x dívidas x agricultura em 2025, Tribunal. Sem tarifa bancária (regra 60: a parte 15 da voz foi retirada do áudio, sem regerar). Aeroporto saiu (notícia não é fonte do guia, regra 25).
+- Voz: Algenib, 17 partes (das 18 geradas, sem a da tarifa), pausas 0,28 s, atempo 1,1192, -15 LUFS = 175,01 s; 451 palavras, última em 174,70 s. Transcrição conferida frase a frase; números do Whisper normalizados (original em transcricao/palavras-original.json).
+- Novos documentos: Câmara PCAGE062 2024 e 2025 (duodécimo) e PCMGE018 set/2026; SAAE PCMGE015 dez/2024 (digitalizado) e dez/2025; transcrição da consulta TCM Decisões (documentos_tcm/2026-11-09_TCM_decisoes_auditoria.txt).
+- Folhas: 39 (3 de receita + 36 de setor), por ação ou por tipo de despesa, faixa de pessoal e diárias, Câmara com duodécimo; água detalhada à mão por ação do SAAE. Config: ~/Documents/RECEITAS-DESPESAS-BOM-JESUS-DA-LAPA/saida/folha-pdf/config-setores.json.
+- Conferências: 1ª e 2ª no PDF, 30 de 30 (scripts/conferir3.py); fontes.md v3 (v1 guardada abaixo e em ~/Documents/FONTES/versões antigas/).
+- Revisão: 82 quadros; corrigido: plaquinha de cultura 2025 ("QUASE R$ 10 MI", igual à fala) e plaquinhas da pergunta saem antes do selo voltar ao centro. Aprovada no modo autônomo.
+- Versão 1 (empenhado) guardada em edicoes/062.../antigos v1/ e projetos/062.../antigos/v1 empenhado/.
+- Etapa atual: 8. v3 ENTREGUE em 09/11/2026 (modo autônomo): ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/BOM JESUS DA LAPA.mp4 (5277 quadros, 175,9 s, 14 partes, volume médio -18,5 dB, pico -3,6 dB, sem salto nas emendas, 39 folhas aplicadas); edicoes/062.../BOM JESUS DA LAPA - capa.jpg ("Festa gastou mais que a assistência social?") e BOM JESUS DA LAPA - legenda.txt (1.975 caracteres antes do comentário fixado, com ⚖️ AVISO). Sem pasta própria em Documentos (regra 59). Render sem folhas guardado em projetos/062.../render-sem-folha/. Travas liberadas; pastas temporárias do Remotion apagadas.
+- Falta: o Magno assistir e publicar.

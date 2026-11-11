@@ -1,0 +1,21 @@
+# 122. orçamento de jaguarari
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentojaguarari · Nome: OrcamentoJaguarari (composições OrcamentoJaguarari, …Guia, …Limpo, CapaOrcamentoJaguarari). Kit Mapas: orcamento-jaguarari (IBGE 2917706), Root do Kit como KITJAGUARARI.
+- MODO AUTÔNOMO (lote LARANJA, cidade L14, liberado pelo coordenador em 11/11/2026 com "pode começar"). Molde 093 Ilhéus / 119 Serra do Ramalho. SEM tarifa bancária; máx. 3:00; festas separadas da cultura (regra 99); calor (regra 101).
+- e-TCM: município 210 JAGUARARI, Prefeitura UJ 814, Câmara UJ 243 (sem autarquias). Último mês: 09/2026. Lista de prestações (regra 89): dados/prestacoes-etcm/jaguarari.json (22 mensais + 22 da Câmara).
+- Downloads: 11/11/2026 05:57 a 06:11, Chrome com _navegador.lock (solta no fim), fetch + recebedor 8778 /salva, sem janela. 76 PDFs em ~/Documents/RECEITAS-DESPESAS-JAGUARARI/documentos_tcm. 0 falhas. Município e competência conferidos.
+- Totais (liquidado): 2024 arrecadou 218,49 / gastou 219,56 (1,07 a mais) · 2025 226,32 / 228,23 (1,91 a mais) · 2026 até set 173,38 / 173,84 (458 mil a mais) / empenhado 195,13.
+- Setores (11, pela secretaria): Educação, Saúde, Obras e serviços urbanos, Administração, Dívidas e encargos, Assistência social, Câmara, Festas e eventos, Cultura, Agricultura e meio ambiente, Esporte. Soma = Balanço/consolidado centavo a centavo (2024 com o ajuste de 54.195,13 da amortização da dívida).
+- Achados: festas e eventos acima da assistência social nos três anos (7,02 x 6,25; 7,30 x 5,74; 7,63 x 5,13); ação de festejos 6,96 / 7,30 / 7,55 até set (2026 já passou 2025 inteiro); bandas 2024 2,88; benefícios eventuais 2025 previsto 1,03 x gasto 0,195. Câmara recebeu 8,86 / 10,17 / 7,75 até set e gastou 6,45 / 7,01 / 6,06.
+- Câmara 2025: razão da Câmara (8.363.838,91) sem dezembro; usado o razão da Prefeitura (10.168.154,64 = 12 x 847.346,22). Pendência anotada.
+- Roteiro APROVADO no modo autônomo (452 palavras). Cortes antes da voz: bloco das dívidas, o ISS e a 2ª menção às bandas (492 palavras passava de 3:00).
+- Voz: Google Chirp 3 HD Algenib, speakingRate 1,3, 13 partes + 0,35 s, pausas 0,28 s, atempo 1,092, loudnorm -15,3 LUFS = 178,34 s. Parte 9 (Câmara) refeita com o número de 2025. Conferida com o Whisper: nada pulado nem repetido ("2024" e "Em 2025" conferidos com 2º modelo).
+- Sincronia: 452 palavras (= roteiro); 2 tempos acertados à mão ("Arrecadou" de 2024 e "recebeu" de 2025). transcript.md do roteiro (64 frases); o do Whisper em transcript-whisper.md.
+- Fontes: audio/fontes.md (valor exato, PDF, página e linha/coluna).
+- Plano aprovado no modo autônomo (plano.md). Código src/videos/orcamentojaguarari (molde 119), tsc ok, Root registrado.
+- Folhas: 3 de receita + 33 por setor (scripts/folhas.py), soma = valor falado.
+- Mapa: mapas/jaguarari.mp4 (Kit Mapas, 1 núcleo, com trava; satélite copiado de Paulo Afonso e completado com npm run tiles).
+- Revisão (75 quadros em todas as viradas de fala, olhados em folhas de contato): tela igual à fala, nada sobreposto, 90 px das laterais. Revisão APROVADA (modo autônomo).
+- Vídeo final: gerado 11/11/2026 07:57 a 08:11 (trava de render, 1 núcleo). 1080x1920, 30 fps, 5377 quadros, 179,23 s, volume médio -18,7 dB, pico -3,6 dB. 36 folhas aplicadas. Conferido em folha de quadros.
+- Capa: fundo do quadro 5244 ("Festas 2025: / R$ 7,3 mi. / Assistência: / R$ 5,7 mi."), conferida. Legenda: edicoes/122.../JAGUARARI - legenda.txt.
+- ENTREGUE (11/11/2026 08:12): ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/JAGUARARI.mp4 (+ capa e legenda) e ~/Documents/FONTES/122. orçamento de jaguarari - fontes.md. Sobras apagadas (render-sem-folha, partes da voz, quadros de revisão, tmp das folhas, mp4 do Kit). PDFs mantidos. Site fica com o coordenador.

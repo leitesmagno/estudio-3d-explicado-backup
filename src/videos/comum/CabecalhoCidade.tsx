@@ -1,0 +1,117 @@
+import React from 'react';
+import {Easing, Img, interpolate, staticFile} from 'remotion';
+import {CABECALHO, SEGURO} from '../../base/reels';
+import {MONO} from '../../base/tema';
+import type {Tema} from '../../base/tema';
+
+// Cabeçalho fixo + selo do @ que "viaja" (pedidos do Magno, 08/11/2026, regras 39 e 40 de projetos/_coordenacao-sessoes.md):
+// - O vídeo inteiro mostra SÓ o nome da cidade na pílula e, ao lado, o selo pequeno do @ com a foto.
+// - Abertura: o selo GRANDE (arte opção B) aparece no meio e, depois de ~3,5 s, é "arrastado" (sem cursor) até o lado
+//   do nome da cidade, diminuindo até virar o selo pequeno.
+// - Final ("Segue o @eumagnoleite"): o selo pequeno sai do cabeçalho e cresce de volta para o meio da tela.
+// Substitui a <Marca> ("MAGNO EXPLICA · ORÇAMENTO DE ...") e os estados da pílula ("2025 · PARA ONDE FOI" etc.).
+
+const ANEL = 'linear-gradient(45deg, rgb(254,218,117) 0%, rgb(250,126,30) 25%, rgb(214,41,118) 50%, rgb(150,47,191) 75%, rgb(79,91,213) 100%)';
+const FUNDO = 'rgba(14,20,17,0.9)';
+const FOTO = '_arte-arroba/foto-perfil.jpg';
+const ARROBA = '@eumagnoleite';
+const FRASE = 'Siga para ver a sua cidade';  // Magno 09/11: S maiúsculo e centralizada sob o @
+const H = 70; // altura da pílula e do selo pequeno
+const clamp = {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'} as const;
+const arrasta = Easing.bezier(0.55, 0, 0.25, 1); // pega, acelera e assenta (sensação de arrastar)
+const mola = Easing.bezier(0.34, 1.4, 0.64, 1);
+
+// largura aproximada da pílula da cidade (fonte mono 31px, espaçamento 4)
+const larguraPilula = (cidade: string) => 15 + 40 + 18 + 12 + 18 + cidade.length * 22.8 + 32;
+
+// selo desenhado no tamanho GRANDE (altura 140); o tamanho pequeno é ele em escala 0,5
+const SeloGrande: React.FC<{frase: number}> = ({frase}) => {
+  const D = 104;
+  const R = D + 16;
+  return (
+    <div style={{display: 'flex', alignItems: 'center', gap: 24, height: 140, boxSizing: 'border-box', padding: '0 44px 0 10px', borderRadius: 70, background: FUNDO, boxShadow: '0 10px 36px rgba(0,0,0,0.55)', border: '3px solid rgba(255,255,255,0.08)'}}>
+      <div style={{width: R, height: R, borderRadius: R / 2, background: ANEL, display: 'flex', alignItems: 'center', justifyContent: 'center', flex: 'none'}}>
+        <div style={{width: R - 12, height: R - 12, borderRadius: (R - 12) / 2, background: 'rgb(14,20,17)', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+          <Img src={staticFile(FOTO)} style={{width: D, height: D, borderRadius: D / 2, objectFit: 'cover'}} />
+        </div>
+      </div>
+      <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center', gap: 6 * frase}}>
+        <div style={{fontFamily: 'Arial, Helvetica, sans-serif', fontSize: 52, fontWeight: 800, color: '#FFFFFF', lineHeight: 1, whiteSpace: 'nowrap'}}>{ARROBA}</div>
+        <div style={{fontFamily: 'Arial, Helvetica, sans-serif', fontSize: 28 * frase, fontWeight: 400, color: 'rgb(150,220,180)', lineHeight: 1, whiteSpace: 'nowrap', opacity: frase, height: 30 * frase, overflow: 'hidden'}}>{FRASE}</div>
+      </div>
+    </div>
+  );
+};
+const LARG_GRANDE = 10 + 120 + 24 + 13 * 30.5 + 44; // ~595 px
+
+export const CabecalhoCidade: React.FC<{
+  tema: Tema;
+  cidade: string;
+  t: number;
+  aberturaIni?: number; // selo grande aparece
+  aberturaFim?: number; // começa a viagem para o cabeçalho
+  final?: number; // "Segue o": começa a viagem de volta
+  yAbertura?: number; // topo do selo grande na abertura
+  yFinal?: number; // topo do selo grande no final
+}> = ({tema, cidade, t, aberturaIni = 0.15, aberturaFim = 3.6, final = 1e9, yAbertura = 445, yFinal = 560}) => {
+  const VIAGEM = 0.75;
+  const xPil = SEGURO.esq;
+  const yPil = CABECALHO.pilula;
+  const xMini = xPil + larguraPilula(cidade) + 14;
+  const xGrande = (1080 - LARG_GRANDE) / 2;
+
+  // p: 0 = grande no meio, 1 = pequeno no cabeçalho. aparece: 0..1 (pop de entrada só na abertura)
+  let p = 1;
+  let yG = yAbertura;
+  let aparece = 1;
+  if (t < aberturaFim + VIAGEM) {
+    aparece = interpolate(t, [aberturaIni, aberturaIni + 0.55], [0, 1], {...clamp, easing: mola});
+    p = interpolate(t, [aberturaFim, aberturaFim + VIAGEM], [0, 1], {...clamp, easing: arrasta});
+  }
+  if (t >= final) {
+    p = 1 - interpolate(t, [final, final + VIAGEM], [0, 1], {...clamp, easing: arrasta});
+    yG = yFinal;
+    aparece = 1;
+  }
+  const s = 0.5 + 0.5 * (1 - p); // escala 1 (grande) -> 0,5 (pequeno)
+  // caminho com leve curva (como quem arrasta com a mão): o ponto do meio sobe um pouco
+  const x = xGrande + (xMini - xGrande) * p;
+  const y = yG + (yPil - yG) * p - Math.sin(Math.PI * p) * 40;
+  const frase = 1 - Math.min(1, p * 1.6);
+  const op = Math.min(1, aparece * 1.4);
+
+  return (
+    <>
+      <div style={{position: 'absolute', left: xPil, top: yPil, pointerEvents: 'none'}}>
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: 18,
+            height: H,
+            boxSizing: 'border-box',
+            padding: '0 32px 0 15px',
+            borderRadius: 999,
+            background: tema.pilulaFundo,
+            border: `2px solid ${tema.cartaoBorda}`,
+            fontFamily: MONO,
+            fontSize: 31,
+            fontWeight: 800,
+            letterSpacing: 4,
+            color: tema.pilulaTexto,
+            whiteSpace: 'nowrap',
+          }}
+        >
+          <div style={{width: 40, height: 40, borderRadius: 20, background: tema.pilulaTexto, flex: 'none'}} />
+          <div style={{width: 12, height: 12, borderRadius: 6, background: tema.acento, flex: 'none'}} />
+          <div>{cidade}</div>
+        </div>
+      </div>
+      {op > 0.01 && (
+        <div style={{position: 'absolute', left: x, top: y, transformOrigin: '0 0', transform: `scale(${s * (0.75 + 0.25 * aparece)})`, opacity: op, pointerEvents: 'none'}}>
+          <SeloGrande frase={frase} />
+        </div>
+      )}
+    </>
+  );
+};

@@ -1,0 +1,18 @@
+# 093. orçamento de ilhéus
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentoilheustcm · Nome: OrcamentoIlheusTcm (o antigo 014 / orcamentoilheus NÃO foi mexido)
+- MODO AUTÔNOMO (pedido do coordenador, 09/11/2026): roteiro, plano e revisão aprovados pela própria sessão. Molde: 092 Ubaitaba (regra 50) e 042 Camacan.
+- e-TCM: município 164 ILHÉUS · Prefeitura UJ 768 · Câmara UJ 197 · SUTRAM UJ 1086 · Universidade Livre do Mar e da Mata (Fundação Maramata) UJ 1104. Fundação Cultural (544) e Empresa de Turismo (534) sem prestação. Último mês entregue da Prefeitura: 08/2026 (Câmara já tem 09; usei 08 em todas).
+- Levantamento: ~/Documents/RECEITAS-DESPESAS-ILHEUS/ (documentos_tcm com .txt; scripts le015.py [3 formatos: SIGA 2024, Contabilis 2025, Contabilis 2026], setores.py, folhas.py, receitas.py, fontes.py; saida/folhas.json e receitas.json). Pendências no e-TCM: 0.
+- Receita: 2024 R$ 764,8 mi (Balanço) · 2025 R$ 827,2 mi (Balanço) · 2026 até ago R$ 575,8 mi (PCMGE016 Prefeitura + SUTRAM + Fundação).
+- Gastou (liquidado): 2024 R$ 809,7 mi (45 mi a mais) · 2025 R$ 790,0 mi (sobraram 37,2 mi) · 2026 até ago R$ 576,7 mi (903 mil a mais).
+- 13 setores (Ordem Pública/função 06 fora da fala). Câmara 2026 lida na imagem (PDF escaneado), fecha centavo a centavo. Duodécimo 2025 lido na imagem do PCAGE062.
+- Sacadas: eventos de turismo 2026 R$ 11 mi x cultura+esporte+agricultura+meio ambiente R$ 6,1 mi e benefícios eventuais R$ 1,97 mi; Câmara 21,8 → 29,5 mi (mais que o dobro da assistência social de 2025); subsídio do ônibus 7,35 mi (2025) → 21,2 mi (2026 até ago); pessoal 2025 R$ 473,9 mi; tarifas bancárias (regra 51): rendimento 2025 R$ 5,96 mi, sem lançamento de tarifa na despesa da Prefeitura.
+- Roteiro v4 revisado e aprovado (modo autônomo), 09/11/2026 (v1 a v3 em antigos/): v3 trocou o Tribunal pela sacada das tarifas (regra 51); v4 com a frase exata pedida pelo coordenador ("Nas contas da prefeitura, não aparece lançamento de tarifa bancária com esse nome. E tarifa pode ser negociada..."). Voz Algenib 1,3 + atempo 1,1325 = 178,56 s. Sincronia: 469 palavras, tempos conferidos com a transcrição.
+- 09/11 01:10: erro meu, registrei no Root.tsx antes do palavras.ts e quebrei o empacotamento dos renders da fila; registro retirado na hora (regra 54).
+- Mac reiniciado ~01:37; retomado. Kit Mapas: orcamento-ilheus-tcm (satélite próprio satelite/orcamento-ilheus-tcm juntando pastas de Ilhéus + 1 tile baixado). Root do Estúdio e do Kit Mapas registrados com tsc ok.
+- Folhas: 42 (3 receita + 39 setores), config em ~/Documents/RECEITAS-DESPESAS-ILHEUS/saida/folha-pdf/config-setores.json.
+- Revisão 1 (75 quadros, 09/11): corrigidos árvore e casinha decorativas sobre trator/esporte, rua da limpeza invadindo vizinhos (folga de 0,05π dos dois lados), escala dos achados (1 pilha = R$ 2 mi), câmera dos achados mais aberta, plaquinhas da Câmara saem quando entra o ônibus, plaquinhas do fim saem antes do selo voltar, tags do mapa descidas 60 px (não encostam no selo), gaveta "EVENTOS x OUTRAS ÁREAS". Revisão 2 (24 quadros): ok. Revisão aprovada (modo autônomo).
+- Melhorias (regra 14): câmera dos achados passa de torre em torre na palavra; som "ding" na sobra de 2025.
+- 09/11/2026 ~04:35: ENTREGUE. edicoes/093. orçamento de ilhéus/ILHÉUS.mp4 (179,5 s, 1080x1920, 42 folhas aplicadas), ILHÉUS - capa.jpg (fundo descido para o título não sumir sobre a maquete), ILHÉUS - legenda.txt (2.169 caracteres + comentário fixado). Cópias: ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/ILHÉUS.mp4 e ~/Documents/ILHÉUS - vídeo, capa e legenda/. fontes.md copiado para ~/Documents/FONTES. Pendências no TCM: 0. Trava liberada.
+- Etapa atual: 8 concluída.

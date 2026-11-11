@@ -1,0 +1,18 @@
+# 085. orçamento de ituberá
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentoitubera · Nome: OrcamentoItubera (composições OrcamentoItubera, …Guia, …Limpo, CapaOrcamentoItubera)
+- MODO AUTÔNOMO (coordenador, 09/11/2026): molde Ubaitaba (092)/Valença (070), brief `projetos/_brief-molde-ubaitaba.md`. SEM tarifa bancária (regra 60). Sem pasta própria em Documentos (regra 59).
+- IBGE 2917300. e-TCM: município 204, Prefeitura UJ 808, Câmara UJ 237 (sem autarquias). Último mês de 2026: 09/2026.
+- Levantamento: ~/Documents/RECEITAS-DESPESAS-ITUBERA/ (26 PDFs + .txt, todos conferidos pelo nome do município; scripts le015.py (Fator 2024), acoes015c.py (SIGA 2025/2026), anexo10*.py, setores.py, voz_texto.py, checa_quando.py). Pendências no e-TCM: 0.
+- Totais: 2024 arrecadou 132,41 mi (com empréstimo 7,45) / liquidado 131,23 (sobrou 1,18) · 2025 arrecadou 138,74 / liquidado 143,41 (4,67 a mais) · 2026 até set arrecadou 112,95 / liquidado 110,80 / empenhado 131,22.
+- Achados: festas e eventos 2,39 → 3,37 → 4,02 mi (bandas 2,0 mi em 2025) x benefícios eventuais 183 → 122 → 93 mil; agricultura e pesca 2026 só salários e manutenção (ações para produtor e pescador R$ 0); meio ambiente 2026 ações 14 mil x salários da secretaria 204 mil; pessoal 2025 75,6 mi (16,4 de contratados); TCM: processos 2024–2026 (festejos juninos 2026, advogados Fundef, transporte escolar, limpeza pública).
+- Roteiro v1 revisado = aprovado (modo autônomo), 09/11/2026: 486 palavras.
+- Voz: Google Chirp 3 HD Algenib, speakingRate 1,3, 14 partes + 0,35 s, pausas 0,28 s, atempo 1,15, -15 LUFS = 177,38 s (média -15,4 dB, pico -1,5 dB). Transcrição conferida frase a frase: nada pulado (um "Agora" duplicado de duração zero era do Whisper; removido).
+- Sincronia: palavras.ts com 486 palavras, última em 177,10 s. Todas as frases de quando() conferidas.
+- Plano aprovado no modo autônomo (plano.md). Código escrito, tsc ok, Root registrado depois do tsc (regra 54). Mapa no Kit (orcamento-itubera, satélite copiado de Valença).
+- Mapa gerado (mapas/itubera.mp4) e 77 quadros de revisão (06:24–06:27). Revisão feita por mim, quadro a quadro.
+- Correções da revisão (revisao2/, 06:31): torres das festas e da ajuda às famílias se encostavam e a plaquinha "R$ 4 MI" cobria a de "R$ 183 MIL" → gaveta mais larga, torres afastadas, câmera em dois tempos; plaquinha da Câmara encostava na torre dos contratados → afastada. Melhoria (regra 14): soquinho de câmera no "93 mil" e casinhas subindo 1 s antes da fala (aprendizado do 081).
+- Revisão APROVADA (modo autônomo), 09/11/2026 06:31. 2ª conferência dos 33 valores de setor e dos totais contra os PDFs: tudo ok.
+- Vídeo final (06:31–06:51): render-sem-folha/ITUBERÁ.mp4 + 36 folhas (3 de receita + 33 por setor, 10 translúcidas por falta de canto livre, regra 34) → edicoes/085. orçamento de ituberá/ITUBERÁ.mp4 (5.348 quadros, 178,27 s, 1080x1920, áudio médio -18,5 dB, pico -3,5 dB).
+- Capa: "Festas: / R$ 4 mi. / Ajuda social: / R$ 93 mil." (fundo OrcamentoItuberaLimpo quadro 5185, pílula "ITUBERÁ · 2026"). Legenda: 2.187 caracteres, ⚖️ AVISO no fim e comentário fixado depois do ---.
+- Etapa: ENTREGUE 09/11/2026 ~06h55: ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/ITUBERÁ.mp4; edicoes/085. orçamento de ituberá/ITUBERÁ - capa.jpg e ITUBERÁ - legenda.txt. Pendências no TCM: 0.

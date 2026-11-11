@@ -1,0 +1,12 @@
+# 023. orçamento de salvador
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentosalvador · Nome: OrcamentoSalvador
+- Etapa atual: entregue em 04/11/2026 (vídeo final 4.442 quadros, 148,1 s, média -19,1 dB, pico -3,8 dB; capa e legenda prontas)
+- Plano: versão 1, aprovada antecipadamente; mapa do Kit Mapas pronto (mapas/salvador.mp4); cenas programadas (src/videos/orcamentosalvador/OrcamentoSalvador.tsx); revisão em 2 rodadas (47 quadros + correções)
+- Capa (edicoes/023.../capa.jpg) e legenda do post prontas
+- Narração: 147.18 s (1,3x), 4442 quadros; voz completa (conferida frase por frase contra o roteiro); original copiado de Downloads
+- Sincronia: 402 palavras (igual ao roteiro), última em 147.00 s; src/videos/orcamentosalvador/palavras.ts
+- Aprovações: roteiro aprovado em 04/11/2026 (versão 3, linha do 014)
+- Título da capa (sugerido): "11,9 bi. / Para onde / foi cada / real?"
+- Seguir sem pausas: sim (a pessoa aprovou em 04/11/2026: plano e vídeo final sem parar; o diretor confere todos os quadros de revisão)
+- Formato: igual ao 017 e ao 020 (quanto recebe, de onde vem, quanto vai para cada área). Fonte pedida: portal da transparência de Salvador. Só documentos de Salvador.

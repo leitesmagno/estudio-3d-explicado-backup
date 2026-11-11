@@ -1,0 +1,7 @@
+file 'partes-fim/p01.wav'
+file 'sil.wav'
+file 'partes-fim/p02.wav'
+file 'sil.wav'
+file 'partes-fim/p03.wav'
+file 'sil.wav'
+file 'partes-fim/p04.wav'

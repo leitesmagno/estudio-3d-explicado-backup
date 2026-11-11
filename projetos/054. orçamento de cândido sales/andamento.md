@@ -1,0 +1,19 @@
+# 054. orçamento de cândido sales
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentocandidosales · Nome: OrcamentoCandidoSales
+- MODO AUTÔNOMO (projetos/_coordenacao-sessoes.md, Lote 2, liberado pelo coordenador em 08/11/2026): roteiro, plano e revisão aprovados pela própria sessão.
+- e-TCM: município 79 "CÂNDIDO SALES", Prefeitura 684, Câmara 150 (só essas duas unidades). Sistema SIAFIC Fator.
+- Levantamento: ~/Documents/RECEITAS-DESPESAS-CANDIDO-SALES/ (documentos_tcm, saida/acoes_*.json, saida/setores054.json, scripts/acoes015bp.py, anexo9ct.py, setores054.py, pega.sh).
+- Documentos (todos os fundamentais, 0 pendências): Balanço (PCAGO015), Anexo 7, 9 e 10 de 2024 e 2025; PCMGE015/016 da Prefeitura de 12/2024, 12/2025 e 08/2026 (último mês entregue pela Prefeitura); PCMGE015 da Câmara de 12/2024, 12/2025 e 08/2026 (este digitalizado, lido na imagem).
+- Totais: 2024 arrecadou 122,57 / gastou 120,33 · 2025 148,70 / 146,40 · 2026 até 08: 104,09 arrecadado, 89,78 liquidado, 134,69 empenhado.
+- Foco: educação 54 → 77 mi (complementação da União VAAT 7,1 → 18,0); festas 0,50 → 1,84 → 1,59 (2026 até ago.) x pavimentação de ruas 0,96 → 0,44 → 0 (licitação de calçamento aberta em 06/2026); empenhado 2026 acima do arrecadado; 3 processos no TCM sem decisão.
+- Roteiro v1 (486 palavras) revisado e APROVADO no modo autônomo em 08/11/2026 (459 palavras). 1ª conferência no PDF: 49 de 49 valores achados de novo (linhas no fontes.md).
+- Título da capa: "2026: festa / R$ 1,6 mi. / Pavimentar / ruas: R$ 0?" (2026 até agosto; ação "Pavimentação de ruas").
+- Narração: Google Chirp 3 HD Algenib, speakingRate 1,3, 13 partes, unidas com 0,35 s, pausas 0,28 s, atempo 1,075, -15 LUFS = 174,07 s. Conferida frase a frase (Whisper inventou "5." em 164,5 s, apagado; "Uma parte é folha" e "arroba eu magno leite" conferidos retranscrevendo o trecho).
+- Sincronia: 459 palavras, última em 173,74 s. AUDIO_SEG = 174.07 · QUADROS = 5249.
+- Mapa: ~/Kit-Mapas-Animados/src/videos/orcamento-candidosales (IBGE 2906709) → mapas/candidosales.mp4 (12,8 s); emenda de satélite corrigida com REFAZER.
+- Plano aprovado no modo autônomo em 08/11/2026 (plano.md).
+- Revisão: v1 (62 quadros, em antigos/revisao v1) → corrigido: plaquinha "QUASE R$ 18 MI" do Fundeb ficava 0,3 s; chip do VAAT longo demais; placar de escala trocava cedo. v2 (6 quadros refeitos) aprovada no modo autônomo.
+- 2ª conferência (PDFs reabertos, texto extraído de novo: 49 de 49; PNCP; notícias) feita antes do final: tudo igual (audio/fontes.md).
+- Etapa atual: 8. ENTREGUE em 08/11/2026 (modo autônomo): edicoes/054. orçamento de cândido sales/CÂNDIDO SALES.mp4 (5249 quadros, 174,97 s, 7 partes, volume médio -18,5 dB, pico -3,6 dB, emendas conferidas), CÂNDIDO SALES - capa.jpg (fundo OrcamentoCandidoSalesLimpo quadro 5045, desce 950) e CÂNDIDO SALES - legenda.txt (2.182 caracteres antes do comentário fixado, com ⚖️ AVISO). Trava liberada; pastas temporárias do Remotion desta sessão apagadas.
+- Falta: o Magno assistir e publicar.

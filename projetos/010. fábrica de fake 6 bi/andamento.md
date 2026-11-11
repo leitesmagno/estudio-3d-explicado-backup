@@ -1,0 +1,13 @@
+# 010. fábrica de fake 6 bi
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: fabricafake · Nome: FabricaFake
+- Etapa atual: ENTREGUE em 31/10/2026
+- Aprovações: roteiro aprovado em 31/10/2026 · plano aprovado em 31/10/2026 · revisão aprovada em 31/10/2026
+- Seguir sem pausas: não
+- Pedido: mostrar a fábrica de fake news produzindo a fake dos R$ 6 bi, desmentir, e mostrar o dinheiro tirado dos militares (Portaria 485). Ideia da cena enviada junto com o roteiro (31/10/2026).
+- Título da capa: Lula cortou / R$ 6 bi da / Saúde? / É de 2024.
+- Narração pronta: 105,41 s (voz Lendário, 1,2x, pausas cortadas). AUDIO_SEG 105.41 · QUADROS 3189 · 281 palavras, última em 104,92 s (31/10/2026)
+- Sincronia: valores quebrados juntados (R$, 4,4, 1,3, 5,2, 4,7); "arroba eu magno leite" → @eumagnoleite
+- Cenas programadas em 31/10/2026: src/videos/fabricafake (FabricaFake, Guia, Limpo, Capa registrados). Peças novas em pecas.tsx.
+- Vídeo final pronto em 31/10/2026: edicoes/010. fábrica de fake 6 bi/video final.mp4 · 3.189 quadros · 106,3 s · 4 partes (cerca de 70 s cada) · média -18,9 dB, pico -3,3 dB · emendas OK
+- Capa: edicoes/.../capa.jpg (fundo: quadro 2985, a lupa na data 31 JUL 2024; desce 330). Legenda: edicoes/.../legenda do post.txt. Pendência antes de publicar: ver se o Aos Fatos atualizou os compartilhamentos e se o governo ou o Ministério da Saúde publicou nota sobre o remanejamento.

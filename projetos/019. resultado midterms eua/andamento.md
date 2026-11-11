@@ -1,0 +1,18 @@
+# 019. resultado midterms eua
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: midtermsresultado · Nome: MidtermsResultado
+- Etapa atual: 8. entregue em 04/11/2026 (vídeo final, capa e legenda)
+- Narração pronta: 96,61 s (1,3x), 2.925 quadros; 315 palavras, última em 96,32 s; original copiado de Downloads (ElevenLabs 2026-11-04T10_35_09)
+- Sincronia pronta: src/videos/midtermsresultado/palavras.ts
+- Mapa pronto: Kit Mapas `midterms-resultado` → mapas/viradas.mp4 (337 quadros)
+- Cenas programadas: src/videos/midtermsresultado/ (MidtermsResultado, Guia, Limpo, Capa registradas)
+- Vídeo final: edicoes/019. resultado midterms eua/ELEICAO EUA.mp4 · 2.925 quadros · 97,5 s · 4 partes de até 800 (a 4ª em 45 s) · volume médio -18,9 dB, pico -3,3 dB · emendas conferidas
+- Memória no render: chegou a 7,8 de 8 GB (perto do limite); no próximo, fechar o Chrome e a prévia antes
+- Capa: edicoes/019. resultado midterms eua/ELEICAO EUA.jpg (fundo no quadro 1836, desce 470)
+- Legenda: edicoes/019. resultado midterms eua/legenda do post.txt
+- Antes de publicar: conferir Alasca e Mississippi (o 54 pode subir), os anos do Texas e do Kansas e a pronúncia de @eumagnoleite no fim
+- Ouvir o fim da narração: o Whisper ouviu "arroba EuMagnolate"
+- Aprovações: roteiro aprovado em 04/11/2026 (versão 3, 325 palavras); plano de cenas v1 aprovado em 04/11/2026; revisão aprovada em 04/11/2026
+- Título da capa: "Trump perdeu / o Congresso. / O que muda / agora?"
+- Seguir sem pausas: não
+- Fecho deste vídeo: "E segue o @eumagnoleite para ter mais informações." (só no 019; o fecho padrão do perfil não muda)

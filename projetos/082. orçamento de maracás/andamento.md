@@ -1,0 +1,28 @@
+# 082. orçamento de maracás
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentomaracas · Nome: OrcamentoMaracas
+- MODO AUTÔNOMO (liberado pelo coordenador em 09/11/2026, Centro-Sul, Lote 5). Molde UBAITABA (092) + Nova Viçosa (091) + Camacan; brief projetos/_brief-molde-ubaitaba.md; SEM tarifa bancária (regra 60); máx. 3:00; sem pasta própria em Documentos (regra 59); folhas e plaquinhas a 90 px ou mais das laterais (regras 71/73).
+- Levantamento: ~/Documents/RECEITAS-DESPESAS-MARACAS/
+- e-TCM: município 248 "MARACÁS"; Prefeitura UJ 852, Câmara UJ 281; sem autarquias na busca. Último mês de 2026: 09/2026 (Prefeitura e Câmara).
+- Downloads (09/11/2026 09:27–10:05, trava do navegador): 31 PDFs. Decisões do TCM (auditoria) salvas em decisoes/decisoes_2026-11-09.txt.
+- Documentos (todos os fundamentais, 0 pendências): Balanço (PCAGO015), Anexo 9 (PCAGO007), Anexo 16 (PCAGO012) e Balanço Financeiro (PCAGO014) de 2024 e 2025; PCMGE015/016/065/066 de 12/2024 (Betha consolidado, com a Câmara); PCMGE015/016/018/065/066 de 12/2025 e 09/2026; Câmara: PCMGE015 de 12/2024, 12/2025 e 09/2026 (este escaneado, lido pela imagem), PCMGE018 09/2026, PCAGE062 2024 e 2025; PCMGE008 (comprovante do duodécimo) 09/2026.
+- Totais (liquidado): 2024 arrecadou 160,96 / gastou 158,98 (1,97 a menos) · 2025 166,62 / 160,43 (6,18 a menos) · 2026 até set. 131,63 arrecadado, 137,96 liquidado (6,33 a mais), 177,34 empenhado.
+- Setores pela SECRETARIA (em 2026 a manutenção de cada secretaria foi para a função 04): scripts/setores.py; soma = total nos três anos.
+- Achados: festejos 2024 3,33 mi (lei previa 1,74); eventos 2026 até set. 3,69 mi (previa 1,37), 2,48 mi só de bandas; palcos fora da cultura: 1,80 mi no gabinete do prefeito (2025) e 998 mil na secretaria de agricultura (2026); incentivo ao agricultor familiar 2026 previa 726 mil, gasto 0; sementes 10 mil; 3 ações de moradia 1,61 mi previstos, gasto 0; Câmara 2025 6,33 mi > assistência 6,11 mi; TCM: 10 processos 2024–2026.
+- Roteiro v1 revisado = APROVADO (modo autônomo), 09/11/2026: 459 palavras. Números conferidos no PDF (fontes.md, 1ª conferência; cópia em ~/Documents/FONTES/).
+- Voz: Google Chirp 3 HD Algenib, speakingRate 1,3, 14 partes + silêncio, pausas 0,28 s, atempo 1,055, -15,4 LUFS = 175,35 s. Transcrição conferida frase a frase (o Whisper engoliu o "400" de "Dívidas, 3 milhões e 400" de 2026; retranscrito sozinho, a voz fala certo).
+- Sincronia: palavras.ts com 459 palavras; todos os gatilhos quando() achados (scripts/checa_quando.py).
+- Plano aprovado no modo autônomo (molde Nova Viçosa: cofre, 11 casinhas, 1 pilha = R$ 2 mi; gavetas: festas 2024 e 2026 com previsto ao lado; palco fora da cultura; o que ficou no zero (agricultor familiar, sementes, moradia); 2025 Câmara x assistência; Tribunal com 3 pastas; pergunta final). Código src/videos/orcamentomaracas/ (margem de 90 px como Gandu v2); tsc limpo; composições no Root depois do tsc (regra 54).
+- Kit Mapas: src/videos/orcamento-maracas (IBGE 2920502 conferido na API; satélite satelite/orcamento-jequie; npm run tiles: 24 baixados).
+- Folhas: 3 de receita + 33 por setor (scripts/folhas.py), todas fecham com o total falado; faixa de pessoal e diárias; Câmara com duodécimo; ações zeradas com "previa R$ X" (regra 48); palcos separados dentro da manutenção (agricultura 2026, gabinete 2025); precatórios com nome próprio na folha de dívidas.
+- Legenda pronta em edicoes/ (2.104 caracteres, sem tarifa bancária).
+- Pausa de ~10h15 encerrada pelo coordenador; retomado (quadros, final, capa).
+- Mapa (mapas/maracas.mp4) e 78 quadros de revisão (10:34–10:37). Revisão feita por mim, quadro a quadro (regra 13).
+- Defeitos corrigidos (revisao2/ e revisao3/, 10:43–10:44): festas 2026 com a torre branca "previsto 2024" cortada na borda (câmera abre a gaveta inteira); "R$ 0" da moradia ficava só 0,4 s (a cena da Câmara agora entra 0,8 s depois); primeira pasta do Tribunal cortada (plano aberto nas três); na pergunta final a gaveta dos zeros saía do quadro (câmera segura nela até "por que os eventos").
+- ★ Melhoria (regra 14): "R$ 0" da moradia e do agricultor familiar ficam lado a lado e parados por mais tempo antes da comparação com os eventos.
+- Revisão APROVADA (modo autônomo), 09/11/2026 10:45.
+- Vídeo final (trava 11:03–11:24): render sem folha + 36 folhas aplicadas (nenhuma pulada; folhas em x = 90 ou x + largura = 990, regra 73): 5.288 quadros, 176,3 s, volume médio -18,5 dB, pico -3,9 dB. Conferido em 5 quadros com folha.
+- Capa: "Eventos 2026: / R$ 3,7 mi. / Previsto: / R$ 1,4 mi." sobre o quadro 3786 do OrcamentoMaracasLimpo (gaveta das festas), pela entrada isolada (regra 66). (A 1ª versão dizia "Agricultor: R$ 0", generalizava a ação; trocada.)
+- 2ª conferência dos números (11:30): cada valor da fala, tela, capa e legenda achado na linha citada do fontes.md.
+- Etapa atual: 8. ENTREGUE em 09/11/2026 (modo autônomo): ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/MARACÁS.mp4; edicoes/082. orçamento de maracás/ (MARACÁS.mp4, MARACÁS - capa.jpg, MARACÁS - legenda.txt com ⚖️ AVISO e comentário fixado). Sem pasta própria, sem tarifa bancária, 0 pendências no TCM.
+- Falta: o Magno assistir e publicar.

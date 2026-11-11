@@ -1,0 +1,21 @@
+# 084. orçamento de paramirim
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentoparamirim · Nome: OrcamentoParamirim (composições OrcamentoParamirim, …Guia, …Limpo, CapaOrcamentoParamirim)
+- MODO AUTÔNOMO (liberado pelo coordenador em 09/11/2026, Centro-Sul, Lote 5). Molde UBAITABA (092) / Camacan / Seabra (076); brief projetos/_brief-molde-ubaitaba.md; SEM tarifa bancária (regra 60); máx. 3:00; folhas e plaquinhas a ≥ 90 px das laterais; entrega em VIDEOS PRONTOS - FOLHA POR SETOR + capa e legenda em edicoes/.
+- Levantamento: ~/Documents/RECEITAS-DESPESAS-PARAMIRIM/
+- e-TCM: município 290 PARAMIRIM, Prefeitura UJ 894, Câmara UJ 323 (o Consórcio da Bacia do Paramirim, UJ 481, é outra entidade; sem autarquias). Último mês de 2026: 09/2026.
+- Levantamento (11:29–11:54, com a trava do navegador): 27 PDFs + .txt em ~/Documents/RECEITAS-DESPESAS-PARAMIRIM/documentos_tcm/, todos conferidos pelo nome do município. Decisões do TCM: 30 processos ("Denúncias"), lista em decisoes/.
+- ATENÇÃO: os PCMGE015 e PCMGE065 de 12/2024 da Prefeitura enviados ao TCM são só a página de capa. Setores de 2024 pelo Anexo 9 (empenhado, por função; diferença para o liquidado 156,6 mil). PDFs da Câmara (PCMGE015/018 de 2025 e 2026) são escaneados com leitura ruim: Câmara pelo consolidado PCMGE065 e pelo PCAGE062.
+- Totais: 2024 arrecadou 116,18 / liquidou 115,10 (sobrou 1,08) · 2025 135,59 / 129,17 (sobrou 6,42) · 2026 até set 121,78 / 123,30 (1,52 a mais; empenhado 150,31). Receita das folhas fecha centavo a centavo com o Balanço.
+- Achados: festas 3,78 mi em 2025 (previsto 4,57) e 3,60 até set/2026 (previsto 4,68); benefícios eventuais 25,8 mil (2025) e 11 mil (2026); Câmara recebeu 3,45 e devolveu 1,47 mi (2024), recebeu 3,93 e devolveu 0,83 (2025); dívida parcelada com o INSS 70,86 → 141,75 mi no Anexo 16 de 2025 (mais que a receita de 2025); 2026 Educação inclui 10,2 mi de precatórios do Fundef. TCM: denúncias Fundeb 2024, contratações 2023-2024, temporários sem seleção 2026.
+- Roteiro v1 → revisado = APROVADO (modo autônomo), 09/11/2026 ~12h: 456 palavras. Números conferidos no PDF (1ª conferência, fontes.md). Notícias: nada contradiz.
+- Voz: Google Chirp 3 HD Algenib, speakingRate 1,3, 14 partes + 0,35 s, pausas 0,28 s, atempo 1,06, -15,5 LUFS = 177,31 s. Conferida: o Whisper escreveu "63"/"38" em 2026, mas a janela retranscrita confirma "sessenta e trezentos" e "trinta e oitocentos".
+- Sincronia: palavras.ts com 456 palavras, última em 176,96 s; todos os quando() acham a palavra.
+- Código src/videos/orcamentoparamirim/ (molde Seabra; 12 setores; 1 pilha = R$ 2 mi; achados 1 pilha = R$ 500 mil e R$ 10 mi). tsc limpo; Root registrado depois do tsc. Kit Mapas orcamento-paramirim (IBGE 2923605; satélite copiado de Macaúbas) registrado no Root do Kit (KPMI).
+- Folhas: 3 de receita + 36 por setor (scripts/folhas.py + folhas_fix.py). 2024 por setor tem só a secretaria (Anexo 9): buscar o Anexo 6 de 2024 quando a trava do navegador soltar.
+- 12:27–12:32 (trava de render): faltavam 7 blocos de satélite do nível 8 (pasta copiada de Macaúbas); npm run tiles, mapa gerado (mapas/paramirim.mp4) e 78 quadros de revisão.
+- Revisão feita por mim, quadro a quadro. Corrigido: plaquinhas/chips abaixo de 1 mi arredondados igual à fala (290 mil, não 289); câmera das festas mais aberta (torres de 2025 encostavam na borda); câmera mais perto no INSS e segurando o INSS durante "a dívida com o INSS dobrou". Conferência em revisao2/ (9 quadros). Revisão APROVADA (modo autônomo) ~12h34. 2ª conferência: os 36 valores de setor do código batem com setores_bruto.json (PDFs).
+- Vídeo final 12:35–12:52: 5.346 quadros, 178,2 s, -15,5 LUFS, 39 folhas aplicadas (render-sem-folha/ + lista_pdf aplicar); capa (fundo do quadro 5208).
+- ENTREGUE (09/11/2026 12:55): edicoes/084. orçamento de paramirim/PARAMIRIM.mp4, PARAMIRIM - capa.jpg e PARAMIRIM - legenda.txt (2.162 caracteres + comentário fixado); cópia em ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/PARAMIRIM.mp4. Fontes copiadas para ~/Documents/FONTES/.
+- Pendência: detalhe por ação de 2024 (Anexo 6, PCAGO004) quando a trava do navegador soltar; se vier, refazer só as folhas de 2024 (folhas.py + lista_pdf aplicar) e trocar o mp4.
+- Etapa atual: 8. ENTREGUE.

@@ -1,0 +1,765 @@
+import React from 'react';
+import * as THREE from 'three';
+import {ThreeCanvas} from '@remotion/three';
+import {AbsoluteFill, Img, OffthreadVideo, Sequence, interpolate, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
+import {AcabamentoCinema, Camera, Palco, cinematizar, enquadrar, projetar, trilhoCam, type Cam, type V3} from '../../base/pecas';
+import {Chip, Marca, Pilula} from '../../base/interface';
+import {Legenda} from '../../base/legenda';
+import {GuiaReels, SEGURO} from '../../base/reels';
+import {Sons, efeito, narracao, type Faixa, type SomEstudio} from '../../base/som';
+import {clamp, criarQuando, entra, rampa, sai} from '../../base/tempo';
+import {FONTE, MONO, type Tema} from '../../base/tema';
+import {mistura} from '../../base/cores';
+import {SERIE, temaPorId} from '../../estilo';
+import {ArvoreRedonda, CasaMini, CofreFGTS, Martelo, Onibus} from '../../pecas';
+import {CamaraVereadores, Escola, MesaMaquete, PilhasDinheiro, PostoGuarda, PostoSaude, PredioTCM, Prefeitura, RelatorioPDF, RuaServicos, TeatroMini, coresOI, grade, type Pilha} from '../orcamentoitabuna/pecas';
+import {PALAVRAS} from './palavras';
+
+// 032. orçamento de belmonte (perfil @eumagnoleite, série Magno Explica). Feito com os DOIS kits, igual à série:
+// o Kit Mapas abre (voo até Belmonte e "de onde vem" de 2024: projetos/032.../mapas/belmonte.mp4, composição
+// OrcamentoBelmonte do kit) e o Estúdio 3D monta a maquete redonda com o cofre da prefeitura no meio e as pilhas em volta
+// (1 pilha = R$ 1 MILHÃO). Um anel por ano: 2024 = 105 pilhas, 2025 = 126, 2026 = 111,5 que entraram + 9,8 comprometidas a mais.
+// SÓ DADOS DE BELMONTE, todos do TCM-BA (balanços 2024 e 2025, SIGA set/2026, PCMGE056, acórdãos): audio/fontes.md.
+// Plano: projetos/032. orçamento de belmonte/plano.md.
+
+export const FPS = 30;
+const AUDIO_SEG = 124.07; // narração acelerada 1,15x (mesma voz), pedido da pessoa
+export const QUADROS = Math.round((AUDIO_SEG + 0.9) * FPS);
+const W = 1080;
+const H = 1920;
+const P = '032. orçamento de belmonte';
+const FIM = AUDIO_SEG + 0.9;
+
+// ---------- Tempo pelas palavras ----------
+const quando = criarQuando(PALAVRAS);
+const T = {
+  abri: quando('Eu abri'),
+  ano24: quando('2024 gestao'),
+  entrou24: quando('Entrou 1045'),
+  saiu24: quando('Saiu 105'),
+  educ24: quando('Educacao 45'),
+  n45: quando('45 Saude'),
+  saude24: quando('Saude 21'),
+  n21: quando('21 O destaque'),
+  dest24: quando('O destaque seguranca'),
+  zero: quando('recebeu zero'),
+  ano25: quando('2025 gestao'),
+  entrou25: quando('Entrou 125'),
+  u25: quando('Da Uniao', 2),
+  e25: quando('Do Estado e do Fundeb', 2),
+  m25: quando('Do municipio', 1),
+  saiu25: quando('Saiu 126'),
+  educ25: quando('Educacao 52'),
+  n52: quando('52 Saude'),
+  saude25: quando('Saude 25', 1),
+  n25: quando('25 O destaque'),
+  dest25: quando('O destaque a administracao'),
+  adm: quando('a administracao pulou'),
+  n11: quando('quase 11'),
+  n60: quando('60 a mais'),
+  ano26: quando('2026 ate'),
+  entrou26: quando('Entrou 111'),
+  u26: quando('Da Uniao', 3),
+  e26: quando('Do Estado e do Fundeb', 3),
+  m26: quando('Do municipio', 2),
+  saiu26: quando('Saiu a prefeitura'),
+  comp: quando('ja comprometeu'),
+  dez: quando('10 a mais'),
+  educ26: quando('Educacao 53'),
+  n53: quando('53 Saude'),
+  saude26: quando('Saude 25', 2),
+  n25b: quando('25 Limpeza'),
+  limpeza: quando('Limpeza ruas'),
+  n13: quando('13 Camara'),
+  camara: quando('Camara quase'),
+  n5: quando('quase 5 O destaque'),
+  dest26: quando('O destaque a Secretaria'),
+  tur: quando('a Secretaria de Turismo'),
+  n700: quando('700 mil'),
+  gastou: quando('ja gastou'),
+  shows: quando('em shows'),
+  metade: quando('Mais da metade foi'),
+  seg26: quando('Seguranca publica recebeu 137'),
+  n137: quando('137 mil'),
+  tribunal: quando('E o Tribunal'),
+  multou: quando('Multou'),
+  grafico: quando('material grafico'),
+  advertiu: quando('Advertiu'),
+  analisa: quando('E analisa'),
+  limpEm: quando('limpeza emergencial'),
+  transp: quando('transporte escolar'),
+  semJulg: quando('sem julgamento'),
+  junho: quando('Em junho'),
+  resumoB: quando('resumo bancario'),
+  lista: quando('lista de pagamentos'),
+  resumo: quando('Resumo mais'),
+  vemUniao: quando('vem da Uniao'),
+  pergunta: quando('A pergunta'),
+  show: quando('para show'),
+  nada: quando('quase nada'),
+  segue: quando('Segue o'),
+};
+
+const ESTADOS: [number, string][] = [
+  [0, 'BELMONTE 2024 → 2026'],
+  [T.entrou24, '2024 · DE ONDE VEM'],
+  [T.saiu24, '2024 · PARA ONDE FOI'],
+  [T.ano25, '2025'],
+  [T.entrou25, '2025 · DE ONDE VEM'],
+  [T.saiu25, '2025 · PARA ONDE FOI'],
+  [T.ano26, '2026 · ATÉ SETEMBRO'],
+  [T.entrou26, '2026 · DE ONDE VEM'],
+  [T.saiu26, '2026 · PARA ONDE FOI'],
+  [T.dest26, 'O TURISMO'],
+  [T.tribunal, 'O TRIBUNAL DE CONTAS'],
+  [T.junho, 'JUNHO DE 2026'],
+  [T.resumo, 'RESUMO'],
+];
+
+// ---------- O mapa (Kit Mapas): os dois trechos seguidos, com o mesmo relógio do 3D ----------
+const q = (s: number) => Math.round(s * FPS);
+const MAPA = {de: 0, ate: q(T.saiu24) + 6};
+const noMapa = (t: number) => t < T.saiu24;
+const soMapa = (t: number) => t < T.saiu24 - 0.3;
+
+// ---------- Mapa do mundo (mesa redonda, raio 9,4; frente da câmera é z+) ----------
+const COFRE: V3 = [0, 0, 0];
+const ESCOLA: V3 = [-7.3, 0, -1.2];
+const PILHAS_EDU: V3 = [-5.0, 0, -3.1];
+const HOSP: V3 = [-0.3, 0, -7.4];
+const PILHAS_SAU: V3 = [-0.3, 0, -5.4];
+const GUARDA: V3 = [-6.6, 0, -5.4];
+const PILHAS_SEG: V3 = [-6.9, 0, -3.6];
+const CAMARA: V3 = [-3.4, 0, -7.2];
+const PILHAS_CAM: V3 = [-2.6, 0, -5.5];
+const PREF: V3 = [5.4, 0, -4.4];
+const PILHAS_ADM: V3 = [4.1, 0, -2.5];
+const RUA: V3 = [-3.6, 0, 5.2];
+const PILHAS_URB: V3 = [-3.6, 0, 3.5];
+const RUA_BUS_Z = 6.4;
+const PALCO: V3 = [6.0, 0, 3.0];
+const PILHAS_TUR: V3 = [4.1, 0, 3.3];
+const TCM: V3 = [6.9, 0, -0.6];
+const MARTELO: V3 = [5.4, 0, 0.7];
+const CASAS: [V3, number][] = [
+  [[3.0, 0, -7.9], -0.3],
+  [[7.8, 0, -2.6], -1.2],
+  [[-8.3, 0, 1.4], 1.4],
+  [[1.8, 0, 7.8], -1.6],
+  [[-7.7, 0, 3.8], 1.0],
+  [[1.4, 0, -8.4], 0.2],
+];
+const ARVORES: V3[] = [
+  [-6.0, 0, 7.0],
+  [-1.2, 0, 8.6],
+  [3.8, 0, 7.6],
+  [-8.6, 0, -2.4],
+  [8.3, 0, 1.4],
+];
+
+// ---------- Ajudantes ----------
+const soma = (a: V3, b: V3): V3 => [a[0] + b[0], a[1] + b[1], a[2] + b[2]];
+const janela = (t: number, a: number, b: number, d = 0.4) => rampa(t, a, a + d) * (1 - rampa(t, b, b + d));
+const vis = (t: number, a: number, b: number) => entra(t, a, 0.45) * (1 - rampa(t, b, b + 0.4));
+const curva = (a: V3, b: V3, alto: number, k: number): V3 => [a[0] + (b[0] - a[0]) * k, a[1] + (b[1] - a[1]) * k + alto * 4 * k * (1 - k), a[2] + (b[2] - a[2]) * k];
+
+// ---------- As pilhas (1 pilha = R$ 1 milhão) ----------
+// anel de 150 lugares, em volta do cofre, ordenado pelo ângulo: as cores de origem viram fatias de pizza
+const ANEL: V3[] = (() => {
+  const s: {p: V3; a: number}[] = [];
+  (
+    [
+      [1.5, 20],
+      [1.9, 24],
+      [2.3, 28],
+      [2.7, 32],
+      [3.1, 36],
+    ] as [number, number][]
+  ).forEach(([r, n]) => {
+    for (let i = 0; i < n; i++) {
+      const a = (i / n) * Math.PI * 2 + r * 0.37;
+      s.push({p: [Math.sin(a) * r, 0, Math.cos(a) * r], a: (a + Math.PI * 8) % (Math.PI * 2)});
+    }
+  });
+  return s.sort((x, y) => x.a - y.a).map((x) => x.p);
+})();
+
+type Voo = {n: number; t: number; centro: V3; cols: number; slots: number};
+type Ano = {
+  a: number; // nasce
+  b: number; // some
+  n: number; // pilhas no anel
+  extra?: {t: number; n: number}; // comprometido a mais (2026), em vermelho
+  origem?: {u: [number, number]; e: [number, number]; m: [number, number]; fim: number}; // [tempo, pilhas]
+  voos: Voo[];
+};
+const ANOS: Ano[] = [
+  {
+    a: T.saiu24 + 0.1,
+    b: T.ano25,
+    n: 105.06,
+    voos: [
+      {n: 44.86, t: T.n45, centro: PILHAS_EDU, cols: 6, slots: 54},
+      {n: 21.21, t: T.n21, centro: PILHAS_SAU, cols: 7, slots: 28},
+    ],
+  },
+  {
+    a: T.ano25 + 0.4,
+    b: T.ano26,
+    n: 126.35,
+    origem: {u: [T.u25, 71.61], e: [T.e25, 33.68], m: [T.m25, 20.52], fim: T.saiu25},
+    voos: [
+      {n: 52.11, t: T.n52, centro: PILHAS_EDU, cols: 6, slots: 54},
+      {n: 25.19, t: T.n25, centro: PILHAS_SAU, cols: 7, slots: 28},
+      {n: 10.92, t: T.n11, centro: PILHAS_ADM, cols: 4, slots: 12},
+    ],
+  },
+  {
+    a: T.ano26 + 0.4,
+    b: FIM + 2,
+    n: 111.52,
+    extra: {t: T.comp, n: 9.78},
+    origem: {u: [T.u26, 69.11], e: [T.e26, 27.15], m: [T.m26, 15.26], fim: T.saiu26},
+    voos: [
+      {n: 53.05, t: T.n53, centro: PILHAS_EDU, cols: 6, slots: 54},
+      {n: 25.03, t: T.n25b, centro: PILHAS_SAU, cols: 7, slots: 28},
+      {n: 13.13, t: T.n13, centro: PILHAS_URB, cols: 4, slots: 16},
+      {n: 4.91, t: T.n5, centro: PILHAS_CAM, cols: 3, slots: 6},
+      {n: 4.79, t: T.gastou + 0.3, centro: PILHAS_TUR, cols: 3, slots: 6},
+      {n: 0.1375, t: T.n137, centro: PILHAS_SEG, cols: 1, slots: 1},
+    ],
+  },
+];
+const totalAno = (y: Ano) => y.n + (y.extra?.n ?? 0);
+// para cada ano, quais lugares do anel voam para onde (os mais perto do destino)
+const ROTAS = ANOS.map((y) => {
+  const tot = Math.ceil(totalAno(y));
+  const livres = ANEL.slice(0, tot).map((_, i) => i);
+  const rotas = y.voos.map((v) => {
+    const dest = grade(v.centro, v.slots, v.cols);
+    const n = Math.ceil(v.n);
+    const de: number[] = [];
+    for (let j = 0; j < n; j++) {
+      livres.sort((a, b) => Math.hypot(ANEL[a][0] - dest[j][0], ANEL[a][2] - dest[j][2]) - Math.hypot(ANEL[b][0] - dest[j][0], ANEL[b][2] - dest[j][2]));
+      de.push(livres.shift()!);
+    }
+    return {de, dest};
+  });
+  const doVoo = ANEL.map(() => -1);
+  rotas.forEach((r, v) => r.de.forEach((i) => (doVoo[i] = v)));
+  return {rotas, doVoo};
+});
+
+/** Enche uma grade de pilhas até o total `n` (com fração), na ordem. */
+const encher = (pos: V3[], n: number, corP: string): Pilha[] => pos.map((p, j) => ({p, n: Math.max(0, Math.min(1, n - j)), cor: corP})).filter((x) => x.n > 0.0005);
+
+const coresOrigem = (tema: Tema) => {
+  const F = tema.festa!;
+  return {u: mistura(F.azul, tema.branco, 0.12), e: mistura(F.roxo, tema.branco, 0.15), m: tema.acento};
+};
+
+const pilhasEm = (t: number, tema: Tema) => {
+  const C = coresOI(tema);
+  const O = coresOrigem(tema);
+  const ouro = C.ouro;
+  const aceso = (k: number) => mistura(ouro, tema.branco, 0.3 * k);
+  const solidas: Pilha[] = [];
+  const fantasmas: Pilha[] = [];
+  ANOS.forEach((y, yi) => {
+    if (t < y.a - 0.05 || t > y.b + 0.6) return;
+    const someK = rampa(t, y.b - 0.4, y.b + 0.3);
+    const R = ROTAS[yi];
+    const tot = Math.ceil(totalAno(y));
+    for (let i = 0; i < tot; i++) {
+      const p = ANEL[i];
+      const ehExtra = i >= Math.floor(y.n) && y.extra !== undefined && i >= y.n - 0.001;
+      let n = ehExtra
+        ? rampa(t, y.extra!.t + (i - y.n) * 0.05, y.extra!.t + 0.5 + (i - y.n) * 0.05)
+        : rampa(t, y.a + i * 0.004, y.a + 0.4 + i * 0.004);
+      // última pilha "normal" é só a fração (ex.: 105,06)
+      if (!ehExtra && i === Math.floor(y.n) && !y.extra) n *= y.n - Math.floor(y.n);
+      if (ehExtra && i === tot - 1) n *= totalAno(y) - Math.floor(totalAno(y));
+      n *= 1 - someK;
+      if (n <= 0.0005) continue;
+      // cor da origem (fatias): União, Estado + Fundeb, município
+      let cor = ehExtra ? C.alerta : ouro;
+      if (y.origem && !ehExtra) {
+        const o = y.origem;
+        const corDe = (lim0: number, lim1: number, tt: number, c: string) => (i >= lim0 && i < lim1 ? mistura(ouro, c, janela(t, tt, o.fim, 0.5)) : null);
+        cor = corDe(0, o.u[1], o.u[0], O.u) ?? corDe(o.u[1], o.u[1] + o.e[1], o.e[0], O.e) ?? corDe(o.u[1] + o.e[1], 999, o.m[0], O.m) ?? ouro;
+      }
+      // resumo: a parte da União de 2026 acende de novo
+      if (yi === 2 && !ehExtra && i < 69.11) cor = mistura(cor, O.u, janela(t, T.vemUniao, T.pergunta, 0.5));
+      const v = R.doVoo[i];
+      if (v >= 0) {
+        const voo = y.voos[v];
+        const j = R.rotas[v].de.indexOf(i);
+        const a = voo.t + j * 0.025;
+        const kv = rampa(t, a, a + 0.7);
+        const pos = curva(p, R.rotas[v].dest[j], 1.0, kv);
+        if (j === Math.ceil(voo.n) - 1) n *= 1 + (voo.n - Math.floor(voo.n) - 1) * kv;
+        const prox = y.voos[v + 1]?.t ?? voo.t + 4;
+        const k = janela(t, voo.t, prox, 0.4);
+        solidas.push({p: pos, n, cor: kv > 0.05 ? (k > 0.01 ? aceso(k) : ouro) : cor});
+        continue;
+      }
+      solidas.push({p, n, cor});
+    }
+  });
+  // 2025: a administração de 2024 (6,7) em pilhas transparentes ao lado
+  const fant = (centro: V3, slots: number, cols: number, n: number, a: number, b: number) => {
+    const k = rampa(t, a, a + 0.8) * (1 - rampa(t, b, b + 0.5));
+    if (k > 0.01) fantasmas.push(...encher(grade(centro, slots, cols), n * k, ouro));
+  };
+  fant(soma(PILHAS_ADM, [0, 0, 1.3]), 8, 4, 6.73, T.adm + 0.2, T.ano26);
+  // 2026: o orçamento inicial do Turismo (715 mil) em pilha transparente
+  fant(soma(PILHAS_TUR, [0, 0, 1.2]), 1, 1, 0.715, T.n700, T.tribunal);
+  return {solidas, fantasmas};
+};
+
+const Mundo: React.FC<{t: number; tema: Tema}> = ({t, tema}) => {
+  const {solidas, fantasmas} = pilhasEm(t, tema);
+  const predio = (a: number) => rampa(t, a - 0.2, a + 0.6);
+  const ck = rampa(t, T.saiu24 - 0.1, T.saiu24 + 0.5);
+  const abre = Math.max(janela(t, T.saiu24 + 0.3, T.ano25, 0.6), janela(t, T.ano25 + 0.3, T.ano26, 0.6), rampa(t, T.ano26 + 0.3, T.ano26 + 0.9));
+  const busK = vis(t, T.transp - 0.3, T.semJulg + 0.8);
+  const busX = 6.2 - 10.0 * rampa(t, T.transp - 0.3, T.transp + 3.2, sai);
+  const marteloK = vis(t, T.multou - 0.4, T.junho);
+  const pdfK = vis(t, T.junho, T.resumo);
+  const pdfVira = rampa(t, T.resumoB - 0.2, T.resumoB + 0.4);
+  const fimK = (a: number) => janela(t, a, FIM + 1, 0.5);
+  return (
+    <group>
+      <MesaMaquete tema={tema} />
+      {CASAS.map(([p, r], i) => (
+        <CasaMini key={i} tema={tema} pos={p} rotY={r} luz={0.4} escala={0.55} />
+      ))}
+      {ARVORES.map((p, i) => (
+        <ArvoreRedonda key={i} tema={tema} pos={p} r={0.7} cresce={0.7} />
+      ))}
+
+      {/* o cofre da prefeitura */}
+      {ck > 0.02 ? <CofreFGTS tema={tema} pos={[COFRE[0], -1.6 * (1 - Math.min(1, ck)), COFRE[2]]} escala={0.75} abre={abre} trava={0} brilho={0.3 * janela(t, T.saiu24 + 0.3, T.educ24 + 0.6)} /> : null}
+
+      {/* as pilhas */}
+      <PilhasDinheiro pilhas={solidas} max={1200} />
+      <PilhasDinheiro pilhas={fantasmas} max={200} opacidade={0.3} largura={1.12} />
+
+      {/* educação e saúde (ficam o vídeo todo depois de subir) */}
+      <Escola tema={tema} pos={ESCOLA} rotY={1.35} escala={0.85} sobe={predio(T.educ24)} aceso={Math.max(janela(t, T.educ24, T.saude24, 0.5), janela(t, T.educ25, T.saude25, 0.5), janela(t, T.educ26, T.saude26, 0.5))} />
+      <PostoSaude tema={tema} pos={HOSP} rotY={0.05} escala={1.1} sobe={predio(T.saude24)} aceso={Math.max(janela(t, T.saude24, T.dest24, 0.5), janela(t, T.saude25, T.dest25, 0.5), janela(t, T.saude26, T.limpeza, 0.5))} />
+
+      {/* segurança: o posto da guarda (vazio em 2024) */}
+      <PostoGuarda tema={tema} pos={GUARDA} rotY={0.9} escala={0.8} sobe={predio(T.dest24)} aceso={Math.max(0.3 * janela(t, T.dest24, T.ano25, 0.5), 0.3 * janela(t, T.seg26, T.tribunal, 0.5), 0.3 * janela(t, T.nada, FIM + 1, 0.5))} />
+
+      {/* administração */}
+      <Prefeitura tema={tema} pos={PREF} rotY={-0.7} escala={0.85} sobe={predio(T.adm)} aceso={Math.max(janela(t, T.adm, T.ano26, 0.5), janela(t, T.multou, T.junho, 0.5), janela(t, T.junho, T.resumo, 0.5))} />
+
+      {/* limpeza, ruas e obras */}
+      <RuaServicos tema={tema} pos={RUA} rotY={0.25} sobe={predio(T.limpeza)} luz={Math.max(janela(t, T.limpeza + 0.6, T.camara, 0.5), janela(t, T.limpEm, T.transp, 0.5))} caminhaoX={2.4 - 4.6 * rampa(t, T.limpeza, T.limpeza + 5)} gariX={-1.8 + 0.22 * Math.min(8, Math.max(0, t - T.limpeza))} />
+
+      {/* Câmara de Vereadores */}
+      <CamaraVereadores tema={tema} pos={CAMARA} rotY={0.35} escala={0.8} sobe={predio(T.camara)} aceso={janela(t, T.camara, T.dest26, 0.5)} />
+
+      {/* Secretaria de Turismo: o palco dos shows (acende devagar, sem piscar) */}
+      <TeatroMini tema={tema} pos={PALCO} rotY={-1.1} escala={0.95} texto="TURISMO" sobe={Math.max(0, predio(T.tur) - rampa(t, T.tribunal - 0.4, T.tribunal + 0.3) + rampa(t, T.resumo - 0.2, T.resumo + 0.6))} aceso={Math.max(janela(t, T.tur + 0.4, T.tribunal, 0.6), janela(t, T.show, FIM + 1, 0.6))} />
+
+      {/* o Tribunal de Contas, na borda da mesa */}
+      <PredioTCM tema={tema} pos={TCM} escala={0.75} sobe={predio(T.tribunal)} aceso={Math.max(janela(t, T.tribunal, T.junho, 0.5), fimK(T.resumo) * 0.3)} />
+      <Martelo tema={tema} pos={MARTELO} escala={1.1 * Math.min(1, marteloK)} bate={Math.max(rampa(t, T.multou - 0.3, T.multou + 0.1), rampa(t, T.advertiu - 0.3, T.advertiu + 0.1))} rotY={-0.6} />
+
+      {/* transporte escolar: o ônibus passa (denúncia em análise) */}
+      {busK > 0.02 ? <Onibus tema={tema} pos={[busX, 0.11, RUA_BUS_Z]} rotY={-Math.PI / 2} escala={0.45 * Math.min(1, busK)} farol={0.6} /> : null}
+
+      {/* junho: a "lista de pagamentos" que é um resumo bancário */}
+      <group position={soma(PREF, [-0.6, 2.6 + 0.4 * pdfK, 1.8])} rotation={[1.15, -0.45, 0]}><RelatorioPDF tema={tema} pos={[0, 0, 0]} rotY={0} titulo={pdfVira > 0.5 ? 'RESUMO BANCÁRIO' : 'LISTA DE PAGAMENTOS'} sub="JUNHO 2026" escala={1.6 * Math.min(1, pdfK)} aceso={janela(t, T.resumoB, T.resumo, 0.5)} abre={0} /></group>
+    </group>
+  );
+};
+
+// ---------- Câmera ----------
+const E = (alvo: V3, larg: number, alt: number, dir: V3) => enquadrar(alvo, larg, alt, dir);
+type Cena = {ini: number; chaves: [number, Cam][]; arco?: number};
+const MESA_TODA = E([0, 0, 0.4], 18.5, 11.5, [0, 1.43, 1]);
+const ANEL_CIMA = (dx: number) => E([0, 0, -1.2], 9.0, 10.5, [dx, 2.0, 1]);
+const CENAS: Cena[] = [
+  {ini: 0, chaves: [[0, MESA_TODA]]},
+  // 2024
+  {ini: T.saiu24 - 0.3, arco: 0.08, chaves: [[T.saiu24 - 0.3, E([0, 0, 0.2], 11.5, 8.0, [0, 1.35, 1])], [T.educ24 - 0.1, E([-1, 0, -1], 11, 7.8, [0.1, 1.3, 1])]]},
+  {ini: T.educ24 + 0.2, arco: 0.08, chaves: [[T.educ24 + 0.2, E([-2.8, 0.8, -4.3], 9.6, 6.4, [0.35, 1.0, 1])], [T.dest24 - 0.3, E([-2.6, 0.8, -4.4], 9.0, 6.2, [0.2, 1.0, 1])]]},
+  {ini: T.dest24 - 0.1, arco: 0.08, chaves: [[T.dest24 - 0.1, E([-6.6, 0.9, -5.0], 5.6, 4.4, [-0.8, 0.95, 0.5])], [T.ano25 - 0.3, E([-6.6, 0.9, -5.0], 5.2, 4.2, [-0.6, 0.95, 0.6])]]},
+  // 2025
+  {ini: T.ano25 - 0.1, arco: 0.06, chaves: [[T.ano25 - 0.1, ANEL_CIMA(0)], [T.u25, E([0, 0, -1.0], 8.2, 9.8, [0.15, 2.0, 1])], [T.saiu25 - 0.3, E([0, 0, -0.9], 7.8, 9.4, [0.4, 1.9, 1])]]},
+  {ini: T.saiu25 - 0.1, arco: 0.08, chaves: [[T.saiu25 - 0.1, E([0, 0, 0], 15, 9.8, [0.05, 1.2, 1])], [T.educ25 - 0.2, E([-1, 0, -1], 14, 9.4, [0.15, 1.2, 1])]]},
+  {ini: T.educ25 + 0.1, arco: 0.08, chaves: [[T.educ25 + 0.1, E([-2.8, 0.8, -4.3], 9.6, 6.4, [0.35, 1.0, 1])], [T.dest25 - 0.3, E([-2.6, 0.8, -4.4], 9.0, 6.2, [0.2, 1.0, 1])]]},
+  {ini: T.dest25 - 0.1, arco: 0.08, chaves: [[T.dest25 - 0.1, E([4.6, 1.0, -3.0], 6.4, 4.6, [-0.5, 0.92, 1])], [T.ano26 - 0.3, E([4.4, 0.9, -2.6], 6.2, 4.4, [-0.35, 0.92, 1])]]},
+  // 2026
+  {ini: T.ano26 - 0.1, arco: 0.06, chaves: [[T.ano26 - 0.1, ANEL_CIMA(0.1)], [T.u26, E([0, 0, -1.0], 8.2, 9.8, [-0.1, 2.0, 1])], [T.saiu26 - 0.3, E([0, 0, -0.9], 7.8, 9.4, [-0.35, 1.9, 1])]]},
+  {ini: T.saiu26 - 0.1, arco: 0.08, chaves: [[T.saiu26 - 0.1, E([0, 0, 0], 12.5, 8.6, [0, 1.5, 1])], [T.educ26 - 0.2, E([0, 0, 0], 12, 8.4, [0.15, 1.45, 1])]]},
+  {ini: T.educ26 + 0.1, arco: 0.08, chaves: [[T.educ26 + 0.1, E([-2.8, 0.8, -4.3], 9.6, 6.4, [0.35, 1.0, 1])], [T.limpeza - 0.3, E([-2.6, 0.8, -4.4], 9.0, 6.2, [0.2, 1.0, 1])]]},
+  {ini: T.limpeza - 0.1, arco: 0.08, chaves: [[T.limpeza - 0.1, E([-3.2, 0.7, 4.4], 7.2, 4.8, [0.15, 0.85, 1])], [T.camara - 0.3, E([-3.0, 0.6, 4.6], 6.8, 4.6, [0.1, 0.85, 1])]]},
+  {ini: T.camara - 0.1, arco: 0.08, chaves: [[T.camara - 0.1, E([-3.0, 0.9, -6.4], 6.4, 4.6, [0.3, 0.95, 1])], [T.tur - 0.4, E([-3.0, 0.9, -6.4], 6.0, 4.4, [0.2, 0.95, 1])]]},
+  {ini: T.tur - 0.2, arco: 0.08, chaves: [[T.tur - 0.2, E([5.0, 1.0, 3.0], 6.8, 4.8, [-0.45, 0.9, 1])], [T.seg26 - 0.3, E([4.8, 0.9, 3.2], 6.4, 4.6, [-0.3, 0.9, 1])]]},
+  {ini: T.seg26 - 0.1, arco: 0.08, chaves: [[T.seg26 - 0.1, E([-6.7, 0.8, -4.6], 5.6, 4.4, [-0.8, 0.95, 0.5])], [T.tribunal - 0.3, E([-6.7, 0.8, -4.6], 5.2, 4.2, [-0.6, 0.95, 0.6])]]},
+  // o Tribunal
+  {ini: T.tribunal - 0.1, arco: 0.08, chaves: [[T.tribunal - 0.1, E([6.4, 1.2, -0.3], 6.0, 4.8, [-0.6, 0.8, 1])], [T.analisa - 0.3, E([6.2, 1.2, 0], 5.8, 4.6, [-0.8, 0.8, 1])]]},
+  {ini: T.analisa - 0.1, arco: 0.08, chaves: [[T.analisa - 0.1, E([-3.0, 0.3, 5.4], 6.4, 5.0, [0.15, 0.5, 1])], [T.transp, E([-0.6, 0.3, 6.2], 7.2, 5.2, [0, 0.45, 1])], [T.junho - 0.3, E([-0.4, 0.3, 6.2], 7.0, 5.0, [-0.05, 0.45, 1])]]},
+  // junho
+  {ini: T.junho - 0.1, arco: 0.06, chaves: [[T.junho - 0.1, E([5.0, 2.2, -2.9], 4.6, 4.6, [-0.25, 0.55, 1])], [T.resumo - 0.3, E([5.0, 2.3, -2.8], 4.2, 4.2, [-0.15, 0.55, 1])]]},
+  // resumo e fim
+  {ini: T.resumo - 0.1, chaves: [[T.resumo - 0.1, E([0, 0, 0], 18, 11, [0, 1.3, 1])], [FIM, E([0, 0, 0], 19, 11.5, [0.3, 1.35, 1])]]},
+];
+const cenaEm = (t: number) => {
+  let i = 0;
+  for (let k = 0; k < CENAS.length; k++) if (CENAS[k].ini <= t) i = k;
+  return i;
+};
+const camEm = (t: number): Cam => {
+  const i = cenaEm(t);
+  const c = CENAS[i];
+  const fim = i + 1 < CENAS.length ? CENAS[i + 1].ini : FIM;
+  return cinematizar(trilhoCam(t, c.chaves), (t - c.ini) / (fim - c.ini), {arco: c.arco ?? 0.08, grua: 0.045});
+};
+
+// ---------- Interface ----------
+type Txt = {a: number; b: number; texto: string; destaque?: boolean};
+const CHIPS: Txt[] = [
+  {a: T.saiu24 + 0.3, b: T.educ24, texto: 'SAIU EM 2024: R$ 105 MILHÕES'},
+  {a: T.educ24, b: T.n45, texto: 'EDUCAÇÃO'},
+  {a: T.n45, b: T.n21, texto: 'EDUCAÇÃO: MAIS DE 4 DE CADA 10 REAIS', destaque: true},
+  {a: T.n21, b: T.zero, texto: 'SAÚDE: 1 DE CADA 5 REAIS', destaque: true},
+  {a: T.zero, b: T.ano25, texto: 'SEGURANÇA PÚBLICA: R$ 0 EM 2024', destaque: true},
+  {a: T.ano25, b: T.entrou25, texto: '2025 · GESTÃO IÊDO ELIAS'},
+  {a: T.entrou25, b: T.u25 + 0.6, texto: 'ENTROU EM 2025: R$ 125,8 MILHÕES'},
+  {a: T.u25 + 0.6, b: T.e25, texto: 'UNIÃO: 57 DE CADA 100 REAIS', destaque: true},
+  {a: T.e25, b: T.m25, texto: 'ESTADO + FUNDEB: 27 DE CADA 100'},
+  {a: T.m25 + 0.4, b: T.saiu25, texto: 'DA CIDADE: SÓ 16 DE CADA 100 REAIS', destaque: true},
+  {a: T.saiu25, b: T.educ25, texto: 'SAIU EM 2025: R$ 126,4 MILHÕES'},
+  {a: T.educ25, b: T.n52, texto: 'EDUCAÇÃO'},
+  {a: T.n52, b: T.n25, texto: 'EDUCAÇÃO: MAIS DE 4 DE CADA 10 REAIS', destaque: true},
+  {a: T.n25, b: T.adm, texto: 'SAÚDE: 1 DE CADA 5 REAIS', destaque: true},
+  {a: T.adm, b: T.n11, texto: 'ADMINISTRAÇÃO DA PREFEITURA'},
+  {a: T.n11, b: T.n60, texto: 'TRANSPARENTE = 2024'},
+  {a: T.n60, b: T.ano26, texto: '+60% DE 2024 PARA 2025', destaque: true},
+  {a: T.ano26, b: T.entrou26, texto: '2026 · JANEIRO A SETEMBRO'},
+  {a: T.entrou26, b: T.u26 + 0.6, texto: 'ENTROU EM 2026: R$ 111,5 MILHÕES'},
+  {a: T.u26 + 0.6, b: T.e26, texto: 'UNIÃO: 62 DE CADA 100 REAIS', destaque: true},
+  {a: T.e26, b: T.m26, texto: 'ESTADO + FUNDEB: 24 DE CADA 100'},
+  {a: T.m26 + 0.4, b: T.saiu26, texto: 'DA CIDADE: QUASE 14 DE CADA 100', destaque: true},
+  {a: T.comp, b: T.dez, texto: 'JÁ COMPROMETEU R$ 121,3 MILHÕES'},
+  {a: T.dez, b: T.educ26, texto: 'R$ 10 MI A MAIS DO QUE ENTROU', destaque: true},
+  {a: T.educ26, b: T.n53, texto: 'EDUCAÇÃO'},
+  {a: T.n53, b: T.n25b, texto: 'EDUCAÇÃO: MAIS DE 4 DE CADA 10 REAIS', destaque: true},
+  {a: T.n25b, b: T.n13, texto: 'SAÚDE: 1 DE CADA 5 REAIS', destaque: true},
+  {a: T.n13, b: T.camara, texto: 'LIMPEZA, RUAS E OBRAS'},
+  {a: T.camara, b: T.n5, texto: 'CÂMARA DE VEREADORES'},
+  {a: T.n5, b: T.tur, texto: 'MAIS DE 6 VEZES SEGURANÇA, CULTURA E ESPORTE JUNTOS', destaque: true},
+  {a: T.tur, b: T.n700, texto: 'SECRETARIA DE TURISMO'},
+  {a: T.n700, b: T.gastou, texto: 'ORÇAMENTO NO INÍCIO DO ANO: R$ 715 MIL'},
+  {a: T.gastou, b: T.gastou + 1.4, texto: 'JÁ GASTOU R$ 4,8 MI EM SHOWS', destaque: true},
+  {a: T.gastou + 1.4, b: T.metade, texto: '6,7 VEZES O ORÇAMENTO INICIAL', destaque: true},
+  {a: T.seg26, b: T.n137 + 0.5, texto: 'SEGURANÇA PÚBLICA EM 2026'},
+  {a: T.n137 + 0.5, b: T.tribunal, texto: 'QUASE 35 VEZES MENOS QUE OS SHOWS', destaque: true},
+  {a: T.tribunal, b: T.multou, texto: 'TRIBUNAL DE CONTAS DOS MUNICÍPIOS'},
+  {a: T.limpEm, b: T.transp, texto: 'EM ANÁLISE: LIMPEZA EMERGENCIAL'},
+  {a: T.transp, b: T.semJulg, texto: 'EM ANÁLISE: TRANSPORTE ESCOLAR'},
+  {a: T.semJulg, b: T.junho, texto: 'AINDA SEM JULGAMENTO'},
+  {a: T.junho, b: T.resumoB, texto: 'JUNHO, MÊS DO SÃO JOÃO'},
+  {a: T.resumo, b: T.vemUniao, texto: 'RESUMO'},
+  {a: T.vemUniao, b: T.pergunta, texto: 'MAIS DA METADE VEM DA UNIÃO', destaque: true},
+  {a: T.pergunta, b: T.segue, texto: 'POR QUE QUASE 5 MI PARA SHOW E QUASE NADA PARA SEGURANÇA?', destaque: true},
+  {a: T.segue, b: FIM + 1, texto: '@eumagnoleite', destaque: true},
+];
+const SELOS: Txt[] = [
+  {a: T.saiu24, b: T.ano25, texto: 'FONTE: BALANÇO 2024 ENVIADO AO TCM-BA · PROC. 13610E25'},
+  {a: T.ano25, b: T.ano26, texto: 'FONTE: BALANÇO 2025 ENVIADO AO TCM-BA · PROC. 09982E26'},
+  {a: T.ano26, b: T.dest26, texto: 'FONTE: DEMONSTRATIVOS SIGA SET/2026 · TCM-BA'},
+  {a: T.dest26, b: T.tribunal, texto: 'FONTE: RELAÇÃO DE PAGAMENTOS (PCMGE056) E CONTRATOS INEX · TCM-BA'},
+  {a: T.tribunal, b: T.junho, texto: 'FONTE: TCM-BA · ACÓRDÃOS 32484E25 E 10859E25 · DENÚNCIAS 08808E26 E 15247E26'},
+  {a: T.junho, b: T.resumo, texto: 'FONTE: E-TCM · COMPETÊNCIA 06/2026 · PASTA PCMGE056'},
+];
+const visivel = (x: Txt, t: number) => entra(t, x.a, 0.45) * (1 - rampa(t, x.b - 0.35, x.b - 0.05));
+
+type Rot = {a: number; b: number; p: V3; valor: string; sub?: string; cor?: 'acento' | 'alerta' | 'uniao' | 'estado'; dy?: number};
+// centro de cada fatia de origem no anel (para prender a plaquinha na cor certa)
+const fatia = (i0: number, i1: number): V3 => {
+  const pts = ANEL.slice(Math.floor(i0), Math.ceil(i1));
+  const m = pts.reduce((a, p) => [a[0] + p[0], 0, a[2] + p[2]] as V3, [0, 0, 0] as V3);
+  return [m[0] / pts.length, 0.9, m[2] / pts.length];
+};
+const ROTULOS: Rot[] = [
+  {a: T.show, b: FIM + 1, p: soma(PILHAS_TUR, [0, 1.1, 0]), valor: '4,8 MI', sub: 'SHOWS · 2026', cor: 'alerta'},
+  {a: T.nada, b: FIM + 1, p: soma(GUARDA, [0, 1.5, 0]), valor: '137 MIL', sub: 'SEGURANÇA · 2026', cor: 'alerta'},
+  {a: T.u25 + 0.2, b: T.saiu25, p: fatia(0, 71.61), valor: '71,6 MI', sub: 'UNIÃO', cor: 'uniao', dy: 0},
+  {a: T.e25 + 0.2, b: T.saiu25, p: fatia(71.61, 105.29), valor: '33,7 MI', sub: 'ESTADO + FUNDEB', cor: 'estado', dy: 0},
+  {a: T.m25 + 0.2, b: T.saiu25, p: fatia(105.29, 125.81), valor: '20,5 MI', sub: 'PRÓPRIO MUNICÍPIO', cor: 'acento', dy: 0},
+  {a: T.u26 + 0.2, b: T.saiu26, p: fatia(0, 69.11), valor: '69,1 MI', sub: 'UNIÃO', cor: 'uniao', dy: 0},
+  {a: T.e26 + 0.2, b: T.saiu26, p: fatia(69.11, 96.26), valor: '27,1 MI', sub: 'ESTADO + FUNDEB', cor: 'estado', dy: 0},
+  {a: T.m26 + 0.2, b: T.saiu26, p: fatia(96.26, 111.52), valor: '15,3 MI', sub: 'PRÓPRIO MUNICÍPIO', cor: 'acento', dy: 0},
+  {a: T.n45, b: T.dest24, p: soma(PILHAS_EDU, [0, 1.2, 0.6]), valor: '44,9 MI', sub: 'R$ 44,86 MI · EDUCAÇÃO 2024', cor: 'acento', dy: 0},
+  {a: T.n21, b: T.dest24, p: soma(PILHAS_SAU, [0, 1.1, 0.4]), valor: '21,2 MI', sub: 'R$ 21,21 MI · SAÚDE 2024', cor: 'acento'},
+  {a: T.zero, b: T.ano25, p: soma(GUARDA, [0, 1.4, 0]), valor: 'R$ 0', sub: 'SEGURANÇA PÚBLICA 2024', cor: 'alerta'},
+  {a: T.n52, b: T.dest25, p: soma(PILHAS_EDU, [0, 1.2, 0.6]), valor: '52,1 MI', sub: 'R$ 52,11 MI · EDUCAÇÃO 2025', cor: 'acento'},
+  {a: T.n25, b: T.dest25, p: soma(PILHAS_SAU, [0, 1.1, 0.4]), valor: '25,2 MI', sub: 'R$ 25,19 MI · SAÚDE 2025', cor: 'acento'},
+  {a: T.adm + 0.4, b: T.n11, p: soma(PILHAS_ADM, [0, 1.0, 1.3]), valor: '2024: 6,7 MI', sub: 'ADMINISTRAÇÃO'},
+  {a: T.n11, b: T.ano26, p: soma(PILHAS_ADM, [0, 1.1, 0]), valor: '10,9 MI', sub: 'R$ 10,92 MI · ADMINISTRAÇÃO 2025', cor: 'alerta'},
+  {a: T.n53, b: T.limpeza, p: soma(PILHAS_EDU, [0, 1.2, 0.6]), valor: '53 MI', sub: 'R$ 53,05 MI · EDUCAÇÃO JAN–SET', cor: 'acento'},
+  {a: T.n25b, b: T.limpeza, p: soma(PILHAS_SAU, [0, 1.1, 0.4]), valor: '25 MI', sub: 'R$ 25,03 MI · SAÚDE JAN–SET', cor: 'acento'},
+  {a: T.n13, b: T.camara, p: soma(PILHAS_URB, [0, 1.0, 0]), valor: '13,1 MI', sub: 'R$ 13,13 MI · LIMPEZA, RUAS E OBRAS', cor: 'acento'},
+  {a: T.n5, b: T.tur + 0.4, p: soma(PILHAS_CAM, [0, 1.0, 0]), valor: '4,9 MI', sub: 'R$ 4,91 MI · CÂMARA JAN–SET', cor: 'acento'},
+  {a: T.n700 + 0.3, b: T.gastou, p: soma(PILHAS_TUR, [0, 0.9, 1.2]), valor: '715 MIL', sub: 'ORÇAMENTO INICIAL'},
+  {a: T.gastou + 0.6, b: T.seg26, p: soma(PILHAS_TUR, [0, 1.1, 0]), valor: '4,8 MI', sub: 'R$ 4,79 MI · TURISMO JAN–SET', cor: 'alerta'},
+  {a: T.n137, b: T.tribunal, p: soma(PILHAS_SEG, [0, 0.8, 0]), valor: '137 MIL', sub: 'R$ 137,5 MIL · SEGURANÇA JAN–SET', cor: 'alerta'},
+];
+
+// de onde vem: o cartão com as três origens (2025 e 2026), em cima da mesa
+const CartaoOrigem: React.FC<{tema: Tema; t: number}> = ({tema, t}) => {
+  const O = coresOrigem(tema);
+  const ano = t < T.ano26 ? 0 : 1;
+  const D = ano === 0
+    ? {a: T.entrou25, b: T.saiu25, tot: '125,8 MI', linhas: [[T.u25, 'UNIÃO', 71.61, '71,6 MI', O.u], [T.e25, 'ESTADO + FUNDEB', 33.68, '33,7 MI', O.e], [T.m25, 'PRÓPRIO MUNICÍPIO', 20.52, '20,5 MI', O.m]] as [number, string, number, string, string][]}
+    : {a: T.entrou26, b: T.saiu26, tot: '111,5 MI', linhas: [[T.u26, 'UNIÃO', 69.11, '69,1 MI', O.u], [T.e26, 'ESTADO + FUNDEB', 27.15, '27,1 MI', O.e], [T.m26, 'PRÓPRIO MUNICÍPIO', 15.26, '15,3 MI', O.m]] as [number, string, number, string, string][]};
+  const k = entra(t, D.a + 0.2, 0.45) * (1 - rampa(t, D.b - 0.3, D.b + 0.1));
+  if (k <= 0.01) return null;
+  return (
+    <div style={{position: 'absolute', left: SEGURO.esq + 10, right: W - SEGURO.botoesX + 30, top: 600, opacity: Math.min(1, k)}}>
+      <div style={{background: tema.cartao, border: `2px solid ${tema.cartaoBorda}`, borderRadius: 18, padding: '16px 22px 18px'}}>
+        <div style={{fontFamily: MONO, fontSize: 18, fontWeight: 800, letterSpacing: 2, color: tema.textoSuave}}>{ano === 0 ? 'ENTROU EM 2025' : 'ENTROU EM 2026 · JAN–SET'}</div>
+        <div style={{fontFamily: FONTE, fontSize: 56, fontWeight: 900, letterSpacing: -2, color: tema.acento, marginTop: 4}}>R$ {D.tot}</div>
+        {D.linhas.map(([a, rot, v, txt, cor], i) => {
+          const kk = rampa(t, a, a + 0.9);
+          return (
+            <div key={i} style={{marginTop: 10, opacity: Math.min(1, rampa(t, a - 0.1, a + 0.3) * 1.5)}}>
+              <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', fontFamily: MONO, fontSize: 20, fontWeight: 800, letterSpacing: 1, color: tema.texto}}>
+                <span>{rot}</span>
+                <span style={{fontFamily: FONTE, fontSize: 30, fontWeight: 900, color: cor}}>{txt}</span>
+              </div>
+              <div style={{height: 16, borderRadius: 8, background: tema.cartaoBorda, marginTop: 6, overflow: 'hidden'}}>
+                <div style={{height: 16, width: `${(v / 75) * 100 * kk}%`, borderRadius: 8, background: cor}} />
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+};
+
+// a marca d'água @eumagnoleite: pequena e leve, quica devagar pela tela inteira (ida e volta, linear), o vídeo todo
+const MARCA_W = 250;
+const MARCA_H = 36;
+const vaiVolta = (u: number) => 1 - Math.abs((u % 2) - 1);
+const MarcaDagua: React.FC<{tema: Tema; t: number}> = ({tema, t}) => {
+  const x = 24 + vaiVolta(t / 11.3) * (W - MARCA_W - 48);
+  const y = 24 + vaiVolta(t / 15.7) * (H - MARCA_H - 48);
+  return (
+    <div style={{position: 'absolute', left: x, top: y, width: MARCA_W, height: MARCA_H, fontFamily: FONTE, fontSize: 30, fontWeight: 800, letterSpacing: 0.5, color: tema.texto, opacity: 0.16, whiteSpace: 'nowrap', pointerEvents: 'none'}}>
+      @eumagnoleite
+    </div>
+  );
+};
+
+const Interface: React.FC<{tema: Tema; t: number; cam: Cam}> = ({tema, t, cam}) => {
+  const C = coresOI(tema);
+  const seloAtual = SELOS.filter((s) => t >= s.a && visivel(s, t) > 0.01).pop();
+  const placarK = vis(t, T.saiu24 + 0.4, T.tribunal);
+  const cabecalho = (
+    <div style={{position: 'absolute', left: SEGURO.esq, right: W - SEGURO.dir, top: 400, display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: 10}}>
+      <div style={{opacity: seloAtual ? Math.min(1, visivel(seloAtual, t)) : 0}}>
+        {seloAtual ? (
+          <div style={{padding: '9px 16px', borderRadius: 11, background: tema.cartao, border: `2px solid ${tema.cartaoBorda}`, fontFamily: MONO, fontSize: seloAtual.texto.length > 66 ? 13 : seloAtual.texto.length > 56 ? 16 : seloAtual.texto.length > 46 ? 18 : 21, fontWeight: 700, letterSpacing: 1.1, color: tema.texto, whiteSpace: 'nowrap'}}>
+            {seloAtual.texto}
+          </div>
+        ) : null}
+      </div>
+      {placarK > 0.01 ? (
+        <div style={{opacity: Math.min(1, placarK), display: 'flex', alignItems: 'center', gap: 8, padding: '6px 12px', borderRadius: 9, background: tema.cartao, border: `1.5px solid ${tema.cartaoBorda}`, whiteSpace: 'nowrap'}}>
+          <div style={{width: 18, height: 18, borderRadius: 9, background: C.ouro}} />
+          <div style={{fontFamily: MONO, fontSize: 16, fontWeight: 800, letterSpacing: 1.5, color: tema.texto}}>1 PILHA = R$ 1 MILHÃO</div>
+        </div>
+      ) : null}
+    </div>
+  );
+  if (noMapa(t)) {
+    const seloMapa = 'FONTE: BALANÇO 2024 ENVIADO AO TCM-BA · ANEXOS 10 E 12';
+    const k = Math.min(entra(t, T.entrou24, 0.45), 1 - rampa(t, T.saiu24 - 0.6, T.saiu24 - 0.2));
+    return (
+      <div style={{position: 'absolute', left: SEGURO.esq, right: W - SEGURO.dir, top: 400, opacity: k}}>
+        <div style={{display: 'inline-block', padding: '9px 16px', borderRadius: 11, background: tema.cartao, border: `2px solid ${tema.cartaoBorda}`, fontFamily: MONO, fontSize: 17, fontWeight: 700, letterSpacing: 1.1, color: tema.texto, whiteSpace: 'nowrap'}}>{seloMapa}</div>
+      </div>
+    );
+  }
+  const chip = CHIPS.filter((c) => t >= c.a - 0.05 && visivel(c, t) > 0.01).pop();
+  const O = coresOrigem(tema);
+  const cor = (c?: Rot['cor']) => (c === 'acento' ? tema.acento : c === 'alerta' ? C.alerta : c === 'uniao' ? O.u : c === 'estado' ? O.e : tema.cartaoBorda);
+  const visRot = ROTULOS.map((r, i) => {
+    const k = entra(t, r.a, 0.45) * (1 - rampa(t, r.b - 0.35, r.b - 0.05));
+    if (k <= 0.01) return null;
+    const pj = projetar(r.p, cam, W, H);
+    if (!pj.visivel) return null;
+    return {i, x: Math.max(SEGURO.esq + 210, Math.min(SEGURO.botoesX - 210, pj.x)), y: Math.max(730, Math.min(1240, pj.y - (r.dy ?? 0))), k: Math.min(1, k), r};
+  }).filter(Boolean) as {i: number; x: number; y: number; k: number; r: Rot}[];
+  for (let a = 0; a < visRot.length; a++) for (let b = 0; b < a; b++) if (Math.abs(visRot[a].x - visRot[b].x) < 420 && Math.abs(visRot[a].y - visRot[b].y) < 118) visRot[a].y = visRot[b].y + 122;
+  const cartaoGrande = (txt: string, sub: string, k: number, corN: string, top = 700, tam = 84) =>
+    k > 0.01 ? (
+      <div style={{position: 'absolute', left: 0, right: 0, top: 600, display: 'flex', justifyContent: 'center', opacity: Math.min(1, k)}}>
+        <div style={{padding: '8px 18px 10px', borderRadius: 14, background: tema.cartao, border: `2px solid ${corN}`, textAlign: 'center', whiteSpace: 'nowrap', transform: `translateY(${(1 - Math.min(1, k)) * 12}px) rotate(-1.5deg)`}}>
+          <div style={{fontFamily: FONTE, fontSize: Math.min(44, tam * 0.55), fontWeight: 900, letterSpacing: -1, lineHeight: 1.0, color: corN}}>{txt}</div>
+          <div style={{fontFamily: MONO, fontSize: 13, fontWeight: 800, letterSpacing: 1.2, color: tema.textoSuave, marginTop: 5}}>{sub}</div>
+        </div>
+      </div>
+    ) : null;
+  const multaK = vis(t, T.multou + 0.2, T.advertiu - 0.2);
+  const advK = vis(t, T.advertiu, T.analisa);
+  const metadeK = vis(t, T.metade, T.seg26);
+  const bancoK = vis(t, T.resumoB, T.resumo);
+  const perguntaK = vis(t, T.pergunta, FIM);
+  const segueK = rampa(t, T.segue + 0.3, T.segue + 0.8);
+  const alerta = mistura(C.alerta, tema.texto, 0.25);
+  return (
+    <>
+      {cabecalho}
+      {chip ? (
+        <div style={{position: 'absolute', left: SEGURO.esq, right: W - SEGURO.dir, top: 520, display: 'flex', justifyContent: 'center', opacity: Math.min(1, visivel(chip, t) * 1.3)}}>
+          <Chip tema={tema} texto={chip.texto} k={entra(t, chip.a, 0.45)} destaque={chip.destaque} tam={chip.texto.length > 40 ? 20 : chip.texto.length > 30 ? 24 : chip.texto.length > 22 ? 28 : 32} />
+        </div>
+      ) : null}
+      {visRot.map((v) => (
+        <div key={v.i} style={{position: 'absolute', left: v.x, top: v.y, transform: `translate(-50%, -100%) translateY(${(1 - v.k) * 12}px)`, opacity: v.k}}>
+          <div style={{padding: '8px 18px 9px', borderRadius: 14, background: tema.cartao, border: `2px solid ${cor(v.r.cor)}`, textAlign: 'center', whiteSpace: 'nowrap'}}>
+            <div style={{fontFamily: FONTE, fontSize: 40, fontWeight: 900, letterSpacing: -1, color: v.r.cor === 'acento' ? tema.acento : v.r.cor === 'alerta' ? mistura(C.alerta, tema.texto, 0.35) : v.r.cor === 'uniao' ? O.u : v.r.cor === 'estado' ? O.e : tema.texto, lineHeight: 1.05}}>{v.r.valor}</div>
+            {v.r.sub ? <div style={{fontFamily: MONO, fontSize: 17, fontWeight: 700, letterSpacing: 1.5, color: tema.textoSuave, marginTop: 3}}>{v.r.sub}</div> : null}
+          </div>
+        </div>
+      ))}
+      {cartaoGrande('57%', 'BANDAS E PRODUTORAS SEM LICITAÇÃO', metadeK, alerta, 640)}
+      {cartaoGrande('MULTA · R$ 1.500', 'MATERIAL GRÁFICO SEM ENTREGA COMPROVADA · CONTRATAÇÃO DE R$ 3,9 MI', multaK, alerta, 640, 72)}
+      {cartaoGrande('ADVERTÊNCIA', 'PRESTAÇÕES DE CONTAS FORA DO PRAZO', advK, mistura(tema.festa!.dourado, tema.texto, 0.2), 640, 72)}
+      {cartaoGrande('É UM RESUMO BANCÁRIO', 'NO LUGAR DA LISTA DE PAGAMENTOS DA PREFEITURA', bancoK, alerta, 1080, 60)}
+
+    </>
+  );
+};
+
+// ---------- O mapa do Kit Mapas, por cima do 3D ----------
+const TrechoMapa: React.FC<{de: number; ate: number}> = ({de, ate}) => {
+  const f = useCurrentFrame();
+  const dur = ate - de;
+  const op = interpolate(f, [dur - 6, dur], [1, 0], clamp);
+  return (
+    <AbsoluteFill style={{opacity: op}}>
+      <OffthreadVideo src={staticFile(`${P}/mapas/belmonte.mp4`)} startFrom={de} muted style={{width: W, height: H}} />
+    </AbsoluteFill>
+  );
+};
+
+// ---------- Soquinho: a câmera dá um empurrão leve (0,5 s, sem piscar) em cada número dito ----------
+const SOQUINHOS = [T.n45, T.n21, T.zero, T.u25, T.e25, T.m25, T.n52, T.n25, T.n11, T.n60, T.u26, T.e26, T.m26, T.comp, T.dez, T.n53, T.n25b, T.n13, T.n5, T.n700, T.gastou, T.metade, T.n137, T.multou, T.advertiu, T.resumoB, T.vemUniao, T.nada];
+const soquinho = (t: number) => SOQUINHOS.reduce((acc, a) => (t >= a && t < a + 0.5 ? acc + 0.035 * Math.sin((Math.PI * (t - a)) / 0.5) : acc), 0);
+
+// ---------- Sons ----------
+type Som = {t: number; f: SomEstudio; v: number};
+const SONS: Som[] = (() => {
+  const s: Som[] = [];
+  CENAS.slice(1).forEach((c) => s.push({t: c.ini - 0.1, f: 'whoosh', v: 0.2}));
+  ESTADOS.slice(1).forEach(([t]) => s.push({t: t + 0.05, f: 'tique', v: 0.14}));
+  // mapa
+  [quando('1045'), quando('587'), quando('Do Estado'), quando('so 135')].forEach((t) => s.push({t, f: 'pop', v: 0.2}));
+  // pilhas que deslizam: pop baixinho
+  ANOS.forEach((y) =>
+    y.voos.forEach((v) => {
+      for (let j = 0; j < Math.ceil(v.n); j += 4) s.push({t: v.t + j * 0.025 + 0.6, f: 'pop', v: 0.05});
+    }),
+  );
+  [T.saiu24 + 0.3, T.ano25 + 0.4, T.ano26 + 0.4].forEach((t) => s.push({t, f: 'subida', v: 0.16}));
+  [T.u25, T.e25, T.m25, T.u26, T.e26, T.m26].forEach((t) => s.push({t, f: 'pop', v: 0.18}));
+  [T.n45, T.n21, T.n52, T.n25, T.n11, T.n53, T.n25b, T.n13, T.n5, T.n700].forEach((t) => s.push({t, f: 'pop', v: 0.2}));
+  s.push({t: T.zero, f: 'baque', v: 0.22});
+  s.push({t: T.n60, f: 'baque', v: 0.2});
+  s.push({t: T.comp, f: 'subida', v: 0.18});
+  s.push({t: T.dez, f: 'baque', v: 0.22});
+  s.push({t: T.gastou, f: 'subida', v: 0.2});
+  s.push({t: T.metade, f: 'baque', v: 0.2});
+  s.push({t: T.n137, f: 'baque', v: 0.2});
+  s.push({t: T.multou + 0.1, f: 'baque', v: 0.24});
+  s.push({t: T.advertiu + 0.1, f: 'baque', v: 0.2});
+  s.push({t: T.semJulg, f: 'pop', v: 0.16});
+  s.push({t: T.resumoB, f: 'baque', v: 0.22});
+  s.push({t: T.vemUniao, f: 'pop', v: 0.18});
+  s.push({t: T.nada, f: 'baque', v: 0.2});
+  s.push({t: T.segue, f: 'ding', v: 0.22});
+  return s.filter((x) => x.t >= 0).sort((a, b) => a.t - b.t);
+})();
+export const FAIXAS: Faixa[] = [{...narracao(P), saida: 0.4}, ...SONS.map((x) => efeito(x.f, x.t, x.v))];
+
+export const REVISAO: number[] = [
+  1.5, 5.0, 9.5, 13.5, 16.5, 19.5, 22.6, T.saiu24 + 0.9, T.n45 + 0.8, T.n21 + 0.8, T.zero + 0.5, T.ano25 + 1.0, T.u25 + 0.8, T.e25 + 0.8, T.m25 + 0.8,
+  T.saiu25 + 0.6, T.n52 + 0.8, T.n25 + 0.8, T.adm + 0.8, T.n11 + 0.8, T.n60 + 0.5, T.u26 + 0.8, T.m26 + 0.8, T.comp + 1.0, T.dez + 0.5, T.n53 + 0.8,
+  T.n25b + 0.8, T.n13 + 0.8, T.n5 + 0.6, T.tur + 0.8, T.n700 + 0.6, T.gastou + 1.2, T.metade + 0.8, T.n137 + 0.8, T.tribunal + 0.9, T.multou + 0.9,
+  T.advertiu + 0.8, T.limpEm + 0.5, T.transp + 1.2, T.semJulg + 0.4, T.junho + 1.0, T.resumoB + 0.8, T.vemUniao + 0.6, T.nada + 0.8, T.segue + 1.2, FIM - 0.4,
+];
+
+type Props = {guia?: boolean; semInterface?: boolean; estilo?: string; faixas?: Faixa[]; revisao?: number[]};
+export const OrcamentoBelmonte: React.FC<Props> = ({guia, semInterface, estilo, faixas = FAIXAS}) => {
+  const tema = temaPorId(estilo);
+  const frame = useCurrentFrame();
+  const {fps, durationInFrames} = useVideoConfig();
+  const t = frame / fps;
+  const i = cenaEm(t);
+  const ini = CENAS[i].ini;
+  let e = 0;
+  for (let k = 0; k < ESTADOS.length; k++) if (ESTADOS[k][0] <= t) e = k;
+  const cam = camEm(t);
+  const dt = t - ini;
+  const zoom = (1 + 0.03 * (1 - interpolate(dt, [0, 0.7], [0, 1], {...clamp, easing: sai}))) * (1 + soquinho(t));
+  const desfoque = i > 1 ? interpolate(dt, [0, 0.25], [3, 0], clamp) : 0;
+  const preto = interpolate(frame, [durationInFrames - 15, durationInFrames - 1], [0, 1], clamp);
+  const mundo = soMapa(t) ? null : (
+    <ThreeCanvas width={W} height={H} resize={{offsetSize: true}} shadows="soft" gl={{antialias: false, toneMapping: THREE.NoToneMapping}} camera={{fov: cam.fov, position: cam.pos}}>
+      <Palco tema={tema} alcance={230} sombraArea={12} />
+      <Camera {...cam} />
+      <Mundo t={t} tema={tema} />
+      <AcabamentoCinema raioAO={0.4} />
+    </ThreeCanvas>
+  );
+  const mapas = (
+    <Sequence from={MAPA.de} durationInFrames={MAPA.ate - MAPA.de} layout="none">
+      <TrechoMapa {...MAPA} />
+    </Sequence>
+  );
+  if (semInterface) return <AbsoluteFill style={{backgroundColor: tema.fundo}}>{mundo}{mapas}</AbsoluteFill>;
+  return (
+    <AbsoluteFill style={{backgroundColor: tema.fundo}}>
+      <AbsoluteFill style={{transform: `scale(${zoom})`, filter: desfoque > 0.2 ? `blur(${desfoque}px)` : undefined}}>{mundo}</AbsoluteFill>
+      {mapas}
+      <Interface t={t} tema={tema} cam={cam} />
+      {preto > 0 ? <AbsoluteFill style={{backgroundColor: tema.fundo, opacity: preto, pointerEvents: 'none'}} /> : null}
+      <Marca tema={tema} serie={SERIE} assunto="Orçamento de Belmonte" />
+      <Pilula tema={tema} estado={ESTADOS[e][1]} t={t} troca={ESTADOS[e][0]} />
+      <Legenda t={t} palavras={PALAVRAS} tema={tema} />
+      <MarcaDagua tema={tema} t={t} />
+      {guia ? <GuiaReels /> : null}
+      <Sons faixas={faixas} />
+    </AbsoluteFill>
+  );
+};
+
+// ---------- Capa ----------
+export const TITULO_CAPA = ['126 mi.', 'Para onde', 'foi cada', 'real?'];
+export const CapaOrcamentoBelmonte: React.FC<{estilo?: string; linhas?: string[]; fundo?: string; desce?: number}> = ({estilo, linhas = TITULO_CAPA, fundo = `${P}/capa/fundo-limpo.jpg`, desce = 300}) => {
+  const tema = temaPorId(estilo);
+  return (
+    <AbsoluteFill style={{backgroundColor: tema.fundo}}>
+      <Img src={staticFile(fundo)} style={{position: 'absolute', left: 0, top: desce, width: W, height: H}} />
+      <AbsoluteFill style={{background: `linear-gradient(180deg, ${tema.fundo}F2 0%, ${tema.fundo}D9 30%, ${tema.fundo}00 52%)`}} />
+      <Pilula tema={tema} estado={`${SERIE} · BELMONTE`} t={1} troca={0} y={SEGURO.topo + 160} />
+      <div style={{position: 'absolute', left: SEGURO.esq, right: W - SEGURO.dir, top: SEGURO.topo + 250}}>
+        {linhas.map((l, k) => (
+          <div key={k} style={{fontFamily: FONTE, fontSize: 132, fontWeight: 850, letterSpacing: -5, lineHeight: 1.0, color: k === linhas.length - 1 ? tema.acento : tema.texto, whiteSpace: 'nowrap'}}>
+            {l}
+          </div>
+        ))}
+      </div>
+    </AbsoluteFill>
+  );
+};

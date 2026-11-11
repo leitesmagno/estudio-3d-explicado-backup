@@ -1,0 +1,22 @@
+# 078. orçamento de mucuri
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentomucuri · Nome: OrcamentoMucuri
+- MODO AUTÔNOMO (liberado pelo coordenador em 09/11/2026, Região Sul). Molde UBAITABA (092) + Camacan; brief projetos/_brief-molde-ubaitaba.md; SEM tarifa bancária (regra 60); máx. 3:00; sem pasta própria em Documentos (regra 59).
+- Levantamento: ~/Documents/RECEITAS-DESPESAS-MUCURI/
+- e-TCM (09/11/2026, trava do navegador 04:06–04:28): Prefeitura e Câmara; Balanço, Anexos 9, 10 e 16 (2024/2025), PCMGE015/016 (12/2024, 12/2025, 09/2026, Prefeitura e consolidados), PCMGE065 e 018 de 09/2026, Câmara PCMGE015 (3 anos), PCAGE062 (2024/2025) e PCMGE018 09/2026; Decisões do TCM (auditoria). 0 pendências.
+- Totais (liquidado): 2024 arrecadou 232,4 (previa 408,5), gastou 263,1 (30,7 a mais); 2025 259,7 / 262,4 (2,7 a mais); 2026 até set. 199,8 arrecadado, 193,6 liquidado, 227,9 empenhado.
+- Achados: eventos 5,4 (2025) e 7,2 (2024) x benefícios eventuais 105 mil (de 432) e 121 mil; dívida fundada 103,6 → 189,9 em 2025 (INSS parcelado + 41 mi de precatórios), pagou 16,7; salários 138,8; Câmara 12,2 x agricultura 1,5; saneamento da prefeitura R$ 0 nos três anos (água e esgoto: Embasa). TCM: 26967e25 advertência (ordem cronológica de pagamentos), 02003e25 publicidade em análise.
+- Roteiro v1 revisado = APROVADO (modo autônomo): 515 palavras, sem tarifa bancária. 2ª conferência: todos os valores achados nos PDFs (fontes.md).
+- Voz: Algenib, 12 partes, speakingRate 1,3, pausas 0,28 s, atempo 1,1781, -15,6 LUFS = 177,58 s. Transcrição conferida frase a frase: nada pulado.
+- Sincronia: palavras.json normalizado (original em palavras-original.json); 513 palavras, última em 177,24 s.
+- Plano aprovado no modo autônomo (plano.md). Código src/videos/orcamentomucuri/ + Root (depois do tsc limpo, regra 54). Kit Mapas orcamento-mucuri registrado (IBGE 2922003 conferido; satélite de Teixeira reaproveitado).
+- Mapa: 1ª tentativa falhou (satélite de Teixeira sem blocos do voo); pasta própria satelite/orcamento-mucuri (cópias de Teixeira, Caravelas, Itabela, Itamaraju + npm run tiles e REFAZER 8-13). mapas/mucuri.mp4 (21,1 s).
+- Folhas: 3 de receita (com royalties separados; 2024 com ajuste ao Balanço de −68.976,81) + 36 de setor (ações ou tipos de despesa, faixa de pessoal e diárias; Câmara com duodécimo; saneamento com "previsto · gasto R$ 0,00"). Todas fecham com o total. Config: ~/Documents/RECEITAS-DESPESAS-MUCURI/saida/folha-pdf/config-setores.json (scripts/folhas078.py).
+- Revisão 3D (regras 13/14): v1 com 83 quadros (antigos/revisao v1). Corrigido: enquadramento da gaveta da dívida (plaquinhas 103,6/189,9/138,8 encavaladas e torre cortada); meio ambiente 2024 "R$ 1,06 MI" e cultura 2026 "R$ 3,97 MI" (tela = fala); plaquinha do saneamento 2026 mais longa; FX 2024 mais aberto. v2 conferida nos trechos mudados: APROVADA no modo autônomo.
+- ★ Melhoria (regra 14): em "a dívida quase dobrou", as torres 103,6 → 189,9 voltam com o chip "R$ 103,6 → 189,9 MI" antes de a câmera ir para os eventos.
+- Legenda pronta (edicoes/078.../MUCURI - legenda.txt, 2.196 caracteres, ⚖️ AVISO + comentário fixado).
+- Vídeo final: render sem folha (14 partes de 400) + tools/lista_pdf aplicar com as 39 folhas (3 de receita + 36 de setor; 8 translúcidas, nenhuma pulada, regra 34): 5.354 quadros, 178,47 s, volume médio -18,6 dB, pico -3,4 dB. Conferido em 4 quadros com folha.
+- Capa: "Eventos: / R$ 5,4 mi. / Ajuda social: / R$ 105 mil." sobre o quadro 5190 do OrcamentoMucuriLimpo (gaveta EVENTOS x AJUDA), fundo descido 880 px para o título não ficar sobre objetos; gerada pela entrada isolada (regra 66).
+- Etapa atual: 8. ENTREGUE em 09/11/2026 (modo autônomo, molde Ubaitaba, sem tarifa): ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/MUCURI.mp4; edicoes/078. orçamento de mucuri/ (MUCURI.mp4, MUCURI - capa.jpg, MUCURI - legenda.txt). Sem pasta própria em Documentos (regra 59). 0 pendências no TCM. Travas soltas; temporários do Remotion desta sessão apagados.
+- Observação: no mapa de abertura fica um retângulo um pouco mais claro em volta de Mucuri (tom dos blocos de satélite de perto); não afeta dados.
+- Falta: o Magno assistir e publicar.

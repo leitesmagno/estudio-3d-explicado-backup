@@ -1,0 +1,26 @@
+# 131. orçamento de maraú
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentomarau · Nome: OrcamentoMarau (composições OrcamentoMarau, …Guia, …Limpo, CapaOrcamentoMarau)
+- PEDIDO DE SEGUIDOR (e-mail do site): "Entrada e saída da Prefeitura e Câmara Municipal". MODO AUTÔNOMO (coordenador, 10/11/2026 ~20:20): molde 093 Ilhéus, só 2024, 2025 e 2026. SEM tarifa bancária. Máx. 3:00. Câmara em destaque (recebeu, devolveu, gastos principais). Regra 99: "Festas e eventos" separado de "Cultura". Hashtags só #Maraú #MagnoLeiteExplica. Roteiro revisado = aprovado; eu mesma olho os quadros.
+- e-TCM: município 250 (MARAÚ), Prefeitura UJ 854, Câmara UJ 283. Último mês de 2026: 09/2026 (Prefeitura e Câmara; 10/2026 "Pendente").
+- Regra 89: lista de prestações mensais (22 linhas, 01/2025 a 10/2026, + Câmara em "outras") gravada em dados/prestacoes-etcm/marau.json (20:30).
+- Downloads (10/11/2026 20:26 a 20:52, navegador do app com a trava _navegador.lock, recebedor 8778 pasta MARAU, fetch + /salva, sem janela): 133 PDFs em ~/Documents/RECEITAS-DESPESAS-MARAU/documentos_tcm/ (mensais 12/2024, 12/2025 e 09/2026 da Prefeitura e da Câmara; anuais 2024 e 2025). Município e competência conferidos. Trava solta 20:53, aba fechada. Navegador escondido freia o setTimeout: usei espera com Web Worker (como o cofre_pagina.js).
+- Formatos: PCMGE015 SIGA da Prefeitura (leitor scripts/acoes015.py novo: ação pelo código de 7 partes, linha quebrada na virada da página). 2024 pelo PCMGE065 consolidado (= Balanço; o PCMGE015 de 2024 tem liquidado maior que o empenhado em algumas ações). 2025 = Balanço centavo a centavo; 2026 = consolidado 065 = razão 064.
+- Totais (liquidado): 2024 arrecadou 137,99 / gastou 132,89 (sobraram 5,10) · 2025 arrecadou 157,83 / gastou 158,00 (179 mil a mais) · 2026 até set arrecadou 132,91 / gastou 130,04 (sobraram 2,87) / empenhado 132,49.
+- Setores: 11 (Festas e eventos separado de Cultura, regra 99). Manutenção da Sec. de Infraestrutura (função 04) em Obras; da Sec. de Agricultura (função 04) em Agricultura; "Encargos e amortização da dívida" em Dívidas. Esporte 2025: nada liquidado nas ações da função 27.
+- Câmara: recebeu 4,64 / devolveu 1,41 / gastou 3,23 (2024); 5,98 / 0,94 / 5,04 (2025); 4,78 / 0,235 / 4,30 (2026 até set). Consultoria 287 mil → 675 mil → 608 mil; combustível 94 mil → 187 mil → 288 mil; diárias 25 mil → 182 mil → 201 mil.
+- Festas e eventos: 2,39 (2024) · 3,22 (2025, com 800 mil de bandas na ação "EXECUÇÃO DE CONVENIO - OUTROS" da Infraestrutura, fonte 1701) · 2,48 (2026 até set, com 834 mil de bandas na ação da Sec. de Cultura). Benefícios eventuais 2025: 264 mil.
+- Roteiro v1 revisado = APROVADO no modo autônomo (448 palavras).
+- Voz: Google Chirp 3 HD Algenib, speakingRate 1,3, 14 partes + 0,35 s, pausas 0,28 s, atempo 1,12, -15 LUFS = 174,96 s. "FPM" escrito "efe, pê, eme" no texto da voz.
+- Sincronia: 448 palavras (= roteiro), última em 174,66 s; números do Whisper limpos (scripts/limpa_whisper.py; original em transcricao/palavras-original.json). transcript.md do roteiro (67 frases); o do Whisper em transcript-whisper.md.
+- Fontes: audio/fontes.md (cada número com valor exato, PDF, página e linha/coluna), copiado para ~/Documents/FONTES.
+- Plano aprovado no modo autônomo (plano.md).
+- Mapa: Kit Mapas src/videos/orcamento-marau (IBGE 2920700, satélite copiado de Itacaré + npm run tiles), Root do Kit como KITMAR. mapas/marau.mp4.
+- Código: src/videos/orcamentomarau/OrcamentoMarau.tsx (molde 128), tsc ok, registrado no Root.tsx depois do tsc (regra 54), apelidos _MAR.
+- Folhas: 3 de receita + 33 por setor (scripts/folhas.py), soma = valor falado.
+- Revisão 1 (80 quadros, 21:03): valores certos, área segura e margem ok. Ajustes: chip do Esporte 2025 "NADA NAS AÇÕES DA ÁREA" e plaquinhas da Câmara 2024 saem quando entra 2026. Revisão 2 (4 quadros + 3 do Limpo, 21:05): ok. Revisão APROVADA (modo autônomo).
+- Legenda: edicoes/131.../MARAÚ - legenda.txt (hashtags só #Maraú #MagnoLeiteExplica, ⚖️ AVISO, comentário fixado).
+- Vídeo final (21:06–21:19, trava de render): render-sem-folha/MARAÚ.mp4 + 36 folhas → edicoes/131. orçamento de maraú/MARAÚ.mp4 (5.276 quadros, 175,87 s, 1080x1920, áudio médio -18,5 dB, pico -3,5 dB). Quadros conferidos depois das folhas.
+- Capa: "Câmara 2025: / R$ 5 mi. / Festas 2025: / R$ 3,2 mi." (fundo OrcamentoMarauLimpo quadro 5172, desce = 820).
+- Etapa: ENTREGUE 10/11/2026 ~21:22: ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/MARAÚ.mp4; edicoes/131.../MARAÚ - capa.jpg e MARAÚ - legenda.txt; fontes.md em ~/Documents/FONTES; transcricao/transcript.md pronto (67 frases). PDFs em ~/Documents/RECEITAS-DESPESAS-MARAU/documentos_tcm. Travas soltas; apagados (meus): render-sem-folha, audio/partes-google, audio/curto.wav, revisao/*.jpg, folha-pdf/tmp e out/OrcamentoMarau.mp4 do Kit. Nenhum chrome-headless-shell meu aberto. Site: com o coordenador.
+- Pendências no TCM: PCMGE015 SIGA de 12/2024 da Prefeitura com liquidado maior que o empenhado em algumas ações (2024 pelo consolidado PCMGE065 = Balanço); 12/2025 da Prefeitura sem PCMGE064/065/066 na prestação; comprovantes de devolução da Câmara de 2024 só em imagem (devolução lida no razão).

@@ -1,0 +1,24 @@
+# 111. orçamento de dias d'ávila
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentodiasdavila · Nome: OrcamentoDiasDavila (composições OrcamentoDiasDavila, …Guia, …Limpo, CapaOrcamentoDiasDavila)
+- Lote de 40. MODO AUTÔNOMO (coordenador, 10/11/2026 ~22:30): molde 093 Ilhéus / 131 Maraú, só 2024, 2025 e 2026. SEM tarifa bancária. Máx. 3:00. Regra 99: "Festas e eventos" separado de "Cultura". Hashtags só #DiasDÁvila #MagnoLeiteExplica. Roteiro revisado = aprovado; eu mesma olho os quadros.
+- e-TCM: município 118 (DIAS DÁVILA), Prefeitura UJ 723, Câmara UJ 152. Último mês de 2026: 09/2026 (10/2026 "Pendente").
+- Regra 89: lista de prestações mensais (22 linhas, 01/2025 a 10/2026, + Câmara em "outras") gravada em dados/prestacoes-etcm/dias-d-avila.json (22:40).
+- Downloads (10/11/2026 22:31 a 22:49, navegador do app com a trava _navegador.lock, recebedor 8778 pasta DIAS-D-AVILA, fetch + /salva, sem janela): 56 PDFs em ~/Documents/RECEITAS-DESPESAS-DIAS-D-AVILA/documentos_tcm/ (demonstrativos mensais 12/2024, 12/2025 e 09/2026 da Prefeitura e da Câmara; anuais 2024 e 2025 com o Balanço). A prestação mensal da Prefeitura tem mais de 2.500 documentos (notas, empenhos): baixei só os demonstrativos contábeis. Município e competência conferidos. Trava solta 22:49, aba fechada.
+- Formatos: 2025 e 2026 SIGA (scripts/acoes015.py, molde Maraú). 2024 Contabilis, sem função nas ações: scripts/acoes2024.py tira a função da mesma ação de 2025; receita 2024 por scripts/receita2024.py.
+- Totais (liquidado): 2024 arrecadou 386,62 / gastou 344,16 (sobraram 42,46) · 2025 arrecadou 404,46 / gastou 397,09 (sobraram 7,37; empenhado 405,79) · 2026 até set arrecadou 308,71 / gastou 295,08 (sobraram 13,62).
+- Câmara: recebeu 14,29 / devolveu 840,84 reais / gastou 14,29 (2024); recebeu 13,57 / gastou 13,49 (2025, mais que a assistência social, 11,34); recebeu 11,00 / devolveu 26 mil / gastou 10,91 (2026 até set). Consultoria 567,5 mil → 735,5 mil; combustível 442 mil (2024), 74 mil (2025), 276 mil (até set/2026).
+- Festas e eventos (regra 99): 7,91 (2024) · 8,38 (2025) · 10,33 (2026 até set); ação "Realização de eventos culturais" do Gabinete + palco na Educação. Bandas: 3,87 mi (2025) e 4,92 mi (até set/2026). Benefícios eventuais 2025: 1,47 mi.
+- Roteiro v1 revisado = APROVADO no modo autônomo (440 palavras).
+- Voz: Google Chirp 3 HD Algenib, speakingRate 1,3, 14 partes + 0,35 s, pausas 0,28 s, atempo 1,06, -15 LUFS = 177,23 s. "FPM" escrito "efe pê eme" no texto da voz.
+- Sincronia: 440 palavras (= roteiro); "Arrecadou" de 2024 ajustado para 25,7 s (o Whisper repetiu "24"). transcript.md do roteiro (64 frases); o do Whisper em transcript-whisper.md.
+- Fontes: audio/fontes.md (cada número com valor exato, PDF, página e linha/coluna), copiado para ~/Documents/FONTES.
+- Plano aprovado no modo autônomo (plano.md).
+- Código: src/videos/orcamentodiasdavila/OrcamentoDiasDavila.tsx (gerado do molde 131), tsc ok, registrado no Root.tsx depois do tsc (regra 54), apelidos _DDA. Kit Mapas: src/videos/orcamento-diasdavila (IBGE 2910057, satélite copiado de Catu + npm run tiles), Root do Kit como KITDDA.
+- Folhas: 3 de receita + 33 por setor (scripts/folhas.py), soma = valor falado.
+- PAUSA 23:01 a ~23:25 (Magno: calor). Retomado com as regras 101 (nice -n 15, concorrência 1, pmset -g therm antes de cada passo pesado).
+- Mapa (Kit Mapas, NUCLEOS=1) e 75 quadros de revisão (23:26 a 23:31). Revisão 1: valores, área segura e margem ok. Ajustes: chip de Saúde 2024 mostrava 83,1 (exato 83.049.778,67): valor no código passou a 83,0498; "gastou 2025" da Câmara e ajuda às famílias com o alerta puro, para não confundir com o rosa de 2026. Revisão 2 (5 quadros + 4 do Limpo, 23:33): ok. Revisão APROVADA (modo autônomo). Fundo da capa: OrcamentoDiasDavilaLimpo quadro 5265.
+- Vídeo final (23:34–23:51, trava de render, nice -n 15, concorrência 1): render-sem-folha + 36 folhas → edicoes/111. orçamento de dias d'ávila/DIAS D'ÁVILA.mp4 (5.344 quadros, 178,13 s, 1080x1920, áudio médio -18,3 dB, pico -3,4 dB). Quadros conferidos depois das folhas.
+- Capa: "Câmara 2025: / R$ 13,5 mi. / Festas 2025: / R$ 8,4 mi." (fundo OrcamentoDiasDavilaLimpo quadro 5265, desce = 820).
+- Etapa: ENTREGUE 10/11/2026 ~23:53: ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/DIAS D'ÁVILA.mp4; edicoes/111.../DIAS D'ÁVILA - capa.jpg e DIAS D'ÁVILA - legenda.txt; fontes.md em ~/Documents/FONTES; transcricao/transcript.md pronto (64 frases). PDFs em ~/Documents/RECEITAS-DESPESAS-DIAS-D-AVILA/documentos_tcm. Travas soltas; apagados (meus): render-sem-folha, audio/partes-google, audio/curto.wav, revisao/*.jpg, folha-pdf/tmp, out/OrcamentoDiasDavila.mp4 do Kit e a cópia temporária do Remotion. Nenhum chrome-headless-shell aberto. Site: com o coordenador.
+- Pendências no TCM: 2025-12_PCMGE064 (razão consolidado de dez/2025) só em imagem; 2024 em outro sistema (Contabilis), sem função nas ações e sem detalhe de bandas e palco.

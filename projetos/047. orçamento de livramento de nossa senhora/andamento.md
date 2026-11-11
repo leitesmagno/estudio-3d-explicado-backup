@@ -1,0 +1,16 @@
+# 047. orçamento de livramento de nossa senhora
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentolivramento · Nome: OrcamentoLivramento
+- Molde: 035 Paratinga (src/videos/orcamentoparatinga/ e ~/Kit-Mapas-Animados/src/videos/orcamento-paratinga/)
+- Etapa atual: 8. ENTREGUE em 07/11/2026: edicoes/047. orçamento de livramento de nossa senhora/LIVRAMENTO DE NOSSA SENHORA.mp4 (5342 quadros, 178,07 s, 14 partes de 400 em 12 min, volume médio -18,8 dB, pico -3,8 dB, emendas conferidas), LIVRAMENTO DE NOSSA SENHORA - capa.jpg (fundo: OrcamentoLivramentoLimpo quadro 4130, desce 300) e LIVRAMENTO DE NOSSA SENHORA - legenda.txt (2.186 caracteres, com ⚖️ AVISO e comentário fixado). (revisão conferida por mim em 07/11/2026: 57 quadros + correções; cenas em src/videos/orcamentolivramento/; plano.md v1 APROVADO pelo Magno em 07/11/2026)
+- Correções da revisão: pilhas de 2025 nasciam no gancho (quando('Gastou 284', 2)); arredondamento 3,65 → 3,7; rótulos sobrepostos procuram lugar livre; chão seco com mais contraste; faixa do São João virada para a câmera; títulos curtos nas pastas; câmera dos zeros mais aberta.
+- Mapa: ~/Kit-Mapas-Animados/src/videos/orcamento-livramento (IBGE 2919504) → mapas/livramento.mp4 (447 quadros, 14,9 s).
+- Composições: OrcamentoLivramento, OrcamentoLivramentoGuia, OrcamentoLivramentoLimpo, CapaOrcamentoLivramento (5342 quadros). Escala: 1 pilha = R$ 4 mi.
+- Narração: voz Mário (arquivo ElevenLabs_2026-11-07T12_36_54, baixado 2x idêntico), pausas 0,28 s (scripts/encurtar_pausas.py, porque o silenceremove do ffmpeg 9 não corta), acelerada 1,25x = 177,15 s (AUDIO_SEG 177.15, QUADROS 5342). Sincronia: 463 palavras, última em 176,8 s; nenhuma frase pulada.
+- Roteiro e título da capa APROVADOS pelo Magno em 07/11/2026.
+- Levantamento: ~/Documents/RECEITAS-DESPESAS-LIVRAMENTO (e-TCM município 234, Prefeitura UJ 838, Câmara UJ 267; balanços no formato SIAFIC/Fator: scripts anexo9b.py, anexo6.py (unidade com 5 dígitos), acoes015b.py; 2026 no formato SIGA: acoes015c.py, que perde a linha de Encargos Especiais, conferida à mão). PDFs conferidos por dentro (município e mês certos). Tudo em audio/fontes.md e saida/CHECAGEM_ROTEIRO.md.
+- Foco: sobra de 11 mi em 2024; 14 mi a mais em 2025 (coberto com sobra anterior); 12,6 mi a mais em 2026 até set. Festas > dobro da assistência social nos 3 anos (2024: 1,2 mi previsto x 7,4 mi gasto). Emergência por seca em 2025 e 2026 e São João de 2 meses em 2026. Melhorias sanitárias: mais de 1 mi previsto por ano, zero. Agricultura: só a manutenção da secretaria. Água e esgoto são da Embasa; esgoto novo é obra do Estado (Novo PAC). TCM: kits escolares 3,7 mi suspenso e cancelado; ar-condicionado e eletrônicos 2,7 mi suspenso; artistas do São João 2026 em análise.
+- Cuidados: "defesa civil" fora (a subfunção tem a assessoria jurídica lançada ali); "emergência" fora (carro-pipa é pago pela Infraestrutura); valor do esgoto do Estado fora (fontes divergem).
+- Título proposto da capa: "Em emergência / pela seca. / Dois meses / de festa."
+- Pedido do Magno (07/11/2026): "depois que tiver tudo pronto, pode já seguir pra gerar o vídeo final" = não precisa parar para aprovação da revisão; eu mesmo confiro todos os quadros antes do final.
+- Falta: nada. O Magno posta.

@@ -1,0 +1,22 @@
+# 123. orçamento de morro do chapéu
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentomorrodochapeu · Nome: OrcamentoMorroDoChapeu (composições OrcamentoMorroDoChapeu, …Guia, …Limpo, CapaOrcamentoMorroDoChapeu).
+- MODO AUTÔNOMO (lote LARANJA, cidade L15, liberado pelo coordenador em 11/11/2026 ~06:15 com "pode começar"; produção de dia, regra 103). Molde 093 Ilhéus / 120 Riachão das Neves. SEM tarifa bancária; máx. 3:00; voz Google Algenib; festas separadas da cultura (regra 99); calor (regra 101).
+- e-TCM: município 262 MORRO DO CHAPÉU, Prefeitura UJ 866, Câmara UJ 295, Instituto de Previdência UJ 578. Último mês: 09/2026 (Câmara entregou até 08/2026; o consolidado de 09/2026 já tem a Câmara). Prestações (regra 89): dados/prestacoes-etcm/morro-do-chapeu.json (22 linhas + Câmara e Previdência).
+- Downloads: 11/11/2026 06:32 a 07:05, Claude in Chrome com a trava _navegador.lock (solta no fim), fetch + recebedor 8778 /salva, sem janela. 75 PDFs em ~/Documents/RECEITAS-DESPESAS-MORRO-DO-CHAPEU/documentos_tcm. 0 falhas. Município e competência conferidos.
+- Atenção: os PCMGE015 por unidade da Prefeitura não fecham com o Balanço (2024); despesa por setor pelo PCMGE015 CONSOLIDADO (2025 = Balanço; 2024 consolidado 1.197.593,39 abaixo do Balanço). Receita 2026 pelo PCMGE066 (o PCMGE016 consolidado tem linhas trocadas no texto; o TOTAL bate).
+- Totais (liquidado): 2024 arrecadou 259,25 / gastou 251,53 (sobraram 7,72) · 2025 293,08 / 266,48 (sobraram 26,60) · 2026 até set 214,28 / 209,09 (sobraram 5,18) / empenhado 273,64.
+- Setores (11): Educação, Saúde, Obras e serviços urbanos, Administração, Dívidas e encargos, Previdência dos servidores, Assistência social, Câmara, Cultura, Agricultura e meio ambiente, Esporte. Festas e eventos = 0 (só a "Gestão de eventos de turismo", sem gasto) e não é dito.
+- Achados: empréstimo de 2024 previa 7,62 e pegou 19,68; pavimentação 2024 previa 5,21 e gastou 34,12; 2025 pegou 1,35; orçamento 2026 prevê 43,75 em empréstimos; dívidas e encargos 15,66 / 22,34 / 16,85; ação de atividades culturais e tradicionais 2025 previa 7,04 e gastou 0,47. Câmara recebeu 8,15 (2024), 8,96 e devolveu 6 mil (2025), 8,19 até set/2026.
+- Roteiro revisado = APROVADO no modo autônomo (453 palavras; tirei o parágrafo repetido das dívidas para caber em 3 min).
+- Voz: Google Chirp 3 HD Algenib, speakingRate 1,3, 13 partes + 0,35 s, pausas 0,28 s, atempo 1,175, loudnorm -15,5 (medido -15,8 LUFS) = 176,91 s. Conferida com o Whisper: nada pulado; "Saúde, 51 e 600" (2026) não saiu na transcrição grande e foi conferido num trecho só (106,86 s), inserido no palavras.json (cópia em palavras-original.json).
+- Sincronia: 453 palavras (= roteiro), última em 176,52 s. transcript.md do roteiro (67 frases); o do Whisper em transcript-whisper.md.
+- Fontes: audio/fontes.md (valor exato, PDF, página e linha/coluna). Plano: plano.md (aprovado no modo autônomo).
+- Código: src/videos/orcamentomorrodochapeu (molde 120), tsc ok, Root registrado. Kit Mapas: orcamento-morro-do-chapeu (IBGE 2921708), Root KITMORROCHAPEU, satélite copiado de Seabra + npm run tiles.
+- Folhas: 3 de receita + 33 por setor (scripts/folhas.py), soma = valor falado.
+- Mapa: mapas/morrodochapeu.mp4 (Kit Mapas, 1 núcleo, com trava, 07:33).
+- Revisão (77 quadros em todas as viradas de fala, olhados em folhas de contato + 2 quadros avulsos): tela igual à fala, nada sobreposto, 90 px das laterais, nada piscando. Corrigido: na pergunta final a torre dos 43,7 mi tapava a casinha das dívidas (câmera de cima + plaquinhas das dívidas dos 3 anos) e o placar de escala dessa hora (R$ 3 mi). Revisão APROVADA (modo autônomo).
+- Vídeo final (08:11 a 08:25, trava de render, nice e concorrência 1, sem aviso de calor): 177,80 s, 1080x1920, 5334 quadros, áudio médio -19,0 dB, pico -3,8 dB, 36 folhas.
+- Capa: "Empréstimo: / R$ 19,7 mi. / Dívidas 2025: / R$ 22,3 mi." (fundo OrcamentoMorroDoChapeuLimpo quadro 5250).
+- Legenda: edicoes/123.../MORRO DO CHAPÉU - legenda.txt (hashtags só #MorroDoChapeu #MagnoLeiteExplica, ⚖️ AVISO, comentário fixado).
+- Etapa: ENTREGUE 11/11/2026 ~08:30: ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/MORRO DO CHAPÉU.mp4; edicoes/123.../MORRO DO CHAPÉU.mp4, capa e legenda; fontes.md em ~/Documents/FONTES; transcricao/transcript.md (67 frases). Travas soltas; apagados (meus): render-sem-folha, audio/partes-google, partes-curtas, junto.wav, revisao/*.jpg, folha-pdf/tmp, out do Kit. Site: com o coordenador.

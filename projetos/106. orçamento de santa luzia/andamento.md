@@ -1,0 +1,23 @@
+# 106. orçamento de santa luzia
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentosantaluzia · Nome: OrcamentoSantaLuzia (composições OrcamentoSantaLuzia, …Guia, …Limpo, CapaOrcamentoSantaLuzia)
+- MODO AUTÔNOMO (coordenador, 10/11/2026): lote de 40, regra 88 (duas cidades ao mesmo tempo, com a 105 Mascote). Brief `projetos/_brief-lote-40.md`, molde 093 Ilhéus / 104 Jussari, regras 82 a 88 (só 2024, 2025 e 2026). SEM tarifa bancária. Máx. 3:00. Hashtags só #SantaLuzia #MagnoLeiteExplica.
+- e-TCM: município 342, Prefeitura UJ 946, Câmara UJ 375 (sem autarquia com conta própria). Último mês de 2026: 09/2026 (Prefeitura e Câmara). Sistema SIAFIC nos anuais; SIGA nos mensais.
+- Downloads (10/11/2026 07:17–07:33, trava do navegador, recebedor 8778 pasta SANTA-LUZIA, fetch + /salva, sem janela): 46 PDFs em ~/Documents/RECEITAS-DESPESAS-SANTA-LUZIA/documentos_tcm/, todos de Santa Luzia (os PCMGE007 da Câmara são escaneados). Trava solta às 07:33.
+- Totais (liquidado): 2024 arrecadou 72,97 / gastou 75,26 (2,29 a mais) · 2025 arrecadou 78,81 / gastou 78,68 (sobraram 0,13) · 2026 até set arrecadou 70,30 / gastou 68,49 (sobrou 1,81) / empenhado 78,92.
+- Achados: festas 1,74 mi (2024, 1,24 mi só em bandas), 1,50 mi (2025), 1,67 mi até set/2026; apoio à agricultura familiar e FUMAF com R$ 0 nos três anos; IPTU 120 mil, 147 mil e 92 mil (previsão 932 mil em 2026); Câmara 1,99 → 2,61 mi (consultoria 340 mil, diárias 47 mil em 2025); INSS parcelado 79,8 mi no fim de 2024 (mais que a receita de 2024) → 64,4 mi no fim de 2025 (3 mi pagos, 12,4 mi por atualização).
+- Roteiro v1 = APROVADO no modo autônomo (10/11/2026). 1ª conferência feita (scripts/setores_sl.py e achar.py).
+- Voz: Google Chirp 3 HD Algenib, speakingRate 1,3, 14 partes + 0,35 s, pausas 0,28 s, sem atempo, -15 LUFS = 173,20 s.
+- Transcrição: palavras.ts com 429 palavras (= roteiro), última em 172,76 s. transcript.md refeito do roteiro com os tempos (70 frases, para o site); transcript-whisper.md guardado.
+- Fontes: audio/fontes.md (cada número com valor exato, PDF, página e linha/coluna), copiado para ~/Documents/FONTES.
+- Plano aprovado no modo autônomo (plano.md). Mapa: Kit Mapas src/videos/orcamento-santaluzia (registrado no Root do Kit como KITSL).
+- Código: src/videos/orcamentosantaluzia/OrcamentoSantaLuzia.tsx (molde 104). tsc ok; registrado no Root.tsx.
+- Mapa: ~/Kit-Mapas-Animados/out/OrcamentoSantaLuzia.mp4 → mapas/santaluzia.mp4 (07:44–07:47, trava de render).
+- Revisão 1 (75 quadros): plaquinhas e chips arredondados como a fala (6,8 e não 6,76; 130 mil; festas 1,7; Câmara 2 e 2,6), torres das festas mais espaçadas. Revisão 2: gerando.
+- Folhas: 3 de receita (PCMGE016 de cada ano, fecham com o Balanço) + 30 por setor (scripts/folhas_sl.py → saida/folha-pdf/config-setores.json); festas abertas em bandas, palco e festividades; agricultura com as linhas de R$ 0 da agricultura familiar e do FUMAF nos três anos.
+- Legenda escrita (edicoes/106.../SANTA LUZIA - legenda.txt, 2.176 caracteres no post).
+- Revisão 2 (75 quadros, revisao/revisao2): ok. Revisão APROVADA (modo autônomo). 2ª conferência: valores do fontes.md procurados no texto dos PDFs (scripts/achar.py).
+- Vídeo final (07:50–08:02, trava de render): render-sem-folha/SANTA LUZIA.mp4 + 33 folhas → edicoes/106. orçamento de santa luzia/SANTA LUZIA.mp4 (5.223 quadros, 174,1 s, 1080x1920, áudio médio -18,4 dB, pico -3,8 dB). Quadros conferidos depois das folhas.
+- Capa: "Festas: / R$ 4,9 mi. / Agricultura / familiar: R$ 0." (fundo OrcamentoSantaLuziaLimpo quadro 5070). Legenda com ⚖️ AVISO e comentário fixado; hashtags só #SantaLuzia #MagnoLeiteExplica.
+- Pendências no TCM: comprovantes de repasse da Câmara (PCMGE007) e o razão da Câmara de 12/2025 escaneados e ilegíveis; liquidado do Balanço 2025 6.300,00 acima da soma dos PCMGE015 de dezembro.
+- Etapa: ENTREGUE 10/11/2026 ~08:03: ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/SANTA LUZIA.mp4; edicoes/106.../SANTA LUZIA - capa.jpg e SANTA LUZIA - legenda.txt; fontes.md copiado para ~/Documents/FONTES; transcricao/transcript.md pronto. PDFs guardados em ~/Documents/RECEITAS-DESPESAS-SANTA-LUZIA/documentos_tcm (46). Travas soltas. Atualização do site: com o coordenador.

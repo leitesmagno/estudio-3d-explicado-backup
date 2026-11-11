@@ -1,0 +1,24 @@
+# 091. orçamento de nova viçosa
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentonovavicosa · Nome: OrcamentoNovaVicosa
+- MODO AUTÔNOMO (liberado pelo coordenador em 09/11/2026, Região Sul, Lote 5). Molde UBAITABA (092) + Almadina (081) + Camacan; brief projetos/_brief-molde-ubaitaba.md; SEM tarifa bancária (regra 60); máx. 3:00; sem pasta própria em Documentos (regra 59).
+- Levantamento: ~/Documents/RECEITAS-DESPESAS-NOVA-VICOSA/
+- e-TCM: município 281 "NOVA VIÇOSA"; Prefeitura UJ 885, Câmara UJ 314; sem autarquias. Último mês de 2026 da Prefeitura: 08/2026 (Câmara usada no mesmo mês).
+- Documentos (todos os fundamentais, 0 pendências): Balanço (PCAGO015) e Anexo 9 (PCAGO007) de 2024 e 2025, Anexo 16 de 2025; PCMGE015/016 de 12/2024 (SIGA); 12/2025: PCMGE015 e PCMGE018 vieram como "Declaração SIGA", usados os consolidados PCMGE065/066 (Fator), que fecham com o Balanço; PCMGE015/016/018/065/066 de 08/2026; Câmara: PCMGE015 de 12/2024, 12/2025 e 08/2026, PCAGE062 2024 e 2025, PCMGE018 08/2026; Decisões do TCM (09/11/2026 06h38).
+- Totais: 2024 arrecadou 200,38 / liquidou 180,49 (19,9 mi a menos) · 2025 215,70 / 215,56 (empenhou 219,49: 3,8 mi além do arrecadado) · 2026 até ago. 159,27 arrecadado (13,93 mi de empréstimo), 150,45 liquidado, 170,91 empenhado.
+- Achados: festejos 1,275 mi (2024) → 4,32 mi (2025, lei previa 599 mil) → 2,61 mi até ago/2026 (previa 629 mil); assistência 2025 3,19 mi (menos que os festejos); ação de desenvolvimento agropecuário e pesca (790/791/731 mil previstos) com R$ 0 nos três anos (secretaria só pagou pessoal: 59 mil em 2025); saneamento da prefeitura (~3 mi previstos por ano) gastou 8 mil em 2024 e zero depois; dívida fundada 96 mi no fim de 2025 (89 mi INSS parcelado); Câmara 2025 5,24 mi > assistência; TCM: 6 processos sobre 2024-2025.
+- Roteiro v1 revisado = APROVADO (modo autônomo), 09/11/2026: enxuto para caber em 3 min (474 palavras). Números conferidos no PDF (fontes.md, 1ª conferência).
+- Voz: Google Chirp 3 HD Algenib, speakingRate 1,3, 13 partes + 0,35 s, pausas 0,28 s, atempo 1,13, -15,4 LUFS = 175,54 s. "3 e 300" virou "3 milhões e 300" (a voz soava "treze"); parágrafos 3 e 5 regravados.
+- Sincronia: palavras.ts com 474 palavras; todos os gatilhos quando() achados (scripts/checa_quando.py).
+- Plano aprovado no modo autônomo (molde Almadina: cofre, 11 casinhas, 1 pilha = R$ 2 mi; gavetas: festejos 2024→2026 com previsto ao lado; "o que ficou no zero" (assistência 2025, agro e pesca, saneamento); 2025 Câmara x assistência com a dívida em plaquinha; Tribunal com 3 pastas; pergunta final). Código src/videos/orcamentonovavicosa/; tsc limpo; composições no Root do Estúdio depois do tsc (regra 54).
+- Kit Mapas: src/videos/orcamento-novavicosa (IBGE 2923001; satélite copiado de Mucuri/Caravelas/Teixeira; npm run tiles: 0 faltando); registrado no Root do Kit.
+- Folhas: 3 de receita + 33 por setor (scripts/folhas.py), todas fecham com o total falado; faixa de pessoal e diárias; Câmara com duodécimo; ações zeradas com "previa R$ X" (regra 48); 2024 com a linha "lançado no fechamento do Balanço" onde o PCMGE015 de dezembro fica abaixo do Anexo 9.
+- fontes.md pronto (cópia em ~/Documents/FONTES/); 2ª conferência: cada valor da fala achado na linha citada do PDF (grep, 09/11/2026 ~07h30). Legenda pronta em edicoes/ (2.178 caracteres, sem tarifa bancária).
+- Mapa (mapas/novavicosa.mp4) e 75 quadros de revisão (07:36–07:40). Revisão feita por mim, quadro a quadro (regra 13).
+- Defeitos corrigidos (revisao2/, 07:54): letreiro "O QUE FICOU NO ZERO" cortado na entrada da gaveta (câmera mais aberta); na pergunta final, a plaquinha R$ 0 do saneamento ficava fora do quadro (câmera deslocada para a direita).
+- ★ Melhoria (regra 14): na pergunta final, as plaquinhas "R$ 0" de agro e pesca e de saneamento acendem uma de cada vez antes da comparação festejos x previsto.
+- Revisão APROVADA (modo autônomo), 09/11/2026 07:55.
+- Vídeo final (trava 07:54–08:12): render sem folha + 36 folhas aplicadas (10 translúcidas, nenhuma pulada, regra 34): 5.293 quadros, 176,4 s, volume médio -18,4 dB, pico -3,5 dB. Conferido em 6 quadros com folha.
+- Capa: "Festa 2025: / R$ 4,3 mi. / Previsto: / R$ 599 mil." sobre o quadro 3738 do OrcamentoNovaVicosaLimpo (gaveta dos festejos), pela entrada isolada (regra 66).
+- Etapa atual: 8. ENTREGUE em 09/11/2026 (modo autônomo): ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/NOVA VIÇOSA.mp4; edicoes/091. orçamento de nova viçosa/ (NOVA VIÇOSA.mp4, NOVA VIÇOSA - capa.jpg, NOVA VIÇOSA - legenda.txt com ⚖️ AVISO e comentário fixado). Sem pasta própria, sem tarifa bancária, 0 pendências no TCM.
+- Falta: o Magno assistir e publicar.

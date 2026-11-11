@@ -1,0 +1,22 @@
+# 098. orçamento de floresta azul
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentoflorestaazul · Nome: OrcamentoFlorestaAzul (composições OrcamentoFlorestaAzul, …Guia, …Limpo, CapaOrcamentoFlorestaAzul)
+- MODO AUTÔNOMO (coordenador, 10/11/2026): lote de 40, única cidade trabalhando (regra 84). Brief `projetos/_brief-lote-40.md`, molde 093 Ilhéus / 097 Buerarema, regras 82 a 85. SEM tarifa bancária. Máx. 3:00. Hashtags só #FlorestaAzul #MagnoLeiteExplica.
+- IBGE 2911006 (microrregião Ilhéus-Itabuna). e-TCM: município 133, Prefeitura UJ 738, Câmara UJ 166 (sem autarquia). Último mês de 2026: 09/2026.
+- Downloads (10/11/2026 01:18–01:31, trava do navegador, recebedor 8778 pasta FLORESTA-AZUL, sem janela): 36 PDFs em ~/Documents/RECEITAS-DESPESAS-FLORESTA-AZUL/documentos_tcm/, município conferido no cabeçalho de cada um. Pendência: PCMGE018 dez/2024 e dez/2025 da Prefeitura vieram "Em Elaboração" (1 página, não usados).
+- Totais (liquidado): 2024 arrecadou 50,35 / gastou 49,89 (sobraram 454 mil) · 2025 arrecadou 54,89 / gastou 58,97 (4,08 a mais) · 2026 até set arrecadou 44,31 / gastou 48,24 (3,94 a mais) / empenhado 55,88. PCMGE065 consolidado SIGA (acoes_cons.py com unidade de 1 a 4 dígitos) fecha centavo a centavo com o Balanço. 10 setores (scripts/setores.py).
+- Achados: esporte 1,08 mi (2024, quadras 1,07 mi) → 8.837 (2025) → 1.000 (2026 até set); administração 6,6 → 10,9 mi; consultoria (3.3.90.35) 169 mil (2024, só Câmara) → 2,04 mi (2025); Câmara 2,16 mi em 2025 = 4,7 vezes agricultura e meio ambiente; IPTU 2025 = R$ 3.327,84; dívida fundada 50,4 mi (INSS 38,1 mi, Embasa 8,8 mi), quase a receita de 2025. Observação: COSIP 2024 do Balanço (5,1 mi) difere do SIGA de dez/2024 (1,47 mi); usado o Balanço (fontes.md).
+- Roteiro v1 revisado = APROVADO no modo autônomo (10/11/2026): 395 palavras. 1ª conferência dos números (fontes.md).
+- Voz: Google Chirp 3 HD Algenib, speakingRate 1,3, 14 partes + 0,35 s, pausas 0,28 s, sem atempo, -15 LUFS = 166,30 s (média -15,5 dB, pico -1,5 dB).
+- Transcrição: o Whisper ouviu "13 400", "4455", "1.500. 500" e "tempo tempo"; reouvi os 4 trechos com o modelo small: a voz está certa. palavras-original.json e transcript-whisper.md guardados; palavras.json limpo (travessões, ",6 mil", ".000" e o "500" a mais) e realinhado; transcript.md refeito a partir do roteiro com os tempos do palavras.ts (para o site).
+- Sincronia: palavras.ts com 395 palavras, última em 165,96 s; todos os quando() conferidos (scripts/checa_quando.py).
+- Plano aprovado no modo autônomo (plano.md). Código: src/videos/orcamentoflorestaazul/OrcamentoFlorestaAzul.tsx (molde 097, 1 pilha = R$ 1 mi; esporte x consultoria e Câmara x agricultura com 1 pilha = R$ 250 mil; dívida com R$ 1 mi). tsc ok; registrado no Root.tsx depois do tsc (regra 54).
+- Mapa (Kit Mapas): src/videos/orcamento-florestaazul (satélite copiado do 097 + npm run tiles: 37 compostos). Registrado no Root do Kit. mapas/florestaazul.mp4 (21,4 s).
+- Folhas: 3 de receita + 30 por setor (scripts/folhas.py → saida/folha-pdf/config-setores.json), soma = valor falado; Câmara com repasse recebido e devolvido; Dívidas com o saldo do Anexo 16; folhas finas com as ações previstas e gasto R$ 0,00.
+- Revisão 1 (72 quadros, revisao/): ok, nada sobreposto, margem de 90 px, 3D condizendo com a fala. Revisão APROVADA (modo autônomo), 10/11/2026 ~01:55.
+- 2ª CONFERÊNCIA (antes do vídeo final): 29 valores exatos do fontes.md encontrados no texto dos PDFs citados.
+- ★ Melhorias: casinha do esporte fica cinza no "8 mil e 800"; esporte e consultoria na mesma gaveta e mesma escala; dívida e receita de 2025 lado a lado.
+- Legenda escrita (edicoes/098.../FLORESTA AZUL - legenda.txt).
+- Vídeo final (02:00–02:19): render-sem-folha/FLORESTA AZUL.mp4 + 33 folhas → edicoes/098. orçamento de floresta azul/FLORESTA AZUL.mp4 (5.016 quadros, 167,2 s, 1080x1920, áudio médio -18,6 dB, pico -3,2 dB). Quadros conferidos depois das folhas.
+- Capa: "Consultoria: / R$ 2 mi. / Esporte: / R$ 8,8 mil." (fundo OrcamentoFlorestaAzulLimpo quadro 4860, desce = 820). Legenda pronta (⚖️ AVISO e comentário fixado; hashtags só #FlorestaAzul #MagnoLeiteExplica).
+- Etapa: ENTREGUE 10/11/2026 ~02:22: ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/FLORESTA AZUL.mp4; edicoes/098.../FLORESTA AZUL - capa.jpg e FLORESTA AZUL - legenda.txt; fontes.md copiado para ~/Documents/FONTES. PDFs guardados em ~/Documents/RECEITAS-DESPESAS-FLORESTA-AZUL/documentos_tcm (36). Travas soltas; temporários do Remotion apagados. Atualização do site: com o coordenador.

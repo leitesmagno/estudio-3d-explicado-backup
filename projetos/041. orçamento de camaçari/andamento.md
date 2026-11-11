@@ -1,0 +1,18 @@
+# 041. orçamento de camaçari
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentocamacari · Nome: OrcamentoCamacari
+- Molde: 035 Paratinga (src/videos/orcamentoparatinga/ e ~/Kit-Mapas-Animados/src/videos/orcamento-paratinga/)
+- Pedido do Magno (07/11/2026): escala das pilhas 1 MOEDA = R$ 1 MI, 1 PILHA = R$ 10 MI, escrita no placar; todo valor exato e conferido duas vezes no PDF do TCM.
+- e-TCM: município 69; Prefeitura 675, Câmara 104, ISSM 597, LIMPEC 604, STT 1090 (as três últimas somadas em 2026, como no Balanço consolidado de 2024 e 2025).
+- Levantamento: ~/Documents/RECEITAS-DESPESAS-CAMACARI (RELATORIO_TCM_CAMACARI_2024_2026.md). Fontes: audio/fontes.md.
+- Roteiro e título da capa APROVADOS pelo Magno em 07/11/2026 (455 palavras).
+- Narração (07/11/2026): voz Roger (escolha do Magno). 1ª frase trocada pelo teste com "Camaçarí" certo (parte primeira frase 11h22 + parte completa 11h20 a partir de 5,95 s). Pausas 0,28 s e atempo 1,444 (Magno aprovou acelerar ~1,46x em vez de regerar) = 174,26 s.
+- Sincronia (07/11/2026): 455 palavras, última em 173,96 s; AUDIO_SEG 174.26, QUADROS 5255. Corrigido no palavras.json o trecho 43–50 s ("2,216 bilhões" e "2,161 bilhões" quebrados pelo Whisper; tempos pelos silêncios). Original em transcricao/palavras-original.json.
+- Plano v1 APROVADO pelo Magno em 07/11/2026 (escala 1 pilha = R$ 10 mi, anel em 3 camadas).
+- Cenas (07/11/2026): src/videos/orcamentocamacari/ (copiado do 035; 15 casinhas; ESCALA 10; anel em 3 voltas com as pilhas espalhadas por igual e 2 por lugar; "SOBROU" no lugar de "A MAIS"; gavetas festas e propaganda com 1 pilha = R$ 1 mi; cortes; Polo ao fundo; obra do Estado; Tribunal com 26 pastas). Mapa: ~/Kit-Mapas-Animados/src/videos/orcamento-camacari → mapas/camacari.mp4. Root.tsx dos dois kits: só linhas acrescentadas.
+- Revisão (07/11/2026): 2 rodadas minhas (v0 e v1 em antigos/): corrigidos anel em ferradura, plaquinhas de vizinhos, plaquinhas sobrepostas, câmera longe nos cortes, placa do Estado perto da escola, gavetas tapando as casinhas cinza no fim, títulos longos das pastas. Guia conferido (área segura ok).
+- Revisão APROVADA pelo Magno em 07/11/2026.
+- Vídeo final (07/11/2026): edicoes/041. orçamento de camaçari/CAMAÇARI.mp4 (5255 quadros, 175,2 s, média -18,7 dB, pico -3,5 dB; partes de 400 quadros; memória chegou a 7,9 GB). Capa "A festa / passa do / previsto. / Todo ano." (fundo quadro 3777, desce 420). Legenda com aviso jurídico (2.193 caracteres) e comentário fixado.
+- Etapa atual: 8. ENTREGUE em 07/11/2026.
+- Título proposto da capa: "A festa / passa do / previsto. / Todo ano."
+- Falta: nada. Publicação com o Magno.

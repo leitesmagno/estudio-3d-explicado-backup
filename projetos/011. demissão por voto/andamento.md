@@ -1,0 +1,14 @@
+# 011. demissão por voto
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: demissaovoto · Nome: DemissaoVoto
+- Etapa atual: ENTREGUE em 31/10/2026
+- Aprovações: roteiro aprovado em 31/10/2026 · plano aprovado em 31/10/2026
+- Seguir sem pausas: sim, a pessoa pediu para gerar o vídeo final depois do plano (31/10/2026). A revisão dos quadros é feita por mim antes do render.
+- Pedido: a ilegalidade de bolsonaristas pregarem que vão demitir e não contratar pessoas de esquerda, com pesquisa e roteiro para o ElevenLabs (31/10/2026).
+- Título da capa: Demitido / por votar / no Lula? / É ilegal.
+- Narração pronta: 82,20 s (voz Lendário, velocidade 1,00, estabilidade 50, similaridade 75; pausas cortadas em 0,35 s e 1,2x). Original: 102,77 s. AUDIO_SEG 82.2 · QUADROS 2493 (31/10/2026)
+- Sincronia: 276 palavras no roteiro, na transcrição e no palavras.ts; a última ("direitos.") termina em 81,98 s. Ajustes no palavras.json (cópia em palavras-original.json): "9" + ".029." juntados em "9.029."; "discriminação." que o Whisper partiu em dois virou uma palavra só (29,80 a 30,52 s)
+- Palavras repetidas para o quando(): Lula 1,56 / 9,78 · lei 2,72 / 10,76 / 17,76 · patrão 0,00 / 31,94 / 64,64 · demitir 28,12 / 32,96 / 35,46 / 66,12 · voto 36,40 / 52,74 / 76,04 · votou 1,18 / 9,46 / 66,66 · emprego 22,20 / 39,78 · Trabalho 26,88 / 57,16 · deputada 58,48 / 61,24 · pode 6 vezes (32,20 a 65,86)
+- Cenas programadas em 31/10/2026: src/videos/demissaovoto (DemissaoVoto, Guia, Limpo, Capa registrados). Revisão feita por mim (seguir sem pausas): 48 quadros conferidos, ajustes no fim do plano.md.
+- Vídeo final pronto em 31/10/2026: edicoes/011. demissão por voto/video final.mp4 · 2.493 quadros · 83,1 s · 4 partes (81 s, 76 s, 72 s e 9 s) · média -18,7 dB, pico -3,7 dB · emendas OK. A memória do Mac (8 GB) ficou perto do limite, mas o render não travou.
+- Capa: edicoes/.../capa.jpg (fundo: quadro 1095, o patrão apontando, o X e você na porta; desce 380). Legenda: edicoes/.../legenda do post.txt. Pendência antes de publicar: ver se saiu balanço oficial do MPT, decisão do caso do Amapá e a "lista suja" do MTE.

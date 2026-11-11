@@ -1,0 +1,24 @@
+# 142. orçamento de itapé
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentoitape · Nome: OrcamentoItape (composições OrcamentoItape, …Guia, …Limpo, CapaOrcamentoItape)
+- PEDIDO DE SEGUIDOR (e-mail do site, 10/11/2026 16:51): "Gostaria de saber quanto a prefeitura gastou com transporte escolar e manutenção dos aparelhos de ares condicionados das secretarias e dos postos de saúde". MODO AUTÔNOMO (coordenador, 10/11/2026 ~23:55): molde 093 Ilhéus / 131 Maraú, só 2024, 2025 e 2026. SEM tarifa bancária. Máx. 3:00. Destaque: transporte escolar e manutenção de ar-condicionado. Regra 99 (Festas e eventos separado de Cultura). Hashtags só #Itapé #MagnoLeiteExplica. Roteiro revisado = aprovado; eu mesma olho os quadros.
+- e-TCM: município 192 (ITAPÉ), Prefeitura UJ 796 (o Fundo de Saúde vem dentro da prestação da Prefeitura), Câmara UJ 229. Último mês de 2026: 09/2026 (Prefeitura e Câmara; 10/2026 "Pendente").
+- Regra 89: lista de prestações mensais (22 linhas, 01/2025 a 10/2026, + Câmara em "outras") gravada em dados/prestacoes-etcm/itape.json (11/11 ~00:05).
+- Downloads (11/11/2026 desde 23:59, navegador do app com a trava _navegador.lock, recebedor 8778 pasta ITAPE, fetch + /salva, sem janela): mensais 12/2024, 12/2025 e 09/2026 da Prefeitura (015, 016, 018, 056, 064, 065, 066) e da Câmara; anuais 2024 e 2025 (PCAGO001 a 019); PCMGE056 de todos os meses de 2024 a 09/2026 (pergunta do ar-condicionado).
+- Downloads: 180 PDFs, nenhuma falha; navegador solto às 00:36 (aba fechada). Município e competência conferidos.
+- Formatos: PCMGE015/016/065/066 SIGA (leitores acoes015.py, acoes_cons.py, receita.py); Câmara 12/2025 em formato E&L SIAFIC (cam_siafic.py); PCMGE056 da Prefeitura quase todo ESCANEADO (OCR Vision do macOS + conferência a olho).
+- Totais (liquidado; Prefeitura com Fundo de Saúde + Câmara = consolidado = Balanço, centavo a centavo): 2024 arrecadou 59,42 / gastou 55,15 (sobraram 4,27) · 2025 61,62 / 63,15 (1,53 a mais = DÉFICIT do Balanço) · 2026 até set 51,12 / 51,52 (395 mil a mais) / empenhado 55,56. Receita bruta, como o Balanço (o Balanço de Itapé não tira a parte do Fundeb).
+- Setores (11, festas separadas da cultura): ver audio/fontes.md.
+- PEDIDO: transporte escolar 456.843,40 / 313.904,33 / 280.209,63 (ação do PCMGE015); ar-condicionado 38.890 / 33.010 / 26.150 (47 pagamentos lidos a olho nos PCMGE056; saúde 16.920 / 7.810 / 4.765; 2026 bate com o elemento 3.3.90.39.17).
+- Roteiro revisado = APROVADO no modo autônomo (468 palavras).
+- Voz: Google Chirp 3 HD Algenib, speakingRate 1,3, 13 partes + 0,35 s, pausas 0,28 s, atempo 1,06, -15,5 LUFS = 178,34 s. Áudio conferido (Whisper pulou "até setembro, 280 mil"; retranscrito e corrigido no palavras.ts).
+- Sincronia: 468 palavras; transcript.md do roteiro (68 frases); o do Whisper em transcript-whisper.md.
+- Fontes: audio/fontes.md (cada número com valor exato, PDF, página e linha/coluna), copiado para ~/Documents/FONTES.
+- Plano aprovado no modo autônomo (plano.md). Código src/videos/orcamentoitape (molde 110 Catu), tsc ok, Root registrado.
+- Kit Mapas: src/videos/orcamento-itape (IBGE 2916203), satélite copiado do orcamento-ibicarai + npm run tiles; Root do Kit como KITITAPE. mapas/itape.mp4.
+- Revisão 1 (75 quadros): ajustes nas gavetas (Câmara e transporte somem quando a cena muda) e chips de "gastou a mais" sem destaque verde. Revisão 2 (14 quadros + 3 do Limpo): ok. Revisão APROVADA (modo autônomo).
+- Vídeo final (01:12–01:27, trava de render, concorrência 1, nice 15): render-sem-folha/ITAPÉ.mp4 + 38 folhas → edicoes/142. orçamento de itapé/ITAPÉ.mp4 (5.377 quadros, 179,23 s, 1080x1920, áudio médio -18,5 dB, pico -3,4 dB). Conferindo os quadros depois das folhas, a folha do transporte escolar pegava a 1ª menção ("com o transporte escolar", na abertura) e ficava de 11 s a 145 s: corrigida (2ª menção) e folhas reaplicadas às 01:31.
+- Capa: "Transporte / escolar 2025: / R$ 314 mil. / Festas: R$ 3,4 mi." (fundo OrcamentoItapeLimpo quadro 5265).
+- Legenda: edicoes/142.../ITAPÉ - legenda.txt (começa com o pedido do seguidor; hashtags só #Itapé #MagnoLeiteExplica; ⚖️ AVISO; comentário fixado).
+- Etapa: ENTREGUE 11/11/2026 ~01:33: ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/ITAPÉ.mp4; capa e legenda em edicoes/142. orçamento de itapé/; fontes.md em ~/Documents/FONTES; transcricao/transcript.md (68 frases). PDFs em ~/Documents/RECEITAS-DESPESAS-ITAPE/documentos_tcm (190). Travas soltas; apagados (meus): render-sem-folha, audio/partes-google, audio/curto.wav, revisao/*.jpg, folha-pdf/tmp, OCR antigos e out/OrcamentoItape.mp4 do Kit. Nenhum chrome-headless-shell aberto. Site: com o coordenador.
+- Pendências no TCM: PCMGE018 e PCMGE064 da Prefeitura de 12/2025 só com a capa; PCMGE058 da Câmara de 12/2025 fala de novembro; PCMGE056 da Prefeitura escaneados; receita PNATE zerada em 2024 e 2025.

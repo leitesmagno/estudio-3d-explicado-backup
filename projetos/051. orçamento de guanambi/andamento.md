@@ -1,0 +1,12 @@
+# 051. orçamento de guanambi
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código (a criar): orcamentoguanambi · Nome: OrcamentoGuanambi
+- Número: o pedido veio como 048, mas o 048 já é "arrecadação de Belmonte"; usei o próximo livre, 051 (07/11/2026).
+- Etapa atual: 8. ENTREGUE em 07/11/2026: edicoes/051. orçamento de guanambi/GUANAMBI.mp4 (5326 quadros, 177,53 s, 14 partes de 400, volume médio -18,5 dB, pico -3,7 dB, emendas conferidas), GUANAMBI - capa.jpg ("A festa / cresce. / O canal / não sai.", fundo OrcamentoGuanambiLimpo quadro 5205, desce 660) e GUANAMBI - legenda.txt (2.096 caracteres, com ⚖️ AVISO, asterisco dos zeros e comentário fixado). Revisão aprovada pelo Magno em 07/11/2026.
+- Levantamento: ~/Documents/RECEITAS-DESPESAS-GUANAMBI (e-TCM município 143, Prefeitura 747, Câmara 176). Balanços SIAFIC; PCMGE015/016 SIGA. Dez/2024 do PCMGE015 veio como declaração de não existência: usado o Anexo 6 e o 11/2024.
+- Pedido do seguidor (07/11/2026): impasse entre prefeitura e professores sobre o rateio dos precatórios do Fundef. Entrou no roteiro com os números do TCM e da nota oficial da prefeitura (05/11/2026), a lei, o STF e o projeto de lei, sem tomar lado.
+- Foco: déficit em 2024 e 2025 (com empréstimo de 15 mi em 2025); festas 5,6 reservados → 13,4 em 2025 (quase o dobro da assistência); Canal do Belém 8,75 reservados e zero gasto em 2026; precatórios (principal x juros); 22 processos sem julgamento no TCM.
+- Escala sugerida para a maquete: 1 moeda = R$ 500 mil, 1 pilha = R$ 5 mi (cerca de 83, 95 e 73 pilhas), a confirmar no plano.
+- Título proposto da capa: "A festa / cresce. / O canal / não sai."
+- Falta: o Magno assistir e publicar. ElevenLabs: pedir ao suporte o cancelamento do Pro de US$ 990 (fatura falhou).
+- Sincronia pronta (07/11/2026): src/videos/orcamentoguanambi/palavras.ts, 497 palavras, última "informações." termina em 176,30 s. AUDIO_SEG 176.64 · QUADROS 5326. palavras-original.json guardado. Repetidas: "gastou" 0,40 (gancho) / 9,18 / 41,88 / 77,54; "Arrecadou" 7,06 / 37,56 / 73,50; "Educação," 12,38 / 45,24 / 81,02; "Esporte," 32,62 / 67,98 / 100,52; "Câmara," 20,12 / 53,08 / 88,56 / 161,42 (dos Deputados); "474" 0,68 / 42,20; "canal" 117,86 / 173,54; "Tribunal" 4,60 / 167,24.

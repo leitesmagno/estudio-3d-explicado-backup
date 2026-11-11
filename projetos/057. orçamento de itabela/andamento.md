@@ -1,0 +1,21 @@
+# 057. orçamento de itabela
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentoitabela · Nome: OrcamentoItabela
+- MODO AUTÔNOMO (projetos/_coordenacao-sessoes.md, Lote 2, liberado pelo coordenador em 08/11/2026): roteiro, plano e revisão aprovados pela própria sessão.
+- e-TCM: município 175 "ITABELA", Prefeitura 779, Câmara 208 e Caixa de Previdência (CAPREMI) 27, que manda conta mensal própria. Sistema SIGA (mensal) e Resolve (anual).
+- Levantamento: ~/Documents/RECEITAS-DESPESAS-ITABELA/ (documentos_tcm, saida/acoes_*.json, scripts/acoes_itabela.py, elemento.py, conferir.py, pega.sh).
+- Documentos (todos os fundamentais, 0 pendências): Balanço (PCAGO015), Anexos 7, 9 e 10 de 2024 e 2025; PCMGE015/016 da Prefeitura de 12/2024, 12/2025 e 09/2026; PCMGE015 da Câmara de 12/2024, 12/2025 e 09/2026; PCMGE015/016 da CAPREMI de 09/2026.
+- Totais: 2024 arrecadou 154,01 / gastou 152,99 (sobra 1,02) · 2025 169,43 / 178,68 (déficit 9,25) · 2026 até 09 (Prefeitura + Câmara + CAPREMI): 136,32 arrecadado, 133,01 liquidado, 153,10 empenhado.
+- Foco: "indenizações e restituições" (elemento 3.3.90.93): previsto 348 mil / gasto 6,2 mi em 2024; previsto 389 mil / gasto 19,1 mi em 2025 (educação, saúde, finanças); 4,6 mi em 2026 até set. Casas populares: contrato de 6,4 mi (50 casas) assinado em 02/06/2026, ação reservou 1 mi, nada pago até set. Saneamento zero nos 3 anos (ação de água de Monte Pascoal prevista todo ano, zero). TCM: 2 denúncias da Câmara (2024) procedentes em parte com advertência; transporte escolar 2025 sem decisão.
+- Roteiro v1 (497 palavras, em antigos/) revisado e APROVADO no modo autônomo em 08/11/2026 (v2, 446 palavras). 1ª conferência no PDF: 50 de 50 valores achados (scripts/conferir.py).
+- Título da capa: "R$ 19 mi em / indenizações / em 2025. / Para quem?" (fundo OrcamentoItabelaLimpo quadro 4361, desce 620).
+- Narração: Google Chirp 3 HD Algenib, speakingRate 1,3, 13 partes (8, 10 e 11 refeitas depois do corte), unidas com 0,35 s, pausas 0,28 s, atempo 1,158, -15 LUFS = 173,99 s. Conferida frase a frase: nada pulado; a janela 2:08–2:14 que o Whisper perdeu foi retranscrita e está certa ("Em 2024, previsto 348 mil. Gasto 6 milhões e 200").
+- Sincronia: 446 palavras, última em 173,60 s (palavras.json corrigido nos números "6 .400 .000" etc.; original em palavras-original.json).
+- Plano aprovado no modo autônomo em 08/11/2026 (plano.md). Código: src/videos/orcamentoitabela/ (typecheck ok); composições registradas no Root.
+- Mapa: ~/Kit-Mapas-Animados/src/videos/orcamento-itabela (IBGE 2914653, conferido) → mapas/itabela.mp4 (13,37 s); satélite baixado (312 blocos).
+- Revisão: v1 (62 quadros, em antigos/revisao v1) → corrigido: casinha das Aposentadorias (colunas, igual à Câmara e às Dívidas) virou casinha com letreiro; chips longos (Tribunal, contrato, receita 2026, zero) divididos ou encurtados. v2 (12 quadros refeitos + 13 do mapa) aprovada no modo autônomo.
+- ★ Melhoria para prender a atenção (regra de 08/11/2026): no gancho, "2025: GASTOU R$ 178,7 MI" e "R$ 9,2 MI A MAIS DO QUE ARRECADOU" entram no mapa junto da fala; efeito "impacto" leve na revelação dos R$ 19,1 mi e "baque" no "9 milhões a mais". Nenhum número, fonte ou fala mudou.
+- 2ª conferência (PDFs reabertos, texto extraído de novo: 50 de 50; somas do elemento 3.3.90.93 e das funções 2026 iguais; notícias de novo; Tribunal) feita antes do final: tudo igual (audio/fontes.md).
+- Etapa atual: 8. ENTREGUE em 08/11/2026 (modo autônomo): edicoes/057. orçamento de itabela/ITABELA.mp4 (5247 quadros, 174,9 s, 7 partes, volume médio -18,5 dB, pico -3,5 dB, emendas conferidas), ITABELA - capa.jpg e ITABELA - legenda.txt (2.190 caracteres antes do comentário fixado, com ⚖️ AVISO). Trava liberada; pastas temporárias do Remotion desta sessão apagadas; 0 pendências no TCM.
+- Falta: o Magno assistir e publicar.
+- Regra 13 completa (08/11/2026, coordenador): 20 quadros extras nas viradas de setor de 2025 e 2026 em revisao/extra-regra13/. Tela bate com a fala em todos (setor, valor, ano, cor); plaquinhas de 2024/2025/2026 legíveis, sem sobreposição. Liberado para postar.

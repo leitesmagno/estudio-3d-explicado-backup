@@ -1,0 +1,33 @@
+{
+  "name": "estudio-3d-explicado",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Estúdio 3D Explicado: motor de vídeos verticais narrados em 3D (Remotion + three.js).",
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "render": "node scripts/render.mjs",
+    "quadros": "node scripts/quadros.mjs"
+  },
+  "dependencies": {
+    "@react-three/fiber": "9.8.1",
+    "@react-three/postprocessing": "3.1.3",
+    "@remotion/bundler": "4.0.451",
+    "@remotion/cli": "4.0.451",
+    "@remotion/media": "4.0.451",
+    "@remotion/renderer": "4.0.451",
+    "@remotion/three": "4.0.451",
+    "postprocessing": "6.39.5",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "remotion": "4.0.451",
+    "three": "0.170.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@types/three": "0.170.0",
+    "typescript": "5.9.3"
+  }
+}

@@ -1,0 +1,12 @@
+# 040. orçamento de anagé
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentoanage · Nome: OrcamentoAnage
+- Molde: 035 Paratinga (src/videos/orcamentoparatinga/ e ~/Kit-Mapas-Animados/src/videos/orcamento-paratinga/)
+- e-TCM: município 13, Prefeitura 617, Câmara 47. Sistema Fator SIAFIC (anuais e 12/2025, "Modelo 01") e SIGA (12/2024, 07/2026). Último mês entregue: 07/2026.
+- Levantamento: ~/Documents/RECEITAS-DESPESAS-ANAGE/ (documentos_tcm, saida/acoes_listadas.txt, scripts). Extração de texto com o Python de ~/Documents/RECEITAS-DESPESAS-INHAMBUPE/.venv (tem pdfplumber).
+- MODO AUTÔNOMO (pedido do Magno, registrado em projetos/_coordenacao-sessoes.md, 07/11/2026): roteiro, plano e revisão aprovados pela própria sessão.
+- Etapa atual: 8. ENTREGUE em 07/11/2026 (modo autônomo): edicoes/040. orçamento de anagé/ANAGÉ.mp4 (5341 quadros, 178,0 s, 14 partes de 400, volume médio -18,4 dB, pico -3,6 dB, emendas conferidas), ANAGÉ - capa.jpg ("Festa / tem. / Asfalto, / zero.", fundo OrcamentoAnageLimpo quadro 5225, desce 760) e ANAGÉ - legenda.txt (2.189 caracteres, com ⚖️ AVISO, asterisco dos zeros e comentário fixado). Roteiro v3 (485 palavras), voz Google Algenib 177,13 s, revisão v3 aprovada no modo autônomo.
+- Reconferido em 07/11/2026 à noite: último mês da Prefeitura no e-TCM continua 07/2026; Câmara entregou até 09/2026, no prazo.
+- Foco: 2024 sobrou 700 mil, 2025 faltou 5,7 mi, 2026 até jul faltou 1,2 mi; festas > assistência social nos 3 anos; asfalto com dinheiro reservado e gasto zero nos 3 anos x limpeza 1,8 → 4,1 mi (2025); colégio de tempo integral (26 mi) e água rural = Estado; TCM out/2025 mandou devolver 3,8 mi (2021–2022, cabe recurso); todas as contas mensais desde jan/2024 entregues fora do prazo.
+- Título proposto da capa: "Festa / tem. / Asfalto, / zero."
+- Falta: o Magno assistir e publicar.

@@ -1,0 +1,12 @@
+# 034. orçamento de canavieiras
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentocanavieiras · Nome: OrcamentoCanavieiras
+- Etapa atual: 8. ENTREGUE (versão 4) em 06/11/2026: CANAVIEIRAS.mp4 (170,8 s), capa (fundo do quadro 3475) e legenda com aviso jurídico (1.800 caracteres). Dinheiro sai do cofre para cada setor, 1 pilha = R$ 2 mi, cor por ano, sem transporte, frase dos postos corrigida. Versões anteriores em edicoes/034.../antigos.
+- Narração v2: voz Mário; narracao-norm.wav a 1,15x e sem "segurança" = 170,92 s (AUDIO_SEG 170.92, QUADROS 5155). Versão com segurança em antigos/.
+- Sincronia v2: 415 palavras, última termina em 170,50 s.
+- Pedido da pessoa (06/11/2026): fazer os vídeos de todos os municípios da Bahia pedidos pelos seguidores, um por um, começando por Canavieiras, no estilo de Belmonte (032), com peculiaridades de cada cidade tiradas do TCM-BA: irregularidades, sem licitação, comparação 2024/2025/2026. Sempre Kit Mapas + Estúdio 3D e marca d'água @eumagnoleite.
+- Levantamento: ~/Documents/RECEITAS-DESPESAS-CANAVIEIRAS (RELATORIO_TCM_CANAVIEIRAS_2024_2026.md).
+- Foco do roteiro: déficit em 2024 e 2025, prestações atrasadas (2026 só até maio), contrato de mão de obra terceirizada da CH Serviços (1,4 → 2,1 mi por mês), recomendação do MP, MPF cobrando 2,2 mi do Fundeb, turismo x esporte, segurança zero.
+- Título proposto da capa: "Faltou / dinheiro. / O contrato / cresceu."
+- Formato previsto: igual a Belmonte v2 / Inhambupé (narração 1,15x, plaquinhas de comparação no topo, valor exato embaixo, empurrão de câmera, legenda padrão, marca d'água quicando).
+- Falta: nada. Conferir antes de publicar se a prefeitura entregou jun–set/2026 ao TCM e se a denúncia 25448e25 foi julgada.

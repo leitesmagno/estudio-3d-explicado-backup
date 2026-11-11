@@ -1,0 +1,22 @@
+# 092. orçamento de ubaitaba
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentoubaitaba · Nome: OrcamentoUbaitaba
+- MODO AUTÔNOMO (pedido do coordenador, 08/11/2026, prioridade máxima): roteiro, plano e revisão aprovados pela própria sessão. Referência de estilo: 042 Camacan (regra 43).
+- Nome: IBGE "Ubaitaba" (2932200).
+- e-TCM: município 397 (UBAITABA), Prefeitura UJ 1001, Câmara UJ 429; sem autarquias. Último mês entregue: 09/2026. PCMGE015 SIGA (12 valores; scripts/acoes015c.py).
+- Levantamento: ~/Documents/RECEITAS-DESPESAS-UBAITABA/ (documentos_tcm com .txt, saida/acoes_*.json, saida/setores.json, scripts). Todos os PDFs conferidos pelo nome do município (regra 41). Pendências no e-TCM: 0.
+- Receita: 2024 R$ 95,7 mi (Balanço; inclui R$ 7,4 mi de venda de imóveis, previsto 50 mil), 2025 R$ 99,6 mi (Balanço), 2026 até set. R$ 82,1 mi (PCMGE016 Totais).
+- Gastou (LIQUIDADO): 2024 R$ 102,05 mi (6,3 a mais), 2025 R$ 100,2 mi (677 mil a mais), 2026 até set. R$ 80,1 mi (empenhado 87,7).
+- Achados: festas 2025 R$ 1,2 mi x benefícios eventuais R$ 26 mil de 167 mil; 2024 festas 1,4 mi x 9,8 mil; Câmara 2025 3,6 mi x agricultura 0; saneamento da Rua 6 do Novo Olímpia com R$ 0 nos três orçamentos; TCM: 7 processos 2024–2026 (sem decisão na página).
+- Roteiro v1 revisado e aprovado (modo autônomo) em 08/11/2026: 464 palavras. 1ª conferência dos números no PDF feita (fontes.md). Na revisão saiu a frase "festejos juninos nem tinham valor no orçamento" (o dinheiro só mudou de linha dentro das festas).
+- Narração: Google Chirp 3 HD Algenib, speakingRate 1,3, 12 partes + 0,35 s, pausas 0,28 s, atempo 1,0657, -15 LUFS = 175,17 s. Transcrição conferida frase a frase: nada pulado.
+- Sincronia: 465 palavras, última em 174,74 s. palavras.json corrigido nos valores de 2025 ("R $ 99 .600" → "99 milhões e 600"; original em transcricao/palavras-original.json). AUDIO_SEG 175,17, QUADROS 5282.
+- Plano aprovado no modo autônomo (plano.md). Código escrito; typecheck ok.
+- v2 do roteiro (pedido do coordenador, regras 42b/45/46, 08/11/2026): sacadas com pessoal (R$ 62,2 mi em 2025, com a Câmara) e dívidas (R$ 3,9 mi) ao lado da Câmara x agricultura. Voz só do parágrafo 9 regravada; atempo 1,1034 = 175,17 s; 482 palavras, última em 174,67 s. Tempos recompostos a partir da v1 (mesmos áudios, só a velocidade mudou) e conferidos com a transcrição nova (diferença típica < 0,1 s). v1 em antigos/.
+- Folhas: 3 de receita (2024 com a linha "Venda de imóveis") + 33 por setor (ações ou elementos, regra 42/42b), todas com faixa "Pessoal (salários e encargos) · diárias" calculada pelos elementos (scripts/pessoal.py, fecha com o liquidado) e Câmara com duodécimo recebido/devolvido (2026: repasse do razão da Prefeitura). Config: ~/Documents/RECEITAS-DESPESAS-UBAITABA/saida/folha-pdf/config-setores.json.
+- 2ª conferência dos PDFs e das notícias feita (fontes.md). Legenda rascunho pronta (2.187 caracteres).
+- Mapa: satélite próprio (cópia do Camacan + 14 blocos baixados) → mapas/ubaitaba.mp4 (23,7 s).
+- Revisão 3D (regras 13/14): 78 quadros em revisao/, todas as viradas de fala; tela = fala, sem sobreposição. ★ Melhoria: plaquinha "R$ 62,2 MI · salários e encargos" na gaveta da direita (antes ficava vazia na frase do pessoal). Aprovada no modo autônomo.
+- Regra 48: agricultura 2024 e 2025 com folha mesmo zerada (2025: "previsto R$ 150.000,00 · gasto R$ 0,00") e plaquinha na maquete.
+- Etapa atual: 8. ENTREGUE em 09/11/2026: edicoes/092. orçamento de ubaitaba/UBAITABA.mp4 (5282 quadros, 176,07 s, 7 partes, volume médio -18,3 dB, pico -3,5 dB) com 39 folhas PDF; UBAITABA - capa.jpg ("Festa: / R$ 1,2 mi. / Ajuda social: / R$ 26 mil.", fundo OrcamentoUbaitabaLimpo quadro 5142); UBAITABA - legenda.txt (2.187 caracteres, ⚖️ AVISO no fim, comentário fixado). Cópias: ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/UBAITABA.mp4 e ~/Documents/UBAITABA - vídeo, capa e legenda/.
+- APROVADO pelo Magno ("ficou top demais", via coordenador, 09/11/2026). Pasta final montada pelo coordenador em ~/Documents/UBAITABA - vídeo, capa e legenda/ (não mexer). Capa: fica a versão gerada às 00:16 (fundo desce 540). Etapa: ENTREGUE.

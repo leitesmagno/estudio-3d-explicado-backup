@@ -1,0 +1,20 @@
+# 083. orçamento de itambé
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentoitambe · Nome: OrcamentoItambe (composições OrcamentoItambe, …Guia, …Limpo, CapaOrcamentoItambe)
+- MODO AUTÔNOMO (liberado pelo coordenador em 09/11/2026, Lote 5, Centro-Sul). Molde UBAITABA (092) / Seabra (076); brief projetos/_brief-molde-ubaitaba.md; SEM tarifa bancária (regra 60); máx. 3:00; sem pasta própria em Documentos (regra 59).
+- e-TCM: município 188 ITAMBÉ, Prefeitura UJ 792, Câmara UJ 221 (sem autarquias). Último mês de 2026: 09/2026. IBGE 2915809.
+- Levantamento: ~/Documents/RECEITAS-DESPESAS-ITAMBE/ (22 PDFs + .txt, todos conferidos pelo nome do município; decisões do TCM em decisoes/). Pendências no e-TCM: 0.
+- Totais (liquidado): 2024 arrecadou 109,52 / gastou 111,94 (2,42 a mais) · 2025 126,68 / 112,60 (sobraram 14,08) · 2026 até set 100,63 / 101,78 (1,15 a mais) / 133,56 empenhado. PCMGE065 consolidado (Fator, com a Câmara) fecha centavo a centavo com os Balanços.
+- Achados: eventos e festejos 2024 previsto 960 mil x gasto 3,67 mi; 2026 previsto 2,24 mi x 3,66 mi até set; benefícios eventuais 101 mil (2024) e 94 mil (2026); Câmara recebeu 3,68 mi em 2024 e gastou 912 mil em diárias (622 mil em 2026 até set); obras de esporte 2026: 10 mi na lei, 44 mil gastos; salários 2025 72,5 mi; sentenças judiciais 2025 7,3 mi; TCM: processos sobre diárias da Câmara 2024 e pregão 2026 (sem decisão na página).
+- Roteiro v1 → revisado = APROVADO (modo autônomo), 09/11/2026: 479 palavras. Números conferidos no PDF (1ª conferência, fontes.md). Notícias: nada contradiz (quadra coberta da imprensa é do colégio estadual).
+- Voz: Google Chirp 3 HD Algenib, speakingRate 1,3, 15 partes + 0,35 s, pausas 0,28 s, atempo 1,1276, -15,5 LUFS = 177,47 s. Transcrição conferida frase a frase: nada pulado ("3 e ..." escrito "3 milhões e ..." para a Algenib não dizer "treze").
+- Sincronia: palavras.ts com 479 palavras, última em 177,14 s; todos os quando() acham a palavra.
+- Plano aprovado no modo autônomo (plano.md). Código src/videos/orcamentoitambe/ (molde Seabra; 12 setores; 1 pilha = R$ 2 mi). tsc limpo; Root registrado depois do tsc (regra 54).
+- Kit Mapas: src/videos/orcamento-itambe (IBGE 2915809, conferido na API); satélite copiado de Itapetinga (044) + 20 blocos baixados; registrado no Root do Kit. mapas/itambe.mp4 gerado 09/11 ~11h30.
+- Folhas: 3 de receita + 36 por setor (scripts/folhas.py + folhas_fix.py), todas fecham com o total falado.
+- Revisão 3D (regras 13/14/73): 80 quadros em revisao/ (todas as viradas de fala), conferidos quadro a quadro. Defeitos corrigidos: chip "R$ 1,1 MI A MAIS" ficava < 1 s (agora ~1,9 s, o do empenhado entra depois); plaquinhas das festas passavam a ~60 px da borda na virada para a Câmara (agora saem quando a fala passa para a ajuda às famílias, câmera parada); "R$ 44 MIL" do esporte ficava ~1,5 s (agora ~2,3 s) e a gaveta da direita descia e subia na troca para "pessoal". Conferência em revisao2/ e revisao3/.
+- ★ Melhoria (regra 14): previsto/recebido em branco ao lado do gasto (festas, esporte e Câmara x diárias) e baque também nas diárias de 2024.
+- Revisão APROVADA (modo autônomo), 09/11/2026 ~11h35. 2ª conferência: os 36 valores de setor vêm direto dos PCMGE065 consolidados (soma = Balanço 2024 e 2025, centavo a centavo); achados conferidos de novo nas linhas do PDF (fontes.md).
+- Legenda pronta em edicoes/083.../ITAMBÉ - legenda.txt (2.092 caracteres no post, ⚖️ AVISO, comentário fixado).
+- Vídeo final 11h33–11h51: 5.351 quadros, 178,4 s, volume médio -18,6 dB, pico -3,5 dB, 39 folhas aplicadas (margem 90 px). Capa "Festa 2026: / R$ 3,7 mi. / Ajuda social: / R$ 94 mil." (fundo OrcamentoItambeLimpo quadro 5184).
+- Etapa atual: 8. ENTREGUE em 09/11/2026: edicoes/083. orçamento de itambé/ITAMBÉ.mp4, ITAMBÉ - capa.jpg, ITAMBÉ - legenda.txt; cópia em ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/ITAMBÉ.mp4.

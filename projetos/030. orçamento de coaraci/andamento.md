@@ -1,0 +1,12 @@
+# 030. orçamento de coaraci
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentocoaraci · Nome: OrcamentoCoaraci
+- Etapa atual: entregue em 05/11/2026 (COARACI.mp4, 4.071 quadros, 135,7 s; volume -19 dB médio, -3,5 dB pico; capa e legenda renomeadas com o nome da cidade em edicoes/030. orçamento de coaraci)
+- Narração: 134,80 s (1,3x), 397 palavras sincronizadas, QUADROS = 4071
+- Formato: igual à série 014/017/022 a 027, mas com 2024, 2025 e 2026 (pedido da pessoa). Até 3 minutos de gravação.
+- Mapa: mapas/mapa_coaraci.mp4 (mergulho do globo até Coaraci, vertical, 6 s) já gravado; falta o trecho do Kit Mapas no padrão da série.
+- Aprovações: roteiro aprovado em 05/11/2026 (a pessoa gerou a voz)
+- Seguir sem pausas: sim (a pessoa aprovou o plano em 05/11/2026: "Pode seguir"; o diretor confere todos os quadros)
+- Observação: existe um vídeo anterior feito fora do Estúdio (HyperFrames) em ~/Documents/RECEITAS-DESPESAS-COARACI/saida/COARACI_video_final.mp4; a pessoa pediu para refazer com Kit Mapas e Estúdio 3D.
+- Revisão: 42 quadros conferidos pelo diretor. Mapa do Kit Mapas: composição OrcamentoCoaraci (Kit-Mapas-Animados), mapas/coaraci.mp4.
+- Marca d'água @eumagnoleite quicando (opacidade 0,14) em todo o vídeo, pedido da pessoa.

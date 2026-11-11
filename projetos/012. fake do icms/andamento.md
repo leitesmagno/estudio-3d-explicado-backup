@@ -1,0 +1,14 @@
+# 012. fake do icms
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: fakeicms · Nome: FakeIcms
+- Etapa atual: ENTREGUE em 31/10/2026
+- Aprovações: roteiro aprovado em 31/10/2026 (versão com a fábrica de fake; fecho "Antes de compartilhar, confere quem decidiu.") · plano aprovado em 31/10/2026
+- Seguir sem pausas: sim, a pessoa pediu o vídeo final logo depois do plano (31/10/2026). A revisão dos quadros é feita por mim antes do render.
+- Pedido: checar a fake news de que Lula vai aumentar o ICMS (qual é exatamente), e mostrar como é a repartição do imposto estadual, com curiosidade para prender o seguidor (31/10/2026).
+- Título da capa: Lula subiu / o ICMS? / Não. Foram / os estados.
+- Narração pronta: 99,21 s (voz Lendário, velocidade 1,00, estabilidade 50, similaridade 75; pausas cortadas em 0,35 s e 1,2x). AUDIO_SEG 99.21 · QUADROS 3003 (31/10/2026)
+- A primeira voz saiu com o final cortado ("arroba eu magno leite p..."): a pessoa regerou só o último parágrafo; cortei o original em 122,65 s (silêncio depois de "comentários") e emendei. Original antigo em audio/antigos/.
+- Sincronia: 304 palavras no roteiro e no palavras.ts; última ("informações.") termina em 98,88 s; tempos sempre sobem, sem buraco > 1,5 s. Ajustes no palavras.json (cópia em palavras-original.json): "ICM" + "esse" → "ICMS"; "R", "$", "1", ",57" → "R$" "1,57" (e os outros valores); "R$ 0,75 / 0,25 / 0,20" → "75 centavos" etc.; "arroba e o Magno Leite" → "@eumagnoleite".
+- Cenas programadas em 31/10/2026: src/videos/fakeicms (FakeIcms, Guia, Limpo, Capa). Reaproveita as peças da fábrica do 010 (src/videos/fabricafake/pecas.tsx). Revisão feita por mim (seguir sem pausas): 50 quadros conferidos, ajustes no fim do plano.md.
+- Vídeo final pronto em 31/10/2026: edicoes/012. fake do icms/video final.mp4 · 3.003 quadros · 100,1 s · 4 partes (75, 69, 66 e 51 s) · média -18,4 dB, pico -3,8 dB · emendas OK.
+- Capa: edicoes/.../capa.jpg (fundo: quadro 882, a mesa do Confaz votando, com o prédio da Fazenda atrás; desce 380). Legenda: edicoes/.../legenda do post.txt. Pendência antes de publicar: ver se saiu checagem de um post de 2026 e se algum estado anunciou que não vai aplicar o reajuste.

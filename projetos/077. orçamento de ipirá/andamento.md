@@ -1,0 +1,22 @@
+# 077. orçamento de ipirá
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentoipira · Nome: OrcamentoIpira (composições OrcamentoIpira, …Guia, …Limpo, CapaOrcamentoIpira). Kit Mapas: orcamento-ipira (IBGE 2914000, conferido na API), Root do Kit como KITIPIRA.
+- MODO AUTÔNOMO (lote LARANJA, cidade L13, liberado pelo coordenador em 11/11/2026 ~05:45 com "pode começar"; produção de dia, regra 103). Molde 093 Ilhéus / 120 Riachão das Neves. SEM tarifa bancária; máx. 3:00; festas separadas da cultura (regra 99); calor (regra 101); voz Google Algenib. Roteiro revisado = aprovado.
+- e-TCM: município 168 IPIRÁ, Prefeitura UJ 772, Câmara UJ 201 (sem autarquias: não há função 09 no PCMGE015 e Prefeitura + Câmara fecham com o Balanço). Último mês: 09/2026. Lista de prestações (regra 89): dados/prestacoes-etcm/ipira.json (22 linhas + Câmara).
+- Downloads: 11/11/2026 06:14 a ~06:50, Claude in Chrome com _navegador.lock (solta no fim), fetch + recebedor 8778 /salva, sem janela. 71 PDFs em ~/Documents/RECEITAS-DESPESAS-IPIRA/documentos_tcm. 0 falhas. Município e competência conferidos. Os consolidados PCMGE064 a 066 ficam na 2ª página da lista (mais de 3.000 documentos) e não vieram; não fazem falta: o Balanço fecha centavo a centavo com Prefeitura + Câmara.
+- Totais (liquidado): 2024 arrecadou 252,61 / gastou 253,58 (gastou 0,97 a mais) · 2025 291,73 / 243,63 (sobraram 48,10) · 2026 até set 225,97 / 192,33 (sobraram 33,64) / empenhado 238,28.
+- Setores (11): Educação, Saúde, Obras e serviços urbanos, Administração, Dívidas e encargos, Assistência social, Câmara, Festas e eventos, Cultura, Agricultura e meio ambiente, Esporte.
+- Achados: ação de festas previa 3,35 e gastou 5,56 (2024); previa 6,60 e gastou 5,06 (2025); previa 5,89 e já gastou 7,05 até set (2026), bandas 4,44 até set (3,0 mi delas pela fonte 1706, transferência especial, só no fontes.md). Festas até set/2026 (7,05) acima da assistência social inteira (6,06). Câmara recebeu 6,89 e gastou praticamente tudo (2024); 8,41 / devolveu 39 mil (2025); 6,82 até set/2026.
+- Roteiro v1 = APROVADO no modo autônomo (441 palavras), números conferidos no texto dos PDFs (scripts/pag.py).
+- Voz: Google Chirp 3 HD Algenib, speakingRate 1,3, 12 partes + 0,35 s, pausas 0,28 s, atempo 1,07, loudnorm -15,4 LUFS = 178,31 s. Conferida com o Whisper: nada pulado nem repetido.
+- Sincronia: 441 palavras (= roteiro). transcript.md do roteiro (65 frases); o do Whisper em transcript-whisper.md.
+- Fontes: audio/fontes.md (valor exato, PDF, página e linha/coluna), copiado para ~/Documents/FONTES.
+- Plano aprovado no modo autônomo (plano.md). Código src/videos/orcamentoipira (molde 120), tsc ok, Root registrado depois do tsc (regra 54). Kit Mapas: src/videos/orcamento-ipira, satélite copiado de Feira de Santana e completado com npm run tiles.
+- Folhas: 3 de receita + 33 por setor (scripts/folhas.py), soma = valor falado.
+- Mapa e quadros: 11/11 06:43 a 06:49 (trava de render, nice, 1 núcleo, sem aviso de calor). mapas/ipira.mp4.
+- Revisão (76 quadros em todas as viradas de fala, olhados em folhas de contato): tela igual à fala, nada sobreposto, 90 px das laterais, selo do @ na abertura e no fim. Revisão APROVADA (modo autônomo).
+- ★ Melhoria (regra 14): torre vermelha das bandas de 2026 (4,4 mi) ao lado do gasto da ação, e a assistência social até set/2026 na mesma gaveta e escala das festas para a pergunta final.
+- Vídeo final (07:19 a 07:33, trava de render, nice e concorrência 1, sem aviso de calor): 179,20 s, 1080x1920, áudio médio -18,6 dB, pico -3,5 dB, 36 folhas.
+- Capa: "Festas 2026: / R$ 7 mi. / Assistência: / R$ 6,1 mi." (fundo OrcamentoIpiraLimpo quadro 5225).
+- Legenda: edicoes/077.../IPIRÁ - legenda.txt (hashtags só #Ipira #MagnoLeiteExplica, ⚖️ AVISO, comentário fixado).
+- Etapa: ENTREGUE 11/11/2026 ~07:35: ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/IPIRÁ.mp4; edicoes/077.../IPIRÁ.mp4, capa e legenda; fontes.md em ~/Documents/FONTES; transcricao/transcript.md (65 frases). Travas soltas; apagados (meus): render-sem-folha, audio/partes-google, partes-curtas, junto.wav, revisao/*.jpg, folha-pdf/tmp, out do Kit. PDFs guardados. Site: com o coordenador.

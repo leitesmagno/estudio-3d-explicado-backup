@@ -1,0 +1,23 @@
+# 112. orçamento de pojuca
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentopojuca · Nome: OrcamentoPojuca (composições OrcamentoPojuca, …Guia, …Limpo, CapaOrcamentoPojuca)
+- MODO AUTÔNOMO (lote de 40, liberado pelo coordenador em 10/11/2026 ~23:35 com "pode começar"). Molde 093 Ilhéus / 110 Catu (brief _brief-lote-40.md, regras 82 a 101). SEM tarifa bancária; máx. 3:00; festas separadas da cultura (regra 99); calor (regra 101: nice, 1 núcleo, ffmpeg 2 threads, pmset antes dos passos pesados).
+- e-TCM: município 309 POJUCA, Prefeitura UJ 913, Câmara UJ 340 (sem autarquia). IBGE 2925204. Último mês: 09/2026 (10/2026 "Pendente"). Lista de prestações (regra 89): dados/prestacoes-etcm/pojuca.json (22 linhas + Câmara em "outras").
+- Downloads: 10/11 ~23:40 a 11/11 ~00:40, Google Chrome (aba própria, fechada no fim), recebedor 8778 (/salva e /prestacoes), sem janela. PDFs em ~/Documents/RECEITAS-DESPESAS-POJUCA/documentos_tcm (mensais 12/2024, 12/2025, 09/2026 de Prefeitura e Câmara; anuais 2024 e 2025 da Prefeitura). Município e competência conferidos.
+- Totais (liquidado; Prefeitura + Câmara = consolidado PCMGE065 = Balanço): 2024 arrecadou 254,91 / gastou 279,99 (faltaram 25,08, superávit de anos anteriores) · 2025 329,77 (com empréstimo de 12,5) / 320,52 (sobraram 9,25) · 2026 até set 227,92 / 235,51 (faltaram 7,58) / empenhado 270,29.
+- Setores (11): Educação, Saúde, Obras e serviços urbanos, Administração, Dívidas e encargos, Assistência social, Câmara, Festas e eventos, Cultura, Agricultura e meio ambiente, Esporte.
+- Achados: ação de eventos culturais previsto 5,55 x gasto 9,41 (2024) e 5,77 x 9,93 (2025); bandas 5,39 (2024) e 4,89 (2025); benefícios eventuais 2025 2,44; Câmara recebeu 10,91/devolveu 0,21/gastou 10,70 (2024) e 12,91/721 reais/12,91 (2025); diárias 444 mil → 1,19 mi → 1,19 mi até set/2026; combustível 0 (2024) → 558 mil (2025).
+- Roteiro v2 = APROVADO no modo autônomo (463 palavras). v1 (em antigos/) dizia "combustível de 66 mil para 558 mil": em 2024 o 3.3.90.30.01 da Câmara era "Suprimentos de Informática"; corrigido na 1ª conferência e só a parte 9 da voz refeita.
+- Voz: Google Chirp 3 HD Algenib, speakingRate 1,3, 13 partes + 0,35 s, pausas 0,28 s, atempo 1,1452, loudnorm -15,4 = 178,40 s.
+- Sincronia: 463 palavras (= roteiro), última em 177,98 s. Trechos duvidosos do Whisper retranscritos (a voz não repete nada). transcript.md do roteiro (66 frases); o do Whisper em transcript-whisper.md.
+- Fontes: audio/fontes.md (cada número com valor exato, PDF, página e linha/coluna), copiado para ~/Documents/FONTES. Pendências anotadas em _pendencias-tcm.md.
+- Plano aprovado no modo autônomo (plano.md). Código src/videos/orcamentopojuca (molde 110), tsc ok, Root registrado depois do tsc (regra 54).
+- Kit Mapas: src/videos/orcamento-pojuca (IBGE 2925204), satélite copiado do orcamento-catu + npm run tiles (12 baixados); Root do Kit como KITPOJUCA.
+- Folhas: 3 de receita + 33 por setor (scripts/folhas.py), soma = valor falado.
+- Mapa: mapas/pojuca.mp4 (Kit Mapas, 11/11 00:00–00:02 com a trava, 1 núcleo).
+- Revisão (80 quadros, todas as viradas de fala, 00:04): valores, anos e setores certos, 90 px das laterais, selo do @ na abertura e no "Segue o", nada encavalado. Revisão APROVADA (modo autônomo).
+- ★ Melhoria (regra 14): torres do previsto, do gasto e das bandas lado a lado na gaveta dos eventos; plaquinha "R$ 0 · COMBUSTÍVEL 2024" ao lado da torre de 558 mil.
+- Vídeo final (00:05–00:20, trava de render, nice e concorrência 1, sem aviso de calor): render-sem-folha/POJUCA.mp4 + 36 folhas → edicoes/112. orçamento de pojuca/POJUCA.mp4. Final: 5.379 quadros, 179,30 s, 1080x1920, áudio médio -18,9 dB, pico -3,4 dB.
+- Capa: "Bandas 2025: / R$ 4,9 mi. / Ajuda social: / R$ 2,4 mi." (fundo OrcamentoPojucaLimpo quadro 5220).
+- Legenda: edicoes/112.../POJUCA - legenda.txt (2.133 caracteres antes do ---, hashtags só #Pojuca #MagnoLeiteExplica, ⚖️ AVISO, comentário fixado).
+- Etapa: ENTREGUE 11/11/2026 ~00:22: ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/POJUCA.mp4; edicoes/112.../POJUCA - capa.jpg e POJUCA - legenda.txt; fontes.md em ~/Documents/FONTES; transcricao/transcript.md pronto (66 frases). PDFs guardados em ~/Documents/RECEITAS-DESPESAS-POJUCA/documentos_tcm (93). Travas soltas; apagados (meus): render-sem-folha (com .partes), audio/partes-google, audio/curto.wav, revisao/*.jpg, folha-pdf/tmp e out/OrcamentoPojuca.mp4 do Kit. Nenhum chrome-headless-shell aberto. Site: com o coordenador.

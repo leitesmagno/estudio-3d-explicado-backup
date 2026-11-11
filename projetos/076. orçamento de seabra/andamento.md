@@ -1,0 +1,30 @@
+# 076. orçamento de seabra
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentoseabra · Nome: OrcamentoSeabra (composições OrcamentoSeabra, …Guia, …Limpo, CapaOrcamentoSeabra)
+- MODO AUTÔNOMO (liberado pelo coordenador em 09/11/2026, 1ª do Centro-Sul). Molde UBAITABA (092) / Camacan / Ituberá (085); brief projetos/_brief-molde-ubaitaba.md; SEM tarifa bancária (regra 60); máx. 3:00; sem pasta própria em Documentos (regra 59).
+- e-TCM: município 368 SEABRA, Prefeitura UJ 972, Câmara UJ 388 (consórcio de saúde UJ 515 é outra entidade; sem autarquias). Último mês de 2026: 09/2026.
+- Levantamento: ~/Documents/RECEITAS-DESPESAS-SEABRA/ (29 PDFs + .txt, todos conferidos pelo nome do município). Pendências no e-TCM: 0.
+- Totais: 2024 arrecadou 194,18 / liquidou 192,01 (sobrou 2,17) · 2025 215,84 / 215,16 (sobrou 0,68) · 2026 até set 179,06 arrecadado / 182,71 liquidado (3,65 a mais) / 217,62 empenhado.
+- Achados: festas populares 5,06 → 7,42 (LOA previa 5,85) → 5,94 até set/2026 (LOA 7,73); assistência social inteira 2025: 5,12; benefícios eventuais 2025: 24,5 mil; Câmara recebeu 5,98 e devolveu 1,25 (2024), recebeu 7,52, gastou 7,35 e devolveu 69 mil (2025); pessoal 2025 121,3 mi; dívida INSS no Anexo 16 2025: 108,1 mi; TCM: processo sobre grandes eventos de 2025 (31994E25), Fundeb, limpeza pública, transporte escolar.
+- Roteiro v1 → revisado = APROVADO (modo autônomo), 09/11/2026: 466 palavras. Na revisão saiu o trecho das quadras (empenhadas em 2025 e pagas em 2026: enganaria). Números conferidos no PDF (1ª conferência, fontes.md).
+- Voz: Google Chirp 3 HD Algenib, speakingRate 1,3, 14 partes + 0,35 s, pausas 0,28 s, atempo 1,072, -15,5 LUFS = 177,31 s.
+- Sincronia: 8 números do Whisper normalizados ("5 ,100 milhões" → "5 milhões e 100", palavras-original.json guardado); palavras.ts com 466 palavras, última em 176,96 s; todos os quando() acham a palavra.
+- Plano aprovado no modo autônomo (plano.md). Código src/videos/orcamentoseabra/ (molde Ituberá; 12 setores; 1 pilha = R$ 3 mi; achados 1 pilha = R$ 500 mil e R$ 10 mi). tsc limpo; Root registrado depois do tsc (regra 54).
+- Kit Mapas: src/videos/orcamento-seabra (IBGE 2929909, conferido na API); satélite copiado de Rio de Contas (066) + 8 blocos baixados; registrado no Root do Kit.
+- Folhas: 3 de receita + 36 por setor (scripts/folhas.py + folhas_fix.py), todas fecham com o total falado.
+- Legenda pronta em edicoes/ (sem tarifa). Notícias conferidas (nada contradiz).
+- TCM (07:46, com a trava do navegador): os 5 processos citados são "Denúncias" sem julgamento → "estar no tribunal não é condenação".
+- Mapa gerado (mapas/seabra.mp4) e 80 quadros de revisão (07:50–07:53). Revisão feita por mim, quadro a quadro: setores, valores, anos e cores batem com a fala; nada sobreposto de forma grave.
+- Defeito corrigido: na virada para a Câmara (139,8 s) a plaquinha "R$ 24 mil" ainda aparecia sobre a cena da Câmara → a cena das festas segura até a plaquinha sair (+0,85 s) e as torres/plaquinhas da Câmara entram depois. Conferência em revisao2/ junto do render final.
+- ★ Melhoria (regra 14): previsto das festas em branco AO LADO do gasto (5,9 x 7,4 em 2025; 7,7 x 5,9 em 2026) e Câmara com "recebeu" em branco ao lado do "gastou": a comparação aparece de primeira.
+- Revisão APROVADA (modo autônomo), 09/11/2026 ~08h. 2ª conferência dos totais e setores contra os PDFs: os 36 valores de setor vêm direto dos consolidados PCMGE065 (soma = Balanço 2024 e 2025, centavo a centavo).
+- Vídeo final v1 (08:49 a 09:02): 5.346 quadros, 178,2 s, -15,6 LUFS, 39 folhas aplicadas; capa pronta (edicoes/076.../SEABRA - capa.jpg). revisao2/ confirma a correção da plaquinha "R$ 24 mil".
+- Na conferência da v1 (regra 73, 90 px das laterais): entre 141,5 e 143,5 s a câmera, indo do close de 2024 para o de 2025 da Câmara, levava a plaquinha "R$ 6 MI" a ~65 px da borda. Corrigido: a 2ª chave virou um plano com os 2 anos juntos. tsc OK.
+- revisao3/ (6 quadros, 141 a 147 s): plaquinhas a mais de 250 px das laterais. OK.
+- A v2 das 09:05 saiu igual à v1: o render.mjs aproveita as partes que têm .ok. Vou refazer só as partes 11 e 12 (quadros 4000 a 4799) com --parte e aplicar as folhas de novo, depois de Mata de São João (prioridade).
+- 09:25: peguei a trava; partes 11 e 12 REFEITAS (render-sem-folha/SEABRA.mp4 já tem a câmera nova). 09:29: PAUSA pedida pelo Magno (via coordenador) no meio da aplicação das folhas: script parado, trava de render solta, nada esperando trava.
+- Estado dos arquivos: edicoes/076.../SEABRA.mp4 ainda é a v1 (margem de 65 px na Câmara); SEABRA.tmp.mp4 é sobra incompleta das folhas (o próximo "aplicar" sobrescreve). Cópia em VIDEOS PRONTOS - FOLHA POR SETOR/SEABRA.mp4 também é a v1.
+- PARA RETOMAR (quando o coordenador chamar): com a trava de render, rodar só `python3 -I tools/lista_pdf/lista_pdf.py aplicar ~/Documents/RECEITAS-DESPESAS-SEABRA/saida/folha-pdf/config-setores.json`; conferir quadros em 142 e 146 s; copiar para VIDEOS PRONTOS (substitui a v1); atualizar _coordenacao-sessoes.md e _relatorio-manha.md; avisar o coordenador. Capa e legenda já prontas.
+- Pausa encerrada pelo coordenador. 10:37 a 10:43: folhas aplicadas no vídeo com as partes 11 e 12 novas (trava pega e solta). Conferido: 5.346 quadros, 178,2 s, com áudio; aos 142 s a plaquinha "R$ 6 MI" fica a ~280 px da borda; folhas aparecem.
+- ENTREGUE (09/11/2026 10:45): edicoes/076. orçamento de seabra/SEABRA.mp4 (v2), SEABRA - capa.jpg e SEABRA - legenda.txt; cópia em ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/SEABRA.mp4 (substituiu a v1).
+- Etapa atual: 8. ENTREGUE.

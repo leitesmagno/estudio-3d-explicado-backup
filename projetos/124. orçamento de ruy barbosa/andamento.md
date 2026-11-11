@@ -1,0 +1,22 @@
+# 124. orçamento de ruy barbosa
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentoruybarbosa · Nome: OrcamentoRuyBarbosa (composições OrcamentoRuyBarbosa, …Guia, …Limpo, CapaOrcamentoRuyBarbosa). Kit Mapas: orcamento-ruy-barbosa (IBGE 2927200; satélite copiado de Itaberaba, vizinha).
+- MODO AUTÔNOMO (lote LARANJA, cidade L16, liberado pelo coordenador em 11/11/2026 com "pode começar"). Molde 093 Ilhéus / 121 São Desidério. SEM tarifa bancária; máx. 3:00; festas separadas da cultura (regra 99); calor (regra 101).
+- e-TCM: município 334 RUY BARBOSA, Prefeitura UJ 938, Câmara UJ 367 (sem autarquias). Último mês: 09/2026 (10/2026 "Pendente"). Lista de prestações (regra 89): dados/prestacoes-etcm/ruy-barbosa.json (22 linhas + Câmara).
+- Downloads: 11/11/2026 06:45 a 06:59, navegador do app com _navegador-app.lock (solta), fetch + recebedor 8778 /salva, sem janela. 94 PDFs, 0 falhas, em ~/Documents/RECEITAS-DESPESAS-RUY-BARBOSA/documentos_tcm. Município e competência conferidos.
+- Totais (liquidado): 2024 arrecadou 119,52 / gastou 122,92 (3,40 a mais) · 2025 130,98 / 134,56 (3,58 a mais) · 2026 até set 112,07 / 123,12 (11,05 a mais) / empenhado 139,59. 2024 e 2025 = Balanço.
+- Setores (11): Educação, Saúde, Obras e serviços urbanos, Administração, Dívidas e encargos, Assistência social, Câmara, Festas e eventos, Cultura, Agricultura e meio ambiente, Esporte.
+- Achados: ação de atividades festivas e culturais previa 2,4 / autorizado 5,3 / gastou 4,72 (2024); previa 4,47 / gastou 2,87 (2025); previa 2,84 / autorizado 6,86 / gastou 5,66 até set (2026), quase o dobro; agricultura 3,49 e esporte 0,45 nos mesmos meses; cultura zero nas ações de cultura em 2024 e 2025. Câmara recebeu 4,32 / devolveu 5,9 mil (2024); 4,97 / 1,1 mil (2025); 4,15 até set/2026.
+- Roteiro v1 revisado = APROVADO no modo autônomo (469 palavras).
+- Voz: Google Chirp 3 HD Algenib, speakingRate 1,3, 13 partes + 0,35 s, pausas 0,28 s, atempo 1,08, loudnorm -15,3 LUFS = 176,40 s.
+- Fontes: audio/fontes.md (cópia em ~/Documents/FONTES).
+- Plano aprovado no modo autônomo (plano.md).
+- Sincronia: 469 palavras (= roteiro); transcript.md do roteiro (67 frases), o do Whisper em transcript-whisper.md. Voz conferida: nada pulado nem repetido.
+- Código src/videos/orcamentoruybarbosa (molde 121), tsc ok, Root registrado depois do tsc. Kit Mapas orcamento-ruy-barbosa (satélite de Itaberaba + tiles refeitos, REFAZER=5..10).
+- Folhas: 3 de receita + 33 por setor (scripts/folhas.py; Cultura 2024 e 2025 com as ações em R$ 0,00 à mão).
+- Revisão (77 quadros em todas as viradas de fala, olhados em folhas de contato): tela igual à fala, nada sobreposto, 90 px das laterais. Corrigido: mapa com emenda do satélite emprestado (tiles refeitos e mapa gerado de novo); chip final "quase o dobro do previsto?" ficava 1,3 s, agora entra no "por que as festas" (3,6 s). Revisão APROVADA (modo autônomo).
+- ★ Melhoria (regra 14): torre do valor AUTORIZADO (dotação atual) entre o previsto e o gasto das festas, e agricultura e esporte na mesma escala da gaveta.
+- Vídeo final (07:41 a 07:57, trava de render, nice e concorrência 1, sem aviso de calor): 5.319 quadros, 177,30 s, 1080x1920, 36 folhas; áudio baixado 0,5 dB depois (pico -0,7 → -1,3 dB, médio -18,8 dB).
+- Capa: "Festas 2026: / previa 2,8 mi. / Já gastou: / R$ 5,7 mi." (fundo OrcamentoRuyBarbosaLimpo quadro 4830).
+- Legenda: edicoes/124.../RUY BARBOSA - legenda.txt (hashtags só #RuyBarbosa #MagnoLeiteExplica, asterisco da cultura, ⚖️ AVISO, comentário fixado).
+- Etapa: ENTREGUE 11/11/2026 ~08:10: ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/RUY BARBOSA.mp4; edicoes/124.../RUY BARBOSA.mp4, capa e legenda; fontes.md em ~/Documents/FONTES; transcricao/transcript.md (67 frases). Travas soltas; apagados (meus): render-sem-folha, partes-google, junto.wav, curto.wav, sil.wav, revisao/*.jpg, folha-pdf/tmp. Site: com o coordenador.

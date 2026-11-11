@@ -1,0 +1,26 @@
+# 130. orçamento de são francisco do conde
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentosaofranciscodoconde · Nome: OrcamentoSaoFranciscoDoConde (composições OrcamentoSaoFranciscoDoConde, …Guia, …Limpo, CapaOrcamentoSaoFranciscoDoConde)
+- MODO AUTÔNOMO (coordenador, 10/11/2026 ~16:30, regra 97): pedido urgente do amigo auditor do Magno, junto com o 129 Inhambupe. Molde 093 Ilhéus / 128 Arataca, só 2024, 2025 e 2026. SEM tarifa bancária. Máx. 3:00. Hashtags só #SãoFranciscoDoConde #MagnoLeiteExplica. Roteiro revisado = aprovado; eu mesma olho os quadros.
+- e-TCM: município 357, Prefeitura UJ 961, Câmara UJ 406, Instituto de Previdência UJ 591 (dentro do PCMGE015/016 consolidado da Prefeitura e do Balanço). Último mês de 2026: 09/2026 (entregue 03/11/2026).
+- Regra 89: lista de prestações mensais (21 linhas, 01/2025 a 09/2026) gravada em dados/prestacoes-etcm/sao-francisco-do-conde.json.
+- Downloads (10/11/2026, Google Chrome, recebedor 8778 pasta SAO-FRANCISCO-DO-CONDE, fetch + /salva, sem janela): mensais 12/2024, 12/2025 e 09/2026 da Prefeitura e da Câmara; anuais 2024 e 2025 (Balanço, Anexos 6, 7, 9, 10, 16, Balanço Financeiro, restos a pagar 2024). Município e competência conferidos. PCMGE015/016/018/065 de dez/2024 da Prefeitura ESCANEADOS: 2024 montado pelos anuais em texto.
+- Leitores: scripts/acoes015.py (SIGA consolidado, 2 linhas por valor), acoes2024.py (Anexo 6 − restos a pagar não processados), receita.py, setores.py. Os 3 anos fecham centavo a centavo com o Balanço (2024, 2025) e com o Total do Poder de set/2026.
+- Totais (liquidado): 2024 arrecadou 679,74 (90 de empréstimo FINISA) / gastou 847,17 (167,42 a mais) · 2025 arrecadou 534,93 / gastou 593,13 (58,20 a mais) · 2026 até set arrecadou 575,09 (117,72 de royalties do petróleo) / gastou 480,12 (sobraram 94,97) / empenhado 624,91.
+- Achados: ICMS 253,5 (2024) → 205,5 (2025); saúde 174,4 → 92,4; assistência 54,9 → 16,7; eventos artístico-culturais 13,06 (2024) → 393 mil (2025); subsídio do ônibus 15,6 → 19,3 (2025, mais que a assistência inteira) → 22,4 até set/2026; Câmara recebeu 53,0 e devolveu 15,9 (2024), recebeu 35,1 e devolveu 785 mil (2025), gastou 34,1 em 2025; INSS parcelado 213,2 (início 2024) → 229,7 (fim 2025).
+- Processos do TCM: a consulta Decisões › Auditoria travou no Chrome e no navegador do app (~16:55). Fora do vídeo (pendência).
+- Roteiro v2 revisado = APROVADO no modo autônomo (v1 em antigos/, longa demais: 3:49 de voz). 442 palavras.
+- Voz: Google Chirp 3 HD Algenib, speakingRate 1,3, 14 partes + 0,35 s, pausas 0,28 s, atempo 1,16, -15 LUFS = 175,28 s.
+- Fontes: audio/fontes.md (gerado por scripts/fontes.py, que acha a página de cada valor no PDF).
+- Plano aprovado no modo autônomo (plano.md).
+- Etapa atual: 3 (sincronia).
+- 17:10: a voz leu "í cê eme ésse" como "acento agudo": siglas soletradas sem acento, parágrafos regerados, narração final 175,96 s. Whisper pulou "para 92 ... 393 mil": trecho retranscrito à parte e inserido. Sincronia: 442 palavras = roteiro, tempos em ordem (scripts/checa_quando.py).
+- Kit Mapas: src/videos/orcamento-sfconde (IBGE 2929206, satélite copiado do Simões Filho + npm run tiles), Root do Kit como KITSFC, tsc ok. mapas/sfconde.mp4.
+- Código: src/videos/orcamentosaofranciscodoconde/OrcamentoSaoFranciscoDoConde.tsx (molde 128), registrado no Root.tsx depois do tsc (regra 54), apelidos _SFC.
+- Folhas: 3 de receita + 39 por setor (scripts/folhas.py), Dívidas 2025 detalhada à mão (indenizações e restituições da dívida interna 47,47 mi).
+- Revisão 1 (77 quadros, 17:36): ok no geral. Ajustes: chip da Agricultura 2025 "NADA NAS AÇÕES DA ÁREA", torres do INSS separadas, câmera alta na pergunta final (plaquinha da Câmara 2025 saía do quadro). Revisão 2 (7 quadros + Limpo, 17:57): ok. Revisão APROVADA (modo autônomo).
+- Etapa atual: 7 (vídeo final).
+- Vídeo final (18:03–18:25, trava de render): render-sem-folha/SÃO FRANCISCO DO CONDE.mp4 + 42 folhas → edicoes/130.../SÃO FRANCISCO DO CONDE.mp4 (5.306 quadros, 176,87 s, 1080x1920, áudio médio -18,5 dB, pico -3,4 dB). Quadros conferidos depois das folhas.
+- Capa: "Câmara 2025: / R$ 34,1 mi. / Assistência: / R$ 16,7 mi." (fundo OrcamentoSaoFranciscoDoCondeLimpo quadro 5290; pílula sem o ano, que cortava). Legenda com ⚖️ AVISO e comentário fixado (1.996 caracteres no post); hashtags só #SãoFranciscoDoConde #MagnoLeiteExplica.
+- Etapa: ENTREGUE 10/11/2026 ~18:30: ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/SÃO FRANCISCO DO CONDE.mp4; edicoes/130.../SÃO FRANCISCO DO CONDE - capa.jpg e - legenda.txt; fontes.md em ~/Documents/FONTES; transcricao/transcript.md pronto (67 frases). PDFs guardados em ~/Documents/RECEITAS-DESPESAS-SAO-FRANCISCO-DO-CONDE/documentos_tcm. Travas soltas, nenhum chrome-headless-shell meu aberto, aba do Chrome fechada. Site: com o coordenador.
+- Pendências no TCM: PCMGE015/016/018/065 de dez/2024 da Prefeitura escaneados (2024 pelos anuais em texto); consulta Decisões › Auditoria travou (sem sacada de processos); pessoal por setor de 2024 sem valor nas folhas.

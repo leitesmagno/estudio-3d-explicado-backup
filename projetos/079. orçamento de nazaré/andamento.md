@@ -1,0 +1,22 @@
+# 079. orçamento de nazaré
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentonazare · Nome: OrcamentoNazare (composições OrcamentoNazare, …Guia, …Limpo, CapaOrcamentoNazare)
+- MODO AUTÔNOMO (coordenador, 09/11/2026): Região Metropolitana, molde Ubaitaba/Camacan (brief `projetos/_brief-molde-ubaitaba.md`, regras até a 82). SEM tarifa bancária (regra 60). Máx. 3:00. Folhas e plaquinhas a ≥ 90 px das laterais. Selo novo no CabecalhoCidade.
+- IBGE 2922508 (microrregião Santo Antônio de Jesus). e-TCM: município 272, Prefeitura UJ 876, Câmara UJ 305 (sem autarquia com prestação própria). Último mês de 2026: 09/2026.
+- Downloads (09/11/2026, trava do navegador; regra 81: Paratinga com prioridade): 36 PDFs em ~/Documents/RECEITAS-DESPESAS-NAZARE/documentos_tcm/ + consulta de processos do TCM (117) + 5 acórdãos em decisoes/. Pendências no TCM: 0.
+- Totais (liquidado): 2024 arrecadou 181,73 / gastou 191,38 (9,65 a mais) · 2025 arrecadou 142,33 / gastou 136,85 (sobraram 5,47) · 2026 até set arrecadou 102,76 / gastou 98,06 / empenhado 145,57. Setores por secretaria (scripts/setores.py), soma = total centavo a centavo nos 3 anos.
+- Achados: Fundeb (complementação da União + retorno) 92,2 → 48,1 mi (2024 → 2025; VAAT 23,0 → 3,9); educação infantil 22,3 → 9,5 mi; festas 3,07 / 3,80 / 2,85 mi x ajuda às famílias 34 / 149 / 233 mil; Câmara 4,34 mi x agricultura 0,52 mi (2025); dívida fundada 89,6 → 94,6 mi (INSS 84,6) mesmo pagando 11,96 mi; TCM: juros e multas ao INSS de 2020 (multa mantida em recurso, 22/10/2026) e auditoria da vacinação 2024 (falhas e recomendações, 13/10/2026). Comércio e turismo 2026 zero (promoção do turismo previa 181 mil).
+- Roteiro v1 revisado = APROVADO no modo autônomo (09/11/2026): 497 palavras. 1ª conferência dos números no PDF (audio/fontes.md, cópia em ~/Documents/FONTES/).
+- Voz: Google Chirp 3 HD Algenib, speakingRate 1,3, 14 partes + 0,35 s, pausas 0,28 s, atempo 1,115, -15 LUFS = 178,16 s (média -15,4 dB, pico -1,4 dB).
+- Transcrição conferida frase a frase: nada pulado. O Whisper ouviu "Arrecadou 142 milhões e gastou" e "Tribunal de de multas"; retranscrevi as janelas (47,5-54 s e 154,8-163,5 s) e a voz está certa ("142 milhões e 300. Gastou", "Tribunal de Contas"). palavras-original.json guardado; números "3 .100 .000" normalizados.
+- Sincronia: palavras.ts com 497 palavras, última em 177,82 s. Todos os quando() conferidos.
+- Plano aprovado no modo autônomo (plano.md). Código: src/videos/orcamentonazare/OrcamentoNazare.tsx (molde Mata de São João, 1 pilha = R$ 4 mi). tsc ok; registrado no Root.tsx depois do tsc (regra 54).
+- Mapa (Kit Mapas): src/videos/orcamento-nazare (satélite copiado do 068 Santo Antônio de Jesus + npm run tiles: 0 baixados, 19 compostos). Registrado no Root do Kit.
+- Folhas: 3 de receita + 36 por setor (scripts/folhas.py → saida/folha-pdf/config-setores.json), soma = valor falado; Câmara com duodécimo (razão).
+- Mapa gerado (mapas/nazare.mp4) e 87 quadros de revisão (23:18–23:21, revisao1-antes-das-correcoes/). Revisão feita por mim, quadro a quadro.
+- Correções da revisão (revisao/, 23:23–23:24, 87 quadros): a câmera saía da gaveta enquanto a voz ainda falava o número (Fundeb, "8 vezes a agricultura", pasta do recurso, pergunta final): chaves de "segurar" antes de cada troca; plaquinhas da ajuda às famílias saíram de cima do letreiro da gaveta (topo da torrinha); chip da educação infantil encurtado. ★ Melhorias (regra 14): Fundeb e educação infantil num plano só com as quatro torres; placar de escala muda por gaveta (R$ 2 mi / R$ 250 mil).
+- Revisão APROVADA (modo autônomo), 09/11/2026 ~23:30. 2ª conferência dos números feita (fontes.md). Aprendizados registrados em _aprendizados.md (079).
+- Legenda pronta (2.194 caracteres antes do ---, AVISO e comentário fixado).
+- Vídeo final (23:25–23:56): render-sem-folha/NAZARÉ.mp4 + 39 folhas (3 de receita + 36 por setor) → edicoes/079. orçamento de nazaré/NAZARÉ.mp4 (5.372 quadros, 179,07 s, 1080x1920, áudio médio -18,4 dB, pico -3,4 dB). Quadros conferidos depois das folhas.
+- Capa: "Fundeb caiu / R$ 44 mi. / Festas: / R$ 3,8 mi." (fundo OrcamentoNazareLimpo quadro 3883). Legenda: 2.194 caracteres antes do ---, ⚖️ AVISO no fim e comentário fixado.
+- Etapa: ENTREGUE 09/11/2026 ~23:58: ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/NAZARÉ.mp4; edicoes/079. orçamento de nazaré/NAZARÉ - capa.jpg e NAZARÉ - legenda.txt. Pendências no TCM: 0.

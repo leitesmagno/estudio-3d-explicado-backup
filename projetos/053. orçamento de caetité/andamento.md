@@ -1,0 +1,21 @@
+# 053. orçamento de caetité
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentocaetite · Nome: OrcamentoCaetite
+- MODO AUTÔNOMO (projetos/_coordenacao-sessoes.md, Lote 2, 08/11/2026): roteiro, plano e revisão aprovados pela própria sessão.
+- e-TCM: município 64 "CAETITÉ", Prefeitura 669, Câmara 98 (só essas duas unidades).
+- Levantamento: ~/Documents/RECEITAS-DESPESAS-CAETITE/ (documentos_tcm, saida/acoes_*.json, scripts/acoes065.py, anexo9ct.py, acoes015bp.py, elem_temp.py, listar_ct.py, pega.sh). Sistema SIAFIC Fator.
+- Documentos: Balanço (PCAGO015) e Anexo 9 (PCAGO007) de 2024 e 2025; PCMGE015/016 de 12/2024 e 12/2025 da Prefeitura; PCMGE015 da Câmara de 12/2024, 12/2025 e 09/2026.
+- ATENÇÃO: o PCMGE015 e o PCMGE016 da Prefeitura de 08 e 09/2026 vieram como DECLARAÇÃO (documento "será anexado posteriormente"). Substitutos usados: PCMGE065 e PCMGE066 consolidados de 09/2026 (mesmo SIAFIC, ação por ação, soma confere com o total geral). Ver fontes.md.
+- Roteiro v1 revisado e aprovado no modo autônomo em 08/11/2026 (465 palavras). 1ª conferência no PDF: feita (44 de 44 valores achados de novo).
+- Foco: festas 3,9 → 4,4 → 5,0 mi (2026 até set. já passa 2025); contratos por tempo determinado 43 / 38,4 / 35,2 mi mesmo depois do concurso de 2024; TCM julgou procedente (07/10/2026) a representação sobre contratação sem concurso 2021–2023, multa de R$ 1.500 ao gestor; 2026 já gastou 12,2 mi a mais do que arrecadou.
+- Título da capa: "2026: gastou / mais do que / arrecadou. / E a festa?"
+- Roteiro v2 (446 palavras): 3 frases enxugadas para caber em 2:55 (versão 1 em antigos/).
+- Narração: Google Chirp 3 HD Algenib, speakingRate 1,3, 12 partes (8, 9 e 10 refeitas), pausas 0,28 s, atempo 1,14, -15 LUFS = 174,45 s. Conferida frase a frase (o trecho 28–60 s, que o Whisper perdeu, foi retranscrito e o parágrafo p03 conferido sozinho).
+- Sincronia: 446 palavras, última em 174,16 s.
+- Mapa: ~/Kit-Mapas-Animados/src/videos/orcamento-caetite (IBGE 2905206) → mapas/caetite.mp4 (12,6 s).
+- Plano aprovado no modo autônomo em 08/11/2026.
+- Revisão: v1 (58 quadros, em antigos/revisao v1) → corrigidos: placa "R$ 4,4 MI" de 2025 sumia quando entrava a das bandas; pastas do Tribunal pequenas; na pergunta final a gaveta das festas aparecia cedo atrás da pílula. v2 (14 quadros refeitos) aprovada no modo autônomo.
+- 2ª conferência (PDFs reabertos, texto extraído de novo, e notícias) feita antes do final: tudo igual (audio/fontes.md).
+- Etapa atual: 8. ENTREGUE em 08/11/2026 (modo autônomo): edicoes/053. orçamento de caetité/CAETITÉ.mp4 (5261 quadros, 175,4 s, 7 partes, volume médio -18,5 dB, pico -3,6 dB, emendas conferidas), CAETITÉ - capa.jpg (fundo OrcamentoCaetiteLimpo quadro 5185) e CAETITÉ - legenda.txt (cerca de 2.120 caracteres antes do comentário fixado, com ⚖️ AVISO). Trava liberada; pastas temporárias do Remotion desta sessão apagadas.
+- Pendência no TCM (não é falha de download): PCMGE015/016 da Prefeitura de 08 e 09/2026 vieram como declaração; usado o consolidado PCMGE065/066 de 09/2026.
+- Falta: o Magno assistir e publicar.

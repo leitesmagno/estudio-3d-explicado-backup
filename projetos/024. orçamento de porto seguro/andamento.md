@@ -1,0 +1,14 @@
+# 024. orçamento de porto seguro
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentoportoseguro · Nome: OrcamentoPortoSeguro
+- Etapa atual: entregue em 04/11/2026 (vídeo final 3.935 quadros, 131,2 s, média -19,1 dB, pico -3,4 dB; capa e legenda prontas)
+- Plano: versão 1 (aprovado antecipadamente); mapa do Kit Mapas pronto (mapas/porto-seguro.mp4, 34,6 s); cenas programadas; revisão: 40 quadros olhados e corrigidos (câmera da segurança, régua, rótulos da dívida, moedas, chips)
+- Capa: edicoes/024.../capa.jpg ("1,15 bilhão. / Para onde / foi cada / real?"); legenda: edicoes/024.../legenda do post.txt
+- Vídeo final: `node scripts/render.mjs OrcamentoPortoSeguro "edicoes/024. orçamento de porto seguro"` (3.934 quadros)
+- Narração: 130.25 s (1,3x), 3934 quadros; voz completa (conferida frase por frase contra o roteiro); original copiado de Downloads
+- Sincronia: 387 palavras (igual ao roteiro), última em 130.08 s; src/videos/orcamentoportoseguro/palavras.ts
+- Aprovações: roteiro aprovado em 04/11/2026 (versão 3, linha do 014)
+- Título da capa (sugerido): "1,15 bilhão. / Para onde / foi cada / real?"
+- Seguir sem pausas: sim (a pessoa aprovou em 04/11/2026: plano e vídeo final sem parar; o diretor confere todos os quadros de revisão)
+- Formato: igual ao 017 e ao 020 (quanto recebe, de onde vem, quanto vai para cada área). Fonte pedida: portal da transparência de Porto Seguro. Só documentos de Porto Seguro.
+- Voz conferida pela pessoa em 04/11/2026: é a mesma voz (o arquivo veio sem o nome da voz)

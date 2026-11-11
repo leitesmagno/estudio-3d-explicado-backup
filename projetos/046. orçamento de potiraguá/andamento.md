@@ -1,0 +1,17 @@
+# 046. orçamento de potiraguá
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentopotiragua · Nome: OrcamentoPotiragua
+- Molde: 035 Paratinga (pelo código do 040 Anagé). Mapa: ~/Kit-Mapas-Animados/src/videos/orcamento-potiragua/ (composição OrcamentoPotiragua).
+- e-TCM: município 312, Prefeitura 916, Câmara 343 (são posições na lista do select). Sistema SIGA (mensais) e SIAFIC/GovNet (anual 2024). Último mês entregue: 09/2026. Balanço anual 2025 NÃO está no e-TCM (status "Tomada de Contas", só duodécimos).
+- Levantamento: ~/Documents/RECEITAS-DESPESAS-POTIRAGUA/ (documentos_tcm, saida/acoes_listadas.txt, scripts). Python com pdfplumber: ~/Documents/RECEITAS-DESPESAS-INHAMBUPE/.venv.
+- MODO AUTÔNOMO (pedido do Magno, projetos/_coordenacao-sessoes.md, 07/11/2026): roteiro, plano e revisão aprovados pela própria sessão.
+- Roteiro v2 aprovado no modo autônomo em 07/11/2026 (v1 em antigos/). 479 palavras. Título da capa: "R$ 13 mi / no papel. / R$ 1,3 mi / usado."
+- Narração: Google Chirp 3 HD Algenib, speakingRate 1,3, 14 partes + 0,35 s, pausas 0,28 s, atempo 1,05, -15 LUFS = 175,96 s (AUDIO_SEG 175.96, QUADROS 5306). Transcrição conferida frase a frase; sincronia 479 palavras, última em 175,58 s.
+- Plano v1 aprovado no modo autônomo em 07/11/2026.
+- Foco: déficit nos 3 anos (2,4 / 5,3 / 3,5 mi); construir e reformar: 13 mi reservados x 1,3 mi usados; apoio administrativo 7,4 mi em 2025 x 710 mil em 2026; festas 2024 (2,7) > assistência (2,3); TCM: 10 de 12 meses de 2024 fora do prazo (processo), concurso 2024 em processo, balanço 2025 como tomada de contas. Zeros: água (Embasa), defesa civil, proteção animal.
+- Revisão: v1 (63 quadros) → corrigido: plaquinhas do meio ambiente ficavam ao lado da água; água virou casinha cinza "ÁGUA"; pastas do Tribunal à frente do prédio (z 0,4) e câmera segura as duas pastas em "sem julgamento". v1 em antigos/revisao v1. Revisão aprovada no modo autônomo em 07/11/2026.
+- Disco cheio no meio da revisão (07/11/2026): apagadas 15 pastas remotion-webpack-bundle-* (49 GB), com autorização permanente do Magno.
+- Notícias reconferidas antes do vídeo final (07/11/2026): nada novo sobre obras em Potiraguá (só o pregão 29/2026 de material de construção, ago/2026).
+- 2ª conferência de todos os números direto nos PDFs (arquivo e linha) em audio/fontes.md, 07/11/2026: tudo bate; apoio administrativo exato = R$ 7.398.698,72 (continua "7,4 mi").
+- Etapa atual: 8. ENTREGUE em 07/11/2026 (modo autônomo): edicoes/046. orçamento de potiraguá/POTIRAGUÁ.mp4 (5306 quadros, 176,9 s, 14 partes de 400, volume médio -18,5 dB, pico -3,5 dB, emendas conferidas), POTIRAGUÁ - capa.jpg ("R$ 13 mi / no papel. / R$ 1,3 mi / usado.", fundo OrcamentoPotiraguaLimpo quadro 5130, desce 760) e POTIRAGUÁ - legenda.txt (2.167 caracteres, com ⚖️ AVISO, asterisco dos zeros e comentário fixado).
+- Falta: o Magno assistir e publicar.

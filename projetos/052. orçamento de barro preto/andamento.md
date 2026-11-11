@@ -1,0 +1,19 @@
+# 052. orçamento de barro preto
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentobarropreto · Nome: OrcamentoBarroPreto
+- MODO AUTÔNOMO (pedido do Magno, projetos/_coordenacao-sessoes.md, Lote 2, 08/11/2026): roteiro, plano e revisão aprovados pela própria sessão.
+- Nome: IBGE "Barro Preto" (2903300). No e-TCM o município aparece como 140 "GOVERNADOR LOMANTO JUNIOR" (nome antigo); Prefeitura 644, Câmara 74, SAAE 1028.
+- Levantamento: ~/Documents/RECEITAS-DESPESAS-BARRO-PRETO/ (documentos_tcm, saida/acoes_*.json, scripts/acoes015bp.py, anexo9el.py, listar_bp.py, obras51.py). Balanços E&L consolidados (Prefeitura + Câmara + SAAE). PCMGE015/016 do SIGA. Último mês entregue: 09/2026.
+- Documentos fundamentais: todos baixados (Balanço e Anexo 9 de 2024 e 2025; PCMGE015/016 de dez/2024, dez/2025 e set/2026 da Prefeitura, da Câmara e do SAAE). Pendências no e-TCM: 0.
+- Receita: o PCMGE016 já vem sem a parte do Fundeb (ICMS com dedução de 20%) e o Balanço = Prefeitura + SAAE; 2026 somado no mesmo critério.
+- Roteiro v1 revisado e aprovado no modo autônomo em 08/11/2026 (464 palavras). 1ª conferência dos números no PDF: feita (audio/fontes.md, cópia em ~/Documents/FONTES/).
+- Foco: festa lançada em contas diferentes (2024 na educação, R$ 1,06 mi; 2025 São João na administração, R$ 545 mil, sem previsão no orçamento; 2026 na cultura, R$ 1,02 mi) x pavimentação e praças R$ 0 em 2025; praças de 2026 pagas com empréstimo; agricultura R$ 0 em programas nos três anos; 4 processos no TCM sem decisão.
+- Título da capa: "Festa acha / conta. / Agricultura, / zero."
+- Narração: Google Chirp 3 HD Algenib, speakingRate 1,3, 12 partes + 0,35 s, pausas 0,28 s, atempo 1,065, -15 LUFS = 176,25 s. Transcrição conferida frase a frase (os 3 pontos duvidosos eram erro do Whisper, retranscritos).
+- Sincronia: 464 palavras, última em 175,84 s.
+- Mapa: ~/Kit-Mapas-Animados/src/videos/orcamento-barro-preto → mapas/barropreto.mp4 (12,4 s).
+- Plano aprovado no modo autônomo em 08/11/2026.
+- Revisão: v1 (60 quadros) → corrigidos: gaveta da festa na frente da casinha da agricultura na pergunta final (agora afunda e volta no plano aberto) e plaquinha final cortada na borda. v2 aprovada no modo autônomo em 08/11/2026 (quadros antigos em antigos/revisao v1).
+- 2ª conferência (PDFs reabertos e notícias) feita antes do final: 48 de 48 valores achados de novo; somas de 2026 iguais (audio/fontes.md).
+- Etapa atual: 8. ENTREGUE em 08/11/2026 (modo autônomo): edicoes/052. orçamento de barro preto/BARRO PRETO.mp4 (5315 quadros, 177,2 s, 7 partes de 800, volume médio -18,4 dB, pico -2,7 dB, emendas conferidas), BARRO PRETO - capa.jpg ("Festa acha / conta. / Agricultura, / zero.", pílula MAGNO EXPLICA · BARRO PRETO, fundo OrcamentoBarroPretoLimpo quadro 5115, desce 700) e BARRO PRETO - legenda.txt (cerca de 2.160 caracteres, com ⚖️ AVISO, asterisco do zero e comentário fixado). Trava liberada; pastas temporárias do Remotion desta sessão apagadas.
+- Falta: o Magno assistir e publicar.

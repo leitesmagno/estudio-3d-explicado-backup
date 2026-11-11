@@ -1,0 +1,431 @@
+{
+ "entrada": "/Users/magnoleite/Estúdio 3D Explicado/edicoes/066. orçamento de rio de contas/v2-render/video final.mp4",
+ "saida": "/Users/magnoleite/Estúdio 3D Explicado/edicoes/066. orçamento de rio de contas/RIO DE CONTAS v2 - despesa.mp4",
+ "pasta_tmp": "/Users/magnoleite/Documents/RECEITAS-DESPESAS-RIO-DE-CONTAS/saida/folha-pdf/tmp-v2",
+ "folhas": [
+  {
+   "tipo": "receita",
+   "titulo": "Receita arrecadada · 2024",
+   "total": 65231350.91,
+   "linhas": [
+    [
+     "IPTU",
+     221516.57
+    ],
+    [
+     "ITBI",
+     69838.37
+    ],
+    [
+     "ISS",
+     646762.8
+    ],
+    [
+     "Imposto de Renda retido",
+     1057912.35
+    ],
+    [
+     "Taxas",
+     179129.57
+    ],
+    [
+     "Iluminação pública (COSIP)",
+     262.34
+    ],
+    [
+     "Multas",
+     4589.42
+    ],
+    [
+     "FPM",
+     25693097.67
+    ],
+    [
+     "ICMS",
+     4993646.83
+    ],
+    [
+     "IPVA",
+     614707.84
+    ],
+    [
+     "Saúde · SUS da União",
+     7435339.3
+    ],
+    [
+     "Saúde · SUS do Estado",
+     29118.9
+    ],
+    [
+     "Educação · FNDE",
+     1726535.81
+    ],
+    [
+     "Fundeb",
+     16024024.76
+    ],
+    [
+     "Assistência social",
+     852586.14
+    ],
+    [
+     "Convênios (União e Estado)",
+     1843247.77
+    ],
+    [
+     "Outras receitas",
+     3839034.47
+    ]
+   ],
+   "rodape": "Balanço 2024 enviado ao TCM-BA",
+   "de": 8.26,
+   "ate": 15.69
+  },
+  {
+   "tipo": "despesa",
+   "titulo": "Despesa por setor · 2024",
+   "total": 64836035.57,
+   "linhas": [
+    [
+     "Educação",
+     24160141.41
+    ],
+    [
+     "Saúde",
+     16084276.56
+    ],
+    [
+     "Administração",
+     4894394.37
+    ],
+    [
+     "Obras, limpeza e estradas",
+     10267553.6
+    ],
+    [
+     "Câmara",
+     2415462.5
+    ],
+    [
+     "Dívidas",
+     1951611.93
+    ],
+    [
+     "Cultura",
+     2983563.57
+    ],
+    [
+     "Assistência social",
+     1591695.88
+    ],
+    [
+     "Água e esgoto",
+     0.0
+    ],
+    [
+     "Agricultura",
+     273703.35
+    ],
+    [
+     "Esporte",
+     0.0
+    ],
+    [
+     "Meio ambiente",
+     101244.4
+    ],
+    [
+     "Turismo e comércio",
+     112388.0
+    ]
+   ],
+   "rodape": "Balanço 2024 enviado ao TCM-BA",
+   "de": 15.74,
+   "ate": 37.27
+  },
+  {
+   "tipo": "receita",
+   "titulo": "Receita arrecadada · 2025",
+   "total": 72249177.19,
+   "linhas": [
+    [
+     "IPTU",
+     200119.22
+    ],
+    [
+     "ITBI",
+     112296.52
+    ],
+    [
+     "ISS",
+     1354237.26
+    ],
+    [
+     "Imposto de Renda retido",
+     1845146.89
+    ],
+    [
+     "Taxas",
+     145407.94
+    ],
+    [
+     "Iluminação pública (COSIP)",
+     18264.82
+    ],
+    [
+     "Multas",
+     214.21
+    ],
+    [
+     "FPM",
+     29397414.53
+    ],
+    [
+     "ICMS",
+     5540130.67
+    ],
+    [
+     "IPVA",
+     729030.01
+    ],
+    [
+     "Saúde · SUS da União",
+     8142726.96
+    ],
+    [
+     "Saúde · SUS do Estado",
+     1179082.93
+    ],
+    [
+     "Educação · FNDE",
+     1391862.48
+    ],
+    [
+     "Fundeb",
+     16035707.17
+    ],
+    [
+     "Assistência social",
+     784155.67
+    ],
+    [
+     "Convênios (União e Estado)",
+     2747193.43
+    ],
+    [
+     "Outras receitas",
+     2626186.48
+    ]
+   ],
+   "rodape": "Balanço 2025 enviado ao TCM-BA",
+   "de": 37.32,
+   "ate": 44.23
+  },
+  {
+   "tipo": "despesa",
+   "titulo": "Despesa por setor · 2025",
+   "total": 61304155.81,
+   "linhas": [
+    [
+     "Educação",
+     21862118.43
+    ],
+    [
+     "Saúde",
+     16110587.88
+    ],
+    [
+     "Administração",
+     5903805.56
+    ],
+    [
+     "Obras, limpeza e estradas",
+     6802697.75
+    ],
+    [
+     "Câmara",
+     2851943.77
+    ],
+    [
+     "Dívidas",
+     3313554.42
+    ],
+    [
+     "Cultura",
+     2820790.22
+    ],
+    [
+     "Assistência social",
+     1017382.61
+    ],
+    [
+     "Água e esgoto",
+     757.76
+    ],
+    [
+     "Agricultura",
+     241547.47
+    ],
+    [
+     "Esporte",
+     29022.63
+    ],
+    [
+     "Meio ambiente",
+     202995.16
+    ],
+    [
+     "Turismo e comércio",
+     146952.15
+    ]
+   ],
+   "rodape": "Balanço 2025 enviado ao TCM-BA",
+   "de": 44.28,
+   "ate": 65.59
+  },
+  {
+   "tipo": "receita",
+   "titulo": "Receita arrecadada · 2026 · até setembro",
+   "total": 60949863.86,
+   "linhas": [
+    [
+     "IPTU",
+     175076.78
+    ],
+    [
+     "ITBI",
+     60749.66
+    ],
+    [
+     "ISS",
+     1261597.87
+    ],
+    [
+     "Imposto de Renda retido",
+     807349.9
+    ],
+    [
+     "Taxas",
+     169702.38
+    ],
+    [
+     "Iluminação pública (COSIP)",
+     13856.52
+    ],
+    [
+     "Multas",
+     100.0
+    ],
+    [
+     "FPM",
+     23497300.67
+    ],
+    [
+     "ICMS",
+     4030793.88
+    ],
+    [
+     "IPVA",
+     679785.44
+    ],
+    [
+     "Saúde · SUS da União",
+     4935713.47
+    ],
+    [
+     "Saúde · SUS do Estado",
+     535469.04
+    ],
+    [
+     "Educação · FNDE",
+     1364958.49
+    ],
+    [
+     "Fundeb",
+     15765747.08
+    ],
+    [
+     "Assistência social",
+     361408.34
+    ],
+    [
+     "Emendas Pix (transf. especial)",
+     3044700.0
+    ],
+    [
+     "Convênios (União e Estado)",
+     1989950.0
+    ],
+    [
+     "Outras receitas",
+     2255604.34
+    ]
+   ],
+   "rodape": "Contas de set/2026 enviadas ao TCM-BA",
+   "de": 65.64,
+   "ate": 70.51
+  },
+  {
+   "tipo": "despesa",
+   "titulo": "Despesa por setor · 2026 · até setembro",
+   "total": 54216743.3,
+   "linhas": [
+    [
+     "Educação",
+     19960756.01
+    ],
+    [
+     "Saúde",
+     13536639.39
+    ],
+    [
+     "Administração",
+     4591167.07
+    ],
+    [
+     "Obras, limpeza e estradas",
+     6819088.77
+    ],
+    [
+     "Câmara",
+     2345497.72
+    ],
+    [
+     "Dívidas",
+     1086776.59
+    ],
+    [
+     "Cultura",
+     3525074.37
+    ],
+    [
+     "Assistência social",
+     922190.06
+    ],
+    [
+     "Água e esgoto",
+     757.76
+    ],
+    [
+     "Agricultura",
+     1008819.21
+    ],
+    [
+     "Esporte",
+     27735.08
+    ],
+    [
+     "Meio ambiente",
+     167609.05
+    ],
+    [
+     "Turismo e comércio",
+     224632.22
+    ]
+   ],
+   "rodape": "Contas de set/2026 enviadas ao TCM-BA",
+   "de": 70.56,
+   "ate": 99.17
+  }
+ ]
+}

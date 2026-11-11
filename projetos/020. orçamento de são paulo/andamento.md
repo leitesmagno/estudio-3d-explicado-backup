@@ -1,0 +1,11 @@
+# 020. orçamento de são paulo
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: orcamentosp · Nome: OrcamentoSp
+- Etapa atual: entregue em 04/11/2026 (vídeo final 5.439 quadros, 181,3 s, média -19,0 dB, pico -3,4 dB; capa e legenda prontas)
+- Narração: 180,41 s (1,3x); voz com 7 falhas na 1ª geração, corrigida com 3 blocos emendados; 5.439 quadros; sincronia certa (501 palavras)
+- Plano: versão 1, aprovado antecipadamente; cenas programadas; revisão feita pelo diretor (2 rodadas)
+- Ouvir antes de postar: "no ano inteiro" (2:13) e "arroba eu magno leite" no fim
+- Aprovações: roteiro aprovado em 04/11/2026 (versão 3, 501 palavras)
+- Título da capa: "R$ 117 bi. / Para onde / foi cada / real?"
+- Seguir sem pausas: sim, depois da narração (a pessoa autorizou o plano e o vídeo final em 04/11/2026; eu mesmo olho todos os quadros de revisão)
+- Formato: igual ao 014 e ao 017 (quanto recebe, de onde vem, quanto vai para cada área). Fonte pedida: site da prefeitura (prefeitura.sp.gov.br). Só documentos de São Paulo.

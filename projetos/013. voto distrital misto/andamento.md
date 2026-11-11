@@ -1,0 +1,16 @@
+# 013. voto distrital misto
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Código: distritalmisto · Nome: DistritalMisto
+- Etapa atual: ENTREGUE em 02/11/2026
+- Aprovações: roteiro aprovado em 02/11/2026 (versão 2, didática, com o exemplo da Bahia; sem a frase do PL) · plano aprovado em 02/11/2026 · revisão aprovada em 02/11/2026
+- Seguir sem pausas: não
+- Pedido: a articulação do Centrão por uma PEC que muda o sistema eleitoral; explicar como é hoje (proporcional) e como os deputados querem (distrital misto) (02/11/2026).
+- Chamada final: "E segue o @eumagnoleite para mais informações."
+- Título da capa sugerido: Seu voto / vai mudar? / Vem aí o / distrital.
+- Pedido: usar o Kit Mapas junto com o Estúdio 3D (mapa da Bahia hoje e dividida em distritos ilustrativos), como cenas encaixadas no vídeo 3D.
+- Narração pronta: 124,23 s (voz Roger, modelo v4, velocidade 1,00, estabilidade 50, similaridade 75; pausas cortadas em 0,35 s e 1,2x). Original: 149,63 s. AUDIO_SEG 124.23 · QUADROS 3754 (02/11/2026). Áudio completo (conferido o final).
+- Sincronia: 388 palavras no roteiro e no palavras.ts; última ("informações.") termina em 123,84 s. Ajuste: "arroba EuMagnoleite" → "@eumagnoleite" (cópia em palavras-original.json).
+- A pessoa reforçou: misturar o Kit Mapas e o Estúdio 3D para o vídeo ficar legal (02/11/2026).
+- Cenas programadas em 02/11/2026: src/videos/distritalmisto + Kit Mapas src/videos/distrital-bahia (mapas em projetos/013.../mapas/bahia.mp4). 50 quadros revisados por mim.
+- Vídeo final pronto em 02/11/2026: edicoes/013. voto distrital misto/video final.mp4 · 3.754 quadros · 125,1 s · 5 partes (84, 70, 93, 75 e 49 s) · média -18,8 dB, pico -3,5 dB · emendas OK · mapas entram em 13,9 s e 68,2 s.
+- Capa: fundo do trecho de mapa (quadro 2370: a Bahia em 20 distritos ilustrativos, Ilhéus em verde; desce 300). A versão com o plenário ficou em capa/fundo-limpo (plenario).jpg (o "distrital." verde sumia sobre as cadeiras verdes). Legenda: edicoes/.../legenda do post.txt. Pendência antes de publicar: ver se a PEC foi apresentada e se a votação foi marcada.
