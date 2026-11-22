@@ -40,3 +40,10 @@ Fonte: Balanço/Anexo 9 e demonstrativo de despesa de dezembro enviados ao TCM-B
 - Água e saneamento 2021 a 2023: Prefeitura (função 17: 20.500,00 / 33.181,00 / 4.960,00) + SAAE (PCMGE015 da UJ 1058: 1.213.752,96 / 1.385.750,06 / 1.504.582,07), somas exatas.
 - 2018: retirada uma linha de dotação anulada lida como liquidado (SCPV, material de consumo, 20.000,00). 2020: Assistência social com 14.049,00 sem elemento legível (OCR) na linha "Outras despesas e ajustes".
 - Mapa: satélite NASA e EOxCloudless (CC BY 4.0), malhas do IBGE.
+
+## Conferência da auditoria (12/11/2026, pedidos p69, p70, p71 · Aline/Antônio)
+Os três números estão escritos no `2024-12_TCM_MENSAL__PCMGE015.pdf` (dez/2024, liquidado no ano), não no PCAGO015 a que estavam ligados. Somas refeitas com `saida/el_2024.json` batem centavo por centavo.
+- 112.868,00 (Outros 2024 = função 03 Essencial à Justiça; transporte 26 = 0,00): p. 2, "TOTAL DA AÇÃO".
+- 1.997.719,42 (Câmara 2024, salários): p. 1, elemento 3.1.90.11.00 Vencimentos e Vantagens Fixas Pessoal Civil.
+- 2.646.048,44 (Cultura 2024, ação de festas, única com valor na função 13): p. 17, "TOTAL DA AÇÃO".
+Números certos, nada a mudar no vídeo; só a ligação do site.

@@ -36,8 +36,8 @@ Sistemas de contabilidade diferentes em cada ano (por isso há três leitores): 
 |---|---|---|---|
 | 2024: R$ 7.076.589,25 | 2024-13_ANUAL_PCAGO008.pdf (Anexo 10) e 2024-12_PCMGE016.pdf | p.5, 1.7.1.9.56 "Transferencias Decorrentes de Decisao Judicial (precatorios) Relativas ao Fundo de Manutencao e Desenvolvimento do Ensino Fundamental" (Principal R$ 6.625.808,51 + R$ 450.780,74) | fala |
 | 2025: R$ 6.131.589,09 | 2025-13_ANUAL_PCAGO008.pdf (Anexo 10) | p.10, "TRANSFERENCIAS RECURSOS PRECATÓRIOS - FUNDEF" (dentro da linha do Fundeb) | fala |
-| Soma 2024 + 2025: R$ 13.208.178,34 (conta própria) | | | fala "13 milhões e 200" |
-| Gasto pago com a fonte 1544 "Recursos de Precatórios do FUNDEF" (só conferência, não falado): R$ 5.925.152,56 em 2024, R$ 1.705.536,06 em 2025 e R$ 3.737.557,09 até ago/2026, na Educação ("Manutenção dos serviços técnicos e administrativos" e transporte escolar) | PCMGE015 de 12/2024, 12/2025 e 08/2026 | elementos da fonte 1544 | não falado |
+| Soma 2024 + 2025: R$ 13.208.178,34 (conta própria) | 2024-13_ANUAL_PCAGO008.pdf p.5 + 2025-13_ANUAL_PCAGO008.pdf p.10 | 13.208.178,34 = 7.076.589,25 (2024) + 6.131.589,09 (2025) | fala "13 milhões e 200" |
+| Gasto liquidado com a fonte 1544 "Recursos de Precatórios do FUNDEF" (só conferência, não falado): R$ 5.925.152,56 em 2024 (pago R$ 5.915.101,22), R$ 1.705.536,06 em 2025 e R$ 3.737.557,09 até ago/2026 (2025 e 2026 a reconferir se pago ou liquidado), na Educação ("Manutenção dos serviços técnicos e administrativos" e transporte escolar) | PCMGE015 de 12/2024 (p.39-42), 12/2025 e 08/2026 | 2024: 5.925.152,56 = 398.781,43 (3.3.90.30) + 8.380,46 (3.3.90.33) + 630.314,00 (3.3.90.36) + 76.340,87 (3.3.90.39) + 3.221.955,27 (3.3.90.93) + 26.010,00 (4.4.90.52) + 1.563.370,53 (3.3.90.33), liquidado no ano, fonte 15440000; conferido 14/11/2026 | não falado |
 
 Folhas de receita (item a item, soma = total do ano): `saida/receita_2024.json` (Anexo 10), `receita_2025.json` (PCMGE016 + ajuste ao Balanço), `receita_2026.json` (PCMGE016 SAPI). Script `scripts/receita.py`.
 

@@ -27,7 +27,7 @@ Roteiro v3 abre pela receita dos três anos; sem o trecho do IBGE na fala (o cre
 - 2025 empréstimo: 44.000.000,00 (Anexo 10 2025 l. 791, CEF Avançar Cidades) → fala "Desse total, 44 milhões foram empréstimo da Caixa".
 - 2025 gastou 1.006.141.151,93 → DOC/2025-13_ANUAL_PCAGO015, "SUBTOTAL DAS DESPESAS (XI)", LIQUIDADAS → fala "1 bilhão e 6 milhões". Confere: Prefeitura 970.070.194,15 + Câmara 36.070.957,78.
 - 2025 a mais: 1.006.141.151,93 − 978.296.118,00 = 27.845.033,93 (conta própria) → fala "27 milhões e 800 a mais do que arrecadou". (O "Défit" de 39.630.839,11 do Balanço é pelo empenhado; não é dito na v3.)
-- 2026 até set.: empréstimo 80.000.000,00; gastou 798.310.186,77 (liquidado, PCMGE065 TOTAL GERAL); comprometeu (empenhado) 931.386.303,49 → fala "já se comprometeu com 931 milhões e 400" (empenhado chamado de comprometido, regra 32).
+- 2026 até set.: empréstimo 80.000.000,00 (DOC/2026-09_PCMGE016.pdf p. 6, "Operações de Crédito", coluna Arrecadada até Mês; cópia em saida/conf2/; religado no site em 13/11/2026); gastou 798.310.186,77 (liquidado, PCMGE065 TOTAL GERAL); comprometeu (empenhado) 931.386.303,49 → fala "já se comprometeu com 931 milhões e 400" (empenhado chamado de comprometido, regra 32).
 
 ## Setores (função, LIQUIDADO; 2024 e 2025 = soma das ações do PCMGE015 de dezembro da Prefeitura + PCMGE015 da Câmara; 2026 = PCMGE015 set/2026 + Câmara)
 Conta própria: soma das funções = total liquidado de cada ano, centavo a centavo. Câmara (PDF digitalizado, lido pela imagem: saida/camara_leitura_imagem.md): 30.310.469,61 / 36.070.957,78 / 32.291.693,50.

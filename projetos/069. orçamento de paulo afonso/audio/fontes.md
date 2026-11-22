@@ -89,3 +89,5 @@ Itens pelo PCMGE016 da Prefeitura (Arrecadada até Mês + Anulada até Mês), j�
 
 ## Pendências
 - Razão (PCMGE018) da Câmara de 12/2024 e 09/2026 escaneado; PCMGE015 da Câmara de 12/2024 é capa "gerado pelo SIGA" (não usados; a Câmara vem do consolidado).
+
+- Nota de auditoria 14/11/2026 (pedido p459): fala 'um milhão e 200' = arredondamento de 1.225.011,96 (2025, PCMGE065 p.49, Câmara, locação de mão de obra); 2026 até set 1.195.420,06. Soma com centavos já registrada acima.

@@ -1,0 +1,11 @@
+# 145. orçamento de iuiu
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- Lote LARANJA, L34. Pedido do coordenador em 12/11/2026 (regras 114 e 118), nesta aba (antes 139 Feira da Mata, entregue).
+- MODO AUTÔNOMO (já autorizado pelo Magno): roteiro revisado = aprovado; plano e revisão aprovados por mim; voz Google Algenib. Molde 139 Feira da Mata / 135 Caturama; regra 111 (PCAGO015); legenda com #Iuiu #MagnoLeiteExplica e ⚖️ AVISO; vídeo final só com _render.lock livre e disco ≥ 3,5 GB; sobras apagadas; não publicar no site.
+- IBGE 2917334 (microrregião Guanambi), Censo 2022: 11.118 habitantes.
+- Pastas: projetos/145. orçamento de iuiu, edicoes/145. orçamento de iuiu, ~/Documents/RECEITAS-DESPESAS-IUIU (documentos_tcm, scripts, saida, logs, siconfi).
+- Pesquisa inicial (12/11/2026, sem navegador e sem trava): SICONFI RREO 2024 (6º bim), 2025 (6º bim), 2026 (4º bim, até agosto; o 5º ainda vazio) e DCA 2024/2025 por API (siconfi/); totais e funções anotados como CRUZAMENTO em audio/fontes.md. Pistas: 2024 gastou cerca de 15 mi acima da receita; difusão cultural de 3 a 3,8 mi por ano; comércio e serviços de 2,5 a 2,8 mi. Notícias: poucas, nenhuma recente. Esqueleto em audio/esqueleto-roteiro.md.
+- Etapa atual: 1, esperando o "pode pesquisar" do coordenador (fila do TCM: Firmino Alves, Irecê, Itatim, Ituaçu, depois Iuiu).
+- Pendência de outra entrega nesta aba: PCAGO015 de 2016 a 2020 de Feira da Mata (139), quando o e-TCM voltar e for a vez, depois de Firmino Alves.
+- 12/11/2026: PAUSA por ordem do Magno (via coordenador). Não pegar trava nem rodar nada até o coordenador mandar seguir.
+- 15/11/2026: APROVADO pelo Magno ("aprovo todos") e entregue no site; transcrição pelo Whisper da Groq.

@@ -1,0 +1,43 @@
+# 235. emendas em ilhéus: fontes (versão 2, checada em 20/11/2026)
+
+Método: parte 10 do "Guia Completo TCM-BA - Receita e Despesa" do Magno (emendas da saúde no FNS, todas as emendas no painel do TCU, convênios no Portal da Transparência) + PCMGE016/PCMGE065 do e-TCM. A versão 1 está em `antigos/`.
+Regras: nomear parlamentar só com "indicou"; prefeito e vereador sem nome; RP9 sem nome; empresa sem nome (aguarda ok do Magno).
+Dados locais: `~/Documents/EMENDAS-ILHEUS/` (fns/, ranking_consolidado.csv, painel_tcu_beneficiarios.md, scripts/).
+
+## Saúde: Fundo Nacional de Saúde (consultafns.saude.gov.br/#/proposta)
+API aberta: `https://consultafns.saude.gov.br/recursos/proposta/consultar?ano=AAAA&coMunicipioIbge=291360&sgUf=BA` e `.../obter-proposta?nuProposta=N` (parlamentar, portaria, ordens bancárias). Cópia: `fns/AAAA.json`, `fns/detalhe.json` (69 propostas de emenda).
+1. Emendas pagas ao Fundo Municipal de Saúde de Ilhéus, por ano da proposta: 2019: 4.782.891; 2020: 720.000; 2021: 10.285.000; 2022: 6.054.281; 2023: 8.378.788; 2024: 5.399.996; 2025: 9.226.117; 2026: 9.370.000. Total: R$ 54.217.073,00 → "54 milhões e 200 mil". Só "EMENDA" (individual, bancada, comissão, relatoria); "PROGRAMA" fica de fora.
+2. "Quase tudo é custeio": equipamento R$ 799.917 e covid R$ 300.000; o resto são "Incremento" PAB/PAP (atenção básica) e MAC (média e alta complexidade, atendimento hospitalar).
+3. Orçamento secreto (EMENDA RELATORIA, autor "RELATOR GERAL", sem partido): 2021: 700.000 (MAC) + 300.000 + 850.000 + 2.650.000 (PAB); 2022: 800.000 + 700.000 + 3.000.000 (PAP). Total: R$ 9.000.000. Propostas 36000409419202100, 36000388797202100, 36000412529202100, 36000423106202100, 36000460669202200, 36000467088202200 e 36000470745202200. Mais R$ 27.145,06 de RP9 ao Município (CGU, out./2021), não citado na fala.
+4. O STF declarou as emendas de relator inconstitucionais em 19/12/2022 (ADPF 850, 851, 854 e 1014) → "no fim de 2022".
+
+## Prefeitura: CGU, Portal da Transparência (EmendasParlamentares_PorFavorecido.csv, base de 19/11/2026)
+5. Pago ao Município de Ilhéus (CNPJ 13.672.597/0001-62), de 2019 a 2026 (ano do pagamento): R$ 21.773.862,39 → "21 milhões e 800 mil". A base da CGU traz o Fundo de Saúde só a partir de dez./2024, e por isso a saúde vem do FNS.
+6. Pix (Transferências Especiais) pago: R$ 10.812.237,53 → "10 milhões e 800 mil", "metade disso" (49,7%, conta própria). Conferido com o Transferegov: 18 planos, R$ 11.045.356,79, sendo 1 IMPEDIDO e não pago (R$ 233.119).
+7. Destinos declarados nos planos de ação Pix (Transferegov): ruas (Bela Vista/Hernani Sá, Boa Vista/Nelson Costa, vias urbanas), Praça da Maramata, quadra e praça, campo do Hernani Sá, estrada vicinal de Olivença a Sapucaeira/Santaninha, orla da Praia do Cristo (09032026-095395/2026).
+
+## TOTAL (conta própria)
+8. 54.217.073,00 (saúde, FNS) + 21.773.862,39 (Prefeitura, CGU) = R$ 75.990.935,39 → "76 milhões". As bases não se sobrepõem: saúde só no FNS, Prefeitura só pelo CNPJ do Município. Atenção: a saúde está por ano da proposta e a Prefeitura por ano do pagamento, e por isso o vídeo não mostra barras por ano.
+
+## Conferência no TCM-BA (PCMGE016 e PCMGE065, texto local em ~/Documents/RECEITAS-DESPESAS-ILHEUS/documentos_tcm/)
+9. 2025-12_PCMGE016, p. 13, "Transferência Especial da União - Principal" (2.4.1.9.51.0.1), R$ 2.941.237,53 = Pix CGU 2025. Bate centavo por centavo.
+10. 2026-08_PCMGE016, p. 7, "Transferência Especial da União - Principal" (241951010000), acumulado R$ 5.538.071,80 = Pix CGU de jan. a ago./2026 (5.771.000,00 − 232.928,20 de nov.). Bate centavo por centavo.
+11. 2026-08_PCMGE065, p. 50, Secretaria de Infraestrutura (2101), ação 1088 "PAVIMENTAÇÃO DE VIAS", fonte 17063110 (1706 = Transferência especial da União, emenda Pix, pelo guia): Obras e Instalações, empenhado R$ 1.806.670,42 e pago R$ 1.621.159,69; Despesas de Exercícios Anteriores, R$ 970.603,70 pagos → "nas despesas, esse dinheiro aparece na pavimentação de vias".
+12. Extra (fora da fala): saúde 2025, PCMGE016 p. 6, "Incremento Temporário ... Atenção Primária" R$ 3.900.000 = FNS; convênio de infraestrutura 2024, PCMGE016 p. 7, R$ 2.972.473,16 = CGU.
+
+## Painel do TCU (sites.tcu.gov.br/painel-de-acompanhamento-da-execucao-de-emendas → Versão Cidadão, dados até 06/11/2026)
+13. Ilhéus 2025 no painel: R$ 10.613.234 (igual à CGU, que dá R$ 10.613.233,53).
+14. "3 milhões e 480 mil pagos a uma empresa de obras": a Companhia Ambiental Rockefeller Ltda (CNPJ 22.851.371/0001-10) recebeu R$ 1.147.860,38 (Pix Leur 2025) + R$ 1.848.147,84 (Pix Leur 2026) + R$ 484.376,92 (Pix Solla 2026) = R$ 3.480.385,14 (conta própria). Planos de ação: pavimentação. O NOME NÃO ENTRA no vídeo sem o ok do Magno.
+
+## Ranking (saúde FNS + Prefeitura CGU), `ranking_consolidado.csv`
+15. Leur Lomanto Júnior 8.704.237,53; Bebeto 4.765.146,47 ("4 milhões e 800 mil"); João Leão 4.490.000; Márcio Marinho 4.444.157,67; Jorge Solla 4.433.281 ("perto de 4 milhões e meio cada"); Bacelar 4.198.000; Alex Santana 4.000.000; Professora Dayane Pimentel 3.664.825; Antônio Brito 3.278.610,14; Ronaldo Carletto 3.068.449; Paulo Magalhães 2.915.009,52; Erivelton Santana 2.619.947,30; Irmão Lázaro 1.932.243,78; Rogéria Santos 1.400.000; Lídice da Mata 1.399.996; Arthur Oliveira Maia 1.000.000; Igor Kannário 910.339; Raimundo Costa 360.000; Cláudio Cajado 349.170; Cacá Leão 320.000; Ângelo Coronel 300.000; Josias Gomes 300.000; Dal Barreto 300.000; Alice Portugal 299.930; Joseildo Ramos 200.000. São 25 nomes, MAIS Relator Geral 9.027.145,06, Comissão de Saúde 4.572.000 e Bancada da Bahia 2.554.134,78.
+   - CORREÇÃO: são 25 parlamentares com nome, não 26 (a fala precisa dizer 25).
+   - No FNS, o valor do parlamentar = parte dele na proposta × (pago ÷ valor da proposta).
+
+## Fábrica de computadores
+16. R$ 47.014.329,03 em emendas pagas à unidade de Ilhéus de uma fabricante de computadores (compras federais nacionais, CGU PorFavorecido). Fica fora da conta, e o nome não entra no vídeo.
+
+## Fecho
+17. "O parlamentar indica, a Prefeitura executa": CF, art. 166-A (EC 105/2019), transferências executadas pelo ente que recebe.
+
+Antes de postar: reconferir FNS e CGU do mês (2026 ainda muda).

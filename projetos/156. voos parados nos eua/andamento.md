@@ -1,0 +1,4 @@
+- Perfil @eumagnoleite · código voosparados · Nome VoosParados
+- Pedido do Magno 13/11/2026 (noite): vídeo sobre a suspensão dos voos nos EUA "e até que pé está"; primeiro "não renderize", depois pediu para entregar hoje com a última notícia (vai postar hoje à noite).
+- Notícia nacional, fora do site. Voz Google Algenib 89,5 s. Sincronia local (faster-whisper).
+- Status da notícia usado: parada das 16h16 às 20h15 ET (18h16–22h15 Brasília), checado ~22h45 Brasília.

@@ -1,0 +1,519 @@
+import React from 'react';
+import {Caixa, Placa, type V3} from '../../base/pecas';
+import {efeito, narracao, type Faixa, type SomEstudio} from '../../base/som';
+import {criarQuando, entra, pulso, rampa} from '../../base/tempo';
+import {type Tema} from '../../base/tema';
+import {mistura} from '../../base/cores';
+import {ArvoreRedonda, CanoMoedas, Casinha, Congresso, EscolaSimples, Guindaste, OrgaoPublico, PilhaMoedas} from '../../pecas';
+import {CapaExplicativa, E, FPS, VideoExplicativo, parado, soma, trechos, vis, type Cena, type Config, type PropsVideo, type Rot, type Txt} from '../comum/Explicativo';
+import {PALAVRAS} from './palavras';
+
+// 235. emendas em Ilhéus (perfil @eumagnoleite, série Magno Explica). Estúdio 3D + Kit Mapas (abertura: Bahia com alfinete em Ilhéus).
+// Dados: Portal da Transparência (CGU), valores PAGOS 2019 a 2026 (até 19/11/2026). Fontes: projetos/235.../audio/fontes.md.
+// Regras: parlamentar só como texto (verbo "indicou"), nenhum nome de prefeito ou vereador, RP9 sem nome, nada de nome/logo da fábrica.
+
+const P = '235. emendas em ilhéus';
+const AUDIO_SEG = 163.14;
+const FIM = AUDIO_SEG + 0.9;
+export const QUADROS = Math.round(FIM * FPS);
+
+const quando = criarQuando(PALAVRAS);
+const T = {
+  mapaFim: 7.9,
+  quem1: quando('Quem indicou'),
+  vem: quando('Vem comigo'),
+  primeiro: quando('Primeiro, o que é'),
+  pedaco: quando('É um pedaço'),
+  individual: quando('a emenda individual'),
+  bancada: quando('a de bancada'),
+  comissao: quando('a de comissão'),
+  pix: quando('a emenda Pix'),
+  ano: quando('Agora, ano a ano'),
+  a2019: quando('Em 2019'),
+  a2020: quando('Em 2020'),
+  a2021: quando('Em 2021'),
+  a2022: quando('Em 2022'),
+  a2023: quando('Em 2023'),
+  a2024: quando('Em 2024'),
+  a2025: quando('Em 2025'),
+  a2026: quando('em 2026'),
+  doisTercos: quando('Só os dois'),
+  quem2: quando('E quem indicou'),
+  maisIndicou: quando('Quem mais indicou'),
+  leur: quando('Leur Lomanto'),
+  joao: quando('João Leão'),
+  marcio: quando('Márcio Marinho'),
+  bebeto: quando('Bebeto'),
+  bacelar: quando('Bacelar'),
+  aoTodo: quando('Ao todo'),
+  lista: quando('A lista completa'),
+  destino: quando('E para onde foi', 2),
+  saude: quando('Quase metade'),
+  obras: quando('Outros 9'),
+  pixPerg: quando('E as emendas Pix'),
+  ruas: quando('pavimentação de ruas'),
+  pracas: quando('praças'),
+  campo: quando('campo de futebol'),
+  estrada: quando('a estrada de Olivença'),
+  orla: quando('urbanização da orla'),
+  entrou: quando('Mas esse dinheiro entrou'),
+  conferi: quando('Conferi nas contas'),
+  bate: quando('A emenda Pix bate'),
+  v25: quando('941 mil') - 0.9,
+  v26: quando('538 mil') - 0.9,
+  saude25: quando('Na saúde'),
+  relator: quando('E o orçamento secreto'),
+  vinte7: quando('27 mil reais'),
+  semNome: quando('E ali não aparece'),
+  detalhe: quando('Um detalhe importante'),
+  quarenta7: quando('47 milhões'),
+  tirei: quando('e eu tirei'),
+  lembrando: quando('Lembrando'),
+  indica: quando('o parlamentar indica'),
+  executa: quando('quem executa'),
+  todos: quando('Todos os valores'),
+  voce: quando('Você sabia'),
+  segue: quando('E segue'),
+  arroba: quando('@eumagnoleite'),
+};
+
+const ESTADOS: [number, string][] = [
+  [0, 'EMENDAS EM ILHÉUS'],
+  [T.primeiro, 'O QUE É EMENDA'],
+  [T.ano, 'ANO A ANO'],
+  [T.quem2, 'QUEM INDICOU'],
+  [T.destino, 'PARA ONDE FOI'],
+  [T.pixPerg, 'EMENDAS PIX'],
+  [T.entrou, 'CONFERÊNCIA NO TCM'],
+  [T.relator, 'EMENDA DE RELATOR'],
+  [T.detalhe, 'FORA DA CONTA'],
+  [T.lembrando, 'QUEM EXECUTA'],
+];
+
+// trecho de mapa (Kit Mapas): da abertura até "Quem indicou"
+const TR: [number, number][] = [[0, T.mapaFim]];
+const MAPAS = trechos(TR);
+const noMapa = (t: number) => TR.some(([a, b]) => t >= a && t < b);
+
+// ---------- Lugares do mundo ----------
+const ABRE: V3 = [0, 0, 0];
+const OQUE: V3 = [14, 0, 0];
+const ANOS: V3 = [28, 0, 0];
+const QUEM: V3 = [46, 0, 0];
+const DEST: V3 = [64, 0, 0];
+const PIX: V3 = [78, 0, 0];
+const TCM: V3 = [92, 0, 0];
+const RP9: V3 = [106, 0, 0];
+const FAB: V3 = [120, 0, 0];
+const FECHO: V3 = [134, 0, 0];
+
+// ---------- Dados (iguais ao audio/fontes.md) ----------
+const ANOS_DADOS: {ano: string; v: number; txt: string; a: number}[] = [
+  {ano: '2019', v: 654028.61, txt: 'R$ 654 MIL', a: T.a2019},
+  {ano: '2020', v: 2200026.82, txt: 'R$ 2,20 MI', a: T.a2020},
+  {ano: '2021', v: 1841707.72, txt: 'R$ 1,84 MI', a: T.a2021},
+  {ano: '2022', v: 2598589.85, txt: 'R$ 2,60 MI', a: T.a2022},
+  {ano: '2023', v: 1832590.7, txt: 'R$ 1,83 MI', a: T.a2023},
+  {ano: '2024', v: 4972473.16, txt: 'R$ 4,97 MI', a: T.a2024},
+  {ano: '2025', v: 10613233.53, txt: 'R$ 10,61 MI', a: T.a2025},
+  {ano: '2026', v: 17857325.0, txt: 'R$ 17,86 MI', a: T.a2026},
+];
+// Ranking: valores de dados/ilheus_autor_por_ano.csv (coluna Total), 2 casas, sem "Relator Geral" e sem "Sem informação"
+const RANKING: [string, string][] = [
+  ['LEUR LOMANTO JÚNIOR', 'R$ 8,70 MI'],
+  ['JOÃO LEÃO', 'R$ 4,49 MI'],
+  ['MÁRCIO MARINHO', 'R$ 3,94 MI'],
+  ['BEBETO', 'R$ 3,77 MI'],
+  ['BACELAR', 'R$ 3,70 MI'],
+  ['JORGE SOLLA', 'R$ 3,08 MI'],
+  ['ANTÔNIO BRITO', 'R$ 3,08 MI'],
+  ['COMISSÃO DE SAÚDE', 'R$ 3,07 MI'],
+  ['PAULO MAGALHÃES', 'R$ 2,49 MI'],
+  ['BANCADA DA BAHIA', 'R$ 1,25 MI'],
+  ['IRMÃO LÁZARO', 'R$ 1,13 MI'],
+  ['ARTHUR OLIVEIRA MAIA', 'R$ 1,00 MI'],
+  ['LÍDICE DA MATA', 'R$ 600,00 MIL'],
+  ['ROGÉRIA SANTOS', 'R$ 400,00 MIL'],
+  ['PROFESSORA DAYANE PIMENTEL', 'R$ 364,83 MIL'],
+  ['JOSIAS GOMES', 'R$ 300,00 MIL'],
+  ['DAL BARRETO', 'R$ 300,00 MIL'],
+  ['ÂNGELO CORONEL', 'R$ 300,00 MIL'],
+  ['JOSEILDO RAMOS', 'R$ 200,00 MIL'],
+  ['ERIVELTON SANTANA', 'R$ 136,99 MIL'],
+  ['CLÁUDIO CAJADO', 'R$ 49,17 MIL'],
+];
+// tempo em que cada linha do ranking aparece (segundos)
+const T_LINHA: number[] = (() => {
+  const t: number[] = [T.maisIndicou + 0.3, T.joao, T.marcio, T.bebeto, T.bacelar, T.aoTodo + 0.1, T.aoTodo + 0.5];
+  for (let i = 0; i < 7; i++) t.push(T.aoTodo + 1.5 + 0.22 * i);
+  for (let i = 0; i < 7; i++) t.push(T.aoTodo + 3.6 + 0.22 * i);
+  return t;
+})();
+const X_TELA = [-5.2, 0, 5.2];
+// as três telas: a 1ª nasce com o ranking; a 2ª e a 3ª entram durante "Ao todo, foram 19 parlamentares... lista completa"
+const T_TELA = [T.quem2 - 0.2, T.aoTodo + 1.0, T.aoTodo + 3.1];
+const BAR_X = (i: number) => (i - 3.5) * 1.25;
+const ET = (n: number) => E(soma(QUEM, [X_TELA[n], 2.9, 0]), 7.2, 6.4, [0, 0.16, 1]);
+
+// ---------- Peças locais ----------
+const claro = (tema: Tema) => tema.branco;
+const S = (k: number): V3 => [k, k, k];
+const Rotulo3D: React.FC<{tema: Tema; pos: V3; larg: number; alt: number; texto: string | string[]; tam: number; k: number; acento?: boolean}> = ({tema, pos, larg, alt, texto, tam, k, acento}) => {
+  if (k < 0.02) return null;
+  const linhas = (Array.isArray(texto) ? texto : [texto]).map((t) => ({t, tam, cor: claro(tema)}));
+  return (
+    <group position={pos} scale={S(k)}>
+      <Placa tema={tema} pos={[0, 0, 0]} larg={larg} alt={alt} fundo={acento ? tema.acento : tema.objetoEscuro} linhas={linhas} />
+    </group>
+  );
+};
+
+const Posto: React.FC<{tema: Tema; pos: V3; k: number}> = ({tema, pos, k}) => (
+  <group position={pos} scale={S(k)}>
+    <Caixa args={[3.0, 1.5, 1.8]} raio={0.06} cor={tema.objetoClaro} position={[0, 0.75, 0]} />
+    <Caixa args={[3.2, 0.14, 2.0]} raio={0.04} cor={tema.objetoEscuro} position={[0, 1.55, 0]} />
+    <Caixa args={[0.7, 0.2, 0.06]} raio={0.02} cor={tema.acento} position={[0, 1.15, 0.93]} emissivo={0.15} />
+    <Caixa args={[0.2, 0.7, 0.06]} raio={0.02} cor={tema.acento} position={[0, 1.15, 0.93]} emissivo={0.15} />
+    <Caixa args={[0.6, 0.9, 0.06]} raio={0.03} cor={tema.objetoEscuro} position={[0, 0.45, 0.93]} />
+  </group>
+);
+
+// árvore simples: tronco e copa arredondada
+const Arvorinha: React.FC<{tema: Tema; pos: V3; verde: string; esc?: number}> = ({tema, pos, verde, esc = 1}) => (
+  <group position={pos} scale={S(esc)}>
+    <Caixa args={[0.14, 0.5, 0.14]} raio={0.04} cor={mistura(tema.areia, tema.objetoEscuro, 0.5)} position={[0, 0.25, 0]} />
+    <Caixa args={[0.6, 0.6, 0.6]} raio={0.28} cor={verde} position={[0, 0.8, 0]} />
+  </group>
+);
+
+const Mundo: React.FC<{t: number; tema: Tema}> = ({t, tema}) => {
+  const festa = tema.festa!;
+  const dourado = festa.dourado;
+  const verde = mistura(festa.verde, tema.objeto, 0.3);
+  const azul = festa.azul;
+
+  const abK = entra(t, T.mapaFim - 0.4, 0.5) * (1 - rampa(t, T.primeiro - 0.3, T.primeiro));
+  const oqK = vis(t, T.primeiro - 0.3, T.ano);
+  const anK = vis(t, T.ano - 0.3, T.quem2);
+  const qmK = vis(t, T.quem2 - 0.3, T.destino);
+  const dsK = vis(t, T.destino - 0.3, T.pixPerg);
+  const pxK = vis(t, T.pixPerg - 0.3, T.entrou);
+  const tcK = vis(t, T.entrou - 0.3, T.relator);
+  const rpK = vis(t, T.relator - 0.3, T.detalhe);
+  const fbK = vis(t, T.detalhe - 0.3, T.lembrando);
+  const fcK = entra(t, T.lembrando - 0.3, 0.6);
+
+  const cano = (base: V3, k: number, fluxo: number) => (
+    <CanoMoedas tema={tema} pontos={[soma(base, [-2.6, 1.6, -1.6]), soma(base, [-1.2, 1.2, -0.4]), soma(base, [0.6, 0.6, 0.4]), soma(base, [2.2, 0.2, 0.8])]} k={k} fluxo={fluxo} brilho={0.2} />
+  );
+
+  // ranking: três telas (quadros) de 7 linhas, mesma cor e mesmo tamanho; só o valor muda
+  const tela = (n: number) => {
+    const base = soma(QUEM, [X_TELA[n], 0, 0]);
+    const kTela = entra(t, T_TELA[n], 0.5);
+    if (kTela < 0.02) return null;
+    return (
+      <group key={n} position={base} scale={S(kTela)}>
+        <Caixa args={[4.7, 4.5, 0.12]} raio={0.06} cor={mistura(tema.objeto, tema.fundo, 0.25)} position={[0, 2.3, -0.1]} />
+        <Placa tema={tema} pos={[0, 4.28, 0.03]} larg={4.4} alt={0.4} fundo={tema.acento} linhas={[{t: `INDICOU · TOTAL PAGO · ${n + 1} DE 3`, tam: 50, cor: claro(tema)}]} />
+        {RANKING.slice(n * 7, n * 7 + 7).map(([nome, valor], j) => {
+          const i = n * 7 + j;
+          const k = entra(t, T_LINHA[i], 0.35);
+          if (k < 0.02) return null;
+          const y = 3.7 - j * 0.52;
+          return (
+            <group key={i} position={[0, y, 0.03]} scale={S(k)}>
+              <Placa tema={tema} pos={[-0.95, 0, 0]} larg={2.7} alt={0.44} fundo={tema.objetoEscuro} linhas={[{t: nome, tam: 46, cor: claro(tema)}]} />
+              <Placa tema={tema} pos={[1.55, 0, 0]} larg={1.7} alt={0.44} fundo={tema.objetoEscuro} linhas={[{t: valor, tam: 73, cor: claro(tema)}]} />
+            </group>
+          );
+        })}
+      </group>
+    );
+  };
+
+  return (
+    <group>
+      <Caixa args={[190, 0.04, 1.6]} raio={0.015} cor={mistura(tema.chao, tema.objetoEscuro, 0.45)} position={[66, 0.02, 3.8]} sombra={false} />
+
+      {/* Cena 1: a Prefeitura recebe */}
+      {abK > 0.02 ? (
+        <group>
+          <Congresso tema={tema} pos={soma(ABRE, [-3.0, 0, -2.6])} escala={0.24 * abK} aceso={0.5} />
+          <OrgaoPublico tema={tema} pos={soma(ABRE, [-0.2, 0, -0.4])} escala={0.62 * abK} sobe={1} letreiro={entra(t, T.mapaFim, 0.4)} texto="ILHÉUS" />
+          <Rotulo3D tema={tema} pos={soma(ABRE, [-0.2, 2.6, -0.4])} larg={2.6} alt={0.5} texto="PREFEITURA" tam={120} k={abK * entra(t, T.mapaFim + 0.3, 0.4)} />
+          <PilhaMoedas tema={tema} pos={soma(ABRE, [2.8, 0.02, 0.9])} n={Math.max(1, Math.round(2 + 30 * rampa(t, T.quem1, T.vem)))} cor={dourado} r={0.34} escala={abK} brilho={pulso(t, T.vem - 0.6, 1.2)} />
+          <Rotulo3D tema={tema} pos={soma(ABRE, [2.8, 3.7, 0.9])} larg={2.2} alt={0.5} texto="R$ 42,5 MI" tam={150} k={abK * entra(t, T.quem1 + 0.2, 0.4)} acento />
+        </group>
+      ) : null}
+
+      {/* Cena 2: o que é emenda, quatro tipos */}
+      {oqK > 0.02 ? (
+        <group>
+          <Congresso tema={tema} pos={soma(OQUE, [0, 0, -3.4])} escala={0.26 * oqK} aceso={0.5} />
+          {[
+            {a: T.individual, nome: 'INDIVIDUAL', x: -3.0},
+            {a: T.bancada, nome: 'BANCADA', x: -1.0},
+            {a: T.comissao, nome: 'COMISSÃO', x: 1.0},
+            {a: T.pix, nome: 'PIX', x: 3.0},
+          ].map((d, i) => {
+            const k = entra(t, d.a - 0.1, 0.45) * oqK;
+            if (k < 0.02) return null;
+            return (
+              <group key={i} position={soma(OQUE, [d.x, 0, 0.5])} scale={S(k)}>
+                <Caixa args={[1.9, 0.9, 1.2]} raio={0.05} cor={mistura(tema.objeto, tema.acento, i === 3 ? 0.55 : 0.12 + 0.4 * pulso(t, d.a, 1.2))} position={[0, 0.45, 0]} />
+                <Placa tema={tema} pos={[0, 0.45, 0.62]} larg={1.7} alt={0.5} fundo={tema.objetoEscuro} linhas={[{t: d.nome, tam: 120, cor: claro(tema)}]} />
+                <PilhaMoedas tema={tema} pos={[0, 0.92, 0]} n={3 + i} cor={dourado} r={0.3} escala={1} brilho={pulso(t, d.a, 1.2)} />
+              </group>
+            );
+          })}
+          <Casinha tema={tema} pos={soma(OQUE, [3.0, 0, -1.6])} cor={mistura(festa.rosa, tema.objeto, 0.5)} escala={0.9 * oqK * entra(t, T.pix, 0.5)} />
+        </group>
+      ) : null}
+
+      {/* Cena 3: barras ano a ano */}
+      {anK > 0.02 ? (
+        <group>
+          <Caixa args={[10.6, 0.08, 1.5]} raio={0.03} cor={mistura(tema.chao, tema.objetoEscuro, 0.3)} position={soma(ANOS, [0, 0.04, 0.1])} sombra={false} />
+          {ANOS_DADOS.map((d, i) => {
+            const x = BAR_X(i);
+            const h = Math.max(0.1, 3.0 * (d.v / 17857325)) * rampa(t, d.a - 0.1, d.a + 0.9) * anK;
+            const k = entra(t, d.a - 0.1, 0.4) * anK;
+            const ultimos = i >= 6;
+            return (
+              <group key={d.ano}>
+                {h > 0.02 ? <Caixa args={[0.85, h, 0.85]} raio={0.04} cor={mistura(tema.objeto, tema.acento, ultimos ? 0.35 + 0.35 * pulso(t, T.doisTercos, 1.6) : 0.1)} position={soma(ANOS, [x, h / 2, 0])} /> : null}
+                <Rotulo3D tema={tema} pos={soma(ANOS, [x, h + 0.34, 0.2])} larg={1.15} alt={0.32} texto={d.txt} tam={130} k={k * rampa(t, d.a + 0.5, d.a + 0.9)} acento={ultimos} />
+                <Rotulo3D tema={tema} pos={soma(ANOS, [x, 0.2, 0.62])} larg={0.9} alt={0.3} texto={d.ano} tam={150} k={k} />
+              </group>
+            );
+          })}
+        </group>
+      ) : null}
+
+      {/* Cena 4: quem indicou (lista completa em três telas) */}
+      {qmK > 0.02 ? <group>{[0, 1, 2].map((n) => tela(n))}</group> : null}
+
+      {/* Cena 5: para onde foi */}
+      {dsK > 0.02 ? (
+        <group>
+          <Posto tema={tema} pos={soma(DEST, [-2.4, 0, -0.4])} k={dsK * entra(t, T.destino, 0.5)} />
+          <PilhaMoedas tema={tema} pos={soma(DEST, [-2.4, 0.02, 1.5])} n={14} cor={dourado} r={0.3} escala={dsK * entra(t, T.saude - 0.2, 0.5)} brilho={pulso(t, T.saude, 1.2)} />
+          <Rotulo3D tema={tema} pos={soma(DEST, [-2.4, 2.5, -0.4])} larg={2.8} alt={0.55} texto="SAÚDE · R$ 20,8 MI" tam={104} k={dsK * entra(t, T.saude + 0.2, 0.4)} acento />
+          <Rotulo3D tema={tema} pos={soma(DEST, [-2.4, 0.5, 2.1])} larg={3.0} alt={0.8} texto={['CUSTEIO DA ATENÇÃO', 'BÁSICA E HOSPITALAR']} tam={80} k={dsK * entra(t, T.saude + 2.4, 0.4)} />
+          <group position={soma(DEST, [4.6, 0, -2.0])} scale={S(0.2 * dsK * entra(t, T.obras - 0.2, 0.5))}>
+            <Guindaste tema={tema} pos={[0, 0, 0]} rotY={-0.6} k={1} cabo={0.5} braco={6} />
+          </group>
+          <Casinha tema={tema} pos={soma(DEST, [2.6, 0, -0.2])} cor={mistura(festa.rosa, tema.objeto, 0.5)} escala={1.0 * dsK * entra(t, T.obras, 0.5)} />
+          <PilhaMoedas tema={tema} pos={soma(DEST, [3.8, 0.02, 1.5])} n={6} cor={dourado} r={0.3} escala={dsK * entra(t, T.obras, 0.5)} brilho={pulso(t, T.obras, 1.2)} />
+          <Rotulo3D tema={tema} pos={soma(DEST, [3.0, 2.3, 0.4])} larg={2.8} alt={0.55} texto="OBRAS · R$ 9,2 MI" tam={104} k={dsK * entra(t, T.obras + 0.2, 0.4)} acento />
+          <Rotulo3D tema={tema} pos={soma(DEST, [3.0, 0.5, 2.1])} larg={3.0} alt={0.8} texto={['PAVIMENTAÇÃO E', 'CONTENÇÃO DE ENCOSTAS']} tam={72} k={dsK * entra(t, T.obras + 2.0, 0.4)} />
+        </group>
+      ) : null}
+
+      {/* Cena 6: emendas Pix, destinos declarados */}
+      {pxK > 0.02 ? (
+        <group>
+          <group position={soma(PIX, [0, 0, 0.6])} scale={S(pxK * (1 - rampa(t, T.ruas - 0.6, T.ruas)))}>
+            <PilhaMoedas tema={tema} pos={[0, 0.02, 0]} n={Math.max(1, Math.round(10 * entra(t, T.pixPerg + 0.4, 0.6)))} cor={dourado} r={0.4} escala={1} brilho={pulso(t, T.pixPerg + 1.5, 1.2)} />
+            <Rotulo3D tema={tema} pos={[0, 2.5, 0]} larg={3.0} alt={0.6} texto="PIX · R$ 10,8 MI" tam={110} k={entra(t, T.pixPerg + 0.6, 0.4)} acento />
+          </group>
+          {/* ruas */}
+          <group position={soma(PIX, [-2.4, 0, 0.8])} scale={S(pxK * entra(t, T.ruas - 0.1, 0.4))}>
+            <Caixa args={[2.2, 0.06, 0.9]} raio={0.02} cor={tema.objetoEscuro} position={[0, 0.03, 0]} sombra={false} />
+            {[-0.7, 0, 0.7].map((x) => (
+              <Caixa key={x} args={[0.35, 0.02, 0.06]} raio={0.01} cor={tema.branco} position={[x, 0.07, 0]} sombra={false} />
+            ))}
+            <Rotulo3D tema={tema} pos={[0, 0.85, 0]} larg={2.2} alt={0.8} texto={['PAVIMENTAÇÃO', 'DE RUAS']} tam={96} k={1} />
+          </group>
+          {/* praças */}
+          <group position={soma(PIX, [0, 0, 0.8])} scale={S(pxK * entra(t, T.pracas - 0.1, 0.4))}>
+            <Caixa args={[1.9, 0.06, 1.2]} raio={0.02} cor={tema.objetoClaro} position={[0, 0.03, 0]} sombra={false} />
+            <Arvorinha tema={tema} pos={[-0.5, 0.06, 0]} verde={verde} />
+            <Arvorinha tema={tema} pos={[0.5, 0.06, 0.1]} verde={verde} esc={0.85} />
+            <Rotulo3D tema={tema} pos={[0, 1.2, 0.5]} larg={2.0} alt={0.5} texto="PRAÇAS" tam={120} k={1} />
+          </group>
+          {/* campo de futebol */}
+          <group position={soma(PIX, [2.4, 0, 0.8])} scale={S(pxK * entra(t, T.campo - 0.1, 0.4))}>
+            <Caixa args={[2.0, 0.06, 1.3]} raio={0.02} cor={mistura(festa.verde, tema.objeto, 0.3)} position={[0, 0.03, 0]} sombra={false} />
+            <Caixa args={[0.04, 0.02, 1.3]} raio={0.005} cor={tema.branco} position={[0, 0.07, 0]} sombra={false} />
+            <Caixa args={[0.5, 0.02, 0.5]} raio={0.005} cor={mistura(festa.verde, tema.branco, 0.5)} position={[0, 0.065, 0]} sombra={false} />
+            <Rotulo3D tema={tema} pos={[0, 0.85, 0]} larg={2.2} alt={0.8} texto={['CAMPO DE', 'FUTEBOL']} tam={96} k={1} />
+          </group>
+          {/* estrada de Olivença a Sapucaeira */}
+          <group position={soma(PIX, [-1.5, 0, -3.0])} scale={S(pxK * entra(t, T.estrada - 0.1, 0.4))}>
+            <Caixa args={[2.6, 0.06, 0.5]} raio={0.02} cor={mistura(tema.areia, tema.objetoEscuro, 0.4)} position={[0, 0.03, 0]} sombra={false} />
+            <Rotulo3D tema={tema} pos={[0, 1.7, 0]} larg={2.8} alt={0.8} texto={['ESTRADA DE OLIVENÇA', 'A SAPUCAEIRA']} tam={72} k={1} />
+          </group>
+          {/* orla da Praia do Cristo */}
+          <group position={soma(PIX, [1.5, 0, -3.0])} scale={S(pxK * entra(t, T.orla - 0.1, 0.4))}>
+            <Caixa args={[2.4, 0.05, 0.9]} raio={0.02} cor={tema.areia} position={[0, 0.025, 0.25]} sombra={false} />
+            <Caixa args={[2.4, 0.04, 0.8]} raio={0.02} cor={mistura(azul, tema.objeto, 0.3)} position={[0, 0.02, -0.45]} sombra={false} />
+            <Arvorinha tema={tema} pos={[-0.8, 0.05, 0.3]} verde={verde} esc={0.7} />
+            <Rotulo3D tema={tema} pos={[0, 1.7, 0]} larg={2.8} alt={0.8} texto={['ORLA DA', 'PRAIA DO CRISTO']} tam={84} k={1} />
+          </group>
+        </group>
+      ) : null}
+
+      {/* Cena 7: conferência no TCM */}
+      {tcK > 0.02 ? (
+        <group>
+          <group position={soma(TCM, [0.4, 0, 0.2])} scale={S(tcK)}>
+            <Caixa args={[3.4, 3.5, 0.08]} raio={0.04} cor={tema.branco} position={[0, 1.95, 0]} />
+            <Placa tema={tema} pos={[0, 3.3, 0.05]} larg={3.0} alt={0.45} linhas={[{t: 'TCM-BA · RECEITA DA PREFEITURA', tam: 62, cor: tema.tinta}]} />
+            <Placa tema={tema} pos={[0, 2.95, 0.05]} larg={3.0} alt={0.3} linhas={[{t: 'Transferência Especial da União (Pix)', tam: 46, cor: tema.tinta, peso: 600}]} />
+            {[
+              {a: T.v25, l: '2025', v: 'R$ 2.941.237,53', y: 2.5},
+              {a: T.v26, l: '2026 (até agosto)', v: 'R$ 5.538.071,80', y: 1.85},
+              {a: T.saude25, l: 'Saúde 2025', v: 'R$ 3.900.000,00', y: 1.2},
+            ].map((d) => {
+              const k = entra(t, d.a, 0.4);
+              if (k < 0.02) return null;
+              return (
+                <group key={d.l} position={[0, d.y, 0.05]} scale={S(k)}>
+                  <Placa tema={tema} pos={[0, 0.17, 0]} larg={3.0} alt={0.26} linhas={[{t: d.l.toUpperCase(), tam: 50, cor: tema.tinta, peso: 600}]} />
+                  <Placa tema={tema} pos={[0, -0.1, 0]} larg={3.0} alt={0.36} linhas={[{t: d.v, tam: 80, cor: tema.tinta}]} />
+                </group>
+              );
+            })}
+            {(() => {
+              const k = entra(t, T.bate + 0.2, 0.4);
+              return k > 0.02 ? (
+                <group position={[0.5, 0.5, 0.1]} rotation={[0, 0, -0.1]} scale={S(k)}>
+                  <Placa tema={tema} pos={[0, 0, 0]} larg={2.4} alt={0.5} fundo={tema.acento} linhas={[{t: 'BATE CENTAVO', tam: 88, cor: tema.branco}, {t: 'POR CENTAVO', tam: 88, cor: tema.branco}]} />
+                </group>
+              ) : null;
+            })()}
+          </group>
+        </group>
+      ) : null}
+
+      {/* Cena 8: emenda de relator (RP9), sem nome */}
+      {rpK > 0.02 ? (
+        <group>
+          <Congresso tema={tema} pos={soma(RP9, [-2.6, 0, -1.6])} escala={0.3 * rpK} aceso={pulso(t, T.relator, 1.4)} />
+          <Rotulo3D tema={tema} pos={soma(RP9, [-2.6, 0.45, 0.6])} larg={2.8} alt={0.8} texto={['EMENDA DE', 'RELATOR']} tam={100} k={rpK * entra(t, T.relator + 0.4, 0.4)} />
+          <PilhaMoedas tema={tema} pos={soma(RP9, [1.8, 0.02, 0.6])} n={1} cor={dourado} r={0.34} escala={rpK * entra(t, T.vinte7 - 0.3, 0.5)} brilho={pulso(t, T.vinte7, 1.2)} />
+          <Rotulo3D tema={tema} pos={soma(RP9, [1.8, 1.0, 0.6])} larg={2.6} alt={0.55} texto="R$ 27 MIL · 2021" tam={100} k={rpK * entra(t, T.vinte7, 0.4)} acento />
+          <Rotulo3D tema={tema} pos={soma(RP9, [1.8, 0.4, 2.2])} larg={3.0} alt={0.8} texto={['AUTOR:', 'RELATOR-GERAL']} tam={100} k={rpK * entra(t, T.semNome, 0.4)} />
+        </group>
+      ) : null}
+
+      {/* Cena 9: a fábrica fica fora da conta (sem nome nem logo) */}
+      {fbK > 0.02 ? (
+        <group>
+          <group position={soma(FAB, [-2.6, 0, -0.8])} scale={S(fbK)}>
+            <Caixa args={[3.0, 1.4, 1.8]} raio={0.05} cor={tema.objeto} position={[0, 0.7, 0]} />
+            <Caixa args={[0.4, 1.0, 0.4]} raio={0.04} cor={tema.objetoEscuro} position={[1.0, 1.9, -0.4]} />
+            <Caixa args={[0.4, 0.8, 0.4]} raio={0.04} cor={tema.objetoEscuro} position={[0.3, 1.8, -0.4]} />
+            {[-1.0, 0, 1.0].map((x) => (
+              <Caixa key={x} args={[0.5, 0.35, 0.04]} raio={0.02} cor={tema.objetoClaro} position={[x, 0.9, 0.92]} emissivo={0.2} sombra={false} />
+            ))}
+            <Rotulo3D tema={tema} pos={[0, 3.0, 0]} larg={3.0} alt={0.8} texto={['FÁBRICA DE', 'COMPUTADORES']} tam={92} k={entra(t, T.detalhe + 1.0, 0.4)} />
+          </group>
+          <group position={soma(FAB, [2.4 + 6.0 * rampa(t, T.tirei, T.tirei + 1.4), 0, 0.6])} scale={S(fbK * (1 - rampa(t, T.tirei + 0.9, T.tirei + 1.6)))}>
+            <PilhaMoedas tema={tema} pos={[0, 0.02, 0]} n={26} cor={mistura(dourado, tema.objetoClaro, 0.5)} r={0.4} escala={entra(t, T.quarenta7 - 0.3, 0.5)} />
+            <Rotulo3D tema={tema} pos={[0, 3.9, 0]} larg={2.4} alt={0.5} texto="R$ 47 MI" tam={130} k={entra(t, T.quarenta7, 0.4)} acento />
+          </group>
+          <Rotulo3D tema={tema} pos={soma(FAB, [2.4, 1.2, 1.2])} larg={3.0} alt={0.8} texto={['FORA DA', 'CONTA']} tam={110} k={fbK * entra(t, T.tirei + 0.3, 0.4)} acento />
+        </group>
+      ) : null}
+
+      {/* Cena 10: o parlamentar indica, a Prefeitura executa */}
+      {fcK > 0.02 ? (
+        <group>
+          <Congresso tema={tema} pos={soma(FECHO, [-3.2, 0, -2.4])} escala={0.28 * fcK} aceso={pulso(t, T.indica, 1.4)} />
+          <Rotulo3D tema={tema} pos={soma(FECHO, [-3.2, 0.5, 0.4])} larg={2.2} alt={0.5} texto="INDICA" tam={140} k={fcK * entra(t, T.indica, 0.4)} />
+          {cano(soma(FECHO, [0.2, 0, 0]), fcK, rampa(t, T.indica, T.executa))}
+          <OrgaoPublico tema={tema} pos={soma(FECHO, [3.0, 0, -0.8])} escala={0.62 * fcK} sobe={1} letreiro={entra(t, T.executa, 0.4)} texto="ILHÉUS" />
+          <Rotulo3D tema={tema} pos={soma(FECHO, [3.0, 3.0, -0.8])} larg={2.4} alt={0.5} texto="EXECUTA" tam={130} k={fcK * entra(t, T.executa, 0.4)} acento />
+        </group>
+      ) : null}
+    </group>
+  );
+};
+
+// ---------- Câmera ----------
+const CENAS: Cena[] = [
+  parado(0, T.primeiro, E(soma(ABRE, [0.2, 1.8, 0]), 10.6, 7.2, [0, 0.36, 1])),
+  parado(T.primeiro, T.ano, E(soma(OQUE, [0, 1.5, 0]), 11.4, 7.6, [0, 0.34, 1])),
+  {ini: T.ano, chaves: [[T.ano, E(soma(ANOS, [BAR_X(1.2), 1.1, 0]), 6.6, 4.9, [0.04, 0.3, 1])], [T.a2022, E(soma(ANOS, [BAR_X(2.2), 1.1, 0]), 6.6, 4.9, [0.02, 0.3, 1])], [T.a2024, E(soma(ANOS, [BAR_X(4.0), 1.3, 0]), 6.6, 4.9, [0, 0.3, 1])], [T.a2025, E(soma(ANOS, [BAR_X(5.0), 1.7, 0]), 6.6, 4.9, [-0.02, 0.3, 1])], [T.a2026, E(soma(ANOS, [BAR_X(5.4), 1.8, 0]), 6.6, 4.9, [-0.04, 0.3, 1])], [T.quem2 - 0.1, E(soma(ANOS, [BAR_X(5.4), 1.8, 0]), 6.6, 4.9, [-0.04, 0.3, 1])]]},
+  {ini: T.quem2, chaves: [[T.quem2, ET(0)], [T_TELA[1] - 0.2, ET(0)], [T_TELA[1] + 0.6, ET(1)], [T_TELA[2] - 0.2, ET(1)], [T_TELA[2] + 0.6, ET(2)], [T.destino - 0.1, ET(2)]]},
+  {ini: T.destino, chaves: [[T.destino, E(soma(DEST, [-2.4, 1.5, 0.4]), 6.6, 5.0, [0.05, 0.3, 1])], [T.obras - 0.3, E(soma(DEST, [-2.4, 1.5, 0.4]), 6.6, 5.0, [0.03, 0.3, 1])], [T.obras + 0.8, E(soma(DEST, [2.8, 1.5, 0.4]), 6.6, 5.0, [-0.05, 0.3, 1])], [T.pixPerg - 0.1, E(soma(DEST, [2.8, 1.5, 0.4]), 6.6, 5.0, [-0.07, 0.3, 1])]]},
+  {ini: T.pixPerg, chaves: [[T.pixPerg, E(soma(PIX, [0, 1.4, 0.6]), 6.4, 4.8, [0, 0.34, 1])], [T.ruas - 0.4, E(soma(PIX, [0, 1.4, 0.6]), 6.4, 4.8, [0, 0.34, 1])], [T.ruas + 0.6, E(soma(PIX, [0, 1.6, -1.0]), 8.4, 6.2, [0.03, 0.36, 1])], [T.orla, E(soma(PIX, [0, 1.6, -1.0]), 8.4, 6.2, [-0.03, 0.36, 1])], [T.entrou - 0.1, E(soma(PIX, [0, 1.6, -1.0]), 8.4, 6.2, [-0.03, 0.36, 1])]]},
+  {ini: T.entrou, chaves: [[T.entrou, E(soma(TCM, [0.4, 2.3, 0.2]), 6.6, 5.6, [0.03, 0.22, 1])], [T.bate - 0.3, E(soma(TCM, [0.4, 2.3, 0.2]), 6.0, 5.4, [0, 0.22, 1])], [T.relator - 0.1, E(soma(TCM, [0.4, 2.3, 0.2]), 6.0, 5.4, [-0.02, 0.22, 1])]]},
+  {ini: T.relator, chaves: [[T.relator, E(soma(RP9, [-0.6, 1.6, -0.2]), 10.0, 7.0, [0.05, 0.32, 1])], [T.vinte7, E(soma(RP9, [-0.4, 1.5, 0.4]), 10.0, 7.0, [-0.02, 0.32, 1])], [T.detalhe - 0.1, E(soma(RP9, [-0.4, 1.5, 0.4]), 10.0, 7.0, [-0.04, 0.32, 1])]]},
+  {ini: T.detalhe, chaves: [[T.detalhe, E(soma(FAB, [-0.4, 1.6, 0]), 9.6, 6.6, [0.04, 0.34, 1])], [T.tirei + 1.0, E(soma(FAB, [0.2, 1.6, 0.4]), 9.6, 6.6, [-0.04, 0.34, 1])], [T.lembrando - 0.1, E(soma(FAB, [0.2, 1.6, 0.4]), 9.6, 6.6, [-0.04, 0.34, 1])]]},
+  {ini: T.lembrando, chaves: [[T.lembrando, E(soma(FECHO, [0, 2.7, -0.6]), 11.2, 7.6, [0.03, 0.34, 1])], [FIM, E(soma(FECHO, [0, 2.7, -0.6]), 11.4, 7.8, [-0.03, 0.36, 1])]]},
+];
+
+// ---------- Interface ----------
+const CHIPS: Txt[] = [
+  {a: T.quem1, b: T.primeiro, texto: 'R$ 42,5 MILHÕES · 2019 A 2026', destaque: true},
+  {a: T.pedaco, b: T.individual, texto: 'O PARLAMENTAR ESCOLHE O DESTINO'},
+  {a: T.individual, b: T.ano, texto: 'QUATRO TIPOS DE EMENDA'},
+  {a: T.ano, b: T.a2025, texto: 'SÓ O QUE FOI PAGO, POR ANO'},
+  {a: T.doisTercos, b: T.quem2, texto: '2025 + 2026 = 66,9% (CONTA MINHA)', destaque: true},
+  {a: T.quem2, b: T_TELA[1], texto: 'QUEM INDICOU · TOTAL 2019 A 2026'},
+  {a: T_TELA[1], b: T_TELA[2], texto: 'LISTA COMPLETA · TELA 2 DE 3'},
+  {a: T_TELA[2], b: T.destino, texto: 'LISTA COMPLETA · TELA 3 DE 3'},
+  {a: T.destino, b: T.saude, texto: 'DESTINO: FUNÇÃO ORÇAMENTÁRIA DA EMENDA'},
+  {a: T.saude, b: T.obras, texto: 'SAÚDE: QUASE METADE DO TOTAL', destaque: true},
+  {a: T.obras, b: T.pixPerg, texto: 'OBRAS URBANAS: R$ 9,2 MILHÕES'},
+  {a: T.pixPerg, b: T.ruas, texto: 'EMENDAS PIX: R$ 10,8 MI DESDE 2021', destaque: true},
+  {a: T.ruas, b: T.entrou, texto: 'DESTINO DECLARADO NOS PLANOS DE AÇÃO'},
+  {a: T.bate, b: T.saude25, texto: 'PIX: CGU PAGOU = TCM REGISTROU', destaque: true},
+  {a: T.saude25, b: T.relator, texto: 'SAÚDE 2025: R$ 3,9 MI TAMBÉM BATE'},
+  {a: T.relator, b: T.detalhe, texto: 'EMENDA DE RELATOR: R$ 27 MIL', destaque: true},
+  {a: T.detalhe, b: T.tirei, texto: 'R$ 47 MI: COMPRAS FEDERAIS PARA O PAÍS'},
+  {a: T.tirei, b: T.lembrando, texto: 'FORA DA CONTA DA CIDADE', destaque: true},
+  {a: T.lembrando, b: T.segue, texto: 'O PARLAMENTAR INDICA · A PREFEITURA EXECUTA', destaque: true},
+];
+const SELOS: Txt[] = [
+  {a: 0, b: FIM + 5, texto: 'VALORES PAGOS · PORTAL DA TRANSPARÊNCIA (CGU)'},
+  {a: T.entrou, b: T.relator, texto: 'TCM-BA · RECEITA DA PREFEITURA (PCMGE016)'},
+];
+const ROTULOS: Rot[] = [];
+
+type Som = {t: number; f: SomEstudio; v: number};
+const SONS: Som[] = (() => {
+  const s: Som[] = [];
+  [T.primeiro, T.ano, T.quem2, T.destino, T.pixPerg, T.entrou, T.relator, T.detalhe, T.lembrando].forEach((t) => s.push({t: t - 0.1, f: 'whoosh', v: 0.18}));
+  ESTADOS.slice(1).forEach(([t]) => s.push({t: t + 0.05, f: 'tique', v: 0.12}));
+  ANOS_DADOS.forEach((d) => s.push({t: d.a + 0.5, f: 'pop', v: 0.1}));
+  s.push({t: T.vem - 0.6, f: 'ding', v: 0.14});
+  s.push({t: T.doisTercos, f: 'ding', v: 0.15});
+  s.push({t: T.bate + 0.3, f: 'baque', v: 0.15});
+  s.push({t: T.saude, f: 'ding', v: 0.13});
+  s.push({t: T.tirei + 0.6, f: 'subida', v: 0.12});
+  s.push({t: T.segue, f: 'ding', v: 0.2});
+  return s.filter((x) => x.t >= 0).sort((a, b) => a.t - b.t);
+})();
+export const FAIXAS: Faixa[] = [{...narracao(P), saida: 0.4}, ...SONS.map((x) => efeito(x.f, x.t, x.v))];
+
+export const REVISAO: number[] = [
+  1.0, 3.2, 5.6, T.mapaFim + 1.0, T.vem + 0.2, T.primeiro + 0.8, T.individual + 0.8, T.pix + 0.9, T.ano + 0.8, T.a2020 + 1.2, T.a2023 + 1.2, T.a2024 + 1.2, T.a2025 + 1.2, T.a2026 + 1.4,
+  T.doisTercos + 1.0, T.quem2 + 0.8, T.bacelar + 1.2, T.aoTodo + 1.0, T.aoTodo + 3.2, T.lista + 1.2, T.lista + 2.4, T.destino + 0.8, T.saude + 1.6, T.obras + 1.6, T.pixPerg + 1.2,
+  T.ruas + 1.0, T.pracas + 0.8, T.campo + 0.8, T.estrada + 0.8, T.orla + 1.0, T.entrou + 0.8, T.v25 + 1.5, T.v26 + 1.5, T.saude25 + 1.5, T.relator + 1.0, T.vinte7 + 0.8,
+  T.detalhe + 1.0, T.quarenta7 + 0.6, T.tirei + 1.6, T.lembrando + 0.8, T.executa + 0.8, T.voce + 0.6, T.segue + 0.8, FIM - 0.4,
+];
+
+const CONFIG: Config = {
+  pasta: P,
+  assunto: 'Emendas em Ilhéus',
+  palavras: PALAVRAS,
+  cenas: CENAS,
+  fim: FIM,
+  estados: ESTADOS,
+  mapas: MAPAS,
+  interface: {chips: CHIPS, selos: SELOS, rotulos: ROTULOS, segue: T.segue, arroba: T.arroba, noMapa},
+  Mundo,
+  arrobaFixo: true,
+};
+
+export const EmendasIlheus: React.FC<PropsVideo> = (p) => <VideoExplicativo {...p} faixas={p.faixas ?? FAIXAS} c={CONFIG} />;
+
+export const TITULO_CAPA = ['R$ 42,5 mi', 'de emendas', 'em Ilhéus'];
+export const CapaEmendasIlheus: React.FC<{estilo?: string; linhas?: string[]}> = ({estilo, linhas = TITULO_CAPA}) => (
+  <CapaExplicativa estilo={estilo} linhas={linhas} fundo={`${P}/capa/fundo-limpo.jpg`} pilula="EMENDAS" />
+);

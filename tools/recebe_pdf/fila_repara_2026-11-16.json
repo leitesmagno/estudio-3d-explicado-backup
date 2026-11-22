@@ -1,0 +1,786 @@
+[
+ {
+  "n": 183,
+  "mun": "ABARÉ",
+  "pasta": "ABARE",
+  "alvos": [
+   {
+    "uj": "606",
+    "nomeUJ": "Prefeitura Municipal de ABARÉ",
+    "pre": "",
+    "ano": 2024,
+    "per": "Mensal",
+    "comp": "12/2024",
+    "rx": "^(PCMGE015|PCMGE065)$"
+   },
+   {
+    "uj": "606",
+    "nomeUJ": "Prefeitura Municipal de ABARÉ",
+    "pre": "",
+    "ano": 2024,
+    "per": "Anual",
+    "comp": "2024",
+    "rx": "^(PCAGO015)$"
+   },
+   {
+    "uj": "35",
+    "nomeUJ": "Camara Municipal de ABARÉ",
+    "pre": "CAMARA_",
+    "ano": 2025,
+    "per": "Mensal",
+    "comp": "12/2025",
+    "rx": "^(PCMGE015)$"
+   },
+   {
+    "uj": "606",
+    "nomeUJ": "Prefeitura Municipal de ABARÉ",
+    "pre": "",
+    "ano": 2025,
+    "per": "Mensal",
+    "comp": "12/2025",
+    "rx": "^(PCMGE015|PCMGE065)$"
+   },
+   {
+    "uj": "35",
+    "nomeUJ": "Camara Municipal de ABARÉ",
+    "pre": "CAMARA_",
+    "ano": 2026,
+    "per": "Mensal",
+    "comp": "09/2026",
+    "rx": "^(PCMGE015)$"
+   },
+   {
+    "uj": "606",
+    "nomeUJ": "Prefeitura Municipal de ABARÉ",
+    "pre": "",
+    "ano": 2026,
+    "per": "Mensal",
+    "comp": "09/2026",
+    "rx": "^(PCMGE066)$"
+   }
+  ]
+ },
+ {
+  "n": 184,
+  "mun": "ACAJUTIBA",
+  "pasta": "ACAJUTIBA",
+  "alvos": [
+   {
+    "uj": "37",
+    "nomeUJ": "Camara Municipal de ACAJUTIBA",
+    "pre": "CAMARA_",
+    "ano": 2024,
+    "per": "Mensal",
+    "comp": "12/2024",
+    "rx": "^(PCMGE015)$"
+   },
+   {
+    "uj": "608",
+    "nomeUJ": "Prefeitura Municipal de ACAJUTIBA",
+    "pre": "",
+    "ano": 2024,
+    "per": "Mensal",
+    "comp": "12/2024",
+    "rx": "^(PCMGE015|PCMGE065)$"
+   },
+   {
+    "uj": "608",
+    "nomeUJ": "Prefeitura Municipal de ACAJUTIBA",
+    "pre": "",
+    "ano": 2024,
+    "per": "Anual",
+    "comp": "2024",
+    "rx": "^(PCAGO015)$"
+   },
+   {
+    "uj": "608",
+    "nomeUJ": "Prefeitura Municipal de ACAJUTIBA",
+    "pre": "",
+    "ano": 2025,
+    "per": "Mensal",
+    "comp": "12/2025",
+    "rx": "^(PCMGE066)$"
+   },
+   {
+    "uj": "608",
+    "nomeUJ": "Prefeitura Municipal de ACAJUTIBA",
+    "pre": "",
+    "ano": 2026,
+    "per": "Mensal",
+    "comp": "09/2026",
+    "rx": "^(PCMGE016)$"
+   }
+  ]
+ },
+ {
+  "n": 188,
+  "mun": "ALAGOINHAS",
+  "pasta": "ALAGOINHAS",
+  "alvos": [
+   {
+    "uj": "611",
+    "nomeUJ": "Prefeitura Municipal de ALAGOINHAS",
+    "pre": "",
+    "ano": 2026,
+    "per": "Mensal",
+    "comp": "09/2026",
+    "rx": "^(PCMGE066)$"
+   }
+  ]
+ },
+ {
+  "n": 190,
+  "mun": "AMÉLIA RODRIGUES",
+  "pasta": "AMELIA-RODRIGUES",
+  "alvos": [
+   {
+    "uj": "45",
+    "nomeUJ": "Camara Municipal de AMÉLIA RODRIGUES",
+    "pre": "CAMARA_",
+    "ano": 2024,
+    "per": "Mensal",
+    "comp": "12/2024",
+    "rx": "^(PCMGE015)$"
+   },
+   {
+    "uj": "615",
+    "nomeUJ": "Prefeitura Municipal de AMÉLIA RODRIGUES",
+    "pre": "",
+    "ano": 2024,
+    "per": "Mensal",
+    "comp": "12/2024",
+    "rx": "^(PCMGE065)$"
+   },
+   {
+    "uj": "615",
+    "nomeUJ": "Prefeitura Municipal de AMÉLIA RODRIGUES",
+    "pre": "",
+    "ano": 2024,
+    "per": "Anual",
+    "comp": "2024",
+    "rx": "^(PCAGO015)$"
+   },
+   {
+    "uj": "45",
+    "nomeUJ": "Camara Municipal de AMÉLIA RODRIGUES",
+    "pre": "CAMARA_",
+    "ano": 2025,
+    "per": "Mensal",
+    "comp": "12/2025",
+    "rx": "^(PCMGE015)$"
+   },
+   {
+    "uj": "45",
+    "nomeUJ": "Camara Municipal de AMÉLIA RODRIGUES",
+    "pre": "CAMARA_",
+    "ano": 2026,
+    "per": "Mensal",
+    "comp": "09/2026",
+    "rx": "^(PCMGE015)$"
+   },
+   {
+    "uj": "615",
+    "nomeUJ": "Prefeitura Municipal de AMÉLIA RODRIGUES",
+    "pre": "",
+    "ano": 2026,
+    "per": "Mensal",
+    "comp": "09/2026",
+    "rx": "^(PCMGE065)$"
+   }
+  ]
+ },
+ {
+  "n": 191,
+  "mun": "AMÉRICA DOURADA",
+  "pasta": "AMERICA-DOURADA",
+  "alvos": [
+   {
+    "uj": "46",
+    "nomeUJ": "Camara Municipal de AMÉRICA DOURADA",
+    "pre": "CAMARA_",
+    "ano": 2024,
+    "per": "Mensal",
+    "comp": "12/2024",
+    "rx": "^(PCMGE015)$"
+   },
+   {
+    "uj": "616",
+    "nomeUJ": "Prefeitura Municipal de AMÉRICA DOURADA",
+    "pre": "",
+    "ano": 2024,
+    "per": "Mensal",
+    "comp": "12/2024",
+    "rx": "^(PCMGE015)$"
+   },
+   {
+    "uj": "46",
+    "nomeUJ": "Camara Municipal de AMÉRICA DOURADA",
+    "pre": "CAMARA_",
+    "ano": 2025,
+    "per": "Mensal",
+    "comp": "12/2025",
+    "rx": "^(PCMGE015)$"
+   },
+   {
+    "uj": "46",
+    "nomeUJ": "Camara Municipal de AMÉRICA DOURADA",
+    "pre": "CAMARA_",
+    "ano": 2026,
+    "per": "Mensal",
+    "comp": "09/2026",
+    "rx": "^(PCMGE015)$"
+   },
+   {
+    "uj": "616",
+    "nomeUJ": "Prefeitura Municipal de AMÉRICA DOURADA",
+    "pre": "",
+    "ano": 2026,
+    "per": "Mensal",
+    "comp": "09/2026",
+    "rx": "^(PCMGE065)$"
+   }
+  ]
+ },
+ {
+  "n": 192,
+  "mun": "ANDARAÍ",
+  "pasta": "ANDARAI",
+  "alvos": [
+   {
+    "uj": "48",
+    "nomeUJ": "Camara Municipal de ANDARAÍ",
+    "pre": "CAMARA_",
+    "ano": 2024,
+    "per": "Mensal",
+    "comp": "12/2024",
+    "rx": "^(PCMGE015)$"
+   },
+   {
+    "uj": "618",
+    "nomeUJ": "Prefeitura Municipal de ANDARAI",
+    "pre": "",
+    "ano": 2024,
+    "per": "Mensal",
+    "comp": "12/2024",
+    "rx": "^(PCMGE065)$"
+   },
+   {
+    "uj": "618",
+    "nomeUJ": "Prefeitura Municipal de ANDARAI",
+    "pre": "",
+    "ano": 2024,
+    "per": "Anual",
+    "comp": "2024",
+    "rx": "^(PCAGO015)$"
+   },
+   {
+    "uj": "48",
+    "nomeUJ": "Camara Municipal de ANDARAÍ",
+    "pre": "CAMARA_",
+    "ano": 2025,
+    "per": "Mensal",
+    "comp": "12/2025",
+    "rx": "^(PCMGE015)$"
+   },
+   {
+    "uj": "618",
+    "nomeUJ": "Prefeitura Municipal de ANDARAI",
+    "pre": "",
+    "ano": 2025,
+    "per": "Anual",
+    "comp": "2025",
+    "rx": "^(PCAGO015)$"
+   },
+   {
+    "uj": "48",
+    "nomeUJ": "Camara Municipal de ANDARAÍ",
+    "pre": "CAMARA_",
+    "ano": 2026,
+    "per": "Mensal",
+    "comp": "09/2026",
+    "rx": "^(PCMGE015)$"
+   },
+   {
+    "uj": "618",
+    "nomeUJ": "Prefeitura Municipal de ANDARAI",
+    "pre": "",
+    "ano": 2026,
+    "per": "Mensal",
+    "comp": "09/2026",
+    "rx": "^(PCMGE065)$"
+   }
+  ]
+ },
+ {
+  "n": 193,
+  "mun": "ANDORINHA",
+  "pasta": "ANDORINHA",
+  "alvos": [
+   {
+    "uj": "619",
+    "nomeUJ": "Prefeitura Municipal de ANDORINHA",
+    "pre": "",
+    "ano": 2026,
+    "per": "Mensal",
+    "comp": "09/2026",
+    "rx": "^(PCMGE065|PCMGE066)$"
+   }
+  ]
+ },
+ {
+  "n": 196,
+  "mun": "ANTAS",
+  "pasta": "ANTAS",
+  "alvos": [
+   {
+    "uj": "622",
+    "nomeUJ": "Prefeitura Municipal de ANTAS",
+    "pre": "",
+    "ano": 2026,
+    "per": "Mensal",
+    "comp": "09/2026",
+    "rx": "^(PCMGE065)$"
+   }
+  ]
+ },
+ {
+  "n": 200,
+  "mun": "APUAREMA",
+  "pasta": "APUAREMA",
+  "alvos": [
+   {
+    "uj": "56",
+    "nomeUJ": "Camara Municipal de APUAREMA",
+    "pre": "CAMARA_",
+    "ano": 2025,
+    "per": "Mensal",
+    "comp": "12/2025",
+    "rx": "^(PCMGE015)$"
+   },
+   {
+    "uj": "56",
+    "nomeUJ": "Camara Municipal de APUAREMA",
+    "pre": "CAMARA_",
+    "ano": 2026,
+    "per": "Mensal",
+    "comp": "09/2026",
+    "rx": "^(PCMGE015)$"
+   }
+  ]
+ },
+ {
+  "n": 201,
+  "mun": "ARAÇÁS",
+  "pasta": "ARACAS",
+  "alvos": [
+   {
+    "uj": "627",
+    "nomeUJ": "Prefeitura Municipal de ARACAS",
+    "pre": "",
+    "ano": 2024,
+    "per": "Mensal",
+    "comp": "12/2024",
+    "rx": "^(PCMGE065)$"
+   },
+   {
+    "uj": "627",
+    "nomeUJ": "Prefeitura Municipal de ARACAS",
+    "pre": "",
+    "ano": 2024,
+    "per": "Anual",
+    "comp": "2024",
+    "rx": "^(PCAGO015)$"
+   },
+   {
+    "uj": "627",
+    "nomeUJ": "Prefeitura Municipal de ARACAS",
+    "pre": "",
+    "ano": 2026,
+    "per": "Mensal",
+    "comp": "09/2026",
+    "rx": "^(PCMGE065)$"
+   }
+  ]
+ },
+ {
+  "n": 177,
+  "mun": "ARACATU",
+  "pasta": "ARACATU",
+  "alvos": [
+   {
+    "uj": "57",
+    "nomeUJ": "Camara Municipal de ARACATÚ",
+    "pre": "CAMARA_",
+    "ano": 2024,
+    "per": "Mensal",
+    "comp": "12/2024",
+    "rx": "^(PCMGE015)$"
+   },
+   {
+    "uj": "628",
+    "nomeUJ": "Prefeitura Municipal de ARACATU",
+    "pre": "",
+    "ano": 2024,
+    "per": "Mensal",
+    "comp": "12/2024",
+    "rx": "^(PCMGE065)$"
+   },
+   {
+    "uj": "628",
+    "nomeUJ": "Prefeitura Municipal de ARACATU",
+    "pre": "",
+    "ano": 2024,
+    "per": "Anual",
+    "comp": "2024",
+    "rx": "^(PCAGO015)$"
+   },
+   {
+    "uj": "628",
+    "nomeUJ": "Prefeitura Municipal de ARACATU",
+    "pre": "",
+    "ano": 2025,
+    "per": "Mensal",
+    "comp": "12/2025",
+    "rx": "^(PCMGE065)$"
+   },
+   {
+    "uj": "628",
+    "nomeUJ": "Prefeitura Municipal de ARACATU",
+    "pre": "",
+    "ano": 2025,
+    "per": "Anual",
+    "comp": "2025",
+    "rx": "^(PCAGO015)$"
+   },
+   {
+    "uj": "57",
+    "nomeUJ": "Camara Municipal de ARACATÚ",
+    "pre": "CAMARA_",
+    "ano": 2026,
+    "per": "Mensal",
+    "comp": "09/2026",
+    "rx": "^(PCMGE015)$"
+   }
+  ]
+ },
+ {
+  "n": 39,
+  "mun": "SANTA CRUZ CABRÁLIA",
+  "pasta": "CABRALIA",
+  "alvos": [
+   {
+    "uj": "943",
+    "nomeUJ": "Prefeitura Municipal de SANTA CRUZ CABRALIA",
+    "pre": "",
+    "ano": 2026,
+    "per": "Mensal",
+    "comp": "09/2026",
+    "rx": "^(PCMGE016|PCMGE066)$"
+   }
+  ]
+ },
+ {
+  "n": 178,
+  "mun": "CARAÍBAS",
+  "pasta": "CARAIBAS",
+  "alvos": [
+   {
+    "uj": "118",
+    "nomeUJ": "Camara Municipal de CARAÍBAS",
+    "pre": "CAMARA_",
+    "ano": 2026,
+    "per": "Mensal",
+    "comp": "09/2026",
+    "rx": "^(PCMGE015)$"
+   }
+  ]
+ },
+ {
+  "n": 179,
+  "mun": "GUAJERU",
+  "pasta": "GUAJERU",
+  "alvos": [
+   {
+    "uj": "746",
+    "nomeUJ": "Prefeitura Municipal de GUAJERU",
+    "pre": "",
+    "ano": 2024,
+    "per": "Mensal",
+    "comp": "12/2024",
+    "rx": "^(PCMGE065)$"
+   },
+   {
+    "uj": "746",
+    "nomeUJ": "Prefeitura Municipal de GUAJERU",
+    "pre": "",
+    "ano": 2024,
+    "per": "Anual",
+    "comp": "2024",
+    "rx": "^(PCAGO015)$"
+   },
+   {
+    "uj": "746",
+    "nomeUJ": "Prefeitura Municipal de GUAJERU",
+    "pre": "",
+    "ano": 2025,
+    "per": "Anual",
+    "comp": "2025",
+    "rx": "^(PCAGO015)$"
+   },
+   {
+    "uj": "746",
+    "nomeUJ": "Prefeitura Municipal de GUAJERU",
+    "pre": "",
+    "ano": 2026,
+    "per": "Mensal",
+    "comp": "09/2026",
+    "rx": "^(PCMGE066)$"
+   }
+  ]
+ },
+ {
+  "n": 175,
+  "mun": "IBITIARA",
+  "pasta": "IBITIARA",
+  "alvos": [
+   {
+    "uj": "190",
+    "nomeUJ": "Camara Municipal de IBITIARA",
+    "pre": "CAMARA_",
+    "ano": 2024,
+    "per": "Mensal",
+    "comp": "12/2024",
+    "rx": "^(PCMGE015)$"
+   },
+   {
+    "uj": "761",
+    "nomeUJ": "Prefeitura Municipal de IBITIARA",
+    "pre": "",
+    "ano": 2024,
+    "per": "Mensal",
+    "comp": "12/2024",
+    "rx": "^(PCMGE065)$"
+   },
+   {
+    "uj": "190",
+    "nomeUJ": "Camara Municipal de IBITIARA",
+    "pre": "CAMARA_",
+    "ano": 2025,
+    "per": "Mensal",
+    "comp": "12/2025",
+    "rx": "^(PCMGE015)$"
+   }
+  ]
+ },
+ {
+  "n": 176,
+  "mun": "IPUPIARA",
+  "pasta": "IPUPIARA",
+  "alvos": [
+   {
+    "uj": "202",
+    "nomeUJ": "Camara Municipal de IPUPIARA",
+    "pre": "CAMARA_",
+    "ano": 2025,
+    "per": "Mensal",
+    "comp": "12/2025",
+    "rx": "^(PCMGE015)$"
+   },
+   {
+    "uj": "202",
+    "nomeUJ": "Camara Municipal de IPUPIARA",
+    "pre": "CAMARA_",
+    "ano": 2026,
+    "per": "Mensal",
+    "comp": "09/2026",
+    "rx": "^(PCMGE015)$"
+   }
+  ]
+ },
+ {
+  "n": 180,
+  "mun": "MAETINGA",
+  "pasta": "MAETINGA",
+  "alvos": [
+   {
+    "uj": "845",
+    "nomeUJ": "Prefeitura Municipal de MAETINGA",
+    "pre": "",
+    "ano": 2024,
+    "per": "Mensal",
+    "comp": "12/2024",
+    "rx": "^(PCMGE065)$"
+   },
+   {
+    "uj": "845",
+    "nomeUJ": "Prefeitura Municipal de MAETINGA",
+    "pre": "",
+    "ano": 2024,
+    "per": "Anual",
+    "comp": "2024",
+    "rx": "^(PCAGO015)$"
+   },
+   {
+    "uj": "274",
+    "nomeUJ": "Camara Municipal de MAETINGA",
+    "pre": "CAMARA_",
+    "ano": 2025,
+    "per": "Mensal",
+    "comp": "12/2025",
+    "rx": "^(PCMGE015)$"
+   },
+   {
+    "uj": "274",
+    "nomeUJ": "Camara Municipal de MAETINGA",
+    "pre": "CAMARA_",
+    "ano": 2026,
+    "per": "Mensal",
+    "comp": "09/2026",
+    "rx": "^(PCMGE015)$"
+   },
+   {
+    "uj": "845",
+    "nomeUJ": "Prefeitura Municipal de MAETINGA",
+    "pre": "",
+    "ano": 2026,
+    "per": "Mensal",
+    "comp": "09/2026",
+    "rx": "^(PCMGE066)$"
+   }
+  ]
+ },
+ {
+  "n": 35,
+  "mun": "PARATINGA",
+  "pasta": "PARATINGA",
+  "alvos": [
+   {
+    "uj": "895",
+    "nomeUJ": "Prefeitura Municipal de PARATINGA",
+    "pre": "",
+    "ano": 2026,
+    "per": "Mensal",
+    "comp": "09/2026",
+    "rx": "^(PCMGE016)$"
+   }
+  ]
+ },
+ {
+  "n": 181,
+  "mun": "PRESIDENTE JÂNIO QUADROS",
+  "pasta": "PRESIDENTE-JANIO-QUADROS",
+  "alvos": [
+   {
+    "uj": "347",
+    "nomeUJ": "Camara Municipal de PRESIDENTE JÂNIO QUADROS",
+    "pre": "CAMARA_",
+    "ano": 2024,
+    "per": "Mensal",
+    "comp": "12/2024",
+    "rx": "^(PCMGE015)$"
+   },
+   {
+    "uj": "919",
+    "nomeUJ": "Prefeitura Municipal de PRESIDENTE JANIO QUADROS",
+    "pre": "",
+    "ano": 2024,
+    "per": "Anual",
+    "comp": "2024",
+    "rx": "^(PCAGO015)$"
+   },
+   {
+    "uj": "919",
+    "nomeUJ": "Prefeitura Municipal de PRESIDENTE JANIO QUADROS",
+    "pre": "",
+    "ano": 2025,
+    "per": "Mensal",
+    "comp": "12/2025",
+    "rx": "^(PCMGE065)$"
+   },
+   {
+    "uj": "919",
+    "nomeUJ": "Prefeitura Municipal de PRESIDENTE JANIO QUADROS",
+    "pre": "",
+    "ano": 2025,
+    "per": "Anual",
+    "comp": "2025",
+    "rx": "^(PCAGO015)$"
+   },
+   {
+    "uj": "347",
+    "nomeUJ": "Camara Municipal de PRESIDENTE JÂNIO QUADROS",
+    "pre": "CAMARA_",
+    "ano": 2026,
+    "per": "Mensal",
+    "comp": "09/2026",
+    "rx": "^(PCMGE015)$"
+   }
+  ]
+ },
+ {
+  "n": 109,
+  "mun": "PRESIDENTE TANCREDO NEVES",
+  "pasta": "PRESIDENTE-TANCREDO-NEVES",
+  "alvos": [
+   {
+    "uj": "920",
+    "nomeUJ": "Prefeitura Municipal de PRESIDENTE TANCREDO NEVES",
+    "pre": "",
+    "ano": 2024,
+    "per": "Anual",
+    "comp": "2024",
+    "rx": "^(PCAGO004)$"
+   }
+  ]
+ },
+ {
+  "n": 121,
+  "mun": "SÃO DESIDÉRIO",
+  "pasta": "SAO-DESIDERIO",
+  "alvos": [
+   {
+    "uj": "401",
+    "nomeUJ": "Camara Municipal de SÃO DESIDÉRIO",
+    "pre": "CAMARA_",
+    "ano": 2025,
+    "per": "Mensal",
+    "comp": "12/2025",
+    "rx": "^(PCMGE015)$"
+   },
+   {
+    "uj": "401",
+    "nomeUJ": "Camara Municipal de SÃO DESIDÉRIO",
+    "pre": "CAMARA_",
+    "ano": 2026,
+    "per": "Mensal",
+    "comp": "09/2026",
+    "rx": "^(PCMGE015)$"
+   }
+  ]
+ },
+ {
+  "n": 182,
+  "mun": "TREMEDAL",
+  "pasta": "TREMEDAL",
+  "alvos": [
+   {
+    "uj": "997",
+    "nomeUJ": "Prefeitura Municipal de TREMEDAL",
+    "pre": "",
+    "ano": 2024,
+    "per": "Mensal",
+    "comp": "12/2024",
+    "rx": "^(PCMGE065)$"
+   },
+   {
+    "uj": "997",
+    "nomeUJ": "Prefeitura Municipal de TREMEDAL",
+    "pre": "",
+    "ano": 2025,
+    "per": "Mensal",
+    "comp": "12/2025",
+    "rx": "^(PCMGE065)$"
+   }
+  ]
+ }
+]

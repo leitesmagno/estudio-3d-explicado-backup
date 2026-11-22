@@ -10,6 +10,25 @@ import {entra, rampa} from '../../base/tempo';
 
 const ANEL = 'linear-gradient(45deg, rgb(254,218,117) 0%, rgb(250,126,30) 25%, rgb(214,41,118) 50%, rgb(150,47,191) 75%, rgb(79,91,213) 100%)';
 
+// Selo pequeno e fixo no topo direito (pedido do Magno em 18/11/2026, vídeo 232: "coloque meu @ o tempo todo na tela").
+// Entra suave depois do selo grande da abertura e sai suave em `ate` (quando o selo grande volta no fim).
+export const SeloFixo: React.FC<{t: number; ini: number; ate: number; arroba?: string; foto?: string}> = ({t, ini, ate, arroba = '@eumagnoleite', foto = '_arte-arroba/foto-perfil.jpg'}) => {
+  const op = rampa(t, ini, ini + 0.5) * (1 - rampa(t, ate - 0.5, ate));
+  if (op <= 0.01) return null;
+  const D = 52;
+  const R = D + 8;
+  return (
+    <div style={{position: 'absolute', right: 1080 - 1015, top: 168, opacity: 0.92 * op, pointerEvents: 'none'}}>
+      <div style={{display: 'flex', alignItems: 'center', gap: 12, height: R + 10, padding: '0 20px 0 5px', borderRadius: (R + 10) / 2, background: 'rgba(14,20,17,0.82)', boxShadow: '0 6px 20px rgba(0,0,0,0.45)'}}>
+        <div style={{width: R, height: R, borderRadius: R / 2, background: ANEL, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0}}>
+          <Img src={staticFile(foto)} style={{width: D, height: D, borderRadius: D / 2, objectFit: 'cover', border: '3px solid rgb(14,20,17)'}} />
+        </div>
+        <div style={{fontFamily: 'Arial, Helvetica, sans-serif', fontSize: 28, fontWeight: 800, color: '#FFFFFF', lineHeight: 1, whiteSpace: 'nowrap'}}>{arroba}</div>
+      </div>
+    </div>
+  );
+};
+
 export const SeloArroba: React.FC<{t: number; ini?: number; fim?: number; y?: number; arroba?: string; frase?: string; foto?: string}> = ({
   t,
   ini = 0.15,

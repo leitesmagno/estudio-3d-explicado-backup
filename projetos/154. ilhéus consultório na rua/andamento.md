@@ -1,0 +1,6 @@
+- Perfil @eumagnoleite · código ruailheus · Nome RuaIlheus
+- Pedido do Magno 13/11/2026: resposta ao post do prefeito (3 consultórios móveis), tom de deboche leve, ligação lógica (móvel x imóvel, top 100 da rua). Sem nome.
+- Voz Algenib 81,67 s; sincronia local + trecho 'Ilhéus tem três equipes… foi fila' corrigido à mão (whisper pulou).
+- Mapa: Kit Mapas RuaIlheusMapa → mapas/ruailheus.mp4.
+- Etapa: quadros de revisão.
+- ENTREGUE 13/11/2026: edicoes/154... (SAUDE MOVEL.mp4 1:22, SAUDE MOVEL - capa.jpg, SAUDE MOVEL - legenda.txt; renomeados a pedido do Magno). Revisão 33 quadros; corrigidos pilha da comunicação e câmera do fecho. Site não rodado.

@@ -47,7 +47,7 @@ Zeros conferidos: nenhum setor falado é zero. Esporte pequeno conferido em toda
 - Diárias da Câmara: 2024 = 561.500,00 + 350.600,00 = 912.100,00 (elemento 3.3.90.14 nas duas ações da Câmara, 2024-12_PCMGE065.pdf, órgão 1) → fala "912 mil"; 2025 = 294.000,00 + 66.300,00 = 360.300,00 (folha); 2026 até set = 339.300,00 + 283.300,00 = 622.600,00 (2026-09_PCMGE065.txt linhas 13 e 20) → fala "622 mil", tela, legenda.
 - Obras de esporte 2026 (Dotação Fixada, a lei do orçamento): reforma do estádio Osório Ferraz 1.012.400,00 + areninha 840.000,00 + campos, ginásios e quadras 5.505.000,00 + praça poliesportiva de Cassilândia 10.000,00 + construção e ampliação de praças 1.200.000,00 + quadra coberta de São José 1.480.000,00 = 10.047.400,00; liquidado até set: só a reforma do estádio, 43.633,45 (as outras 0,00) → 2026-09_PCMGE065.pdf, função 27 → fala "10 milhões" / "44 mil", tela, legenda. A frase diz só que "gastaram 44 mil" (liquidado), não que a obra não começou. Notícias (09/11/2026): nada sobre essas obras; a quadra coberta citada na imprensa é do colégio estadual (obra do Estado), não entra.
 - Salários e encargos 2025: 72.532.612,71 = liquidado dos elementos 3.1.90.11, 3.1.90.04, 3.1.90.13, 3.1.90.16, 3.1.91.13 e 3.1.90.94 em todas as ações (com a Câmara), 2025-12_PCMGE065.pdf → fala "72 milhões e 500", tela, legenda.
-- Sentenças judiciais 2025: 7.344.703,68 (elementos 3.1.90.91 e 3.3.90.91; 7.263.885,02 só na ação 28.843 Administração da Dívida) → 2025-12_PCMGE065.pdf → fala "7 milhões e 300", tela, folha.
+- Sentenças judiciais 2025: 7.344.703,68 (elementos 3.1.90.91 e 3.3.90.91; 7.263.885,02 só na ação 28.843 Administração da Dívida) → 2025-12_PCMGE065.pdf → fala "7 milhões e 300", tela, folha.; conta refeita em 14/11/2026: 7.344.703,68 = soma do Empenhado/Liquidado no Ano dos elementos 3.1.90.91 e 3.3.90.91 em 2025-12_PCMGE065.pdf: p. 3 54,95 + p. 5 7.263.885,02 + p. 11 19.349,03 + p. 16 23.714,68 + p. 17 37.700,00
 - Dívida fundada (Anexo 16, 2025-13_ANUAL_PCAGO012.pdf): saldo 51.340.563,05 → 32.387.174,19 (baixas 21.782.085,38). Não entrou na fala.
 
 ## Tribunal de Contas
@@ -61,3 +61,5 @@ PCMGE066 (Fator) de dez/2024, dez/2025 e set/2026, coluna "Arrecadado até Mês"
 
 ## Notícias (só conferência interna)
 - ba.gov.br/educacao, "Modernização de colégio estadual em Itambé qualifica ensino em tempo integral" (2025): quadra coberta e campo society são obra do Estado. Não muda nada do vídeo.
+
+Soma Esporte 2025 (R$ 27.011,80): 2025-12_PCMGE065.pdf, p. 8 · ação 27.812.0013.2.047 atividades esportivas R$ 8.021,80 + ação 27.813.0013.2.027 R$ 18.990,00 = R$ 27.011,80 (conferido no PDF, 20/11/2026)

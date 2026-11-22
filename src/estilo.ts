@@ -7,9 +7,13 @@
 import {ESTILOS, registrarEstilo, type Tema} from './base/tema';
 import {EXPLICANDO, SERIE as SERIE_EXPLICANDO} from './estilos/explicando';
 import {EUMAGNOLEITE} from './estilos/eumagnoleite';
+import {BERNI} from './estilos/berni';
+import {TINHO} from './estilos/tinho';
 
 registrarEstilo('explicando', EXPLICANDO);
 registrarEstilo('eumagnoleite', EUMAGNOLEITE);
+registrarEstilo('berni', BERNI);
+registrarEstilo('tinho', TINHO);
 // registrarEstilo('outroperfil', OUTRO);
 
 /** Id do estilo usado por padrão em todos os vídeos. */

@@ -1,0 +1,13 @@
+# 151. cbs 2027 berni
+- Perfil: Berni Advogados (estilo id: berni, src/estilos/berni.ts), tirado do Instagram @berni.advogados em 12/11/2026
+- Código: cbs2027berni · Nome: Cbs2027Berni
+- Pedido (12/11/2026): Reel de 30 s sobre o Bloco 1, pauta 1 ("Em 2027 o PIS e a Cofins acabam e entra a CBS"), com layout, tipografia, cores, transições e luz do Instagram da Berni, adaptado ao Estúdio 3D e ao Kit Mapas.
+- Seguir sem pausas: sim ("pode seguir", 12/11/2026)
+- Roteiro: 88 palavras. Voz Google Algenib (rate 1,3, pausas 0,28 s, atempo 1,05, -15 LUFS): 28,03 s · QUADROS 868.
+- Sincronia: Groq sem dica (com dica inventou texto), 88 palavras alinhadas, última em 27,74 s.
+- Kit Mapas: recorte dos quadros 0 a 45 do mapa do 050 (Brasil com estados, satélite NASA/EOX), tingido de dourado, no trecho TCU/Senado.
+- Cenas: calendário 2026→2027 · PIS/COFINS→CBS · mapa 11,3%/Senado · IPI→Seletivo (cigarro, bebida, carro) · checklist (nota, preços, contratos) · assinatura BERNI.
+- Conferir antes de postar: votação do Senado sobre a CBS 2027; PEC do IPI.
+- 12/11/2026: revisão olhada por mim (20 quadros); corrigidos calendário, SELETIVO e nota encostando no texto (câmeras mais altas). Vídeo final: 868 quadros, 28,9 s, média -18,6 dB, pico -3,7 dB. Capa (fundo quadro 245, ficha CBS) e legenda no padrão das legendas da Berni.
+- Etapa atual: ENTREGUE em 12/11/2026. Sem marca @eumagnoleite (conteúdo do escritório).
+- 12/11/2026: arquivos da entrega renomeados para "BERNI ADVOGADOS - CBS 2027 - video/capa/legenda" (pedido do Magno).

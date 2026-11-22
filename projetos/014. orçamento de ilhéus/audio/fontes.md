@@ -107,3 +107,6 @@ Nota de transparência (fora da fala): o Siconfi traz 26,17% para a educação e
 | Tesouro: 26,2% em 2025 | Siconfi, RREO 6º bim. 2025, Anexo 14, "% Aplicado Até o Bimestre" (`referencias/todos-2025.json`) | 26,17%; valor apurado 151.647.686,42 |
 | "recebe os dados da própria prefeitura" | o Siconfi recebe os relatórios enviados pelo próprio município (LRF art. 51, § 1º) | |
 Na tela: dois cartões lado a lado, "PDF DA PREFEITURA 24,18%" e "TESOURO NACIONAL 26,17%", com o selo de cada fonte.
+
+## Conferência (14/11/2026, p388 Márcia)
+- Legenda "União (R$ 343 mi)" = RREO 6º bim. 2025 (355), p. 1, transferências da União R$ 342,9 mi (linha já registrada acima) → arredondado 343: certo. Nenhuma correção.

@@ -53,6 +53,15 @@ import {OrcamentoIbicarai, CapaOrcamentoIbicarai, FAIXAS as FAIXAS_IBI, QUADROS 
 import {OrcamentoUbaitaba, CapaOrcamentoUbaitaba, FAIXAS as FAIXAS_UBT, QUADROS as QUADROS_UBT, REVISAO as REVISAO_UBT} from './videos/orcamentoubaitaba/OrcamentoUbaitaba';
 import {ParatingaSetores1824, CapaParatingaSetores1824, FAIXAS as FAIXAS_PS1824, QUADROS as QUADROS_PS1824, REVISAO as REVISAO_PS1824} from './videos/paratingasetores1824/ParatingaSetores1824';
 import {ObrasIlheus10, CapaObrasIlheus10, FAIXAS as FAIXAS_OI10, QUADROS as QUADROS_OI10, REVISAO as REVISAO_OI10} from './videos/obrasilheus10/ObrasIlheus10';
+import {VoosParados, CapaVoosParados, FAIXAS as FAIXAS_VP, QUADROS as QUADROS_VP, REVISAO as REVISAO_VP} from './videos/voosparados/VoosParados';
+import {AmortecedorTinho, CapaAmortecedorTinho, FAIXAS as FAIXAS_AMT, QUADROS as QUADROS_AMT, REVISAO as REVISAO_AMT} from './videos/amortecedortinho/AmortecedorTinho';
+import {RadiadorTinho, CapaRadiadorTinho, FAIXAS as FAIXAS_RAD, QUADROS as QUADROS_RAD, REVISAO as REVISAO_RAD} from './videos/radiadortinho/RadiadorTinho';
+import {ArranqueTinho, CapaArranqueTinho, FAIXAS as FAIXAS_ARR, QUADROS as QUADROS_ARR, REVISAO as REVISAO_ARR} from './videos/arranquetinho/ArranqueTinho';
+import {PistaoTinho, CapaPistaoTinho, FAIXAS as FAIXAS_PIS, QUADROS as QUADROS_PIS, REVISAO as REVISAO_PIS} from './videos/pistaotinho/PistaoTinho';
+import {BielaTinho, CapaBielaTinho, FAIXAS as FAIXAS_BT, QUADROS as QUADROS_BT, REVISAO as REVISAO_BT} from './videos/bielatinho/BielaTinho';
+import {BarcelonaIlheus, CapaBarcelonaIlheus, FAIXAS as FAIXAS_BI, QUADROS as QUADROS_BI, REVISAO as REVISAO_BI} from './videos/barcelonailheus/BarcelonaIlheus';
+import {RuaIlheus, CapaRuaIlheus, FAIXAS as FAIXAS_RI, QUADROS as QUADROS_RI, REVISAO as REVISAO_RI} from './videos/ruailheus/RuaIlheus';
+import {PessoalIlheus, CapaPessoalIlheus, FAIXAS as FAIXAS_PI, QUADROS as QUADROS_PI, REVISAO as REVISAO_PI} from './videos/pessoalilheus/PessoalIlheus';
 import {SaudeIlheus10, CapaSaudeIlheus10, FAIXAS as FAIXAS_SI10, QUADROS as QUADROS_SI10, REVISAO as REVISAO_SI10} from './videos/saudeilheus10/SaudeIlheus10';
 import {OrcamentoParatinga1824, CapaOrcamentoParatinga1824, FAIXAS as FAIXAS_PAR1824, QUADROS as QUADROS_PAR1824, REVISAO as REVISAO_PAR1824} from './videos/orcamentoparatinga1824/OrcamentoParatinga1824';
 import {OrcamentoAlmadina, CapaOrcamentoAlmadina, FAIXAS as FAIXAS_ALM, QUADROS as QUADROS_ALM, REVISAO as REVISAO_ALM} from './videos/orcamentoalmadina/OrcamentoAlmadina';
@@ -122,7 +131,20 @@ import {OrcamentoSaoDesiderio, CapaOrcamentoSaoDesiderio, FAIXAS as FAIXAS_SAODE
 import {OrcamentoRuyBarbosa, CapaOrcamentoRuyBarbosa, FAIXAS as FAIXAS_RUYBARBOSA, QUADROS as QUADROS_RUYBARBOSA, REVISAO as REVISAO_RUYBARBOSA} from './videos/orcamentoruybarbosa/OrcamentoRuyBarbosa';
 import {OrcamentoRiachaoDoJacuipe, CapaOrcamentoRiachaoDoJacuipe, FAIXAS as FAIXAS_RIACHAODOJACUIPE, QUADROS as QUADROS_RIACHAODOJACUIPE, REVISAO as REVISAO_RIACHAODOJACUIPE} from './videos/orcamentoriachaodojacuipe/OrcamentoRiachaoDoJacuipe';
 import {OrcamentoJaguarari, CapaOrcamentoJaguarari, FAIXAS as FAIXAS_JAGUARARI, QUADROS as QUADROS_JAGUARARI, REVISAO as REVISAO_JAGUARARI} from './videos/orcamentojaguarari/OrcamentoJaguarari';
+import {OrcamentoMonteSanto, CapaOrcamentoMonteSanto, FAIXAS as FAIXAS_MONTESANTO, QUADROS as QUADROS_MONTESANTO, REVISAO as REVISAO_MONTESANTO} from './videos/orcamentomontesanto/OrcamentoMonteSanto';
 import {OrcamentoSenhorDoBonfim, CapaOrcamentoSenhorDoBonfim, FAIXAS as FAIXAS_SDB, QUADROS as QUADROS_SDB, REVISAO as REVISAO_SDB} from './videos/orcamentosenhordobonfim/OrcamentoSenhorDoBonfim';
+import {OrcamentoAbaira, CapaOrcamentoAbaira, FAIXAS as FAIXAS_ABA, QUADROS as QUADROS_ABA, REVISAO as REVISAO_ABA} from './videos/orcamentoabaira/OrcamentoAbaira';
+import {OrcamentoCondeuba, CapaOrcamentoCondeuba, FAIXAS as FAIXAS_CDB, QUADROS as QUADROS_CDB, REVISAO as REVISAO_CDB} from './videos/orcamentocondeuba/OrcamentoCondeuba';
+import {OrcamentoCordeiros, CapaOrcamentoCordeiros, FAIXAS as FAIXAS_CRD, QUADROS as QUADROS_CRD, REVISAO as REVISAO_CRD} from './videos/orcamentocordeiros/OrcamentoCordeiros';
+import {OrcamentoCaturama, CapaOrcamentoCaturama, FAIXAS as FAIXAS_CTM, QUADROS as QUADROS_CTM, REVISAO as REVISAO_CTM} from './videos/orcamentocaturama/OrcamentoCaturama';
+import {OrcamentoFeiraDaMata, CapaOrcamentoFeiraDaMata, FAIXAS as FAIXAS_FDM, QUADROS as QUADROS_FDM, REVISAO as REVISAO_FDM} from './videos/orcamentofeiradamata/OrcamentoFeiraDaMata';
+import {OrcamentoFirminoAlves, CapaOrcamentoFirminoAlves, FAIXAS as FAIXAS_FIA, QUADROS as QUADROS_FIA, REVISAO as REVISAO_FIA} from './videos/orcamentofirminoalves/OrcamentoFirminoAlves';
+import {OrcamentoCandiba, CapaOrcamentoCandiba, FAIXAS as FAIXAS_CAND, QUADROS as QUADROS_CAND, REVISAO as REVISAO_CAND} from './videos/orcamentocandiba/OrcamentoCandiba';
+import {OrcamentoBrotas, CapaOrcamentoBrotas, FAIXAS as FAIXAS_BRO, QUADROS as QUADROS_BRO, REVISAO as REVISAO_BRO} from './videos/orcamentobrotas/OrcamentoBrotas';
+import {OrcamentoDomBasilio, CapaOrcamentoDomBasilio, FAIXAS as FAIXAS_DBS, QUADROS as QUADROS_DBS, REVISAO as REVISAO_DBS} from './videos/orcamentodombasilio/OrcamentoDomBasilio';
+import {OrcamentoSalvadorTcm, CapaOrcamentoSalvadorTcm, FAIXAS as FAIXAS_SSA, QUADROS as QUADROS_SSA, REVISAO as REVISAO_SSA} from './videos/orcamentosalvadortcm/OrcamentoSalvadorTcm';
+import {OrcamentoNovaIguacu, CapaOrcamentoNovaIguacu, FAIXAS as FAIXAS_NIG, QUADROS as QUADROS_NIG, REVISAO as REVISAO_NIG} from './videos/orcamentonovaiguacu/OrcamentoNovaIguacu';
+import {OrcamentoRioDeJaneiro, CapaOrcamentoRioDeJaneiro, FAIXAS as FAIXAS_RIO, QUADROS as QUADROS_RIO, REVISAO as REVISAO_RIO} from './videos/orcamentoriodejaneiro/OrcamentoRioDeJaneiro';
 import {OrcamentoEntreRios, CapaOrcamentoEntreRios, FAIXAS as FAIXAS_ER, QUADROS as QUADROS_ER, REVISAO as REVISAO_ER} from './videos/orcamentoentrerios/OrcamentoEntreRios';
 import {OrcamentoSerraDoRamalho, CapaOrcamentoSerraDoRamalho, FAIXAS as FAIXAS_SERRARAMALHO, QUADROS as QUADROS_SERRARAMALHO, REVISAO as REVISAO_SERRARAMALHO} from './videos/orcamentoserradoramalho/OrcamentoSerraDoRamalho';
 import {OrcamentoItaberaba, CapaOrcamentoItaberaba, FAIXAS as FAIXAS_ITABERABA, QUADROS as QUADROS_ITABERABA, REVISAO as REVISAO_ITABERABA} from './videos/orcamentoitaberaba/OrcamentoItaberaba';
@@ -139,7 +161,24 @@ import {DividaPublica, CapaDividaPublica, FAIXAS as FAIXAS_DP, QUADROS as QUADRO
 import {EducacaoIlheus, CapaEducacaoIlheus, FAIXAS as FAIXAS_EI, QUADROS as QUADROS_EI, REVISAO as REVISAO_EI} from './videos/educacaoilheus/EducacaoIlheus';
 import {PecSeguranca, CapaPecSeguranca, FAIXAS as FAIXAS_PS, QUADROS as QUADROS_PS, REVISAO as REVISAO_PS} from './videos/pecseguranca/PecSeguranca';
 import {ReformaTrib, CapaReformaTrib, FAIXAS as FAIXAS_RTB, QUADROS as QUADROS_RTB, REVISAO as REVISAO_RTB} from './videos/reformatrib/ReformaTrib';
+import {DinoPl, CapaDinoPl, FAIXAS as FAIXAS_DPL, QUADROS as QUADROS_DPL, REVISAO as REVISAO_DPL} from './videos/dinopl/DinoPl';
+import {TabletsCamara, CapaTabletsCamara, FAIXAS as FAIXAS_TBC, QUADROS as QUADROS_TBC, REVISAO as REVISAO_TBC} from './videos/tabletscamara/TabletsCamara';
+import {BarraVelha, CapaBarraVelha, FAIXAS as FAIXAS_BVP, QUADROS as QUADROS_BVP, REVISAO as REVISAO_BVP} from './videos/barravelha/BarraVelha';
+import {IsraelenseItacare, CapaIsraelenseItacare, FAIXAS as FAIXAS_ISR, QUADROS as QUADROS_ISR, REVISAO as REVISAO_ISR} from './videos/israelenseitacare/IsraelenseItacare';
+import {TriplexLula, CapaTriplexLula, FAIXAS as FAIXAS_TPX, QUADROS as QUADROS_TPX, REVISAO as REVISAO_TPX} from './videos/triplexlula/TriplexLula';
+import {RendaBasica, CapaRendaBasica, FAIXAS as FAIXAS_RBU, QUADROS as QUADROS_RBU, REVISAO as REVISAO_RBU} from './videos/rendabasica/RendaBasica';
+import {EmendasIlheus, CapaEmendasIlheus, FAIXAS as FAIXAS_EMI, QUADROS as QUADROS_EMI, REVISAO as REVISAO_EMI} from './videos/emendasilheus/EmendasIlheus';
+import {Emendas, CapaEmendas, FAIXAS as FAIXAS_EMD, QUADROS as QUADROS_EMD, REVISAO as REVISAO_EMD} from './videos/emendas/Emendas';
+import {AjusteFiscal, CapaAjusteFiscal, FAIXAS as FAIXAS_AJF, QUADROS as QUADROS_AJF, REVISAO as REVISAO_AJF} from './videos/ajustefiscal/AjusteFiscal';
+import {EconomistaAvisou, CapaEconomistaAvisou, FAIXAS as FAIXAS_ECA, QUADROS as QUADROS_ECA, REVISAO as REVISAO_ECA} from './videos/economistaavisou/EconomistaAvisou';
+import {ZumbiPalmares, CapaZumbiPalmares, FAIXAS as FAIXAS_ZUM, QUADROS as QUADROS_ZUM, REVISAO as REVISAO_ZUM} from './videos/zumbipalmares/ZumbiPalmares';
+import {GridForming, CapaGridForming, FAIXAS as FAIXAS_GFM, QUADROS as QUADROS_GFM, REVISAO as REVISAO_GFM} from './videos/gridforming/GridForming';
+import {AgroBb, CapaAgroBb, FAIXAS as FAIXAS_AGB, QUADROS as QUADROS_AGB, REVISAO as REVISAO_AGB} from './videos/agrobb/AgroBb';
+import {CupulaShenzhen, CapaCupulaShenzhen, FAIXAS as FAIXAS_CSZ, QUADROS as QUADROS_CSZ, REVISAO as REVISAO_CSZ} from './videos/cupulashenzhen/CupulaShenzhen';
+import {DarkHorse, CapaDarkHorse, FAIXAS as FAIXAS_DKH, QUADROS as QUADROS_DKH, REVISAO as REVISAO_DKH} from './videos/darkhorse/DarkHorse';
 
+import {Cbs2027Berni, CapaCbs2027Berni, FAIXAS as FAIXAS_CBB, QUADROS as QUADROS_CBB, REVISAO as REVISAO_CBB} from './videos/cbs2027berni/Cbs2027Berni';
+import {ProvaFontes125, QUADROS as QUADROS_PF125} from './videos/provaFontes125/ProvaFontes125';
 const base = {fps: FPS, width: LARGURA, height: ALTURA} as const;
 
 export const Root: React.FC = () => (
@@ -210,10 +249,74 @@ export const Root: React.FC = () => (
     <Composition id="QuemDistritalGuia" component={QuemDistrital} durationInFrames={QUADROS_QD} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_QD, revisao: REVISAO_QD}} />
     <Composition id="QuemDistritalLimpo" component={QuemDistrital} durationInFrames={QUADROS_QD} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_QD, revisao: REVISAO_QD}} />
     <Still id="CapaQuemDistrital" component={CapaQuemDistrital} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+      <Composition id="Cbs2027Berni" component={Cbs2027Berni} durationInFrames={QUADROS_CBB} {...base} defaultProps={{estilo: 'berni', faixas: FAIXAS_CBB, revisao: REVISAO_CBB}} />
+      <Composition id="Cbs2027BerniGuia" component={Cbs2027Berni} durationInFrames={QUADROS_CBB} {...base} defaultProps={{estilo: 'berni', guia: true, faixas: FAIXAS_CBB, revisao: REVISAO_CBB}} />
+      <Composition id="Cbs2027BerniLimpo" component={Cbs2027Berni} durationInFrames={QUADROS_CBB} {...base} defaultProps={{estilo: 'berni', semInterface: true, faixas: FAIXAS_CBB, revisao: REVISAO_CBB}} />
+      <Still id="CapaCbs2027Berni" component={CapaCbs2027Berni} width={LARGURA} height={ALTURA} defaultProps={{estilo: 'berni'}} />
       <Composition id="ReformaTrib" component={ReformaTrib} durationInFrames={QUADROS_RTB} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_RTB, revisao: REVISAO_RTB}} />
       <Composition id="ReformaTribGuia" component={ReformaTrib} durationInFrames={QUADROS_RTB} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_RTB, revisao: REVISAO_RTB}} />
       <Composition id="ReformaTribLimpo" component={ReformaTrib} durationInFrames={QUADROS_RTB} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_RTB, revisao: REVISAO_RTB}} />
       <Still id="CapaReformaTrib" component={CapaReformaTrib} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+      <Composition id="DinoPl" component={DinoPl} durationInFrames={QUADROS_DPL} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_DPL, revisao: REVISAO_DPL}} />
+      <Composition id="DinoPlGuia" component={DinoPl} durationInFrames={QUADROS_DPL} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_DPL, revisao: REVISAO_DPL}} />
+      <Composition id="DinoPlLimpo" component={DinoPl} durationInFrames={QUADROS_DPL} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_DPL, revisao: REVISAO_DPL}} />
+      <Still id="CapaDinoPl" component={CapaDinoPl} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+      <Composition id="TabletsCamara" component={TabletsCamara} durationInFrames={QUADROS_TBC} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_TBC, revisao: REVISAO_TBC}} />
+      <Composition id="TabletsCamaraGuia" component={TabletsCamara} durationInFrames={QUADROS_TBC} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_TBC, revisao: REVISAO_TBC}} />
+      <Composition id="TabletsCamaraLimpo" component={TabletsCamara} durationInFrames={QUADROS_TBC} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_TBC, revisao: REVISAO_TBC}} />
+      <Still id="CapaTabletsCamara" component={CapaTabletsCamara} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+      <Composition id="BarraVelha" component={BarraVelha} durationInFrames={QUADROS_BVP} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_BVP, revisao: REVISAO_BVP}} />
+      <Composition id="BarraVelhaGuia" component={BarraVelha} durationInFrames={QUADROS_BVP} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_BVP, revisao: REVISAO_BVP}} />
+      <Composition id="BarraVelhaLimpo" component={BarraVelha} durationInFrames={QUADROS_BVP} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_BVP, revisao: REVISAO_BVP}} />
+      <Still id="CapaBarraVelha" component={CapaBarraVelha} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+      <Composition id="IsraelenseItacare" component={IsraelenseItacare} durationInFrames={QUADROS_ISR} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_ISR, revisao: REVISAO_ISR}} />
+      <Composition id="IsraelenseItacareGuia" component={IsraelenseItacare} durationInFrames={QUADROS_ISR} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_ISR, revisao: REVISAO_ISR}} />
+      <Composition id="IsraelenseItacareLimpo" component={IsraelenseItacare} durationInFrames={QUADROS_ISR} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_ISR, revisao: REVISAO_ISR}} />
+      <Still id="CapaIsraelenseItacare" component={CapaIsraelenseItacare} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+      <Composition id="TriplexLula" component={TriplexLula} durationInFrames={QUADROS_TPX} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_TPX, revisao: REVISAO_TPX}} />
+      <Composition id="TriplexLulaGuia" component={TriplexLula} durationInFrames={QUADROS_TPX} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_TPX, revisao: REVISAO_TPX}} />
+      <Composition id="TriplexLulaLimpo" component={TriplexLula} durationInFrames={QUADROS_TPX} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_TPX, revisao: REVISAO_TPX}} />
+      <Still id="CapaTriplexLula" component={CapaTriplexLula} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+      <Composition id="RendaBasica" component={RendaBasica} durationInFrames={QUADROS_RBU} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_RBU, revisao: REVISAO_RBU}} />
+      <Composition id="RendaBasicaGuia" component={RendaBasica} durationInFrames={QUADROS_RBU} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_RBU, revisao: REVISAO_RBU}} />
+      <Composition id="RendaBasicaLimpo" component={RendaBasica} durationInFrames={QUADROS_RBU} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_RBU, revisao: REVISAO_RBU}} />
+      <Still id="CapaRendaBasica" component={CapaRendaBasica} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+      <Composition id="Emendas" component={Emendas} durationInFrames={QUADROS_EMD} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_EMD, revisao: REVISAO_EMD}} />
+      <Composition id="EmendasGuia" component={Emendas} durationInFrames={QUADROS_EMD} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_EMD, revisao: REVISAO_EMD}} />
+      <Composition id="EmendasLimpo" component={Emendas} durationInFrames={QUADROS_EMD} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_EMD, revisao: REVISAO_EMD}} />
+      <Still id="CapaEmendas" component={CapaEmendas} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+      <Composition id="EmendasIlheus" component={EmendasIlheus} durationInFrames={QUADROS_EMI} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_EMI, revisao: REVISAO_EMI}} />
+      <Composition id="EmendasIlheusGuia" component={EmendasIlheus} durationInFrames={QUADROS_EMI} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_EMI, revisao: REVISAO_EMI}} />
+      <Composition id="EmendasIlheusLimpo" component={EmendasIlheus} durationInFrames={QUADROS_EMI} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_EMI, revisao: REVISAO_EMI}} />
+      <Still id="CapaEmendasIlheus" component={CapaEmendasIlheus} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+      <Composition id="AjusteFiscal" component={AjusteFiscal} durationInFrames={QUADROS_AJF} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_AJF, revisao: REVISAO_AJF}} />
+      <Composition id="AjusteFiscalGuia" component={AjusteFiscal} durationInFrames={QUADROS_AJF} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_AJF, revisao: REVISAO_AJF}} />
+      <Composition id="AjusteFiscalLimpo" component={AjusteFiscal} durationInFrames={QUADROS_AJF} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_AJF, revisao: REVISAO_AJF}} />
+      <Still id="CapaAjusteFiscal" component={CapaAjusteFiscal} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+      <Composition id="EconomistaAvisou" component={EconomistaAvisou} durationInFrames={QUADROS_ECA} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_ECA, revisao: REVISAO_ECA}} />
+      <Composition id="EconomistaAvisouGuia" component={EconomistaAvisou} durationInFrames={QUADROS_ECA} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_ECA, revisao: REVISAO_ECA}} />
+      <Composition id="EconomistaAvisouLimpo" component={EconomistaAvisou} durationInFrames={QUADROS_ECA} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_ECA, revisao: REVISAO_ECA}} />
+      <Still id="CapaEconomistaAvisou" component={CapaEconomistaAvisou} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+      <Composition id="ZumbiPalmares" component={ZumbiPalmares} durationInFrames={QUADROS_ZUM} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_ZUM, revisao: REVISAO_ZUM}} />
+      <Composition id="ZumbiPalmaresGuia" component={ZumbiPalmares} durationInFrames={QUADROS_ZUM} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_ZUM, revisao: REVISAO_ZUM}} />
+      <Composition id="ZumbiPalmaresLimpo" component={ZumbiPalmares} durationInFrames={QUADROS_ZUM} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_ZUM, revisao: REVISAO_ZUM}} />
+      <Still id="CapaZumbiPalmares" component={CapaZumbiPalmares} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+      <Composition id="GridForming" component={GridForming} durationInFrames={QUADROS_GFM} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_GFM, revisao: REVISAO_GFM}} />
+      <Composition id="GridFormingGuia" component={GridForming} durationInFrames={QUADROS_GFM} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_GFM, revisao: REVISAO_GFM}} />
+      <Composition id="GridFormingLimpo" component={GridForming} durationInFrames={QUADROS_GFM} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_GFM, revisao: REVISAO_GFM}} />
+      <Still id="CapaGridForming" component={CapaGridForming} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+      <Composition id="AgroBb" component={AgroBb} durationInFrames={QUADROS_AGB} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_AGB, revisao: REVISAO_AGB}} />
+      <Composition id="AgroBbGuia" component={AgroBb} durationInFrames={QUADROS_AGB} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_AGB, revisao: REVISAO_AGB}} />
+      <Composition id="AgroBbLimpo" component={AgroBb} durationInFrames={QUADROS_AGB} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_AGB, revisao: REVISAO_AGB}} />
+      <Still id="CapaAgroBb" component={CapaAgroBb} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+      <Composition id="CupulaShenzhen" component={CupulaShenzhen} durationInFrames={QUADROS_CSZ} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_CSZ, revisao: REVISAO_CSZ}} />
+      <Composition id="CupulaShenzhenGuia" component={CupulaShenzhen} durationInFrames={QUADROS_CSZ} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_CSZ, revisao: REVISAO_CSZ}} />
+      <Composition id="CupulaShenzhenLimpo" component={CupulaShenzhen} durationInFrames={QUADROS_CSZ} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_CSZ, revisao: REVISAO_CSZ}} />
+      <Still id="CapaCupulaShenzhen" component={CapaCupulaShenzhen} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+      <Composition id="DarkHorse" component={DarkHorse} durationInFrames={QUADROS_DKH} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_DKH, revisao: REVISAO_DKH}} />
+      <Composition id="DarkHorseGuia" component={DarkHorse} durationInFrames={QUADROS_DKH} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_DKH, revisao: REVISAO_DKH}} />
+      <Composition id="DarkHorseLimpo" component={DarkHorse} durationInFrames={QUADROS_DKH} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_DKH, revisao: REVISAO_DKH}} />
+      <Still id="CapaDarkHorse" component={CapaDarkHorse} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
       <Composition id="PecSeguranca" component={PecSeguranca} durationInFrames={QUADROS_PS} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_PS, revisao: REVISAO_PS}} />
       <Composition id="PecSegurancaGuia" component={PecSeguranca} durationInFrames={QUADROS_PS} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_PS, revisao: REVISAO_PS}} />
       <Composition id="PecSegurancaLimpo" component={PecSeguranca} durationInFrames={QUADROS_PS} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_PS, revisao: REVISAO_PS}} />
@@ -354,6 +457,42 @@ export const Root: React.FC = () => (
     <Composition id="SaudeIlheus10Guia" component={SaudeIlheus10} durationInFrames={QUADROS_SI10} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_SI10, revisao: REVISAO_SI10}} />
     <Composition id="SaudeIlheus10Limpo" component={SaudeIlheus10} durationInFrames={QUADROS_SI10} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_SI10, revisao: REVISAO_SI10}} />
     <Still id="CapaSaudeIlheus10" component={CapaSaudeIlheus10} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+    <Composition id="PessoalIlheus" component={PessoalIlheus} durationInFrames={QUADROS_PI} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_PI, revisao: REVISAO_PI}} />
+    <Composition id="PessoalIlheusGuia" component={PessoalIlheus} durationInFrames={QUADROS_PI} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_PI, revisao: REVISAO_PI}} />
+    <Composition id="PessoalIlheusLimpo" component={PessoalIlheus} durationInFrames={QUADROS_PI} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_PI, revisao: REVISAO_PI}} />
+    <Still id="CapaPessoalIlheus" component={CapaPessoalIlheus} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+    <Composition id="RuaIlheus" component={RuaIlheus} durationInFrames={QUADROS_RI} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_RI, revisao: REVISAO_RI}} />
+    <Composition id="RuaIlheusGuia" component={RuaIlheus} durationInFrames={QUADROS_RI} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_RI, revisao: REVISAO_RI}} />
+    <Composition id="RuaIlheusLimpo" component={RuaIlheus} durationInFrames={QUADROS_RI} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_RI, revisao: REVISAO_RI}} />
+    <Still id="CapaRuaIlheus" component={CapaRuaIlheus} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+    <Composition id="BarcelonaIlheus" component={BarcelonaIlheus} durationInFrames={QUADROS_BI} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_BI, revisao: REVISAO_BI}} />
+    <Composition id="BarcelonaIlheusGuia" component={BarcelonaIlheus} durationInFrames={QUADROS_BI} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_BI, revisao: REVISAO_BI}} />
+    <Composition id="BarcelonaIlheusLimpo" component={BarcelonaIlheus} durationInFrames={QUADROS_BI} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_BI, revisao: REVISAO_BI}} />
+    <Still id="CapaBarcelonaIlheus" component={CapaBarcelonaIlheus} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+    <Composition id="VoosParados" component={VoosParados} durationInFrames={QUADROS_VP} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_VP, revisao: REVISAO_VP}} />
+    <Composition id="VoosParadosGuia" component={VoosParados} durationInFrames={QUADROS_VP} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_VP, revisao: REVISAO_VP}} />
+    <Composition id="VoosParadosLimpo" component={VoosParados} durationInFrames={QUADROS_VP} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_VP, revisao: REVISAO_VP}} />
+    <Still id="CapaVoosParados" component={CapaVoosParados} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+    <Composition id="BielaTinho" component={BielaTinho} durationInFrames={QUADROS_BT} {...base} defaultProps={{estilo: 'tinho', faixas: FAIXAS_BT, revisao: REVISAO_BT}} />
+    <Composition id="BielaTinhoGuia" component={BielaTinho} durationInFrames={QUADROS_BT} {...base} defaultProps={{estilo: 'tinho', guia: true, faixas: FAIXAS_BT, revisao: REVISAO_BT}} />
+    <Composition id="BielaTinhoLimpo" component={BielaTinho} durationInFrames={QUADROS_BT} {...base} defaultProps={{estilo: 'tinho', semInterface: true, faixas: FAIXAS_BT, revisao: REVISAO_BT}} />
+    <Still id="CapaBielaTinho" component={CapaBielaTinho} width={LARGURA} height={ALTURA} defaultProps={{estilo: 'tinho'}} />
+    <Composition id="PistaoTinho" component={PistaoTinho} durationInFrames={QUADROS_PIS} {...base} defaultProps={{estilo: 'tinho', faixas: FAIXAS_PIS, revisao: REVISAO_PIS}} />
+    <Composition id="PistaoTinhoGuia" component={PistaoTinho} durationInFrames={QUADROS_PIS} {...base} defaultProps={{estilo: 'tinho', guia: true, faixas: FAIXAS_PIS, revisao: REVISAO_PIS}} />
+    <Composition id="PistaoTinhoLimpo" component={PistaoTinho} durationInFrames={QUADROS_PIS} {...base} defaultProps={{estilo: 'tinho', semInterface: true, faixas: FAIXAS_PIS, revisao: REVISAO_PIS}} />
+    <Still id="CapaPistaoTinho" component={CapaPistaoTinho} width={LARGURA} height={ALTURA} defaultProps={{estilo: 'tinho'}} />
+    <Composition id="ArranqueTinho" component={ArranqueTinho} durationInFrames={QUADROS_ARR} {...base} defaultProps={{estilo: 'tinho', faixas: FAIXAS_ARR, revisao: REVISAO_ARR}} />
+    <Composition id="ArranqueTinhoGuia" component={ArranqueTinho} durationInFrames={QUADROS_ARR} {...base} defaultProps={{estilo: 'tinho', guia: true, faixas: FAIXAS_ARR, revisao: REVISAO_ARR}} />
+    <Composition id="ArranqueTinhoLimpo" component={ArranqueTinho} durationInFrames={QUADROS_ARR} {...base} defaultProps={{estilo: 'tinho', semInterface: true, faixas: FAIXAS_ARR, revisao: REVISAO_ARR}} />
+    <Still id="CapaArranqueTinho" component={CapaArranqueTinho} width={LARGURA} height={ALTURA} defaultProps={{estilo: 'tinho'}} />
+    <Composition id="RadiadorTinho" component={RadiadorTinho} durationInFrames={QUADROS_RAD} {...base} defaultProps={{estilo: 'tinho', faixas: FAIXAS_RAD, revisao: REVISAO_RAD}} />
+    <Composition id="RadiadorTinhoGuia" component={RadiadorTinho} durationInFrames={QUADROS_RAD} {...base} defaultProps={{estilo: 'tinho', guia: true, faixas: FAIXAS_RAD, revisao: REVISAO_RAD}} />
+    <Composition id="RadiadorTinhoLimpo" component={RadiadorTinho} durationInFrames={QUADROS_RAD} {...base} defaultProps={{estilo: 'tinho', semInterface: true, faixas: FAIXAS_RAD, revisao: REVISAO_RAD}} />
+    <Still id="CapaRadiadorTinho" component={CapaRadiadorTinho} width={LARGURA} height={ALTURA} defaultProps={{estilo: 'tinho'}} />
+    <Composition id="AmortecedorTinho" component={AmortecedorTinho} durationInFrames={QUADROS_AMT} {...base} defaultProps={{estilo: 'tinho', faixas: FAIXAS_AMT, revisao: REVISAO_AMT}} />
+    <Composition id="AmortecedorTinhoGuia" component={AmortecedorTinho} durationInFrames={QUADROS_AMT} {...base} defaultProps={{estilo: 'tinho', guia: true, faixas: FAIXAS_AMT, revisao: REVISAO_AMT}} />
+    <Composition id="AmortecedorTinhoLimpo" component={AmortecedorTinho} durationInFrames={QUADROS_AMT} {...base} defaultProps={{estilo: 'tinho', semInterface: true, faixas: FAIXAS_AMT, revisao: REVISAO_AMT}} />
+    <Still id="CapaAmortecedorTinho" component={CapaAmortecedorTinho} width={LARGURA} height={ALTURA} defaultProps={{estilo: 'tinho'}} />
     <Composition id="ParatingaSetores1824" component={ParatingaSetores1824} durationInFrames={QUADROS_PS1824} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_PS1824, revisao: REVISAO_PS1824}} />
     <Composition id="ParatingaSetores1824Guia" component={ParatingaSetores1824} durationInFrames={QUADROS_PS1824} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_PS1824, revisao: REVISAO_PS1824}} />
     <Composition id="ParatingaSetores1824Limpo" component={ParatingaSetores1824} durationInFrames={QUADROS_PS1824} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_PS1824, revisao: REVISAO_PS1824}} />
@@ -626,10 +765,62 @@ export const Root: React.FC = () => (
     <Composition id="OrcamentoJaguarariGuia" component={OrcamentoJaguarari} durationInFrames={QUADROS_JAGUARARI} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_JAGUARARI, revisao: REVISAO_JAGUARARI}} />
     <Composition id="OrcamentoJaguarariLimpo" component={OrcamentoJaguarari} durationInFrames={QUADROS_JAGUARARI} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_JAGUARARI, revisao: REVISAO_JAGUARARI}} />
     <Still id="CapaOrcamentoJaguarari" component={CapaOrcamentoJaguarari} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+    <Composition id="OrcamentoMonteSanto" component={OrcamentoMonteSanto} durationInFrames={QUADROS_MONTESANTO} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_MONTESANTO, revisao: REVISAO_MONTESANTO}} />
+    <Composition id="OrcamentoMonteSantoGuia" component={OrcamentoMonteSanto} durationInFrames={QUADROS_MONTESANTO} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_MONTESANTO, revisao: REVISAO_MONTESANTO}} />
+    <Composition id="OrcamentoMonteSantoLimpo" component={OrcamentoMonteSanto} durationInFrames={QUADROS_MONTESANTO} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_MONTESANTO, revisao: REVISAO_MONTESANTO}} />
+    <Still id="CapaOrcamentoMonteSanto" component={CapaOrcamentoMonteSanto} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
     <Composition id="OrcamentoSenhorDoBonfim" component={OrcamentoSenhorDoBonfim} durationInFrames={QUADROS_SDB} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_SDB, revisao: REVISAO_SDB}} />
     <Composition id="OrcamentoSenhorDoBonfimGuia" component={OrcamentoSenhorDoBonfim} durationInFrames={QUADROS_SDB} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_SDB, revisao: REVISAO_SDB}} />
     <Composition id="OrcamentoSenhorDoBonfimLimpo" component={OrcamentoSenhorDoBonfim} durationInFrames={QUADROS_SDB} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_SDB, revisao: REVISAO_SDB}} />
     <Still id="CapaOrcamentoSenhorDoBonfim" component={CapaOrcamentoSenhorDoBonfim} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+    <Composition id="OrcamentoAbaira" component={OrcamentoAbaira} durationInFrames={QUADROS_ABA} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_ABA, revisao: REVISAO_ABA}} />
+    <Composition id="OrcamentoAbairaGuia" component={OrcamentoAbaira} durationInFrames={QUADROS_ABA} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_ABA, revisao: REVISAO_ABA}} />
+    <Composition id="OrcamentoAbairaLimpo" component={OrcamentoAbaira} durationInFrames={QUADROS_ABA} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_ABA, revisao: REVISAO_ABA}} />
+    <Still id="CapaOrcamentoAbaira" component={CapaOrcamentoAbaira} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+    <Composition id="OrcamentoCondeuba" component={OrcamentoCondeuba} durationInFrames={QUADROS_CDB} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_CDB, revisao: REVISAO_CDB}} />
+    <Composition id="OrcamentoCondeubaGuia" component={OrcamentoCondeuba} durationInFrames={QUADROS_CDB} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_CDB, revisao: REVISAO_CDB}} />
+    <Composition id="OrcamentoCondeubaLimpo" component={OrcamentoCondeuba} durationInFrames={QUADROS_CDB} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_CDB, revisao: REVISAO_CDB}} />
+    <Still id="CapaOrcamentoCondeuba" component={CapaOrcamentoCondeuba} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+    <Composition id="OrcamentoCordeiros" component={OrcamentoCordeiros} durationInFrames={QUADROS_CRD} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_CRD, revisao: REVISAO_CRD}} />
+    <Composition id="OrcamentoCordeirosGuia" component={OrcamentoCordeiros} durationInFrames={QUADROS_CRD} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_CRD, revisao: REVISAO_CRD}} />
+    <Composition id="OrcamentoCordeirosLimpo" component={OrcamentoCordeiros} durationInFrames={QUADROS_CRD} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_CRD, revisao: REVISAO_CRD}} />
+    <Still id="CapaOrcamentoCordeiros" component={CapaOrcamentoCordeiros} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+    <Composition id="OrcamentoCaturama" component={OrcamentoCaturama} durationInFrames={QUADROS_CTM} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_CTM, revisao: REVISAO_CTM}} />
+    <Composition id="OrcamentoCaturamaGuia" component={OrcamentoCaturama} durationInFrames={QUADROS_CTM} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_CTM, revisao: REVISAO_CTM}} />
+    <Composition id="OrcamentoCaturamaLimpo" component={OrcamentoCaturama} durationInFrames={QUADROS_CTM} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_CTM, revisao: REVISAO_CTM}} />
+    <Still id="CapaOrcamentoCaturama" component={CapaOrcamentoCaturama} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+    <Composition id="OrcamentoFeiraDaMata" component={OrcamentoFeiraDaMata} durationInFrames={QUADROS_FDM} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_FDM, revisao: REVISAO_FDM}} />
+    <Composition id="OrcamentoFeiraDaMataGuia" component={OrcamentoFeiraDaMata} durationInFrames={QUADROS_FDM} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_FDM, revisao: REVISAO_FDM}} />
+    <Composition id="OrcamentoFeiraDaMataLimpo" component={OrcamentoFeiraDaMata} durationInFrames={QUADROS_FDM} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_FDM, revisao: REVISAO_FDM}} />
+    <Still id="CapaOrcamentoFeiraDaMata" component={CapaOrcamentoFeiraDaMata} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+    <Composition id="OrcamentoFirminoAlves" component={OrcamentoFirminoAlves} durationInFrames={QUADROS_FIA} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_FIA, revisao: REVISAO_FIA}} />
+    <Composition id="OrcamentoFirminoAlvesGuia" component={OrcamentoFirminoAlves} durationInFrames={QUADROS_FIA} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_FIA, revisao: REVISAO_FIA}} />
+    <Composition id="OrcamentoFirminoAlvesLimpo" component={OrcamentoFirminoAlves} durationInFrames={QUADROS_FIA} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_FIA, revisao: REVISAO_FIA}} />
+    <Still id="CapaOrcamentoFirminoAlves" component={CapaOrcamentoFirminoAlves} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+    <Composition id="OrcamentoCandiba" component={OrcamentoCandiba} durationInFrames={QUADROS_CAND} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_CAND, revisao: REVISAO_CAND}} />
+    <Composition id="OrcamentoCandibaGuia" component={OrcamentoCandiba} durationInFrames={QUADROS_CAND} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_CAND, revisao: REVISAO_CAND}} />
+    <Composition id="OrcamentoCandibaLimpo" component={OrcamentoCandiba} durationInFrames={QUADROS_CAND} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_CAND, revisao: REVISAO_CAND}} />
+    <Still id="CapaOrcamentoCandiba" component={CapaOrcamentoCandiba} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+    <Composition id="OrcamentoBrotas" component={OrcamentoBrotas} durationInFrames={QUADROS_BRO} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_BRO, revisao: REVISAO_BRO}} />
+    <Composition id="OrcamentoBrotasGuia" component={OrcamentoBrotas} durationInFrames={QUADROS_BRO} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_BRO, revisao: REVISAO_BRO}} />
+    <Composition id="OrcamentoBrotasLimpo" component={OrcamentoBrotas} durationInFrames={QUADROS_BRO} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_BRO, revisao: REVISAO_BRO}} />
+    <Still id="CapaOrcamentoBrotas" component={CapaOrcamentoBrotas} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+    <Composition id="OrcamentoDomBasilio" component={OrcamentoDomBasilio} durationInFrames={QUADROS_DBS} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_DBS, revisao: REVISAO_DBS}} />
+    <Composition id="OrcamentoDomBasilioGuia" component={OrcamentoDomBasilio} durationInFrames={QUADROS_DBS} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_DBS, revisao: REVISAO_DBS}} />
+    <Composition id="OrcamentoDomBasilioLimpo" component={OrcamentoDomBasilio} durationInFrames={QUADROS_DBS} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_DBS, revisao: REVISAO_DBS}} />
+    <Still id="CapaOrcamentoDomBasilio" component={CapaOrcamentoDomBasilio} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+    <Composition id="OrcamentoSalvadorTcm" component={OrcamentoSalvadorTcm} durationInFrames={QUADROS_SSA} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_SSA, revisao: REVISAO_SSA}} />
+    <Composition id="OrcamentoSalvadorTcmGuia" component={OrcamentoSalvadorTcm} durationInFrames={QUADROS_SSA} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_SSA, revisao: REVISAO_SSA}} />
+    <Composition id="OrcamentoSalvadorTcmLimpo" component={OrcamentoSalvadorTcm} durationInFrames={QUADROS_SSA} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_SSA, revisao: REVISAO_SSA}} />
+    <Still id="CapaOrcamentoSalvadorTcm" component={CapaOrcamentoSalvadorTcm} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+    <Composition id="OrcamentoNovaIguacu" component={OrcamentoNovaIguacu} durationInFrames={QUADROS_NIG} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_NIG, revisao: REVISAO_NIG}} />
+    <Composition id="OrcamentoNovaIguacuGuia" component={OrcamentoNovaIguacu} durationInFrames={QUADROS_NIG} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_NIG, revisao: REVISAO_NIG}} />
+    <Composition id="OrcamentoNovaIguacuLimpo" component={OrcamentoNovaIguacu} durationInFrames={QUADROS_NIG} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_NIG, revisao: REVISAO_NIG}} />
+    <Still id="CapaOrcamentoNovaIguacu" component={CapaOrcamentoNovaIguacu} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+    <Composition id="OrcamentoRioDeJaneiro" component={OrcamentoRioDeJaneiro} durationInFrames={QUADROS_RIO} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_RIO, revisao: REVISAO_RIO}} />
+    <Composition id="OrcamentoRioDeJaneiroGuia" component={OrcamentoRioDeJaneiro} durationInFrames={QUADROS_RIO} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_RIO, revisao: REVISAO_RIO}} />
+    <Composition id="OrcamentoRioDeJaneiroLimpo" component={OrcamentoRioDeJaneiro} durationInFrames={QUADROS_RIO} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_RIO, revisao: REVISAO_RIO}} />
+    <Still id="CapaOrcamentoRioDeJaneiro" component={CapaOrcamentoRioDeJaneiro} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
     <Composition id="OrcamentoEntreRios" component={OrcamentoEntreRios} durationInFrames={QUADROS_ER} {...base} defaultProps={{estilo: ATIVO, faixas: FAIXAS_ER, revisao: REVISAO_ER}} />
     <Composition id="OrcamentoEntreRiosGuia" component={OrcamentoEntreRios} durationInFrames={QUADROS_ER} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_ER, revisao: REVISAO_ER}} />
     <Composition id="OrcamentoEntreRiosLimpo" component={OrcamentoEntreRios} durationInFrames={QUADROS_ER} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_ER, revisao: REVISAO_ER}} />
@@ -674,5 +865,6 @@ export const Root: React.FC = () => (
     <Composition id="EducacaoIlheusGuia" component={EducacaoIlheus} durationInFrames={QUADROS_EI} {...base} defaultProps={{estilo: ATIVO, guia: true, faixas: FAIXAS_EI, revisao: REVISAO_EI}} />
     <Composition id="EducacaoIlheusLimpo" component={EducacaoIlheus} durationInFrames={QUADROS_EI} {...base} defaultProps={{estilo: ATIVO, semInterface: true, faixas: FAIXAS_EI, revisao: REVISAO_EI}} />
     <Still id="CapaEducacaoIlheus" component={CapaEducacaoIlheus} width={LARGURA} height={ALTURA} defaultProps={{estilo: ATIVO}} />
+    <Composition id="ProvaFontes125" component={ProvaFontes125} durationInFrames={QUADROS_PF125} {...base} defaultProps={{}} />
   </>
 );

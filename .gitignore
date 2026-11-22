@@ -37,3 +37,7 @@ projetos/*/documentos*/
 projetos/_arte-arroba/
 # o Estúdio precisa destes (fontes, sons e galeria)
 !projetos/_estudio/**
+
+# mapa do graphify (refaz sozinho)
+graphify-out/
+**/graphify-out/

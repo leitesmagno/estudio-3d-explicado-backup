@@ -20,7 +20,7 @@ e-TCM: município 368 SEABRA, Prefeitura UJ 972, Câmara UJ 388 (o "Consórcio P
 
 ## Setores (liquidado; saida/setores_bruto.json, scripts/setores.py, todos do PCMGE065 consolidado do mês)
 Mapa de funções: Educação 12; Saúde 10; Administração 4 (+ 6 Segurança e 99 Reserva, ambas com liquidado 0,00); Obras, limpeza e iluminação 15; Transportes 26 (Secretaria Municipal de Transportes; o transporte escolar está na Educação); Câmara 1; Dívidas e encargos 28 (principal da dívida, sentenças, PASEP); Cultura e festas 13 (+ 23 Turismo, 0,00); Assistência social 8; Agricultura 20; Meio ambiente 18; Esporte 27.
-- 2024 (DOC/2024-12_PCMGE065.pdf): Educação 93.091.842,90 · Saúde 31.659.825,26 · Administração 9.395.693,11 · Obras 23.697.334,37 · Transportes 5.946.222,99 · Câmara 4.723.808,91 · Dívidas e encargos 7.287.085,94 · Cultura e festas 6.149.202,25 · Assistência 4.118.593,54 · Agricultura 1.302.340,32 · Meio ambiente 2.939.354,32 · Esporte 1.697.204,85 → fala bloco 2024 e folhas.
+- 2024 (DOC/2024-12_PCMGE065.pdf, Educação = soma das ações a partir da p. 9): Educação 93.091.842,90 · Saúde 31.659.825,26 · Administração 9.395.693,11 · Obras 23.697.334,37 · Transportes 5.946.222,99 · Câmara 4.723.808,91 · Dívidas e encargos 7.287.085,94 · Cultura e festas 6.149.202,25 · Assistência 4.118.593,54 · Agricultura 1.302.340,32 · Meio ambiente 2.939.354,32 · Esporte 1.697.204,85 → fala bloco 2024 e folhas.
 - 2025 (DOC/2025-12_PCMGE065.pdf): Educação 106.271.258,50 · Saúde 37.057.860,20 · Administração 9.059.750,76 · Obras 20.339.383,02 · Transportes 4.344.518,82 · Câmara 7.352.142,40 · Dívidas e encargos 11.294.113,87 · Cultura e festas 8.418.244,26 · Assistência 5.124.351,76 · Agricultura 1.364.660,49 · Meio ambiente 4.437.114,50 · Esporte 100.098,96 → fala bloco 2025 e folhas.
 - 2026 até set (DOC/2026-09_PCMGE065.pdf): Educação 88.112.310,94 · Saúde 36.806.308,88 · Administração 6.692.267,58 · Obras 18.831.007,44 · Transportes 4.287.195,65 · Câmara 6.122.963,43 · Dívidas e encargos 3.698.581,72 · Cultura e festas 6.915.714,48 · Assistência 4.271.962,74 · Agricultura 1.971.911,80 · Meio ambiente 4.479.066,29 · Esporte 520.473,80 → fala bloco 2026 e folhas.
 
@@ -38,3 +38,7 @@ Mapa de funções: Educação 12; Saúde 10; Administração 4 (+ 6 Segurança e
 
 ## Notícias (conferência interna)
 - Busca 09/11/2026 ("Seabra Bahia prefeitura festas 2025 TCM grandes eventos"): nada específico sobre as festas de Seabra; A Tarde noticiou medida cautelar do TCM-BA sobre o uso de cores de campanha na comunicação da prefeitura (é o processo 30752E25, impessoalidade, que NÃO está no vídeo). Nenhum fato do vídeo depende de notícia.
+
+## 3ª conferência (13/11/2026, pedido da auditoria)
+- Educação 2024 (93.091.842,90) não está escrita pronta no PDF: é a soma do liquidado das 15 ações da função 12 do DOC/2024-12_PCMGE065.pdf, p. 9 a 24 (maiores: Ensino Fundamental 45.485.492,63 p. 19; Ensino Infantil 15.762.999,90 p. 21; Transporte Escolar 13.483.744,91 p. 14; Secretaria 12.463.789,36 p. 24; Alimentação Escolar 3.334.424,55 p. 12; Creches 1.900.490,88 p. 11). Conta refeita: soma = 93.091.842,90, sem diferença. Link do site religado para a p. 9 (antes p. 37, que é da Saúde).
+- Pessoal 2025 (121.276.538,74): já religado pelo Corretor ao 2025-13_ANUAL_PCAGO015.pdf p. 2, onde o valor está escrito.

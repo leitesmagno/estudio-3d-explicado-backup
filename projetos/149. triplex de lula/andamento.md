@@ -1,0 +1,15 @@
+# 149. triplex de lula
+- Perfil: @eumagnoleite · Código: triplexlula · Nome: TriplexLula
+- Vídeo NACIONAL (político), NÃO é prefeitura: NÃO vai para o site.
+- Pedido (12/11/2026, Magno no chat): "vídeo sobre o triplex de Lula, desde o início até hoje, tudo que aconteceu".
+- Gancho: decisão de nov/2026 que libera o dinheiro do leilão (~R$ 2,4 mi) à OAS.
+- Neutralidade (regra 9 do CLAUDE.md): os dois lados (PT x críticos), "prescrição não é absolvição", sem adjetivo.
+- Etapa atual: 1. roteiro escrito, ESPERANDO APROVAÇÃO do Magno.
+- Kit Mapas planejado: Brasil → Guarujá (Praia das Astúrias) → Curitiba → Brasília.
+- Capa sugerida: "O triplex / ficou com / quem?"
+- 12/11/2026: roteiro APROVADO pelo Magno ("Aprovado, pode seguir").
+- Voz Google Algenib: 146,09 s (Groq conferiu "2,2 milhões"). Transcrição local + alinhamento: 478 palavras.
+- Kit Mapas: composição TriplexLula (3 trechos: Guarujá, Curitiba, Brasília), mapas/triplex.mp4.
+- Revisão: 58 quadros conferidos; corrigidos MPF cortado, marco 2018 na frente do TRF4, ampulheta pequena, balança tapando "CRIME?".
+- ~11:15: ENTREGUE. edicoes/149. triplex de lula/ (video final.mp4 2:27, capa.jpg, legenda do post.txt). Cópia em ~/Documents/VIDEO 149 TRIPLEX DE LULA. Fontes em ~/Documents/FONTES.
+- Conferir antes de postar: data exata da decisão (5/11 ou 9/11) e se houve recurso contra a liberação do dinheiro.

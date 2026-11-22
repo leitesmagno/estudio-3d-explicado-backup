@@ -58,3 +58,26 @@ Sistema: Fator SIAFIC (anuais e 12/2025, "Modelo 01") e SIGA do TCM (12/2024 e 0
 - Na despesa (PCMGE015 07/2026), a ação de pavimentação tem R$ 0 empenhado e pago. Por isso a fala diz só: "Uma licitação de calçamento foi aberta em abril. Nas contas até julho, nada foi pago." e o fecho virou "por que a linha do asfalto ficou no zero?" (não "fica sempre", para não afirmar o estado de obra futura).
 - Pavimentação no Centro e no São João Batista: AUTORIZADA pelo Governo do Estado em 12/07/2025 (Jornal do Sudoeste, 14/07/2025). Não achei ordem de serviço nem entrega; não citado na fala.
 - Busca em sites de notícias sobre obras da prefeitura em Anagé (asfalto, calçamento, praças): nada além do acima.
+
+## Conferências da auditoria (13/11/2026, pedidos p114 e p115)
+- "meio ambiente 1 milhão e 700" (2026 jan–jul, liquidado, função 18): 156.869,43 + 1.556.715,77 = 1.713.585,20. Parcelas escritas em 2026-07_PCMGE015.pdf (Prefeitura), "Total do Projeto/Atividade" das ações 22016 (p. 55) e 22048 (p. 56), coluna Liquidações Até Mês. Narração certa (1,71 mi → "1 milhão e 700").
+- "eventos e festas 3 milhões e 400 em 2025": R$ 3.432.240,37, ação 2020 "Promoção e realização de eventos culturais, trad. e esport." (órgão 1), "TOTAL DA AÇÃO", colunas Empenhado e Liquidado, em 2025-12_PCMGE015.pdf. Narração certa (3,43 mi → "3 milhões e 400").
+
+## Conferências da auditoria (13/11/2026 22h, pedidos p195, p196 e p197)
+- "Administração, 9 milhões e 300" (2024, empenhado, funções 04 + 02): 9.220.430,53 + 45.500,00 = 9.265.930,53. Parcelas na linha "Total" do Anexo IX em 2024-13_ANUAL_PCAGO007 (p. 1), colunas 04 Administração e 02 Judiciária. Narração certa (9,27 mi → "9 milhões e 300").
+- "Cultura e esporte, 3 milhões e 600" (2025, empenhado, função 13): R$ 3.566.680,57, linha "Total", coluna 13 Cultura, Esporte e Lazer, Anexo IX em 2025-13_ANUAL_PCAGO007 (p. 2). Narração certa (3,57 mi → "3 milhões e 600").
+- "Assistência social, 2 milhões e 600" (2025, empenhado, função 08): R$ 2.630.812,05, coluna 08 Assistência Social (Fundo Municipal de Assistência Social, único órgão com valor), Anexo IX em 2025-13_ANUAL_PCAGO007 (p. 1). Narração certa (2,63 mi → "2 milhões e 600").
+
+## Conferências da auditoria (14/11/2026 madrugada, pedidos p273 e p274)
+- "Saúde, 21 milhões e 800" (2024, empenhado, função 10): R$ 21.753.062,08, linha "Total", coluna 10 Saúde (Fundo Municipal de Saúde, único órgão com valor), Anexo IX em 2024-13_ANUAL_PCAGO007 (texto em documentos_tcm/2024-13_ANUAL_PCAGO007.txt, linhas 91 e 96). Narração certa (21,75 mi → "21 milhões e 800").
+- "Câmara, 2 milhões e 400" (2026 jan–jul, liquidado, PCMGE015 07/2026 da Câmara): 0,00 + 26.447,06 + 1.216.384,34 + 1.205.794,19 = 2.448.625,59. Parcelas na linha "Total do Projeto/Atividade" das 4 ações, coluna Liquidações Até Mês, em 2026-07_CAMARA_PCMGE015 (texto linhas 20, 27, 36 e 114). Narração certa (2,45 mi → "2 milhões e 400").
+
+
+## Valores da legenda (conferidos 14/11/2026, pedidos p368 a p370 da auditoria)
+- "sobraram quase R$ 700 mil" (2024): R$ 688.220,27 = linha "Superávit (XIII)" do Balanço 2024 (PCAGO015 2024); conta: 98.401.048,30 − 97.712.828,03 = 688.220,27.
+- "R$ 630 mil (2024), R$ 630 mil (2025) e R$ 520 mil (2026)" reservados para pavimentar: dotação inicial da ação de pavimentação e recuperação de vias urbanas (15.451, Sec. de Obras) = R$ 633.234,72 (2024), R$ 625.958,20 (2025) e R$ 523.000,99 (2026), arredondados; PCMGE015 12/2024, 12/2025 e 07/2026, coluna dotação inicial. Empenhado/liquidado: R$ 0,00 nos três anos.
+- "colégio de tempo integral (R$ 26 mi)": valor dito pelo Governo do Estado na inauguração, não é conta do município. Fonte: Jornal do Sudoeste, 14/07/2025 (ver item 4 acima).
+
+## Conferência da auditoria (14/11/2026)
+- "4 milhões e 100" (narração): eventos e festas 2024 = R$ 4.144 mil (ação 13.392) e também limpeza pública 2025 = R$ 4.142.297,06. Ambos certos.
+- "R$ 40,7 mi" (legenda): Educação 2025 = R$ 40,680 mi (tabela de funções, linha Educação) → 40,7.

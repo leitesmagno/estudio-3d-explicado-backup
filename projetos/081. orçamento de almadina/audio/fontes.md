@@ -16,10 +16,11 @@ Avisos de documento:
 
 ## Totais (fala, tela, capa, legenda)
 - R$ 34.443.510,07 → 2024-13_ANUAL_PCAGO015.pdf (Balanço Orçamentário 2024), linha "SUBTOTAL DAS RECEITAS (III)", coluna Receitas Realizadas → fala "34 milhões e 400", mapa, chip, legenda.
-- R$ 34.859.307,47 → 2024-13_ANUAL_PCAGO015.pdf, "SUBTOTAL DAS DESPESAS (XI)", coluna Despesas Liquidadas → fala "34 milhões e 900", chip "R$ 34,9 MILHÕES".
+- R$ 34.859.307,47 → 2024-13_ANUAL_PCAGO015.pdf p. 2, "SUBTOTAL DAS DESPESAS (XI)" (no PDF o valor está impresso no formato 34,859,307.47), coluna Despesas Liquidadas → fala "34 milhões e 900", chip "R$ 34,9 MILHÕES".
 - R$ 415.797,40 → conta própria (34.859.307,47 − 34.443.510,07) → fala "416 mil a mais".
 - R$ 38.926.680,77 → 2025-13_ANUAL_PCAGO015.pdf, "SUBTOTAL DAS RECEITAS (III)", Realizadas → fala "38 milhões e 900".
-- R$ 41.653.458,74 → 2025-13_ANUAL_PCAGO015.pdf, "SUBTOTAL DAS DESPESAS (XI)", Liquidadas → fala "41 milhões e 650".
+- R$ 41.653.458,74 → 2025-13_ANUAL_PCAGO015.pdf p. 2, "SUBTOTAL DAS DESPESAS (XI)" (no PDF o valor está impresso no formato 41,653,458.74), Liquidadas → fala "41 milhões e 650".
+  - Despesa 2025 R$ 41.653.458,74 = valor impresso no formato americano (41,653,458.74) na linha "SUBTOTAL DAS DESPESAS (XI)", coluna Despesas Liquidadas — 2025-13_ANUAL_PCAGO015.pdf p. 2 (conferência 13/11/2026, pedido p184). Link do site: p. 2.
 - R$ 2.726.777,97 → conta própria (41.653.458,74 − 38.926.680,77) → fala "2 milhões e 700 a mais".
 - R$ 42.238.402,60 → 2026-09_PCMGE066.pdf (consolidado set/2026), "TOTAL GERAL DA RECEITA ORÇAMENTÁRIA", Arrecadado até o mês (= PCMGE016 set/2026: 42.246.868,19 − anuladas 8.465,59) → fala "42 milhões e 200", "mais do que o ano inteiro de 2025".
 - R$ 38.507.111,73 → 2026-09_PCMGE065.pdf, "TOTAL GERAL DA DESPESA ORÇAMENTÁRIA", Liquidado no ano → fala "38 milhões e 500".
@@ -30,7 +31,7 @@ Avisos de documento:
 Classificação: Educação = função 12; Saúde = 10; Administração = 04, 06 e 14; Obras, limpeza e iluminação = 15, 16 e 25 (Sec. de Infraestrutura);
 Câmara = função 01 / órgão 101; Dívidas = 28; Cultura e festas = 13 e 23; Assistência social = 08; Agricultura e meio ambiente = 20 e 18; Esporte = 27
 (inclui, em 2024, a reforma de equipamentos esportivos da Sec. de Infraestrutura, R$ 245.922,57).
-- 2024 (2024-12_PCMGE015.pdf da Prefeitura + Câmara pelo Anexo 9/PCMGE015 da Câmara): Educação 11.481.384,88 · Saúde 8.375.340,01 · Administração 5.615.737,06 · Obras 3.728.136,85 · Câmara 1.410.386,18 · Dívidas 1.568.681,12 · Assistência 1.466.384,49 · Cultura e festas 758.044,81 · Esporte 371.506,07 · Agricultura e meio ambiente 83.706,00 → fala, plaquinhas, folhas.
+- 2024 (2024-12_PCMGE015.pdf da Prefeitura, Educação = soma das ações a partir da p. 11 + Câmara pelo Anexo 9/PCMGE015 da Câmara): Educação 11.481.384,88 · Saúde 8.375.340,01 · Administração 5.615.737,06 · Obras 3.728.136,85 · Câmara 1.410.386,18 · Dívidas 1.568.681,12 · Assistência 1.466.384,49 · Cultura e festas 758.044,81 · Esporte 371.506,07 · Agricultura e meio ambiente 83.706,00 → fala, plaquinhas, folhas.
 - 2025 (2025-12_PCMGE065.pdf, consolidado com Câmara e fundos): Educação 13.021.623,52 · Saúde 10.076.814,33 · Administração 7.113.455,28 · Obras 4.244.115,56 · Câmara 1.785.060,29 · Dívidas 1.838.678,88 · Assistência 1.907.452,29 · Cultura e festas 1.382.510,34 · Esporte 145.999,10 · Agricultura e meio ambiente 132.340,50.
 - 2026 até set. (2026-09_PCMGE065.pdf): Educação 15.642.900,60 · Saúde 8.568.418,39 · Administração 4.386.477,69 · Obras 3.734.072,35 · Câmara 1.306.128,72 · Dívidas 745.662,70 · Cultura e festas 2.618.491,00 · Assistência 1.270.947,26 · Esporte 123.782,54 · Agricultura e meio ambiente 110.230,48.
 
@@ -63,3 +64,7 @@ saida/receita_2024-12_PCMGE016.json, receita_2025-12_PCMGE066.json, receita_2026
 
 ## 2ª conferência (09/11/2026 ~05h35, antes do vídeo final)
 - Busca literal de cada valor da fala/tela no texto dos PDFs: 22 de 22 encontrados no arquivo citado (totais dos Balanços, PCMGE066/065 set/2026, festejos 2024/2025/2026 e previstos, benefícios eventuais, casas populares, duodécimos e devoluções da Câmara, Câmara 2024 no Anexo 9). Educação 2024 (11.481.384,88), Saúde 2024 (8.375.340,01) e Educação 2025 (13.021.623,52) também batem com o Anexo 9. Nenhuma correção.
+
+## 3ª conferência (13/11/2026, pedido da auditoria)
+- Receita 2025 (38.926.680,77): está na p. 1 do 2025-13_ANUAL_PCAGO015.pdf, linha "SUBTOTAL DAS RECEITAS (III)", mas o PDF imprime no formato americano (38,926,680.77); por isso a busca automática não achou. Link já estava certo.
+- Educação 2024 (11.481.384,88): soma do liquidado das 16 ações da função 12 do 2024-12_PCMGE015.pdf, p. 11 a 21 (maiores: Pessoal do Ensino Fundamental 6.009.876,70 p. 18; Pessoal da Secretaria 1.799.986,41 p. 12; Serviços da Secretaria 1.066.499,16 p. 11). Conta refeita: soma = 11.481.384,88, sem diferença. O valor também aparece escrito no 2024-13_ANUAL_PCAGO005.pdf p. 3 e no 2024-13_ANUAL_PCAGO007.pdf p. 2. Link do site religado para a p. 11 (antes p. 47, que é do Fundo de Saúde).

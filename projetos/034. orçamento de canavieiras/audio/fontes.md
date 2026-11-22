@@ -36,7 +36,7 @@ Documentos novos: Anexo 7 por subfunção de 2024 (PCAGO005), PCMGE015 de 12/202
 | Fala | Valor | Fonte |
 |---|---|---|
 | 2024 por setor (total 143,15 mi, com Câmara) | Educação 54,34 (38,0%); Saúde 33,25 (23,2%); Obras/urbanismo 19,59 (13,7%); Administração 16,13 (11,3%) = 20,50 da função 04 menos 4,36 da Turismo; Assistência 5,96 (4,2%); Turismo 4,37 (3,1%); Câmara 4,30 (3,0%); Dívidas/encargos 3,67 (2,6%); Cultura 0,99 (0,7%); Agricultura+meio ambiente 0,54 (0,4%); Esporte 0,0046; Segurança, transporte: sem valor | PCAGO007 Anexo 9 2024 |
-| 2025 por setor (total 157,39) | Educação 62,73 (39,9%); Saúde 37,66 (23,9%); Administração 19,79 (12,6%) = 22,88 menos 3,09 Turismo; Obras/urbanismo 16,10 (10,2%), dos quais Limpeza Pública 6,86 (43%); Assistência 6,46; Câmara 5,12; Dívidas 4,91; Turismo 3,09; Agricultura/pesca/ambiente 0,90; Cultura 0,63; Esporte 0 | PCAGO007 2025 e PCMGE015 12/2025 |
+| 2025 por setor (total 157,39) | Educação 62,73 (39,9%); Saúde 37,66 (23,9%); Administração 19,79 (12,6%) = 22,88 menos 3,09 Turismo; Obras/urbanismo 16,10 (10,2%), dos quais Limpeza Pública 6,86 (43%); Assistência 6,46; Câmara 5,12; Dívidas 4,91; Turismo 3,09; Agricultura/pesca/ambiente 0,90; Cultura 0,63; Esporte 0 | 2025-13_ANUAL_PCAGO015.pdf, p. 1: despesa liquidada do ano R$ 157.390.256,26 (= 157,39 milhões); também 2025-13_ANUAL_PCAGO007.pdf, p. 15 |
 | 2026 jan–mai, pago (total 56,35 = Prefeitura 54,07 + Câmara 2,28) | Educação 22,60 (40,1%); Saúde 13,21 (23,4%); Administração 8,17 (14,5%, sem Turismo); Limpeza 2,90; Assistência 2,36; Câmara 2,28; Obras 1,48; Dívidas 1,38; Turismo 1,14; Agricultura 0,49; Cultura 0,34; Esporte e segurança 0 | PCMGE015 05/2026 Prefeitura e Câmara |
 | "A Câmara já entregou até setembro" | Câmara: 09/2026 entregue em 29/10/2026, no prazo; todas as de 2025–2026 no prazo | e-TCM, UJ 108 |
 | Postos de saúde, creche, ambulâncias, viatura, pista de skate e píer sem gasto | Ações "Construção de USF Jardim Burundanga", "USF povoado de Ouricana", "Implantação de unidade de saúde Campinhos", "Construção de creche Rua Antônio Sarmento", "Aquisição de ambulância Era Nova" e "Pedra Alta", "Aquisição viatura guarda municipal", "Construção da pista de skate", "Construção do píer" e "píer do Areal": empenhado R$ 0,00 em 12/2024, 12/2025 e 05/2026 | PCMGE015 dos três períodos |
@@ -52,3 +52,12 @@ Segurança pública retirada do roteiro e da maquete: é atribuição do Estado,
 
 ## Correção de 06/11/2026 (anti fake news)
 "Transporte, zero" saiu: a função Transporte está zerada, mas o transporte escolar foi pago dentro de Educação (ação "Manutenção do transporte escolar": R$ 334,8 mil em 2024, R$ 285,3 mil em 2025, R$ 168,3 mil em 2026 até maio, PCMGE015). Defesa civil e proteção animal ficam como zero porque não há nenhuma função nem ação com esses nomes nos três anos ("nada declarado"). Esporte: R$ 4.600 em 2024 (Anexo 9), R$ 0 empenhado em 2025 e até maio de 2026.
+
+## Conferência da auditoria (Beatriz, 14/11/2026) — somas com centavos
+- "Limpeza, R$ 2,9 milhões" (2026 até maio, pago): Secretaria de Limpeza Pública, órgão 14, pagamentos até o mês R$ 2.895.579,00 (PCMGE015 05/2026, "Total do Órgão").
+- "Obras ... até R$ 1,5 milhão" (2026 até maio, pago): Secretaria de Obras e Transportes, órgão 10, pagamentos até o mês R$ 1.478.373,58 (PCMGE015 05/2026, "Total do Órgão").
+- Turismo e Esporte 2026 até maio, pago: R$ 1.143.746,11 (PCMGE015 05/2026, órgão 12). Dívidas/encargos (Encargos Gerais do Município): R$ 1.380.573,80.
+- CH Serviços maio/2025 ("R$ 1,4 mi"): 9 pagamentos brutos somam R$ 1.399.446,54 (PCMGE056 05/2025, CNPJ 21.851.227/0001-10).
+- CH Serviços maio/2026 ("R$ 2,1 mi"): 9 pagamentos brutos somam R$ 2.100.372,06 (PCMGE056 05/2026).
+
+- [Conferência 14/11/2026, pedido p421] Legenda 'R$ 2,1 mi' (CH Serviços, maio/2026) = soma de 9 pagamentos brutos R$ 2.100.372,06 (PCMGE056 05/2026), já anotada acima; legenda correta.

@@ -1,0 +1,13 @@
+# 152. renda básica universal
+- Perfil: @eumagnoleite · Código: rendabasica · Nome: RendaBasica
+- Vídeo NACIONAL (notícia/explicativo), NÃO é prefeitura: NÃO vai para o site.
+- Pedido (13/11/2026, Magno no chat): vídeo de notícias sobre renda básica universal, Kit Mapas + Estúdio 3D como nos anteriores.
+- Neutralidade: os dois lados (a favor x críticos), conta própria marcada.
+- Etapa atual: 1. roteiro escrito, ESPERANDO APROVAÇÃO do Magno.
+- Kit Mapas planejado: Brasil → Maricá (RJ); mundo: Finlândia, Quênia, EUA, Alemanha.
+- Capa sugerida: "Dinheiro / só por / existir?"
+- 13/11/2026: roteiro APROVADO pelo Magno ("Aprovado, pode seguir"). Lei 14.601 art. 1º § 1º conferida.
+- Voz Google Algenib: 142,68 s. Groq inventou frases na transcrição: refeita com --motor local.
+- Kit Mapas: composição RendaBasica (Maricá + mundo: Finlândia, Quênia, EUA, Alemanha), mapas/renda.mp4.
+- Revisão: 47 quadros; corrigidos "O que é" cortado (marcos trocados por rótulos), Bolsa Família vazia (calendário 2023), fábrica grande, câmera saindo antes de "liberdade".
+- ENTREGUE: edicoes/152... (video final.mp4 2:24, capa.jpg, legenda 2.042 caracteres). Cópia em ~/Documents/VIDEO 152 RENDA BÁSICA UNIVERSAL. Fontes em ~/Documents/FONTES.

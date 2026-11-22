@@ -17,4 +17,7 @@
 - Mapa pronto (mapas/itaberaba.mp4, 08:31 a 08:34). 79 quadros de revisão gerados (08:36) e conferidos: valores, fala e legenda certos. Correção: a gaveta da frente saía da tela nos closes; câmera da Câmara 2024 corrigida e conferida (09:11). Câmera dos eventos 2024 e da pergunta final afastada de novo (código editado; ainda NÃO conferido nem rodado o tsc).
 - PAUSA GERAL (11/11/2026 ~09:15, ordem do Magno via coordenador). Nenhum script na fila, nenhuma trava comigo.
 - Ao retomar: 1) npx tsc --noEmit; 2) zsh ~/Documents/RECEITAS-DESPESAS-ITABERABA/scripts/vez_q3.sh (6 quadros: 153.17 156.07 167.37 167.87 168.87 170.53), conferir; 3) apagar revisao/*.jpg (regra 104); 4) zsh scripts/vez_fim.sh (vídeo final + 39 folhas + capa, quadro 5116, pede 3,5 GB); 5) conferir, entregar (VIDEOS PRONTOS, FONTES), pendências TCM, nota e relatório.
-- Etapa atual: PAUSADO na revisão (falta conferir 6 quadros dos eventos).
+- Retomado 11/11 ~18:20 (fim da pausa dos tutoriais). Regra 111: balancos.json tem 2024 e 2025 (receita e despesa liquidada = vídeo).
+- Revisão APROVADA no modo autônomo (18:33): 6 quadros dos eventos conferidos com a câmera nova; revisao/*.jpg apagados (regra 104).
+- Vídeo final 18:33 a 19:12: 179,27 s, 1080x1920, 30 qps, -15,5 LUFS, 39 folhas; capa (fundo quadro 5116). Sobras apagadas (render-sem-folha, folha-pdf/tmp).
+- ENTREGUE 11/11/2026 ~19:15: ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/ITABERABA.mp4; edicoes/073.../ (mp4, capa, legenda); ~/Documents/FONTES/073. orçamento de itaberaba - fontes.md. Etapa atual: ENTREGUE (o site fica com o coordenador).

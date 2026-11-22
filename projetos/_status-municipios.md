@@ -1,6 +1,17 @@
 # Andamento dos municípios (atualizado pelo coordenador)
-Atualizado: 11/11/2026 10:41 (automático) · tarifa bancária só em Ilhéus (regra 60) · pasta própria só Ubaitaba e Ilhéus (59) · vídeo pronto não se refaz (58)
+Atualizado: 12/11/2026 12:39 (automático) · tarifa bancária só em Ilhéus (regra 60) · pasta própria só Ubaitaba e Ilhéus (59) · vídeo pronto não se refaz (58)
 Prontos: 29 de 40
+
+## Esteira automática (atualizado 13/11/2026 14:42)
+| # | Município | Onde | Andamento | % |
+|---|---|---|---|---|
+| 140 | Firmino Alves | Mac | Cenas 3D (Claudinho SL desde 14:40); pesquisa, auditoria, roteiro e voz prontos | 60 |
+| 141 | Irecê | Mac | Pesquisa no e-TCM (espera a vez: 1 trabalho pesado por vez) | 10 |
+| 143 | Itatim | Braniac | Sem notícia desde 03:45 (Braniac fora do ar) | ? |
+| 144 | Ituaçu | Braniac | Última notícia 03:45: PESQUISA | 10 |
+| 145 | Iuiu | Braniac | Na fila do Braniac, depois de Ituaçu | 0 |
+Fila da Bahia: 337 cidades esperando (próximas: Piatã, Tanhaçu, Santo Amaro, Castro Alves, Catu, Dias d'Ávila).
+
 
 | # | Município | Andamento | % |
 |---|---|---|---|

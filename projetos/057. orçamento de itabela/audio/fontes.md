@@ -67,3 +67,6 @@ Anexo 9 2024: DOC/2024-13_ANUAL_PCAGO007.pdf l.27 (funções 01–08), l.81 (09�
 - A voz foi conferida frase a frase contra o roteiro (transcricao/transcript.md e retranscrição da janela 2:08–2:14): todos os números ditos batem com este arquivo.
 - Notícias de novo (indenizações, casas populares, água de Monte Pascoal): nada novo que contradiga o roteiro.
 - Tribunal: 22720e26 segue sem decisão na página do TCM (consulta do mesmo dia); 23746e24 e 02312e26 com advertência publicada.
+
+- Conferência 13/11/2026 (pedido p168, auditoria) — soma refeita, confere:
+  - Arrecadado 2026 até 09 (com a caixa de previdência): R$ 136.315.012,79 = CAPREMI 12.252.075,79 ("Totais", Total Até Mês, p. 1 do 2026-09_CAPREMI_PCMGE016.pdf) + Prefeitura 124.062.937,00 ("Totais", Total Até Mês, escrito na p. 8 do 2026-09_PCMGE016.pdf). Link do site: p. 8.

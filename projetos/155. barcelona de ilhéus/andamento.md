@@ -1,0 +1,4 @@
+- Perfil @eumagnoleite · código barcelonailheus · Nome BarcelonaIlheus
+- Pedido do Magno 13/11/2026: saída do Barcelona de Ilhéus (histórico, motivos, destino, o que o gestor disse). Sem nome de prefeito/vereador; presidente do clube só como 'o presidente'.
+- Voz Algenib 99,81 s; Whisper inventou 'jogar em São Paulo' (2x), removido.
+- Mapa Kit Mapas BarcelonaIlheusMapa: trecho A (0–11,4 s) e B (55,6–69,7 s).

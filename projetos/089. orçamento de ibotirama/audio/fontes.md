@@ -10,6 +10,7 @@ Regra: "gastou" = despesa LIQUIDADA. "Arrecadou" = receita arrecadada até o mê
 - Arrecadou 2025: 216.760.794,16 → 2025_PCAGO015.pdf p.1, "SUBTOTAL DAS RECEITAS (III)". = PCMGE016 dez/2025 p.7 TOTAL 216.832.505,66 − 71.711,50. Fala/mapa: "216 milhões e 800".
 - Arrecadou 2026 até set: 177.596.562,33 → 2026-09_PCMGE016.pdf p.7 linha TOTAL: 177.617.934,71 (arrecadada até o mês) − 21.372,38 (anulada até o mês). Fala/mapa: "177 milhões e 600".
 - SUS 2025 (União e Estado para a saúde): 74.507.781,47 → 2025-12_PCMGE016.pdf: 1.7.1.3.00 União 64.111.550,85 (p.2) + 1.7.2.3.00 Estado 10.350.576,39 (p.5) + 2.4.1.1.00 União capital 45.654,23 (p.6), coluna Arrecadada até Mês. Fala: "74 milhões e 500".
+  - SUS 2025 R$ 74.507.781,47 = 64.111.550,85 (p. 2) + 10.350.576,39 (p. 5) + 45.654,23 (p. 6), 2025-12_PCMGE016.pdf, coluna Arrecadada até Mês (soma refeita e conferida 14/11/2026, pedido p257). Link do site: p. 2.
 - FPM 2025: 41.155.489,57 → 2025-12_PCMGE016.pdf p.2, 1.7.1.1.51.0.0 Cota-Parte do FPM, Arrecadada até Mês (já sem a dedução do Fundeb, 8.915.042,05). Fala: "41 milhões e 200".
 - IPTU 2025: 1.369.051,52 → 2025-12_PCMGE016.pdf p.1, 1.1.1.2.50.0.0, Arrecadada até Mês. Fala: "1 milhão e 400".
 
@@ -52,7 +53,7 @@ Regra: "gastou" = despesa LIQUIDADA. "Arrecadou" = receita arrecadada até o mê
 ## 2026 até setembro
 - Gastou (liquidado): 181.869.804,13 → Prefeitura 177.696.799,89 (2026-09_PCMGE015.pdf p.144, "Total do Poder", liquidado até o mês) + Câmara 4.173.004,24 (2026-09_CAMARA_PCMGE015.pdf p.5). Fala: "181 milhões e 900".
 - Faltaram: 4.273.241,80 (conta própria: 181.869.804,13 − 177.596.562,33). Fala: "4 milhões e 300".
-- Já comprometeu (empenhado): 228.256.396,49 → Prefeitura 222.807.303,68 (2026-09_PCMGE015.pdf p.144, empenhado até o mês) + Câmara 5.449.092,81 (2026-09_CAMARA_PCMGE015.pdf p.5). Fala: "228 milhões e 300".
+- Já comprometeu (empenhado): 228.256.396,49 → Prefeitura 222.807.303,68 (2026-09_PCMGE015.pdf p.144, empenhado até o mês) + Câmara 5.449.092,81 (2026-09_CAMARA_PCMGE015.pdf p.5). Fala: "228 milhões e 300". [13/11/2026: soma conferida; Câmara também na p.4]
 - Setores 2026 até set (liquidado):
   - Educação 60.118.105,13 → "60 e 100"
   - Saúde 72.811.277,82 → "72 e 800"
@@ -98,3 +99,6 @@ Regra: "gastou" = despesa LIQUIDADA. "Arrecadou" = receita arrecadada até o mê
 
 ## Pendências no TCM
 - PCMGE064/065/066 da Prefeitura não vieram na lista de 500 documentos das prestações mensais (não usados; os totais fecham com o Balanço sem eles).
+
+## Conferência da auditoria (14/11/2026, pedido p309)
+- Todas as taxas de 2024: R$ 1.608.674,09 = 1.610.547,77 (arrecadada até o mês) − 1.873,68 (anulada até o mês), 2024-12_PCMGE016.pdf p.1, linha 1.1.2.0.00.0.0 Taxas. Conta refeita e confere. Link do site: p. 1

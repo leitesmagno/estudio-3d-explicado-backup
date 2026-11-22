@@ -38,13 +38,13 @@ Soma dos setores = total do ano (conferido: 67,163 / 71,650 / 57,421). Seguranç
 | Fato no roteiro | Fonte | Observação |
 |---|---|---|
 | maior fornecedor é de mão de obra terceirizada | Portal Fator: maiores credores fora de folha e INSS nos 3 anos | ENGENHAR PRESTAÇÕES DE SERVIÇOS EIRELI (CNPJ 20.324.954/0001-67) e GRAAD EMPREENDIMENTOS LTDA (CNPJ 37.791.470/0001-20) |
-| 4 milhões e 900 em cinco meses de 2024 | Portal Fator, contrato 102-2024 (pregão eletrônico), "serviços continuados de apoio às atividades operacionais e administrativas", pagamentos ago–dez/2024: R$ 4.853 mil | |
-| 8 e 700 em 2025 | idem, contrato 102-2024, 2025: R$ 8.669 mil | |
-| 2026, outra empresa, 8 e 700 até setembro | GRAAD, contrato 191/2025 (pregão p/ registro de preços), "terceirização de mão de obra de serviços profissionais municipais", pagamentos jan–set/2026: R$ 8.688 mil (9,62 mi até out) | quase 1 milhão por mês = 8,69 ÷ 9 = 0,97 mi (conta própria). Pago por Educação, Obras, Administração, Saúde e Assistência |
+| 4 milhões e 900 em cinco meses de 2024 | Portal Fator, contrato 102-2024 (pregão eletrônico), "serviços continuados de apoio às atividades operacionais e administrativas", pagamentos ago–dez/2024: R$ 4.853 mil = R$ 4.852.529,01 (soma dos pagamentos orçamentários do contrato 102-2024, saida/fator_2024_2026.json; conferido 13/11/2026) | legenda "R$ 4,9 mi" = 4.852.529,01 arredondado |
+| 8 e 700 em 2025 | idem, contrato 102-2024, 2025: R$ 8.669 mil = R$ 8.668.732,35 (soma dos pagamentos orçamentários; conferido 13/11/2026) | legenda "R$ 8,7 mi" = 8.668.732,35 arredondado |
+| 2026, outra empresa, 8 e 700 até setembro | GRAAD, contrato 191/2025 (pregão p/ registro de preços), "terceirização de mão de obra de serviços profissionais municipais", pagamentos jan–set/2026: R$ 8.688 mil = R$ 8.687.821,70 (estimativo 7.399.269,06 + ordinário 1.288.552,64; sem os 270.376,56 extraorçamentários, que são retenções; conferido 13/11/2026); até out: R$ 9.624.408,62 | quase 1 milhão por mês = 8,69 ÷ 9 = 0,97 mi (conta própria). Pago por Educação, Obras, Administração, Saúde e Assistência |
 | festas quase 1 milhão e meio (2024) e quase 1 e 600 (2025) | PCMGE015 dez, ação 2008 "Realização de festividades populares": 1.453 mil / 1.577 mil | 2026 até set: 502 mil |
 | pavimentação de ruas, 500 mil e quase 1 milhão | PCMGE015 dez, ação 1024 "Pavimentação e recuperação de ruas, avenidas e praças": 504 mil / 975 mil | |
 | programas de esporte, nada | ver zeros | |
-| 2026: pavimentação previa 1 milhão e 900 e usou 290 mil | PCMGE015 09/2026, ação 1024 "Pavimentação e recuperação de vias públicas": fixada 1.910 mil, liquidado 294 mil | dotação atual foi reduzida para 966 mil |
+| 2026: pavimentação previa 1 milhão e 900 e usou 290 mil | PCMGE015 09/2026, ação 1024 "Pavimentação e recuperação de vias públicas": fixada 1.910 mil, liquidado 294 mil (soma das linhas do Total do Projeto/Atividade: liquidado R$ 293.866,81; fixada R$ 1.910.000,00; a fala arredonda para 290 mil, o exato é 294 mil) | dotação atual foi reduzida para 966 mil |
 | estradas vicinais previam 96 mil e já usaram 1 e 300 | PCMGE015 09/2026, ação 1022 "Recuperação e manutenção de estradas vicinais": fixada 96 mil, liquidado 1.271 mil | contratos via consórcio (Trígono Construtora, RP compartilhado 001-2026) e RJF Engenharia (135-2023). "Enquanto isso": não afirmo que o dinheiro saiu de uma ação para a outra |
 | 5 milhões de 2026 pagaram contas de anos anteriores | PCMGE015 09/2026, elementos "Despesas de exercícios anteriores" (x.x.9x.92): 5,02 mi liquidados | 2024: 1,64 mi; 2025: zero |
 | colégio estadual novo, de 20 milhões, obra do Estado | Jornal Grande Bahia, 22/01/2026: https://jornalgrandebahia.com.br/2026/01/governador-jeronimo-entrega-investimentos-em-saude-educacao-e-infraestrutura-e-autoriza-obras-estruturantes-em-itapitanga/ | "investimento total de R$ 20 milhões", 60% executado em jan/2026 |
@@ -62,3 +62,14 @@ Outros processos não usados: 16819e25, 24828e25 (royalties, cautelar indeferida
 ## Conferir antes de publicar
 - Se a prefeitura entregou 10/2026 ao TCM até a publicação (os números de 2026 são até setembro).
 - Situação dos processos 29089e25, 33848e25, 23188e25 e 22138e26.
+
+## Conferência da auditoria (13/11/2026)
+- Legenda "Educação R$ 26,6 mi" (2024): Anexo 9 de 2024 (2024_TCM_ANUAL__PCAGO007, função Educação, linha "2 - PREFEITURA" e "Total") = R$ 26.633.072,62. Câmara 0,00 nessa função. Legenda certa.
+
+## Conferências da auditoria (14/11/2026 tarde, pedidos p331 e p332)
+- Legenda "R$ 27,8 mi" (Educação 2025, função 12, empenhado): R$ 27.836.502,55, PCAGO007 Anexo 9 2025 (linha 89, Prefeitura) e PCAGO005 2025 (linha 175). Arredondado = 27,8 mi. Legenda certa.
+- Legenda "R$ 14,5 mi" (Saúde 2024, função 10, empenhado): R$ 14.458.150,67, PCAGO007 Anexo 9 2024 (linha 92) e PCAGO005 2024 (linha 101). Arredondado = 14,5 mi. Legenda certa.
+
+- Conferência (14/11/2026, pedido p524 da auditoria): legenda "saúde R$ 13,7 mi" (2025) = R$ 13,718 mi (tabela de funções, Saúde (10), coluna 2025; PCAGO007 Anexo 9 2025) → 13,7. Legenda certa. Soma anotada: 13,718 ≈ 13,7 mi.
+
+| Soma conferida 14/11/2026: legenda "R$ 294 mil" (pavimentação 2026) | R$ 293.866,81 = "Liquidações Até Mês" do "Total do Projeto/Atividade" da ação 2.2130.15.452.9.1.1024 (PAVIMENTAÇÃO E RECUPERAÇÃO DE VIAS PÚBLICAS), fixada 1.910.000,00; arredondado 294 mil | 2026-09_TCM_MENSAL__PCMGE015.txt, ação 2.2130 (linha ~1313+) |

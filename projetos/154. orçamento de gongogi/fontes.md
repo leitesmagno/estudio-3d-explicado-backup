@@ -1,0 +1,81 @@
+# Gongogi: fontes de cada número (TCM-BA)
+
+Tudo do e-TCM Consulta Pública (PDFs em `documentos_tcm/`). "Gastou" = LIQUIDADO. Receita 2024/2025 = Receitas Realizadas do Balanço (PCAGO015); 2026 = arrecadado até o mês (PCMGE066).
+Setores = soma do liquidado das ações do PCMGE065 (consolidado), pela função; festas e eventos separados da cultura (regra 99); segurança pública fora.
+
+| Valor dito | Valor exato | Arquivo | Página · linha · coluna |
+|---|---|---|---|
+| Arrecadou (2024) | R$ 51.103.996,67 | 2024-13_ANUAL_PCAGO015.pdf | p. 1 · Subtotal das Receitas · coluna Receitas Realizadas (= soma das origens) |
+| Gastou (2024) | R$ 51.534.816,23 | 2024-12_PCMGE065.pdf | soma das 99 ações · Liquidada até o Mês (= Subtotal das Despesas Liquidadas do Balanço) |
+| Gastou a mais (2024) | R$ 430.819,56 | conta própria | conta própria: 51.103.996,67 − 51.534.816,23 |
+| Arrecadou (2025) | R$ 50.846.814,89 | 2025-13_ANUAL_PCAGO015.pdf | p. 1 · Subtotal das Receitas · coluna Receitas Realizadas (= soma das origens) |
+| Gastou (2025) | R$ 51.418.283,81 | 2025-12_PCMGE065.pdf | soma das 100 ações · Liquidada até o Mês (= Subtotal das Despesas Liquidadas do Balanço) |
+| Gastou a mais (2025) | R$ 571.468,92 | conta própria | conta própria: 50.846.814,89 − 51.418.283,81 |
+| Arrecadou (2026 até 05) | R$ 22.187.763,35 | 2026-05_PCMGE066.pdf | soma das origens · coluna Arrecadação até o Mês |
+| Gastou (2026 até 05) | R$ 20.413.941,66 | 2026-05_PCMGE065.pdf | soma das 100 ações · Liquidada até o Mês |
+| Já empenhou (2026 até 05) | R$ 24.301.458,25 | 2026-05_PCMGE065.pdf | soma das 100 ações · Empenhada até o Mês |
+| Festas previa (2024) | R$ 157.000,00 | 2024-12_PCMGE065.pdf | p. 45 · ação 209.209.13.392.5.2.2040 Revitalização de Festas Populares e Religiosas por: · Dotação Fixada |
+| Festas gastou (2024) | R$ 295.968,00 | 2024-12_PCMGE065.pdf | p. 45 · mesma ação · Liquidada até o Mês |
+| Benefícios eventuais (2024) | R$ 10.445,00 | 2024-12_PCMGE065.pdf | p. 19 · ação 207.207.8.244.4.2.2019 Gestão dos Recursos do BE - Benefícios Eventuais · Liquidada |
+| Festas previa (2025) | R$ 757.000,00 | 2025-12_PCMGE065.pdf | p. 46 · ação 209.209.13.392.5.2.2040 Revitalização de Festas Populares e Religiosas · Dotação Fixada |
+| Festas gastou (2025) | R$ 142.587,00 | 2025-12_PCMGE065.pdf | p. 46 · mesma ação · Liquidada até o Mês |
+| Benefícios eventuais (2025) | R$ 23.059,95 | 2025-12_PCMGE065.pdf | p. 19 · ação 207.207.8.244.4.2.2019 Gestão dos Recursos do BE - Benefícios Eventuais · Liquidada |
+| Festas previa (2026) | R$ 832.700,00 | 2026-05_PCMGE065.pdf | p. 47 · ação 110.1001.13.392.5.2.2048 REVITALIZAÇÃO DE FESTAS POPULARES E RELIGIOSAS - · Dotação Fixada |
+| Festas gastou (2026) | R$ 24.911,25 | 2026-05_PCMGE065.pdf | p. 47 · mesma ação · Liquidada até o Mês |
+| Benefícios eventuais (2026) | R$ 7.492,46 | 2026-05_PCMGE065.pdf | p. 20 · ação 108.801.8.244.4.2.2019 GESTÃO DOS RECURSOS DO BE - BENEFÍCIOS EVENTUAIS · Liquidada |
+
+## Setores 2024
+
+| Setor | Valor dito | Valor exato | Ações (liquidado, código, página do PCMGE065) |
+|---|---|---|---|
+| Educação | 17 milhões e 980 | R$ 17.983.997,10 | 2024-12_PCMGE065.pdf: Gestão das Ações do Ensino Básico -FUNDEB 70% R$ 9.816.363,09 (208.208.12.361.5.2.2028, p. 36); Gestão das Ações do Ensino Básico - Fundeb 30% R$ 2.209.719,23 (208.208.12.361.5.2.2029, p. 38); Gestão das Ações do Ensino Infantil R$ 2.132.859,76 (208.208.12.365.5.2.2031, p. 39); Gestão dos Recursos do MDE R$ 1.988.851,33 (208.208.12.361.5.2.2032, p. 41); Gestão dos Recursos do Salário Educação - QSE R$ 809.479,47 (208.208.12.361.5.2.2035, p. 42); Construção e Reforma de Escolas da Rede Municipal R$ 363.333,65 (208.208.12.361.5.1.1006, p. 33); + 5 ações |
+| Saúde | 13 milhões e 310 | R$ 13.310.859,83 | 2024-12_PCMGE065.pdf: Gestão das Ações da Secretaria Municipal de Saúde R$ 6.571.030,59 (210.210.10.122.6.2.2042, p. 49); Gestão das Ações do Hospital Municipal de Gongogi R$ 2.628.520,97 (210.210.10.302.6.2.2050, p. 55); Gestão das Ações do Programa Saúde da Família R$ 1.980.019,75 (210.210.10.301.6.2.2051, p. 56); Gestão das Ações do Progr. de Agentes Comunitários e Outros  R$ 1.426.450,94 (210.210.10.301.6.2.2047, p. 52); Gestão das Ações de Vigilância Epidemiologica R$ 365.270,57 (210.210.10.305.6.2.2045, p. 50); PROGRAMA AMENT - ATENDIMENTO SAÚDE MENTAL R$ 128.846,54 (210.210.10.301.6.2.2073, p. 59); + 4 ações |
+| Administração | 7 milhões e 970 | R$ 7.970.062,07 | 2024-12_PCMGE065.pdf: Gestão das Ações da Secretaria Municipal de Administração R$ 6.804.972,79 (204.204.4.122.2.2.2006, p. 7); Gestão das Ações do Gabinete do Prefeito e Assessorias R$ 684.633,95 (201.201.4.121.2.2.2003, p. 2); Gestão das Ações da Secretaria Municipal de Finanças R$ 339.205,33 (206.206.4.123.3.2.2010, p. 11); MANUTENÇÃO DA SECRETARIA DE GESTÃO E INOVAÇÃO R$ 60.750,00 (214.214.4.122.2.2.2062, p. 70); Gestão das Ações da Secretaria Municipal de Planejamento R$ 42.000,00 (205.205.4.121.2.2.2009, p. 8); Gestão das Ações da Coordenadoria de Controle Interno R$ 38.500,00 (203.203.4.124.3.2.2005, p. 4) |
+| Obras e serviços urbanos | 7 milhões e 90 | R$ 7.085.731,31 | 2024-12_PCMGE065.pdf: Gestão da Secretaria de Urbanismo, Obras e Serviços Públicos R$ 4.353.832,39 (211.211.15.122.9.2.2054, p. 64); Gestão das Açõe dos Serviço de Limpeza Pública R$ 2.651.108,46 (211.211.15.452.9.2.2055, p. 65); Gestão dos Recursos dos Royalties - Fundo Especial R$ 75.790,46 (211.211.15.451.2.2.2057, p. 66); Realização de Pequenas Obras e Contenção de Encostas R$ 5.000,00 (211.211.15.451.9.1.1015, p. 61) |
+| Câmara | 1 milhão e 450 | R$ 1.447.375,55 | 2024-12_PCMGE065.pdf: Administração de Pessoal e Encargos R$ 881.828,00 (101.101.1.31.1.2.2001, p. 71); Gestão das Ações da Câmara Municipal R$ 456.767,55 (101.101.1.31.1.2.2002, p. 72); Ampliação e Modernização da Câmara R$ 108.780,00 (101.101.1.31.1.1.1001, p. 71) |
+| Dívidas | 1 milhão e 590 | R$ 1.587.283,00 | 2024-12_PCMGE065.pdf: Encargos Gerais do Município R$ 1.587.283,00 (206.206.28.843.3.2.2011, p. 11) |
+| Transporte | 0 mil | R$ 107,18 | 2024-12_PCMGE065.pdf: Gestão dos Recusos do CIDE R$ 107,18 (211.211.26.782.2.2.2056, p. 66) |
+| Festas e eventos | 296 mil | R$ 295.968,00 | 2024-12_PCMGE065.pdf: Revitalização de Festas Populares e Religiosas por: R$ 295.968,00 (209.209.13.392.5.2.2040, p. 45) |
+| Assistência social | 1 milhão e 500 | R$ 1.503.938,72 | 2024-12_PCMGE065.pdf: Gestão das Ações do Fundo Municipal de Assistência Social R$ 1.007.008,54 (207.207.8.122.4.2.2012, p. 13); GESTÃO DAS AÇÕES DO PROGRAMA CRIANÇA FELIZ R$ 178.734,38 (207.207.8.243.4.2.2022, p. 22); Gestão dos Recursos do CRAS R$ 93.310,25 (207.207.8.244.4.2.2015, p. 15); GESTÃO DO BLOCO DO BOLSA FAMÍLIA R$ 87.650,78 (207.207.8.244.4.2.2076, p. 24); Gestão das Ações do Conselho Tutelar R$ 69.635,04 (204.204.8.243.4.2.2014, p. 7); Gestão dos Recursos do IGD/SUAS R$ 32.543,54 (207.207.8.244.4.2.2018, p. 19); + 4 ações |
+| Meio ambiente | 57 mil | R$ 57.400,00 | 2024-12_PCMGE065.pdf: Gestão das Ações da Sec. de Meio Ambiente e Rec. Hidricos R$ 57.400,00 (213.213.18.542.2.2.2061, p. 69) |
+| Agricultura | 90 mil | R$ 89.717,06 | 2024-12_PCMGE065.pdf: Gestão das Ações da Secretaria de Agricultura Industria e Co R$ 89.717,06 (212.212.20.122.8.2.2058, p. 69) |
+| Esporte e lazer | 202 mil | R$ 202.376,41 | 2024-12_PCMGE065.pdf: Gestão das Ações do Departamento de Cultura e Esporte e Laze R$ 202.376,41 (209.209.13.122.5.2.2039, p. 45) |
+
+## Setores 2025
+
+| Setor | Valor dito | Valor exato | Ações (liquidado, código, página do PCMGE065) |
+|---|---|---|---|
+| Educação | 17 milhões e 910 | R$ 17.907.879,09 | 2025-12_PCMGE065.pdf: Gestão das Ações do Ensino Básico -FUNDEB 70% R$ 9.335.296,58 (208.208.12.361.5.2.2028, p. 37); Gestão das Ações do Ensino Infantil R$ 2.171.916,07 (208.208.12.365.5.2.2031, p. 40); Gestão dos Recursos do MDE R$ 2.141.869,71 (208.208.12.361.5.2.2032, p. 41); Gestão das Ações do Ensino Básico - Fundeb 30% R$ 1.706.149,14 (208.208.12.361.5.2.2029, p. 39); Gestão do Programa Nacional de Alimentação Escolar - PNAE R$ 1.024.661,33 (208.208.12.306.5.2.2034, p. 42); Gestão dos Recursos do Salário Educação - QSE R$ 859.029,45 (208.208.12.361.5.2.2035, p. 43); + 5 ações |
+| Saúde | 14 milhões e 310 | R$ 14.313.095,76 | 2025-12_PCMGE065.pdf: Gestão das Ações da Secretaria Municipal de Saúde R$ 7.307.289,04 (210.210.10.122.6.2.2042, p. 50); Gestão das Ações do Hospital Municipal de Gongogi R$ 2.689.040,31 (210.210.10.302.6.2.2050, p. 56); Gestão das Ações do Programa Saúde da Família R$ 1.544.278,09 (210.210.10.301.6.2.2051, p. 57); Gestão das Ações do Progr. de Agentes Comunitários e Outros R$ 1.487.465,48 (210.210.10.301.6.2.2047, p. 53); PROGRAMA SAÚDE NA HORA R$ 620.511,39 (210.210.10.301.6.2.2074, p. 61); Gestão das Ações de Vigilância Epidemiologica R$ 448.520,17 (210.210.10.305.6.2.2045, p. 51); + 3 ações |
+| Administração | 7 milhões e 140 | R$ 7.144.036,02 | 2025-12_PCMGE065.pdf: Gestão das Ações da Secretaria Municipal de Administração R$ 5.354.955,55 (204.204.4.122.2.2.2006, p. 7); Gestão das Ações do Gabinete do Prefeito e Assessorias R$ 834.922,56 (201.201.4.121.2.2.2003, p. 2); Gestão das Ações da Secretaria Municipal de Finanças R$ 781.975,64 (206.206.4.123.3.2.2010, p. 11); MANUTENÇÃO DA SECRETARIA DE GESTÃO E INOVAÇÃO R$ 66.733,34 (214.214.4.122.2.2.2062, p. 70); Gestão das Ações da Secretaria Municipal de Planejamento R$ 59.000,00 (205.205.4.121.2.2.2009, p. 8); MANUTENÇÃO DA SECRETARIA MUNICIPAL DE GOVERNO R$ 44.498,93 (215.215.4.122.2.2.2088, p. 71); + 1 ações |
+| Obras e serviços urbanos | 7 milhões e 490 | R$ 7.490.673,92 | 2025-12_PCMGE065.pdf: Gestão da Secretaria de Urbanismo, Obras e Serviços Públicos R$ 5.430.047,00 (211.211.15.122.9.2.2054, p. 65); Gestão das Açõe dos Serviço de Limpeza Pública R$ 1.988.649,55 (211.211.15.452.9.2.2055, p. 65); Gestão dos Recursos dos Royalties - Fundo Especial R$ 71.977,37 (211.211.15.451.2.2.2057, p. 66) |
+| Câmara | 1 milhão e 650 | R$ 1.648.590,15 | 2025-12_PCMGE065.pdf: Administração de Pessoal e Encargos R$ 983.114,03 (101.101.1.31.1.2.2001, p. 72); Gestão das Ações da Câmara Municipal R$ 665.476,12 (101.101.1.31.1.2.2002, p. 73) |
+| Dívidas | 1 milhão e 250 | R$ 1.248.798,04 | 2025-12_PCMGE065.pdf: Encargos Gerais do Município R$ 1.248.798,04 (206.206.28.843.3.2.2011, p. 11) |
+| Transporte | 0 mil | R$ 100,05 | 2025-12_PCMGE065.pdf: Gestão dos Recusos do CIDE R$ 100,05 (211.211.26.782.2.2.2056, p. 66) |
+| Festas e eventos | 143 mil | R$ 142.587,00 | 2025-12_PCMGE065.pdf: Revitalização de Festas Populares e Religiosas R$ 142.587,00 (209.209.13.392.5.2.2040, p. 46) |
+| Assistência social | 1 milhão e 180 | R$ 1.183.402,07 | 2025-12_PCMGE065.pdf: Gestão das Ações do Fundo Municipal de Assistência Social R$ 516.050,77 (207.207.8.122.4.2.2012, p. 13); Gestão dos Recursos do CRAS R$ 199.257,51 (207.207.8.244.4.2.2015, p. 15); GESTÃO DAS AÇÕES DO PROGRAMA CRIANÇA FELIZ R$ 143.094,81 (207.207.8.243.4.2.2022, p. 21); Gestão das Ações do Conselho Tutelar R$ 97.726,99 (204.204.8.243.4.2.2014, p. 7); GESTÃO DO BLOCO DO BOLSA FAMÍLIA R$ 74.593,18 (207.207.8.244.4.2.2076, p. 22); Gestão dos Recursos Vinculados - FMAS R$ 42.459,71 (207.207.8.244.4.2.2020, p. 20); + 5 ações |
+| Meio ambiente | 66 mil | R$ 66.150,00 | 2025-12_PCMGE065.pdf: Gestão das Ações da Sec. de Meio Ambiente e Rec. Hidricos R$ 66.150,00 (213.213.18.542.2.2.2061, p. 69) |
+| Agricultura | 79 mil | R$ 78.898,71 | 2025-12_PCMGE065.pdf: Gestão das Ações da Secretaria de Agricultura Industria e Co R$ 78.898,71 (212.212.20.122.8.2.2058, p. 69) |
+| Esporte e lazer | 193 mil | R$ 192.773,00 | 2025-12_PCMGE065.pdf: Gestão das Ações do Departamento de Cultura e Esporte e Laze R$ 192.773,00 (209.209.13.122.5.2.2039, p. 46) |
+
+## Setores 2026 (até 05/2026)
+
+| Setor | Valor dito | Valor exato | Ações (liquidado, código, página do PCMGE065) |
+|---|---|---|---|
+| Educação | 6 milhões e 610 | R$ 6.609.117,14 | 2026-05_PCMGE065.pdf: GESTÃO DAS AÇÕES DO ENSINO BÁSICO -FUNDEB 70% R$ 3.809.358,08 (109.901.12.361.5.2.2036, p. 38); GESTÃO DAS AÇÕES DO ENSINO INFANTIL R$ 1.075.858,02 (109.901.12.365.5.2.2044, p. 44); GESTÃO DOS RECURSOS DO MDE R$ 997.073,80 (109.901.12.361.5.2.2039, p. 42); GESTÃO DAS AÇÕES DO ENSINO BÁSICO - FUNDEB 30% R$ 369.623,05 (109.901.12.361.5.2.2037, p. 40); GESTÃO DOS RECURSOS DO SALÁRIO EDUCAÇÃO - QSE R$ 298.072,42 (109.901.12.361.5.2.2042, p. 43); GESTÃO DO PROGRAMA NACIONAL DE ALIMENTAÇÃO ESCOLAR - PNAE R$ 37.654,68 (109.901.12.361.5.2.2041, p. 42); + 4 ações |
+| Saúde | 4 milhões e 890 | R$ 4.890.374,54 | 2026-05_PCMGE065.pdf: GESTÃO DAS AÇÕES DA SECRETARIA MUNICIPAL DE SAÚDE R$ 2.590.631,65 (111.1101.10.122.6.2.2052, p. 52); GESTÃO DAS AÇÕES DO HOSPITAL MUNICIPAL DE GONGOGI R$ 742.590,54 (111.1101.10.302.6.2.2064, p. 61); GESTÃO DAS AÇÕES DO PROGRAMA SAÚDE DA FAMÍLIA R$ 614.379,61 (111.1101.10.301.6.2.2058, p. 57); BARBARA GESTÃO DAS AÇÕES DO PROGR. DE AGENTES COMUNITÁRIOS E R$ 593.417,27 (111.1101.10.301.6.2.2056, p. 55); GESTÃO DAS AÇÕES DE VIGILÂNCIA EPIDEMIOLOGICA R$ 157.316,38 (111.1101.10.305.6.2.2067, p. 63); GESTÃO DAS AÇÕES DE ATENÇÃO BÁSICA DE SAÚDE - PAB R$ 126.853,30 (111.1101.10.301.6.2.2055, p. 55); + 3 ações |
+| Administração | 2 milhões e 280 | R$ 2.284.093,40 | 2026-05_PCMGE065.pdf: GESTÃO DAS AÇÕES DA SECRETARIA MUNICIPAL DE ADMINISTRAÇÃO R$ 1.696.883,18 (105.501.4.122.2.2.2006, p. 7); GESTÃO DAS AÇÕES DO GABINETE DO PREFEITO E ASSESSORIAS R$ 346.411,52 (102.201.4.121.2.2.2003, p. 3); GESTÃO DAS AÇÕES DA SECRETARIA MUNICIPAL DE FINANÇAS R$ 188.169,67 (107.701.4.123.3.2.2010, p. 10); BARBARA MANUTENÇÃO DA SECRETARIA DE GESTÃO E INOVAÇÃO R$ 29.629,03 (115.1501.4.122.2.2.2074, p. 72); GESTÃO DAS AÇÕES DA SECRETARIA MUNICIPAL DE PLANEJAMENTO R$ 23.000,00 (106.601.4.121.2.2.2009, p. 8) |
+| Obras e serviços urbanos | 5 milhões e 20 | R$ 5.016.583,77 | 2026-05_PCMGE065.pdf: GESTÃO DA SECRETARIA DE URBANISMO, OBRAS E SERVIÇOS PÚBLICOS R$ 3.838.998,58 (112.1201.15.122.8.2.2068, p. 67); GESTÃO DAS AÇÕE DOS SERVIÇO DE LIMPEZA PÚBLICA R$ 1.146.912,26 (112.1201.15.452.8.2.2070, p. 68); GESTÃO DOS RECURSOS DOS ROYALTIES - FUNDO ESPECIAL R$ 30.672,93 (112.1201.15.451.2.2.2069, p. 67) |
+| Câmara | 683 mil | R$ 682.778,87 | 2026-05_PCMGE065.pdf: ADMINISTRAÇÃO DE PESSOAL E ENCARGOS R$ 417.226,30 (101.101.1.31.1.2.2001, p. 74); GESTÃO DAS AÇÕES DA CÂMARA MUNICIPAL R$ 265.552,57 (101.101.1.31.1.2.2002, p. 75) |
+| Dívidas | 180 mil | R$ 179.661,00 | 2026-05_PCMGE065.pdf: BARBARA ENCARGOS GERAIS DO MUNICÍPIO R$ 179.661,00 (107.701.28.843.3.2.2011, p. 10) |
+| Transporte | 0 mil | R$ 53,13 | 2026-05_PCMGE065.pdf: GESTÃO DOS RECUSOS DO CIDE R$ 53,13 (112.1201.26.782.2.2.2071, p. 68) |
+| Festas e eventos | 25 mil | R$ 24.911,25 | 2026-05_PCMGE065.pdf: REVITALIZAÇÃO DE FESTAS POPULARES E RELIGIOSAS - R$ 24.911,25 (110.1001.13.392.5.2.2048, p. 47) |
+| Assistência social | 642 mil | R$ 642.073,63 | 2026-05_PCMGE065.pdf: GESTÃO DAS AÇÕES DO FUNDO MUNICIPAL DE ASSISTÊNCIA SOCIAL R$ 339.625,02 (108.801.8.122.4.2.2012, p. 12); GESTÃO DOS RECURSOS DO CRAS R$ 74.826,30 (108.801.8.244.4.2.2016, p. 16); GESTÃO DOS RECURSOS DO IGD/SUAS R$ 64.181,78 (108.801.8.244.4.2.2018, p. 20); GESTÃO DAS AÇÕES DO CONSELHO TUTELAR R$ 59.962,80 (108.801.8.243.4.2.2014, p. 13); GESTÃO DAS AÇÕES DO PROGRAMA CRIANÇA FELIZ R$ 45.579,16 (108.801.8.243.4.2.2015, p. 14); GESTÃO DO BLOCO DO BOLSA FAMÍLIA R$ 33.186,33 (108.801.8.244.4.2.2022, p. 23); + 3 ações |
+| Meio ambiente | 30 mil | R$ 30.450,00 | 2026-05_PCMGE065.pdf: GESTÃO DAS AÇÕES DA SEC. DE MEIO AMBIENTE E REC. HIDRICOS R$ 30.450,00 (114.1401.18.542.2.2.2073, p. 71) |
+| Agricultura | 28 mil | R$ 28.454,29 | 2026-05_PCMGE065.pdf: GESTÃO DAS AÇÕES DA SECRETARIA DE AGRICULTURA INDUSTRIA E CO R$ 28.454,29 (113.1301.20.122.7.2.2072, p. 71) |
+| Esporte e lazer | 25 mil | R$ 25.390,64 | 2026-05_PCMGE065.pdf: GESTÃO DAS AÇÕES DO DEPARTAMENTO DE CULTURA E ESPORTE E LAZE R$ 25.390,64 (110.1001.13.122.5.2.2047, p. 47) |
+
+## Pendências
+
+- Câmara: recebido (duodécimo) e devolvido não fecham com o liquidado pelo razão (PCMGE018); a Câmara entra só como setor (liquidado da função 1). Conferir no Portal do Gestor.
+- Transporte e meio ambiente: nenhuma ação com essas funções no PCMGE065; não são ditos no vídeo (nada de "zero").

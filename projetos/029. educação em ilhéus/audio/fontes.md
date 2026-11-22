@@ -32,7 +32,7 @@ Regra deste vídeo: só os documentos e dados reunidos no projeto `~/Documents/E
 | 2022–2023 | gasto de 170 e 195 milhões | SIOPE 2022 (170,10) e 2023 (194,63) | |
 | 2022–2023 | TCM 26,9% e 29,3%; aprovar com ressalvas | Pareceres TCM 07770e23 (26,93%) e 07666e24 (29,32%) | |
 | 2023 | 42,9 milhões de precatórios do Fundef | SIOPE 2023, receita de precatórios do FUNDEF (42,94); RREO dez/2023, linha 31.5 | |
-| 2024 | recorde de 269 milhões; 25,9% | SIOPE e Balanço Anual 2024 (269,27); RREO 6º bim. 2024, Anexo 14 (25,88%) | |
+| 2024 | recorde de 269 milhões; 25,9% | SIOPE e Balanço Anual 2024 (269,27); RREO 6º bim. 2024, p. 5, EDUCAÇÃO, despesa liquidada até o bimestre R$ 269.270.181,36 (o mesmo valor está no Balanço Anual 2024, função 12 - Educação); RREO 6º bim. 2024, Anexo 14 (25,88%) | conferido 14/11/2026 (auditoria Márcia, p238): narração "269 milhões" certa |
 | 2024 | metade da ajuda federal (VAAT) na educação infantil: 11,4%; 15% em obras e equipamentos: 1,8% | RREO 6º bim. 2024, Anexo 14 ("Percentual de 50% da Complementação da União ao FUNDEB (VAAT) na Educação Infantil": 11,43%; "Mínimo de 15% ... VAAT em Despesas de Capital": 1,81%) | "ajuda federal ao Fundeb" = complementação da União, modalidade VAAT |
 | 2025 | lei previu 277 milhões | LOA 2025, Lei 4328/2024 (Educação 276,86) | |
 | 2025 | balanço 231, planilha 249, relatório 300 | Balanço Anual 2025 (231,19); `despesas.csv` do portal (248,95); RREO 6º bim. 2025, linha 33 (300,23) | conta própria na planilha |
@@ -44,7 +44,7 @@ Regra deste vídeo: só os documentos e dados reunidos no projeto `~/Documents/E
 | 2026 | Fundeb mandou 104 milhões | RREO 4º bim. 2026, linha 6 (103,66) | |
 | 2026 | 18,5% até agosto; mínimo é anual | RREO 4º bim. 2026, linha 29 e Anexo 14 (18,52%) | |
 | Conta final | 2 bilhões e 90 milhões; 3 bilhões e 190 milhões | SIOPE 2008–2025; IPCA do Banco Central (série 433) até set/2026 | conta própria |
-| Conta final | 613 milhões e 1 bilhão e 360 | SIOPE, deduções e receitas do Fundeb, 2008 a 2025 | conta própria: 612,9 e 1.359,4 (2,2 vezes) |
+| Conta final | 613 milhões e 1 bilhão e 360 | SIOPE, deduções e receitas do Fundeb, 2008 a 2025 | conta própria (EI saida/anual.csv, colunas contribuicao_fundeb e fundeb_recebido, SIOPE/FNDE, soma 2008 a 2025): posto R$ 612.923.041,19 → "613 milhões"; recebido R$ 1.359.432.340,93 → "1 bilhão e 360"; 2,2 vezes (reconferido 13/11/2026) |
 
 ## Conferir antes de publicar
 - Se sair o RREO do 5º bimestre de 2026 (set. e out.), atualizar o bloco de 2026.
@@ -101,3 +101,29 @@ Saíram da fala na versão 5 (continuam podendo ir para a tela): 2009 em reais, 
 | 2021 | relatórios de dez/2020 e dez/2021 incompletos | RREO 6º bim. 2020 (sem complementação da União; total R$ 47,5 mi contra R$ 108,45 mi no balanço) e 2021 (linha 47 zerada) | |
 | 2025 | obras saltam para 51 milhões | RREO 6º bim. 2025, linha 33.2 (R$ 50,71 mi; em 2024, R$ 2,55 mi) | |
 | 2026 | previstos 240 milhões | LOA 2026, Lei 4369/2025 (R$ 239,86 mi) | |
+
+## Conferência da auditoria (13/11/2026, pedidos p135 e p136 da Márcia)
+- Fala "170 e 195 milhões" (2022 e 2023) = SIOPE 2022 R$ 170,10 mi e SIOPE 2023 R$ 194,63 mi (saida/sintese.csv da pasta EDUCACAO-ILHEUS). 194,63 arredondado para 195: está certo.
+- Fala "51 milhões de precatórios do Fundef" (2024) = notícia da própria prefeitura (Bahia Notícias, 04/10/2024), não é número do TCM.
+- Fala "Obras saltam para 51 milhões" (2025) = RREO 6º bim. 2025, linha 33.2, despesas de capital empenhadas R$ 50,71 mi. Arredondado: está certo.
+- A transcrição do site dizia "precatórios do Fundeb" em duas falas (2023 e 2024); o roteiro falado diz "Fundef". Corrigida a transcrição (transcricao/transcript.md).
+
+## Conferência da auditoria (14/11/2026, pedidos p291 e p292 da Márcia)
+- Fala "43 milhões, no limite" (2008) = SIOPE 2008, despesa empenhada em Educação R$ 42.662.755,69 (EDUCACAO-ILHEUS saida/anual.csv, linha 2008, coluna desp_empenhada; indicador 25,24%). Arredondado: está certo.
+- Fala "quase 43 milhões de precatórios do Fundef" (2023) = SIOPE 2023, receita de precatórios do FUNDEF R$ 42.935.492,03 (saida/anual.csv, linha 2023, coluna precatorios_fundef). Arredondado: está certo.
+- Fala "Previstos 240 milhões" (2026) = LOA 2026, Lei 4369/2025, função 12 Educação R$ 239.863.076,00 (mesmo valor na dotação inicial do RREO 4º bim. 2026, Anexo 1, linha "12 - Educação"). Arredondado: está certo. (A Secretaria de Educação, como órgão, tem R$ 239.864.076,00 na mesma lei; a fala usa a função.)
+- Os três números vêm do SIOPE/FNDE e da lei do orçamento, não de PDF do e-TCM; nenhuma correção na fala nem no site.
+
+## Conferência da auditoria (14/11/2026, pedidos p293 e p294 da Márcia)
+- Fala "em 18 anos, Ilhéus gastou 2 bilhões com educação" = soma da despesa empenhada em Educação no SIOPE, 2008 a 2025 (EDUCACAO-ILHEUS saida/anual.csv, coluna desp_empenhada, 18 linhas): R$ 2.086.714.801,67. Arredondado para "2 bilhões" no gancho (e "2 bilhões e 90 milhões" na conta final): está certo.
+- Fala "De 81 para 88 milhões" (2013 a 2015) = SIOPE 2013 R$ 81.039.927,27 e SIOPE 2015 R$ 88.309.048,61 (saida/anual.csv, coluna desp_empenhada). Arredondado: está certo.
+- Os dois números vêm do SIOPE/FNDE (dado aberto), não de PDF do e-TCM; nenhuma correção na fala nem no site.
+
+## Conferência (auditoria Márcia, pedidos p385 e p386, 14/11/2026)
+- Fala "14 milhões do Fundef" (2006) = R$ 14,09 mi (Tesouro Nacional, `Transferencias_Constitucionais.XLS`, linha da linha 10 desta tabela). Arredondado: 14. Narração certa.
+- Fala "gasto de 69 milhões" (2012) = SIOPE 2012, R$ 69,44 mi (linha 18 desta tabela). Arredondado: 69. Narração certa.
+
+## Conferência (14/11/2026, p387 Márcia)
+- Voz: "2 bilhões e 90 milhões" = R$ 2.086.714.801,67 (SIOPE 2008-2025, desp_empenhada). Transcrição corrigida (estava "R$ 2,90 bilhões"). "3 bilhões e 190 milhões" = R$ 3.191.892.019,75 (IPCA): certo.
+
+- [Conferência 14/11/2026, pedido p423] 'Passa dos 100 milhões' (2017) é limiar, não soma: SIOPE 2017 = R$ 108,28 mi (2016 foi 96,14). Narração correta; o número exato 108,28 é o que sai na tela.

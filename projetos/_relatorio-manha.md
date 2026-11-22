@@ -50,3 +50,7 @@ Cada sessão, ao terminar ou travar, ACRESCENTA uma linha aqui (só acrescentar,
 - 11/11/2026 ~04:05 · 089 Ibotirama ENTREGUE (VIDEOS PRONTOS - FOLHA POR SETOR/IBOTIRAMA.mp4, 178,9 s; capa e legenda em edicoes/089.../). 1 pendência leve no TCM (PCMGE064/065/066 não baixados, não usados).
 - 11/11/2026 ~04:52: 119 Serra do Ramalho ENTREGUE (VIDEOS PRONTOS - FOLHA POR SETOR/SERRA DO RAMALHO.mp4, 179,6 s). 12 setores, 39 folhas, Câmara com repasse e devolução. 0 pendências de download; SAAE sem prestações (Pendente) e PDFs da Câmara escaneados (lidos na imagem).
 - 11/11/2026 ~08:10 · 124 Ruy Barbosa ENTREGUE (177,3 s, 36 folhas). 2 pendências leves no TCM (razões de dez/2025 da Prefeitura 'NADA CONSTA', não usados) + SUS não conferido no FNS.
+- 11/11/2026 ~11:05 · 090 Riachão do Jacuípe ENTREGUE (178,4 s, 36 folhas). 2026 só até junho (Prefeitura com 07 a 10/2026 pendentes no TCM). 0 downloads falhos; PCMGE016 12/2025 não fecha com o Balanço (usado o Balanço). SUS não conferido no FNS.
+- 087 Entre Rios: ENTREGUE 11/11/2026 18:12, 0 pendências no TCM (último mês entregue pela Prefeitura: 06/2026).
+- 11/11/2026 ~18:35 · 125 Senhor do Bonfim ENTREGUE (VIDEOS PRONTOS - FOLHA POR SETOR/SENHOR DO BONFIM.mp4, 179,2 s). 0 pendências no TCM.
+- 12/11/2026 04:15 · 137 Cordeiros ENTREGUE (VIDEOS PRONTOS - FOLHA POR SETOR/CORDEIROS.mp4, 178 s). 2 pendências no TCM (PCMGE016 set/2026 é cópia da despesa; PCMGE056 set/2025 incompleto), nenhuma bloqueia.

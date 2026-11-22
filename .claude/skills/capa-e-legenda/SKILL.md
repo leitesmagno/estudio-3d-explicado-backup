@@ -9,6 +9,8 @@ Esta etapa é feita **sempre**, logo depois do vídeo final, sem perguntar. A en
 
 ## Parte 1: a capa
 
+> **Vídeo de município (perfil eumagnoleite), desde 17/11/2026:** a capa é o modelo novo aprovado pelo Magno. Depois de fazer o `fundo-limpo.jpg`, rode `python3 scripts/capa_nova.py "<Cidade>" "<4 linhas do TITULO_CAPA separadas por |>" "projetos/NNN. nome/capa/fundo-limpo.jpg" "edicoes/NNN. nome/capa.jpg"`. Ele põe os números em cima, "MUNICÍPIO DE:" com o nome grande em quadro preto no meio e o mapa do estado com um alfinete verde, sem ano. O resto desta parte vale para vídeos que não são de município.
+
 ### Como ela é
 - **Pílula** no alto: `Série · TEMA` (ex.: "Explicando Direito · ESCALA 6x1"), feita com a `Pilula` da base.
 - **Título** de 4 linhas, até 12 caracteres cada, letras grandes. A última linha vai na cor de acento do perfil.

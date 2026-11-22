@@ -20,7 +20,7 @@ Pasta: ~/Documents/RECEITAS-DESPESAS-MATA-DE-SAO-JOAO/documentos_tcm/ (34 PDFs +
 - Dívidas: R$ 7.912.087,30 → fala, plaquinha e folha
 - Cultura e festas: R$ 18.789.144,80 → fala, plaquinha e folha
 - Assistência social: R$ 13.904.531,68 → fala, plaquinha e folha
-- Turismo e emprego: R$ 2.202.734,32 → fala, plaquinha e folha
+- Turismo e emprego: R$ 2.202.734,32 → fala, plaquinha e folha · soma de 8 ações (conferida à mão em 13/11/2026), 2024-12_PCMGE015.pdf p. 68: Sec. Desenv. Econômico 637.797,33 (p. 68) + 137.941,61 (p. 69) + 547.058,07 (p. 70) + 48.596,00 (p. 71) + Fundo Mun. de Turismo 171,61 + 464.501,02 (p. 111) + 296.315,81 + 70.352,87 (p. 113) = 2.202.734,32
 - Esporte: R$ 739.710,43 → fala, plaquinha e folha
 - Agricultura: R$ 2.181.966,25 → fala, plaquinha e folha
 - Meio ambiente e urbanismo: R$ 1.772.267,76 → fala, plaquinha e folha
@@ -30,12 +30,13 @@ Pasta: ~/Documents/RECEITAS-DESPESAS-MATA-DE-SAO-JOAO/documentos_tcm/ (34 PDFs +
 - Educação: R$ 179.131.621,38 → fala, plaquinha e folha
 - Saúde: R$ 72.574.581,53 → fala, plaquinha e folha
 - Administração: R$ 18.734.572,72 → fala, plaquinha e folha
+  - Administração 2025 R$ 18.734.572,72 = Gabinete do Prefeito 1.201.263,82 (p. 2) + Gabinete do Vice-Prefeito 535.353,45 (p. 3) + Assessoria Jurídica 1.705.571,86 (p. 5) + Controladoria 1.428.175,87 (p. 6) + Sec. Administração e Finanças 9.218.937,42 (a partir da p. 6, sem a função 28, que vai em Dívidas) + Sec. de Governo 4.220.405,55 (p. 89) + Sec. de Relações Institucionais 424.864,75 (p. 90) — 2025-12_PCMGE065.pdf, Liquidada até o mês (conferência 13/11/2026, pedido p183). Link do site: p. 6 (maior parcela).
 - Obras e serviços urbanos: R$ 124.335.799,88 → fala, plaquinha e folha
 - Câmara de Vereadores: R$ 21.057.775,81 → fala, plaquinha e folha
 - Dívidas: R$ 7.238.965,70 → fala, plaquinha e folha
 - Cultura e festas: R$ 20.230.456,85 → fala, plaquinha e folha
 - Assistência social: R$ 11.446.292,00 → fala, plaquinha e folha
-- Turismo e emprego: R$ 3.843.904,55 → fala, plaquinha e folha
+- Turismo e emprego: R$ 3.843.904,55 → fala, plaquinha e folha · soma de 7 ações (conferida à mão em 13/11/2026), 2025-12_PCMGE065.pdf p. 49: Sec. Desenv. Econômico 1.881.269,00 + 724.926,73 (p. 49) + 113.886,22 + 191.400,00 (p. 50) + Fundo Mun. de Turismo 132.073,72 + 500.933,94 (p. 78) + 299.414,94 (p. 79) = 3.843.904,55
 - Esporte: R$ 1.234.580,34 → fala, plaquinha e folha
 - Agricultura: R$ 2.114.851,08 → fala, plaquinha e folha
 - Meio ambiente e urbanismo: R$ 1.932.479,68 → fala, plaquinha e folha
@@ -47,8 +48,8 @@ Pasta: ~/Documents/RECEITAS-DESPESAS-MATA-DE-SAO-JOAO/documentos_tcm/ (34 PDFs +
 - Administração: R$ 18.165.695,28 → fala, plaquinha e folha
 - Obras e serviços urbanos: R$ 84.003.873,24 → fala, plaquinha e folha
 - Câmara de Vereadores: R$ 16.427.617,57 → fala, plaquinha e folha
-- Dívidas: R$ 5.253.260,79 → fala, plaquinha e folha
-- Cultura e festas: R$ 19.347.170,90 → fala, plaquinha e folha
+- Dívidas: R$ 5.253.260,79 → fala, plaquinha e folha · soma de 4 ações da função 28 (conferida à mão em 13/11/2026), 2026-09_PCMGE065.pdf p. 7: 3.569.223,88 (p. 7) + 1.521,41 + 1.672.789,50 + 9.726,00 (p. 8) = 5.253.260,79
+- Cultura e festas: R$ 19.347.170,90 → fala, plaquinha e folha (conta própria, conferida 14/11/2026: soma das 7 ações da Secretaria de Cultura, liquidado até 09, em DOC/2026-09_PCMGE065.pdf p. 78, p. 76, p. 77, p. 79: 11.157.575,45 + 5.877.127,79 + 1.030.000,00 + 760.932,53 + 273.479,60 + 190.767,53 + 57.288,00)
 - Assistência social: R$ 7.926.926,39 → fala, plaquinha e folha
 - Turismo e emprego: R$ 5.439.758,82 → fala, plaquinha e folha
 - Esporte: R$ 550.848,07 → fala, plaquinha e folha
@@ -69,3 +70,5 @@ Pasta: ~/Documents/RECEITAS-DESPESAS-MATA-DE-SAO-JOAO/documentos_tcm/ (34 PDFs +
 ## Tribunal de Contas (Decisões › Auditoria), consulta 09/11/2026 ~07:55
 Lista salva em documentos_tcm/decisoes/TCM_auditoria_MATA_2026-11-09.txt (https://www.tcm.ba.gov.br/consulta/legislacao/decisoes/auditoria/). 20 processos de 2024 a 2026. Citados na fala, sem nomes: 02185e25 (denúncia: trios elétricos para eventos), 24548e26 (denúncia: Pregão 063/2026, trios elétricos), 32484e26 (denúncia: decoração natalina 2022 a 2026), 28162e25 (denúncia: Pregão 086/2025, buffet da festa de confraternização dos servidores 2025). Sem julgamento publicado nesses quatro: fala "estar no tribunal não é condenação". Nomes só neste arquivo, nunca no vídeo.
 - 2ª conferência (09/11/2026 ~08:10): totais dos Balanços e as linhas "Total" das ações de festas, São João, benefícios eventuais, turismo, meio ambiente e compostagem relidas no texto dos PDFs: tudo confere.
+
+- Nota de auditoria 14/11/2026 (pedido p460): Administração 2024 R$ 13.268.698,90 é soma por secretaria (scripts/setores.py) das liquidações de 2024-12_PCMGE015.pdf (Prefeitura) + Câmara quando aplicável; não aparece como linha única.

@@ -92,3 +92,6 @@ Linhas do fontes.md para o site:
 ## Fora do vídeo (só para responder perguntas)
 - Receita detalhada por ano: saida/receita_2024.json e receita_2025.json (Anexo 10) e receita_2026.json (PCMGE016 da Prefeitura e da ITAPREV). Em 2025 entrou 4.030.000,00 de "Cessão do Direito de Operacionalização de Pagamentos" (venda da folha de pagamento a banco), 2025_PCAGO008.pdf, código 1.3.6.1.01.1.1.
 - Pendências no TCM: o PCMGE015 de 12/2024 da ITAPREV (UJ 602) é uma lista vazia de "despesas orçamentárias pagas" (não usado); o consolidado PCMGE065 de 12/2024 não fecha com o Balanço (não usado).
+
+- Conferência 13/11/2026 (pedido p175, auditoria Márcia): "Esporte, 1 milhão e 100" (2026 até set) = R$ 1.078.526,80 da linha Esporte da tabela acima, arredondado para a centena de mil. Narração certa; a Márcia passou a tolerar meia casa do arredondamento.
+- Conferência 14/11/2026 (pedido p267, auditoria Márcia): "Esporte, 1 milhão e 700" (2024) = R$ 1.650.582,68 da linha Esporte da tabela acima, arredondado para a centena de mil. Narração certa.

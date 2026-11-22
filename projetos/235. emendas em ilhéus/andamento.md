@@ -1,0 +1,14 @@
+# 235. emendas em ilhéus
+- Perfil: @eumagnoleite · Código: emendasilheus · Nome: EmendasIlheus
+- Pedido do Magno (20/11/2026): vídeo informativo de até 3 minutos sobre as emendas que chegaram a Ilhéus (2019–2026), com quem indicou, quanto e para onde foi. Motor original (Estúdio 3D + Kit Mapas), render no Mac.
+- O Magno liberou os nomes de deputados e senadores, sempre com o verbo "indicou" e sem adjetivo. Prefeito e vereador continuam sem nome, e a RP9 aparece sem nome. Não impulsionar.
+- Molde de código: 162 (emendas) + base comum Explicativo.tsx com arrobaFixo. Voz Google Algenib, rate 1,3.
+- 20/11: roteiro e fontes escritos e conferidos com os dados (roteiro conferido = aprovado, modo autônomo).
+- Próximo: voz → sincronia → cenas → revisão → render → capa e legenda.
+- 20/11 (tarde): o Magno pediu o método da parte 10 do Guia TCM-BA. Com isso, o FNS mostrou R$ 54,2 mi na saúde e R$ 9 mi de RP9. Roteiro e fontes refeitos na versão 2 (a v1 está em antigos/). O agente refaz voz, cenas e quadros. Empresas sem nome até o ok do Magno.
+- 20/11: roteiro VERSÃO 3 ("dois caminhos": saúde FNS + Prefeitura CGU), fontes v3. Versões 1 e 2 (voz, transcrição, quadros, código v1) guardadas em antigos/.
+- 20/11: voz Google Algenib 1,3 refeita (narracao-norm.wav, 180,84 s), Whisper local + alinhamento, mapa Kit Mapas (Bahia + alfinete em Ilhéus, 5,4 s), cenas (src/videos/emendasilheus/EmendasIlheus.tsx) e 49 quadros de revisão em revisao/. Modo autônomo: sem render.
+- Falta: conferir quadros, ajustes finos, render, capa (capa/fundo-limpo.jpg) e legenda. Nome da empresa de obras e da fábrica NÃO entram.
+- 20/11 13:56: VÍDEO V1 PARA ANÁLISE entregue em edicoes/ (3:01, 42 MB, -16,2 LUFS), com capa (capa_nova.py, fundo de quadro do vídeo) e legenda. Render com 1 aba; a 1ª tentativa encheu o disco. Pontos conhecidos: a lista completa passa rápido, a cena do TCU é pequena, o nome da empresa não entra. NÃO postado; aguarda análise do Magno.
+- 20/11: VERSÃO 4 (maquete de Ilhéus no padrão do 093: casinhas das secretarias, moedas voando, plaquinhas, CabecalhoCidade; Pix casinha por casinha; PÓDIO da Pix; 2 telas de lista rolante). Roteiro v4 enxuto (542 palavras), voz Algenib 1,3 refeita: 177,0 s (2:57), sem atempo. Código: src/videos/emendasilheus/ (EmendasIlheus.tsx, Base.tsx = cópia local da base com o CabecalhoCidade). 53 quadros de revisão conferidos em revisao/. SEM render (do coordenador). Versões anteriores em antigos/v1 a v4b.
+- 20/11 ~15:50: VÍDEO FINAL v4 (maquete, casinhas das secretarias, Pix casinha por casinha, pódio da Pix) entregue: 2:58, 69 MB, -16,3 LUFS, capa e legenda. Cópia no Google Drive, pasta '235 - Emendas em Ilhéus'. v1 em edicoes/.../antigos. NÃO postado. Antes de postar: ouvir a pronúncia de 'Leur' (~1:00) e reconferir FNS e CGU do mês.

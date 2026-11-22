@@ -9,7 +9,7 @@ Regra: "arrecadou" = total declarado ao TCM (Balanço Orçamentário 2024 e 2025
 | Valor exato | Documento | Página / linha | Coluna | Onde aparece |
 |---|---|---|---|---|
 | Receita 2024: R$ 314.427.792,80 | 2024_PCAGO015.pdf (Balanço Orçamentário 2024) | p.1, "SUBTOTAL DAS RECEITAS (III)" | Receitas realizadas | fala "314 milhões e 400", mapa, chip, capa do ano |
-| (conferência) R$ 314.427.793,04 | 2024-12_PCMGE016.pdf | p.7, "Total da Receita" | Até Período | folha da receita 2024 (diferença de R$ 0,24 com o Balanço) |
+| (conferência) R$ 314.427.793,04 | 2024-12_PCMGE016.pdf | p.8 do PDF (rodapé da folha: 7), "Total da Receita" | Até Período | folha da receita 2024 (diferença de R$ 0,24 com o Balanço) |
 | Receita 2025: R$ 401.250.060,72 | 2025_PCAGO015.pdf (Balanço Orçamentário 2025) | p.1, "SUBTOTAL DAS RECEITAS (III)" | Receitas realizadas | fala "401 milhões e 300", mapa, chip |
 | (conferência) R$ 401.250.330,70 | 2025-12_PCMGE016.pdf | p.7, "Totais:" | Total até mês (arrecadada + anulada) | folha da receita 2025 (linha de ajuste de -R$ 269,98 ao Balanço) |
 | Receita 2026 até set: R$ 364.340.795,76 | 2026-09_PCMGE016.pdf | p.7, "Totais:" | Total até mês | fala "364 milhões e 300", mapa, chip |
@@ -62,7 +62,7 @@ Documentos: 2024-12_PCMGE015.pdf, 2025-12_PCMGE015.pdf, 2026-09_PCMGE015.pdf (Pr
 
 | Valor exato | Documento | Página / linha | Coluna | Onde aparece |
 |---|---|---|---|---|
-| R$ 11.232.415,52 = 8.077.554,06 + 88.652,52 + 149.800,30 (fonte 1754, operação de crédito do ano) + 2.687.806,60 + 228.602,04 (fonte 2754, operação de crédito de anos anteriores) | 2026-09_PCMGE015.pdf | p.170 e 171, ação 11.1101.15.451.13.1.1084 PAVIMENTAÇÃO DE VIAS, elementos 4.4.90.51.91, 4.4.90.92.51 e 4.4.93.51.99 | Liquidada até mês | fala "11 milhões e 200 do empréstimo de 2025", chip |
+| R$ 11.232.415,52 = 8.077.554,06 + 88.652,52 + 149.800,30 (fonte 1754, operação de crédito do ano) + 2.687.806,60 + 228.602,04 (fonte 2754, operação de crédito de anos anteriores) | 2026-09_PCMGE015.pdf | p.170 e 171, ação 11.1101.15.451.13.1.1084 PAVIMENTAÇÃO DE VIAS, elementos 4.4.90.51.91, 4.4.90.92.51 e 4.4.93.51.99 | Liquidada até mês (soma refeita 12/11 22:40: confere 11.232.415,52) | fala "11 milhões e 200 do empréstimo de 2025", chip |
 | (contexto) 2025: dotação com fonte 1754 = R$ 45.028.693,00 (centro administrativo 17,5 mi, pavimentação e drenagem 7,5 mi, pontes 7,5 mi, iluminação 5 mi, frota 2,75 mi, praças 2,5 mi), liquidado R$ 1.933.750,02 nas fontes 1753/1754/2754 | 2025-12_PCMGE015.pdf | unidade 1101 e 0502 | Atualizada / Liq Até Per | só no fontes |
 
 ## Câmara (razão da Câmara, PCMGE018)
@@ -85,11 +85,15 @@ Documentos: 2024-12_PCMGE015.pdf, 2025-12_PCMGE015.pdf, 2026-09_PCMGE015.pdf (Pr
 | 2025 previsto R$ 6.847.403,00 · gasto R$ 8.491.226,72 | 2025-12_PCMGE015.pdf | p.47, ação 2059 PROMOÇÃO DE EVENTOS CULTURAIS, "Total da ação" | Fixada / Liq Até Per | fala "previa 6 milhões e 800 e gastou 8 milhões e 500" |
 | 2026 até set gasto R$ 11.762.568,50 (previsto R$ 12.423.674,00) | 2026-09_PCMGE015.pdf | p.193-194, 12.1201.13.392.6.2.2119 REALIZAÇÕES E APOIO DE EVENTOS CULTURAIS E COMEMORATIVOS | Liquidada até mês | fala "já gastou 11 milhões e 800", pergunta final, capa |
 | Bandas 2026 até set: R$ 8.583.934,89 = 6.804.254,89 (fonte 1500) + 1.118.680,00 (1501) + 631.000,00 (1701) na ação 2119 + 30.000,00 na ação 2120 | 2026-09_PCMGE015.pdf | p.193-194, elemento 3.3.90.39.94 SERVIÇOS DE BANDA OU GRUPO MUSICAL | Liquidada até mês | fala "só com bandas, 8 milhões e 600" |
-| Palco 2026: R$ 834.566,21 (3.3.90.39.95) | 2026-09_PCMGE015.pdf | p.193, ação 2119 | Liquidada até mês | folha |
+| Palco 2026: R$ 834.566,21 = 746.807,61 (fonte 1500) + 87.758,60 (fonte 1501), soma refeita 14/11/2026 | 2026-09_PCMGE015.pdf | p.194, ação 2119, elemento 3.3.90.39.95 LOCAÇÃO, CONFECÇÃO E MONTAGEM DE CENÁRIOS, PALCOS, SONORIZAÇÃO | Liquidada até mês | folha |
 | 2024 e 2025: o PCMGE015 desse sistema não traz subelemento, então não separa bandas e palco (folha diz isso) | | | | folhas 2024 e 2025 |
-| Assistência social até set/2026: R$ 6.776.126,56 | setores.json (função 8 do 2026-09_PCMGE015.pdf) | | Liquidada até mês | pergunta final, capa |
+| Assistência social até set/2026: R$ 6.776.126,56 | setores.json (função 8 do 2026-09_PCMGE015.pdf p. 37, ações da função 8 nas p. 37 a 56; soma das liquidações até o mês, conta própria) [13/11/2026: soma conferida; parcelas no PDF, ex.: 237.625,11 p.37, 3.182.574,04 p.38, 825.250,15 p.45, 952.997,20 p.51, 374.972,72 p.56] | | Liquidada até mês | pergunta final, capa |
 
 ## Pendências e observações
 - Câmara 2024 fica só na folha (não cabe na fala dos 3 minutos).
 - Nada de nome de gestor no vídeo. Assinaturas dos PDFs não citadas.
 - Notícias: não usadas como fonte de fato.
+
+Ajuste Educação 2024 = R$ 2.302.208,08 (afirmação 16, pedido p156, 13/11/2026) é conta própria e não está escrito pronto no PDF: Fundo Municipal de Educação no Balanço 115.028.861,35 (2024_PCAGO007.pdf p.3, Anexo 9) menos Educação no PCMGE015 112.726.653,27 (2024-12_PCMGE015.pdf p.32). Conta refeita, bate no centavo; os dois valores conferidos no texto das páginas já ligadas no site.
+
+- Conferência 14/11 (Antônio): soma refeita e correta (320.696.438,16 − 314.427.792,80 = 6.268.645,36); parcelas já ligadas à p.1 do PCAGO015 2024.

@@ -1,0 +1,50 @@
+{
+ "_explica": "Esteira automática (pedido do Magno, 13/11/2026). Lida e atualizada pela tarefa agendada 'esteira-de-videos' (playbook: _esteira-automatica.md). etapa: pesquisa > auditoria > roteiro > voz > cenas > auditoria_final > render > conferido > entregue. render: mac | braniac.",
+ "ciclo": 1,
+ "iniciado": "13/11/2026",
+ "lote": [
+  {
+   "projeto": "140. orçamento de firmino alves",
+   "cidade": "Firmino Alves",
+   "render": "mac",
+   "etapa": "conferencia",
+   "obs": "13/11 12:05 pesquisa completa (TCM, leitura, fontes.md); auditoria pesquisa APROVADA, zero ❌; próximo: roteiro",
+   "maestro": "22/11 16:11 Senior: umagnoleite.\"], \"numeros_conferidos\": [\"Quadro 1: arrecadou 48 milhões (48.833.509,46, Balanço 2024) – ok\", \"Quadro 2: folha R$ 48.838.777,44 (PCMGE01"
+  },
+  {
+   "projeto": "141. orçamento de irecê",
+   "cidade": "Irecê",
+   "render": "braniac",
+   "etapa": "braniac_completo",
+   "obs": "13/11: passou do Mac para o Braniac (regra nova: cidades só no Braniac); pedido completo enviado pelo Link",
+   "maestro": null
+  },
+  {
+   "projeto": "143. orçamento de itatim",
+   "cidade": "Itatim",
+   "render": "braniac",
+   "etapa": "braniac_completo",
+   "obs": "13/11 02:30: o Magno mandou o Braniac fazer o vídeo INTEIRO (pesquisa a vídeo). Pacote no Drive Magno e Xandão (143-ITATIM - instrucoes para o Braniac.zip) e recado pelo Link. A esteira NÃO pesquisa Itatim: espera o fontes.md do Braniac (auditar com auditoria_contas.py), depois o vídeo (conferir e fazer a Entrega).",
+   "maestro": "17/11 20:30 Senior reprovou o vídeo do Braniac: TETO: teto de 60 chamadas/dia pela assinatura"
+  },
+  {
+   "projeto": "144. orçamento de ituaçu",
+   "cidade": "Ituaçu",
+   "render": "braniac",
+   "etapa": "braniac_completo",
+   "obs": "13/11 02:52: o Magno mandou o Braniac fazer INTEIRO, pela rede interna (Link), depois de Itatim. Instruções em XANDAO-LINK/pacote-braniac/14x-*/INSTRUCOES-*.md (método, regras, visual e modelo = pacote 143). A esteira NÃO pesquisa: espera o fontes.md do Braniac (auditar) e o vídeo (conferir e fazer a Entrega)."
+  },
+  {
+   "projeto": "145. orçamento de iuiu",
+   "cidade": "Iuiu",
+   "render": "braniac",
+   "etapa": "braniac_completo",
+   "obs": "13/11 02:52: o Magno mandou o Braniac fazer INTEIRO, pela rede interna (Link), depois de Itatim. Instruções em XANDAO-LINK/pacote-braniac/14x-*/INSTRUCOES-*.md (método, regras, visual e modelo = pacote 143). A esteira NÃO pesquisa: espera o fontes.md do Braniac (auditar) e o vídeo (conferir e fazer a Entrega)."
+  }
+ ],
+ "historico": [
+  "13/11/2026: Magno mudou a divisão: 3 dos 5 no Braniac (outro notebook) e 2 no Mac. Itatim passou para o Braniac.",
+  "13/11/2026 02:30: Itatim (143) passou inteiro para o Braniac, a pedido do Magno (teste do Braniac fazendo tudo).",
+  "13/11/2026 02:52: Ituaçu (144) e Iuiu (145) foram inteiros para o Braniac, pelo Link, na fila depois de Itatim. Com o Mac ficam só Firmino Alves e Irecê."
+ ]
+}

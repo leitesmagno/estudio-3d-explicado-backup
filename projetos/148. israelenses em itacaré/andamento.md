@@ -1,0 +1,15 @@
+# 148. israelenses em itacaré
+- Perfil: @eumagnoleite · Código: israelenseitacare · Nome: IsraelenseItacare
+- Vídeo regional (Itacaré, turismo/convivência), NÃO é prefeitura: NÃO vai para o site.
+- Pedido (12/11/2026, Magno no chat): pesquisa sobre turistas israelenses em Itacaré (desde quando, por quê, denúncias, outro lado), posição a favor dos moradores sem ser parcial demais; Kit Mapas + Estúdio 3D; "o melhor vídeo de todos".
+- Etapa atual: 1. roteiro escrito, ESPERANDO APROVAÇÃO do Magno (tema sensível: discriminação por nacionalidade é crime, Lei 7.716/89).
+- Kit Mapas planejado: Bahia → sul da Bahia (Morro de São Paulo/Cairu e Itacaré) → centro de Itacaré (Praça São Miguel/Casarão Azul, Rua da Pituba).
+- Capa sugerida: "Itacaré / é de quem? / De quem / mora aqui."
+- 12/11/2026: roteiro APROVADO pelo Magno ("Aprovado, pode seguir").
+- Voz Google Algenib: 134,15 s. Groq inventou frases na transcrição: refeita com --motor local (sem alucinação).
+- Kit Mapas: composição IsraelensesItacare (5 trechos), mapas/israelenses.mp4. Israel só como ponto, sem fronteira desenhada.
+- Revisão: 50 quadros conferidos; corrigidos mar da vila, mural tapado pelas janelas, letreiro PREFEITURA cortado (virou ITACARÉ), aperto de mão.
+- Capa: fundo trocado do mural ("Do rio ao mar") para a praia com moradores e turistas, para não parecer apoio ao slogan.
+- ~08:15: ENTREGUE. edicoes/148. israelenses em itacaré/ (video final.mp4 2:15, capa.jpg, legenda do post.txt 2.160 caracteres). Cópia em ~/Documents/VIDEO 148 ISRAELENSES EM ITACARÉ. Fontes em ~/Documents/FONTES.
+- Conferir antes de postar: investigação da PC (indiciamento?), reunião da SJDH (semana de 16/11), nota oficial no ba.gov.br.
+- 13/11/2026 07:51: PUBLICADO pelo Metricool (Instagram Reel, Facebook, TikTok com legenda curta de 1.998 caracteres, YouTube Short). Kwai à mão. Antes de postar, reconferido: sem indiciamento; governador foi a Itacaré e anunciou plano (o vídeo segue certo).

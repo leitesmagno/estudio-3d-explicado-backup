@@ -16,6 +16,7 @@ Conferência 1 (09/11/2026, depois do roteiro): feita linha a linha abaixo. Conf
 | 2024 | 141.827.540,46 | 151.212.427,23 | 9.384.886,77 | 035: 2024_TCM_ANUAL__PCAGO015.pdf |
 | soma | 690.752.413,57 | 735.142.159,80 | 44.389.746,23 | conta própria (etiqueta do mapa e legenda) |
 Fala do gancho: "Paratinga gastou 151 milhões em 2024" = 151.212.427,23 liquidado.
+- Conferido em 12/11/2026 (auditoria p67): 2019 arrecadou 71.212.202,66 está em 2019_PCAGO015.pdf p.1 "SUBTOTAL DAS RECEITAS (III)", coluna Receitas Realizadas, mas a letra do PDF é embaralhada e só sai por OCR (2019_PCAGO015.ocr.txt linha 21), por isso a máquina não acha. O mesmo valor está em texto legível em 2019_PCAGO008.pdf p.7 (Anexo 10, "Totais", receita arrecadada) e em 2019-12_RECEITA_CONSOLIDADA.pdf p.7 ("Total das Receitas Orçamentárias"). Número e fala sem mudança.
 
 ## Setores falados (liquidado por função; Prefeitura + fundos + Câmara + SAAE)
 Fonte: demonstrativo da despesa de dezembro do e-TCM (2018: 2018-12_DESPESA_CONSOLIDADA; 2020: 2020-12_PCMGE065; 2021: 2021-12_PCMGE065; 2022: 2022-12_PCMGE015), coluna "Liquidado até o mês", somado por função (script `2018-2024/scripts/acoes.py`); 2019, 2023, 2024: Anexo 9 (PCAGO007), onde empenhado = liquidado no total do Balanço (2023, 2024) ou igual ao SICONFI DCA liquidado (2019). Câmara (função 01) e SAAE (função 17) de 2021 e 2022 pelo Anexo 9 / DCA (não estão no consolidado).
@@ -109,3 +110,6 @@ Todas as 42 folhas têm 6 ou 7 linhas e fecham exatamente com o total falado (sc
 - Obras 2018: elementos da função 15 no consolidado de dez/2018 (el_2018.json), total 6.855.009,16
 - Saúde 2023: ações da função 10 no 2023-12_PCMGE015 (el_2023.json), total 25.585.982,06
 - Saúde e Obras 2019: ações do 2019-12_DESPESA_CONSOLIDADA (OCR), completadas na leitura: UBS 39.209,99 (ação 1.048), estradas vicinais e pontes 182.533,87 (ação 1.024), prédios públicos 25.560,00 (ação 1.018); fecham 13.480.196,96 e 8.546.671,21
+
+## Conferência da auditoria (12/11/2026, pedido p68 · Aline/Antônio)
+- 79.633.500,38 (receita realizada 2020) **está escrito**: `2020_PCAGO015.pdf` p. 1, linha "SUBTOTAL DAS RECEITAS (III)" (PDF escaneado, só aparece no OCR `2020_PCAGO015.ocr.txt` linha 21; por isso a busca de texto da auditoria não achou). Também em texto pesquisável: `2020_PCAGO008.pdf` linha "Totais" (txt linha 625) e `2020-12_PCMGE016.pdf` "Total das Receitas Orçamentárias" (txt linha 320). Número certo, nada a mudar no vídeo.

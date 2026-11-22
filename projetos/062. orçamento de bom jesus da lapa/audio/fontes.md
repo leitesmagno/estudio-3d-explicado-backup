@@ -115,3 +115,8 @@ REGRAS DO MUNICÍPIO: Administração = função 04 + função 02 (Procuradoria)
 - Valores do SAAE lidos na imagem (pág. 9 e 10 do PCMGE015 09/2026): 15.913.983,05 liquidado, 18.835.348,09 empenhado, PASEP 142.918,19: conferidos de novo na imagem.
 - Valores só da tela também conferidos: previsto 2026 da ação das festas R$ 7.599.000,00 (DOC/2026-09_PREF_015.pdf l.1542, 1ª coluna) no chip "JÁ SÃO R$ 9,6 MI · PREVISTO NO ANO: R$ 7,6 MI".
 - Notícias e lei: nada mudou (Lei 15.197/2025 no Planalto; A Tarde 06/08/2023). TCM: 14027e26 e 21977e26 seguem sem julgamento na consulta de 08/11/2026.
+
+- Conferência 13/11/2026 (pedidos p89/p90 da auditoria): 325.039.264,39 é soma de três documentos e não aparece escrito em nenhuma página. Conta refeita: 301.207.147,86 (PREF_015 l.7241) + 7.918.133,48 (CAM_015_desp l.219) + 15.913.983,05 (SAAE_015 pág. 10, imagem) = 325.039.264,39. Bate centavo a centavo; links das parcelas mantidos.
+
+- Conferência 13/11/2026 (pedidos p171 e p172, auditoria) — soma refeita, confere:
+  - Arrecadado 2026 até 09: R$ 355.081.634,20 = Prefeitura 338.583.156,87 ("Totais:", Total Até Mês, p. 8 do 2026-09_PREF_016.pdf) + SAAE 16.498.477,33 ("Totais:", Total Até Mês, p. 2 do 2026-09_SAAE_016.pdf). Links do site (p. 8 e p. 2) certos; afirmações 3 e 17 são o mesmo número.

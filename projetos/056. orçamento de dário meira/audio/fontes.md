@@ -55,3 +55,8 @@ Valores na fala arredondados para 1 casa de milhão (ou mil); o exato vai nas pl
 - PNCP consultado de novo: licitação das 20 casas (13700174000109-1-000001/2026, publicada 23/06/2026, "Divulgada no PNCP"); nenhum contrato da Prefeitura publicado em 2026 (HTTP 204). Fala mantida: "Uma licitação de 20 casas abriu em junho. Até setembro, nada foi pago."
 - TCM: 01923E25 continua sem data de julgamento; 22269E23 com recurso julgado em 07/10/2025 (multa mantida). Sem mudança.
 - Tela conferida contra a fala na revisão (62 quadros + 6 refeitos na cena das casas): todos os valores das plaquinhas e chips iguais ao fontes.md.
+
+- Conferência 13/11/2026 (pedido p88 da auditoria): 71.004.694,00 é soma de dois documentos e não aparece escrito em nenhuma página. Conta refeita: 14.863.906,22 + 14.503.273,91 + 2.634.991,80 + 37.069.321,80 = 69.071.493,73 (Prefeitura, PCMGE015 09/2026) + 1.933.200,27 (Câmara, CAMARA_PCMGE015 09/2026 l.159) = 71.004.694,00. Bate centavo a centavo; links das parcelas mantidos.
+
+- Conferência 13/11/2026 (pedido p167, auditoria) — soma refeita, confere:
+  - Empenhado 2026 até 09: R$ 84.817.606,14 = Prefeitura 82.310.705,34 (total escrito na p. 58 do 2026-09_PCMGE015.pdf; parcelas 19.594.998,13 p. 22 + 16.599.808,77 p. 35 + 3.417.437,71 p. 43 + 42.698.460,73 p. 57) + Câmara 2.506.900,80 (Empenhos Até Mês, escrito nas p. 3 e 4 do 2026-09_CAMARA_PCMGE015.pdf). Link do site: p. 3.

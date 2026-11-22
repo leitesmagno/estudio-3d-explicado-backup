@@ -1,0 +1,4 @@
+
+- 16/11/2026 18:03: Magno aprovou ("pode aprovar tudo"); entrega entrega-20261116-1726 do Braniac publicada.
+- 20/11/2026 (pedido p776, Márcia): o número certo da Câmara 2024 é R$ 266.909.166,24 = 266,9 MILHÕES (fontes.md linha 38 está certa, E-Contas TCE-AM). A fala/plaquinha diz "266,9 bilhões" (unidade errada); no mesmo vídeo a Câmara 2025 sai "R$ 277,360 mil" (certo: R$ 277.363.591,16 = 277,36 milhões). Erro de UNIDADE na narração/tela, não de valor. Precisa corrigir texto e voz e refazer o vídeo (não refeito por esta tarefa, é render pesado).
+- 20/11/2026 (pedido p782, Márcia): 'Sobrou 2024' falado como 134,9 BILHÕES; o certo é R$ 134.930.559,88 = 134,9 MILHÕES (10.688.105.221,89 − 10.553.174.662,01, fontes.md linha 10 está certa). Mesmo erro de unidade do p776: corrigir texto/plaquinha e voz e refazer o vídeo (render pesado, pendente; juntar com o p776 numa só refação).

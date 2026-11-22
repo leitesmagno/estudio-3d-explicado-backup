@@ -1,0 +1,1 @@
+- 16/11/2026 (auditoria, sessão pedidos): no site, "Obras, limpeza e iluminação, 10 e 200" estava ligado por engano ao valor dos Precatórios FUNDEF (10.197.373,43, p. 48). Religado ao valor certo: Obras 2026 até set 10.183.012,80 (soma das funções 15+25+16+26+24, linha de setores acima).

@@ -104,3 +104,10 @@ Arquivos em `~/Documents/RECEITAS-DESPESAS-POTIRAGUA/documentos_tcm/` (o .txt é
 
 **Tribunal**: datas de envio de 2024 na lista do e-TCM (10 "Entregue fora do prazo": 02, 03, 04, 06, 07, 08, 09, 10, 11, 12/2024); processos 06251E25 e 25552E25 na página TCM-BA › Decisões › Auditoria, sem link de deliberação; status "Tomada de Contas" do anual 2025 na lista do e-TCM.
 Resultado: todos os números da fala, da tela, da capa e da legenda batem com os PDFs. Nenhum número saiu.
+
+**Reconferência da auditoria (13/11/2026 00:50, pedido da Aline):** R$ 3.866.323,74 (obras reservado 2024, afirmação 15) não aparece escrito em nenhuma página: é a soma da 1ª coluna (dotação inicial) das 46 linhas 4.4.90.51.00 de `~/Documents/RECEITAS-DESPESAS-POTIRAGUA/documentos_tcm/2024-12_PCMGE015.txt`. Conta refeita: 46 linhas = 3.866.323,74, bate.
+
+- Conferência 13/11/2026 (pedido p164, auditoria) — soma refeita, confere:
+  - Construir e reformar 2025, reservado R$ 2.980.534,00 = 1ª coluna (dotação inicial) das 45 linhas 4.4.90.51.00 do `2025-12_PCMGE015.txt` (42 com valor; linhas 19, 100, 109, 178, 187, 771, 772, 781, 782, 1064, 1065, 1071, 1072, 1148, 1152, 1153, 1209, 1210, 1376, 1532, 1599, 1660, 1671, 1735, 1825, 1879, 1892, 1957, 1965, 2046, 2107, 2108, 2930, 2931, 3148, 3297, 4263, 4264, 4265, 4266, 4267, 4268, 4877, 5313, 5314); maior parcela 1.170.259,00 na p. 19; o usado (21.597,54 + 151.124,89 + 113.690,30 = 286.412,73) está todo em 2025-12_PCMGE015.pdf p. 58. Link do site: p. 58.
+- Conferência 13/11/2026 (pedido p165, auditoria) — soma refeita, confere:
+  - Construir e reformar 2026, reservado R$ 6.126.300,00 = 1ª coluna (dotação inicial) das 49 linhas 4.4.90.51.00 do 2026-09_PCMGE015.pdf (48 com valor; páginas 1, 2, 5, 7, 8, 9, 11, 13, 14, 15, 16, 19, 20, 21, 23, 24, 28, 29, 30, 38, 52, 59); maior parcela na p. 16 (4.502.400,00 somando as linhas da página); o usado (liquidado) 270.306,90 (p. 16) + 352.000,00 (p. 30) + 128.022,13 (p. 59) = 750.329,03, conferido no 2026-09_PCMGE015.pdf. Link do site: p. 16.

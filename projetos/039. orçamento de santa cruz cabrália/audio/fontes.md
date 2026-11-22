@@ -22,12 +22,12 @@ Todos os números vêm dos documentos que a Prefeitura e a Câmara de Santa Cruz
 | Estradas da zona rural (26 Transporte = ação "Construção, ampliação e recuperação de estradas vicinais") | 0 | 9,020 | 7,255 |
 | Câmara (01) | 5,358 | 6,677 | 5,790 (PCMGE015 da Câmara) |
 | Dívidas (28 Encargos especiais: dívida, PASEP, sentenças) | 8,078 | 6,976 | 6,902 |
-| Cultura (13) | 1,172 (secretaria de Cultura, Esporte e Lazer) | 0,986 | 0,292 |
+| Cultura (13) | 1,172 = R$ 1.171.948,19 (PCAGO007 Anexo 9 2024, órgão 0210 SECEL, função "13 - Cultura"; fala "1 milhão e 200"; secretaria de Cultura, Esporte e Lazer) | 0,986 | 0,292 |
 | Turismo (23 Comércio e serviços = Secretaria de Turismo) | 3,158 | 3,488 | 3,718 |
 | Assistência social (08) | 4,706 | 4,064 | 3,159 |
 | Agricultura (20) | 0,374 | 0,691 | 0,393 |
 | Esporte (27) | 0 (dentro da Cultura, secretaria conjunta) | 0,354 | 0,415 |
-| Meio ambiente (18) | 1,244 | 0,785 | 0,502 |
+| Meio ambiente (18) | 1,244 = R$ 1.243.888,63 (PCAGO007 Anexo 9 2024, função "18 - Gestão Ambiental"; fala "1 milhão e 200") | 0,785 | 0,502 |
 | Assuntos indígenas (14 Direitos da cidadania = Sec. de Assuntos Indígenas) | 0,422 | 0,534 | 0,256 |
 | Água e saneamento (17) | 0 | 0 | 0 |
 
@@ -70,3 +70,29 @@ Todos os números vêm dos documentos que a Prefeitura e a Câmara de Santa Cruz
 
 ## Versão 4 do roteiro (07/11/2026)
 - Estrutura igual à do 035: zeros no fim dos blocos de 2024 e 2025; "Na secretaria de obras, o dinheiro mudou de lugar" (ações 1018 e 1040, órgão 215). 436 palavras, cerca de 2:59 a 1,2x. v3 em antigos/.
+
+## Conferências da auditoria (14/11/2026 madrugada, pedidos p275 e p276)
+- "Assistência social, 4 milhões e 700" (2024, empenhado, função 08): R$ 4.706.158,74, linha "08 - Assistência Social" do PCAGO007 Anexo 9 2024 (texto 2024_ANUAL_PCAGO007.txt, linha 44); igual ao Anexo 5 (PCAGO005) e ao "Total do Órgão" do PCMGE015 12/2024. Narração certa (4,71 mi → "4 milhões e 700").
+- "Estradas da zona rural / estradas, 7 milhões e 300" (2026 jan–set, liquidado, função 26): R$ 7.255.188,51, ação 215.2150.26.782.15.1.1040 "Construção, ampliação e recuperação de estradas vicinais", linha "Total do Projeto/Atividade", coluna Liquidações Até Mês, em 2026-09_MENSAL_PCMGE015 (texto linha 4580). Narração certa (7,26 mi → "7 milhões e 300").
+
+## Conferências da auditoria (14/11/2026 tarde, pedidos p329 e p330)
+- Narração "1 milhão e 700" (2026 jan–set, ruas, ação 1018 "Pavimentação, recuperação e drenagem de vias e logradouros públicos"): R$ 1.667.726,72 liquidado, linha "Total do Projeto/Atividade" do PCMGE015 09/2026 (texto linha 4377 de 2026-09_MENSAL_PCMGE015.txt). Arredondado = 1,7 mi. Narração certa.
+- Legenda "R$ 95,6 mi" (Educação 2024, função 12, empenhado): R$ 95.579.404,53, PCAGO007 Anexo 9 2024 (2024_ANUAL_PCAGO007.txt, linha 31). Arredondado = 95,6 mi. Legenda certa.
+
+## Conferência de soma (auditoria Márcia, pedidos p372 a p374, 14/11/2026)
+- Legenda "saúde R$ 30,8 mi" (2024): R$ 30.754.662,15, linha "10 - Saúde", 2024_ANUAL_PCAGO007.pdf p. 1 (Anexo 9, empenhado). 30,75 arredonda para 30,8. Legenda certa.
+| Soma conferida 14/11/2026: gastou a mais em 2025 | R$ 6.369.317,41 = 211.172.498,78 (despesa empenhada, "Total Geral", 2025_ANUAL_PCAGO007.pdf) − 204.803.181,37 (receita realizada, "SUBTOTAL DAS RECEITAS (III)", 2025_ANUAL_PCAGO015.pdf p. 1). Fala "6 milhões e 400" (6,37 arredonda para 6,4) certa. Link do site: p. 2 | RECEITAS-DESPESAS-CABRALIA/documentos_tcm/2025_ANUAL_PCAGO007.txt linha 115 |
+| Soma conferida 14/11/2026: dívidas e encargos 2026 até set | R$ 6.901.847,49 = 4.547.904,54 (ação 206.2060.28.843.4.3.905, p. 8) + 619.293,97 (28.846.4.3.901) + 1.734.648,98 (28.846.4.3.909), coluna Liquidação até o mês, 2026-09_MENSAL_PCMGE015.pdf. Fala "6,9 milhões" certa. Link do site: p. 9 | RECEITAS-DESPESAS-CABRALIA/documentos_tcm/2026-09_MENSAL_PCMGE015.txt linhas 510, 563 e 576 |
+
+## Conferência da auditoria (14/11/2026, Beatriz)
+- "R$ 11,9 mi" (obras 2025, legenda) = previsão inicial R$ 11.935.600,00 da ação de pavimentação/drenagem (linha 44 acima). OK.
+- "R$ 240 mil" (benefícios eventuais 2026 até set) = R$ 242.912,84 liquidado (arredondado p/ baixo, "cerca de"). "340 mil" = R$ 338.278,49 (2024). OK.
+
+## Conferência da auditoria (14/11/2026)
+- "3 milhões e 500" (narração): Turismo 2025 = R$ 3,488 mi (tabela de funções) → 3,5.
+- "5,8 milhões" (narração): Câmara 2026 até set = R$ 5,790 mi (PCMGE015 da Câmara) → 5,8.
+- Conferência (14/11/2026, pedido p493 da auditoria, texto do PDF): "R$ 24,6 mi" (legenda, 2025) = Transferências da União e de suas Entidades previstas R$ 24.635.000,00; arrecadado R$ 398.101,50 (ônibus escolar) (2025_ANUAL_PCAGO008.pdf, Anexo 10, linha 2.4.1). Arredondado, correto. Obs.: o total inclui também PAR escolar 2,585, CRAS 0,64, transferência especial 1,0 etc., além de escola 6,8, creche 3,0, esgoto 3,0 e drenagem 5,688; a legenda cita os principais.
+- Conferência (14/11/2026, pedido p521 da auditoria): "quase R$ 25 milhões da União para obras" (fala, 2025) = Transferências da União previstas R$ 24.635.000,00 (2025_ANUAL_PCAGO008.pdf, Anexo 10, linha 2.4.1); total de receitas de capital previstas R$ 25.517.000. Arredondado "quase 25 milhões", correto. Soma anotada: 24.635.000,00 ≈ 25 mi (diferença 1,5%).
+- Conferência (14/11/2026, pedidos p522/p523 da auditoria): "Câmara de Vereadores, 5 milhões e 400" (fala, 2024) = R$ 5,358 mi (tabela de funções, linha Câmara 01; PCMGE015 12/2024 da Câmara) → 5,36 arredonda para 5,4. Narração certa. Soma anotada: 5,358 ≈ 5,4.
+- Conferência (14/11/2026, p523): "já comprometeu mais 67 milhões" (fala, 2026) = R$ 66.870.000 ≈ 221,36 mi empenhado − 154,49 mi liquidado (PCMGE015 09/2026, Prefeitura + Câmara); 66,87 arredonda para 67. Soma anotada: 221,36 − 154,49 = 66,87 ≈ 67 mi. Narração certa.
+- Narração "Educação, 95 milhões e 600": R$ 95.579.404,53 (Educação 2024, função 12, empenhado, PCAGO007 Anexo 9, linha 31) arredondado = 95,6 mi. Conferido 14/11/2026: narração certa.

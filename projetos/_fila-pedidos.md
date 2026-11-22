@@ -12,3 +12,8 @@ Lido pelo coordenador. Só leitura: NUNCA responder no nome do Magno sem ele ped
 Conferido em 10/11/2026 ~16:45.
 
 Regra (Magno, 10/11 ~17h): só entram na fila de produção os pedidos de municípios da BAHIA. Pedidos de outros estados ficam anotados, mas fora da fila por enquanto.
+
+Pedidos vistos nos comentários do Instagram em 14/11/2026 (respondidos pelo Metricool com "pedido anotado"):
+| Jaguaquara | BA | 1 | 14/11/2026 06:43 | @otton_cb: "Faz de Jaguaquara" | NA FILA |
+| Amargosa | BA | 1 | 14/11/2026 06:02 | @milton.santana.1232: "Gostaria de saber da cidade de Amargosa" | NA FILA |
+| Lapão | BA | 1 | 14/11/2026 01:22 | @arthurvdourado: "Faz Lapão" | NA FILA |

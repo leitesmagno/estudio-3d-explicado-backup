@@ -1,0 +1,998 @@
+[
+  {
+    "text": "Seu",
+    "start": 0,
+    "end": 0.11,
+    "id": "w0"
+  },
+  {
+    "text": "carro",
+    "start": 0.19,
+    "end": 0.4,
+    "id": "w1"
+  },
+  {
+    "text": "pula",
+    "start": 0.45,
+    "end": 0.63,
+    "id": "w2"
+  },
+  {
+    "text": "igual",
+    "start": 0.63,
+    "end": 0.86,
+    "id": "w3"
+  },
+  {
+    "text": "kangaroo",
+    "start": 0.91,
+    "end": 1.32,
+    "id": "w4"
+  },
+  {
+    "text": "em",
+    "start": 1.32,
+    "end": 1.4,
+    "id": "w5"
+  },
+  {
+    "text": "cada",
+    "start": 1.43,
+    "end": 1.63,
+    "id": "w6"
+  },
+  {
+    "text": "buraco,",
+    "start": 1.63,
+    "end": 2.12,
+    "id": "w7"
+  },
+  {
+    "text": "pode",
+    "start": 2.21,
+    "end": 2.32,
+    "id": "w8"
+  },
+  {
+    "text": "ser",
+    "start": 2.32,
+    "end": 2.47,
+    "id": "w9"
+  },
+  {
+    "text": "o",
+    "start": 2.47,
+    "end": 2.52,
+    "id": "w10"
+  },
+  {
+    "text": "amortecedor",
+    "start": 2.52,
+    "end": 3.07,
+    "id": "w11"
+  },
+  {
+    "text": "pedindo",
+    "start": 3.07,
+    "end": 3.44,
+    "id": "w12"
+  },
+  {
+    "text": "aposentadoria.",
+    "start": 3.44,
+    "end": 4.48,
+    "id": "w13"
+  },
+  {
+    "text": "Mas",
+    "start": 4.48,
+    "end": 4.69,
+    "id": "w14"
+  },
+  {
+    "text": "o",
+    "start": 4.69,
+    "end": 4.76,
+    "id": "w15"
+  },
+  {
+    "text": "que",
+    "start": 4.76,
+    "end": 4.97,
+    "id": "w16"
+  },
+  {
+    "text": "é",
+    "start": 4.97,
+    "end": 5.04,
+    "id": "w17"
+  },
+  {
+    "text": "o",
+    "start": 5.04,
+    "end": 5.11,
+    "id": "w18"
+  },
+  {
+    "text": "amortecedor?",
+    "start": 5.11,
+    "end": 6.1,
+    "id": "w19"
+  },
+  {
+    "text": "Ele",
+    "start": 6.1,
+    "end": 6.21,
+    "id": "w20"
+  },
+  {
+    "text": "fica",
+    "start": 6.29,
+    "end": 6.49,
+    "id": "w21"
+  },
+  {
+    "text": "junto",
+    "start": 6.49,
+    "end": 6.77,
+    "id": "w22"
+  },
+  {
+    "text": "da",
+    "start": 6.77,
+    "end": 6.88,
+    "id": "w23"
+  },
+  {
+    "text": "mola,",
+    "start": 6.88,
+    "end": 7.21,
+    "id": "w24"
+  },
+  {
+    "text": "em",
+    "start": 7.21,
+    "end": 7.32,
+    "id": "w25"
+  },
+  {
+    "text": "cada",
+    "start": 7.32,
+    "end": 7.5,
+    "id": "w26"
+  },
+  {
+    "text": "roda",
+    "start": 7.54,
+    "end": 7.76,
+    "id": "w27"
+  },
+  {
+    "text": "do",
+    "start": 7.76,
+    "end": 7.87,
+    "id": "w28"
+  },
+  {
+    "text": "carro",
+    "start": 7.87,
+    "end": 8.07,
+    "id": "w29"
+  },
+  {
+    "text": "ou",
+    "start": 8.07,
+    "end": 8.31,
+    "id": "w30"
+  },
+  {
+    "text": "da",
+    "start": 8.31,
+    "end": 8.37,
+    "id": "w31"
+  },
+  {
+    "text": "moto.",
+    "start": 8.37,
+    "end": 8.78,
+    "id": "w32"
+  },
+  {
+    "text": "A",
+    "start": 8.84,
+    "end": 8.9,
+    "id": "w33"
+  },
+  {
+    "text": "mola",
+    "start": 8.9,
+    "end": 9.14,
+    "id": "w34"
+  },
+  {
+    "text": "segura",
+    "start": 9.14,
+    "end": 9.5,
+    "id": "w35"
+  },
+  {
+    "text": "o",
+    "start": 9.5,
+    "end": 9.52,
+    "id": "w36"
+  },
+  {
+    "text": "peso",
+    "start": 9.57,
+    "end": 9.8,
+    "id": "w37"
+  },
+  {
+    "text": "e",
+    "start": 9.8,
+    "end": 9.86,
+    "id": "w38"
+  },
+  {
+    "text": "engolha",
+    "start": 9.86,
+    "end": 10.24,
+    "id": "w39"
+  },
+  {
+    "text": "o",
+    "start": 10.28,
+    "end": 10.34,
+    "id": "w40"
+  },
+  {
+    "text": "buraco.",
+    "start": 10.34,
+    "end": 10.82,
+    "id": "w41"
+  },
+  {
+    "text": "Só",
+    "start": 10.92,
+    "end": 11.03,
+    "id": "w42"
+  },
+  {
+    "text": "que,",
+    "start": 11.11,
+    "end": 11.32,
+    "id": "w43"
+  },
+  {
+    "text": "sozinha,",
+    "start": 11.39,
+    "end": 11.88,
+    "id": "w44"
+  },
+  {
+    "text": "ela",
+    "start": 11.88,
+    "end": 12.06,
+    "id": "w45"
+  },
+  {
+    "text": "fica",
+    "start": 12.06,
+    "end": 12.29,
+    "id": "w46"
+  },
+  {
+    "text": "balançando",
+    "start": 12.3,
+    "end": 12.88,
+    "id": "w47"
+  },
+  {
+    "text": "igual",
+    "start": 13.13,
+    "end": 13.2,
+    "id": "w48"
+  },
+  {
+    "text": "cama",
+    "start": 13.2,
+    "end": 13.44,
+    "id": "w49"
+  },
+  {
+    "text": "elástica.",
+    "start": 13.44,
+    "end": 14.12,
+    "id": "w50"
+  },
+  {
+    "text": "O",
+    "start": 14.12,
+    "end": 14.18,
+    "id": "w51"
+  },
+  {
+    "text": "amortecedor",
+    "start": 14.18,
+    "end": 14.8,
+    "id": "w52"
+  },
+  {
+    "text": "freia",
+    "start": 14.85,
+    "end": 15.14,
+    "id": "w53"
+  },
+  {
+    "text": "esse",
+    "start": 15.14,
+    "end": 15.38,
+    "id": "w54"
+  },
+  {
+    "text": "balanço.",
+    "start": 15.38,
+    "end": 16.04,
+    "id": "w55"
+  },
+  {
+    "text": "Por",
+    "start": 16.04,
+    "end": 16.15,
+    "id": "w56"
+  },
+  {
+    "text": "dentro",
+    "start": 16.23,
+    "end": 16.52,
+    "id": "w57"
+  },
+  {
+    "text": "ele",
+    "start": 16.52,
+    "end": 16.68,
+    "id": "w58"
+  },
+  {
+    "text": "tem",
+    "start": 16.68,
+    "end": 16.84,
+    "id": "w59"
+  },
+  {
+    "text": "um",
+    "start": 16.84,
+    "end": 16.9,
+    "id": "w60"
+  },
+  {
+    "text": "tubo",
+    "start": 16.95,
+    "end": 17.15,
+    "id": "w61"
+  },
+  {
+    "text": "cheio",
+    "start": 17.15,
+    "end": 17.4,
+    "id": "w62"
+  },
+  {
+    "text": "de",
+    "start": 17.4,
+    "end": 17.51,
+    "id": "w63"
+  },
+  {
+    "text": "óleo",
+    "start": 17.51,
+    "end": 17.71,
+    "id": "w64"
+  },
+  {
+    "text": "e",
+    "start": 17.71,
+    "end": 17.76,
+    "id": "w65"
+  },
+  {
+    "text": "uma",
+    "start": 17.76,
+    "end": 17.85,
+    "id": "w66"
+  },
+  {
+    "text": "haste",
+    "start": 17.91,
+    "end": 18.18,
+    "id": "w67"
+  },
+  {
+    "text": "com",
+    "start": 18.25,
+    "end": 18.34,
+    "id": "w68"
+  },
+  {
+    "text": "um",
+    "start": 18.34,
+    "end": 18.44,
+    "id": "w69"
+  },
+  {
+    "text": "pistão",
+    "start": 18.44,
+    "end": 18.72,
+    "id": "w70"
+  },
+  {
+    "text": "cheio",
+    "start": 18.79,
+    "end": 19.01,
+    "id": "w71"
+  },
+  {
+    "text": "de",
+    "start": 19.01,
+    "end": 19.11,
+    "id": "w72"
+  },
+  {
+    "text": "furinhos.",
+    "start": 19.11,
+    "end": 19.75,
+    "id": "w73"
+  },
+  {
+    "text": "Quando",
+    "start": 19.78,
+    "end": 20.04,
+    "id": "w74"
+  },
+  {
+    "text": "a",
+    "start": 20.04,
+    "end": 20.08,
+    "id": "w75"
+  },
+  {
+    "text": "roda",
+    "start": 20.08,
+    "end": 20.23,
+    "id": "w76"
+  },
+  {
+    "text": "sobe",
+    "start": 20.25,
+    "end": 20.4,
+    "id": "w77"
+  },
+  {
+    "text": "e",
+    "start": 20.4,
+    "end": 20.44,
+    "id": "w78"
+  },
+  {
+    "text": "desce,",
+    "start": 20.44,
+    "end": 20.73,
+    "id": "w79"
+  },
+  {
+    "text": "o",
+    "start": 20.73,
+    "end": 20.77,
+    "id": "w80"
+  },
+  {
+    "text": "óleo",
+    "start": 20.77,
+    "end": 20.94,
+    "id": "w81"
+  },
+  {
+    "text": "tem",
+    "start": 20.94,
+    "end": 21.07,
+    "id": "w82"
+  },
+  {
+    "text": "que",
+    "start": 21.07,
+    "end": 21.18,
+    "id": "w83"
+  },
+  {
+    "text": "passar",
+    "start": 21.21,
+    "end": 21.46,
+    "id": "w84"
+  },
+  {
+    "text": "pelos",
+    "start": 21.46,
+    "end": 21.67,
+    "id": "w85"
+  },
+  {
+    "text": "furinhos,",
+    "start": 21.68,
+    "end": 22.24,
+    "id": "w86"
+  },
+  {
+    "text": "e",
+    "start": 22.24,
+    "end": 22.3,
+    "id": "w87"
+  },
+  {
+    "text": "isso",
+    "start": 22.3,
+    "end": 22.54,
+    "id": "w88"
+  },
+  {
+    "text": "segura",
+    "start": 22.54,
+    "end": 22.89,
+    "id": "w89"
+  },
+  {
+    "text": "o",
+    "start": 22.94,
+    "end": 22.96,
+    "id": "w90"
+  },
+  {
+    "text": "movimento.",
+    "start": 22.96,
+    "end": 23.72,
+    "id": "w91"
+  },
+  {
+    "text": "É",
+    "start": 23.72,
+    "end": 23.77,
+    "id": "w92"
+  },
+  {
+    "text": "assim",
+    "start": 23.77,
+    "end": 24.03,
+    "id": "w93"
+  },
+  {
+    "text": "que",
+    "start": 24.03,
+    "end": 24.17,
+    "id": "w94"
+  },
+  {
+    "text": "o",
+    "start": 24.19,
+    "end": 24.23,
+    "id": "w95"
+  },
+  {
+    "text": "pneu",
+    "start": 24.23,
+    "end": 24.4,
+    "id": "w96"
+  },
+  {
+    "text": "continua",
+    "start": 24.45,
+    "end": 24.84,
+    "id": "w97"
+  },
+  {
+    "text": "colado",
+    "start": 24.84,
+    "end": 25.12,
+    "id": "w98"
+  },
+  {
+    "text": "no",
+    "start": 25.15,
+    "end": 25.24,
+    "id": "w99"
+  },
+  {
+    "text": "chão,",
+    "start": 25.24,
+    "end": 25.53,
+    "id": "w100"
+  },
+  {
+    "text": "e",
+    "start": 25.59,
+    "end": 25.66,
+    "id": "w101"
+  },
+  {
+    "text": "você",
+    "start": 25.66,
+    "end": 25.69,
+    "id": "w102"
+  },
+  {
+    "text": "tem",
+    "start": 25.93,
+    "end": 26.08,
+    "id": "w103"
+  },
+  {
+    "text": "freio",
+    "start": 26.08,
+    "end": 26.37,
+    "id": "w104"
+  },
+  {
+    "text": "e",
+    "start": 26.37,
+    "end": 26.4,
+    "id": "w105"
+  },
+  {
+    "text": "curva",
+    "start": 26.47,
+    "end": 26.72,
+    "id": "w106"
+  },
+  {
+    "text": "com",
+    "start": 26.72,
+    "end": 26.9,
+    "id": "w107"
+  },
+  {
+    "text": "segurança.",
+    "start": 26.9,
+    "end": 27.63,
+    "id": "w108"
+  },
+  {
+    "text": "Mas",
+    "start": 27.64,
+    "end": 27.75,
+    "id": "w109"
+  },
+  {
+    "text": "quando",
+    "start": 27.83,
+    "end": 28.09,
+    "id": "w110"
+  },
+  {
+    "text": "ele",
+    "start": 28.11,
+    "end": 28.27,
+    "id": "w111"
+  },
+  {
+    "text": "gasta,",
+    "start": 28.27,
+    "end": 28.63,
+    "id": "w112"
+  },
+  {
+    "text": "o",
+    "start": 28.63,
+    "end": 28.68,
+    "id": "w113"
+  },
+  {
+    "text": "carro",
+    "start": 28.68,
+    "end": 28.94,
+    "id": "w114"
+  },
+  {
+    "text": "balança,",
+    "start": 28.94,
+    "end": 29.41,
+    "id": "w115"
+  },
+  {
+    "text": "o",
+    "start": 29.41,
+    "end": 29.45,
+    "id": "w116"
+  },
+  {
+    "text": "pneu",
+    "start": 29.52,
+    "end": 29.66,
+    "id": "w117"
+  },
+  {
+    "text": "gasta",
+    "start": 29.72,
+    "end": 29.93,
+    "id": "w118"
+  },
+  {
+    "text": "torto,",
+    "start": 29.93,
+    "end": 30.32,
+    "id": "w119"
+  },
+  {
+    "text": "e",
+    "start": 30.39,
+    "end": 30.4,
+    "id": "w120"
+  },
+  {
+    "text": "o",
+    "start": 30.4,
+    "end": 30.44,
+    "id": "w121"
+  },
+  {
+    "text": "freio",
+    "start": 30.44,
+    "end": 30.67,
+    "id": "w122"
+  },
+  {
+    "text": "demora",
+    "start": 30.67,
+    "end": 30.95,
+    "id": "w123"
+  },
+  {
+    "text": "mais",
+    "start": 30.95,
+    "end": 31.2,
+    "id": "w124"
+  },
+  {
+    "text": "pra",
+    "start": 31.2,
+    "end": 31.28,
+    "id": "w125"
+  },
+  {
+    "text": "parar.",
+    "start": 31.28,
+    "end": 31.8,
+    "id": "w126"
+  },
+  {
+    "text": "E",
+    "start": 31.9,
+    "end": 31.96,
+    "id": "w127"
+  },
+  {
+    "text": "óleo",
+    "start": 31.96,
+    "end": 32.21,
+    "id": "w128"
+  },
+  {
+    "text": "escorrendo",
+    "start": 32.21,
+    "end": 32.81,
+    "id": "w129"
+  },
+  {
+    "text": "nele",
+    "start": 32.84,
+    "end": 33.06,
+    "id": "w130"
+  },
+  {
+    "text": "é",
+    "start": 33.07,
+    "end": 33.13,
+    "id": "w131"
+  },
+  {
+    "text": "sinal",
+    "start": 33.13,
+    "end": 33.44,
+    "id": "w132"
+  },
+  {
+    "text": "de",
+    "start": 33.44,
+    "end": 33.56,
+    "id": "w133"
+  },
+  {
+    "text": "vazamento.",
+    "start": 33.56,
+    "end": 34.4,
+    "id": "w134"
+  },
+  {
+    "text": "Teste",
+    "start": 34.4,
+    "end": 34.67,
+    "id": "w135"
+  },
+  {
+    "text": "rápido.",
+    "start": 34.67,
+    "end": 35.2,
+    "id": "w136"
+  },
+  {
+    "text": "Aperte",
+    "start": 35.2,
+    "end": 35.48,
+    "id": "w137"
+  },
+  {
+    "text": "a",
+    "start": 35.48,
+    "end": 35.53,
+    "id": "w138"
+  },
+  {
+    "text": "frente",
+    "start": 35.53,
+    "end": 35.82,
+    "id": "w139"
+  },
+  {
+    "text": "do",
+    "start": 35.82,
+    "end": 35.88,
+    "id": "w140"
+  },
+  {
+    "text": "carro",
+    "start": 35.93,
+    "end": 36.15,
+    "id": "w141"
+  },
+  {
+    "text": "e",
+    "start": 36.15,
+    "end": 36.2,
+    "id": "w142"
+  },
+  {
+    "text": "solte.",
+    "start": 36.2,
+    "end": 36.6,
+    "id": "w143"
+  },
+  {
+    "text": "Se",
+    "start": 36.64,
+    "end": 36.75,
+    "id": "w144"
+  },
+  {
+    "text": "ficar",
+    "start": 36.75,
+    "end": 37.03,
+    "id": "w145"
+  },
+  {
+    "text": "quicando,",
+    "start": 37.03,
+    "end": 37.55,
+    "id": "w146"
+  },
+  {
+    "text": "procura",
+    "start": 37.58,
+    "end": 37.96,
+    "id": "w147"
+  },
+  {
+    "text": "o",
+    "start": 37.96,
+    "end": 38,
+    "id": "w148"
+  },
+  {
+    "text": "mecânico.",
+    "start": 38,
+    "end": 38.61,
+    "id": "w149"
+  },
+  {
+    "text": "Precisa",
+    "start": 38.68,
+    "end": 39.03,
+    "id": "w150"
+  },
+  {
+    "text": "de",
+    "start": 39.03,
+    "end": 39.08,
+    "id": "w151"
+  },
+  {
+    "text": "amortecedor,",
+    "start": 39.15,
+    "end": 39.78,
+    "id": "w152"
+  },
+  {
+    "text": "mola,",
+    "start": 39.78,
+    "end": 40.05,
+    "id": "w153"
+  },
+  {
+    "text": "ou",
+    "start": 40.08,
+    "end": 40.18,
+    "id": "w154"
+  },
+  {
+    "text": "qualquer",
+    "start": 40.18,
+    "end": 40.57,
+    "id": "w155"
+  },
+  {
+    "text": "peça",
+    "start": 40.58,
+    "end": 40.79,
+    "id": "w156"
+  },
+  {
+    "text": "pro",
+    "start": 40.89,
+    "end": 40.94,
+    "id": "w157"
+  },
+  {
+    "text": "seu",
+    "start": 40.94,
+    "end": 41.09,
+    "id": "w158"
+  },
+  {
+    "text": "carro",
+    "start": 41.09,
+    "end": 41.35,
+    "id": "w159"
+  },
+  {
+    "text": "ou",
+    "start": 41.35,
+    "end": 41.45,
+    "id": "w160"
+  },
+  {
+    "text": "moto.",
+    "start": 41.45,
+    "end": 41.92,
+    "id": "w161"
+  },
+  {
+    "text": "Chama",
+    "start": 41.92,
+    "end": 42.18,
+    "id": "w162"
+  },
+  {
+    "text": "atinho",
+    "start": 42.18,
+    "end": 42.49,
+    "id": "w163"
+  },
+  {
+    "text": "auto",
+    "start": 42.49,
+    "end": 42.7,
+    "id": "w164"
+  },
+  {
+    "text": "peças.",
+    "start": 42.7,
+    "end": 43.16,
+    "id": "w165"
+  }
+]

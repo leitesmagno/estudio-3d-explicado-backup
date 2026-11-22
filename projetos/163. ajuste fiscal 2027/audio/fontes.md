@@ -1,0 +1,19 @@
+# 163. ajuste fiscal 2027: fontes (checadas em 14/11/2026)
+
+Vídeo NACIONAL, fora do site. Sem nomes de autoridades: só cargos. Neutro: os dois lados.
+
+1. Ajuste de R$ 60 bilhões em 2027, apresentado pelo ministro do Planejamento na CMO em 11/11/2026; não é "choque fiscal", não leva a recessão; piso da saúde 2027 R$ 272,2 bi; educação R$ 141,2 bi, "R$ 2,4 bilhões a mais que o piso"; retirada das receitas extras do petróleo das contas dos pisos: https://www12.senado.leg.br/noticias/materias/2026/11/11/ministro-do-planejamento-anuncia-na-cmo-ajuste-fiscal-de-r-60-bi-em-2027
+   - Faixa mais recente do Executivo: R$ 45,1 bi a R$ 56,1 bi no primário (InvestNews). O roteiro usa "60 bilhões" como "o tamanho do ajuste que o governo quer", que é o número do ministro.
+2. PLP 299/2026 apresentado no Senado em 11/11/2026 (autor: senador do PT-BA, líder do governo), relator senador do MDB-AM: https://investnews.com.br/economia/ajuste-fiscal-entenda-as-medidas-propostas-pelo-governo-lula/
+3. Gatilho: crescimento real das despesas cai de 2,5% para 2% ao ano quando houver contingenciamento para cumprir o piso da meta; acionado, "o gatilho não poderá ser revertido" no mesmo ano: https://jornaldebrasilia.com.br/noticias/politica-e-poder/entenda-ponto-a-ponto-o-plano-moretti-proposta-de-ajuste-fiscal-do-governo-lula/ ; https://www.congressoemfoco.com.br/noticia/131525/governo-apresenta-plano-de-ajuste-fiscal-com-economia-de-ate-r-60-bi
+4. Benefícios tributários: corte linear sobe de 10% para 20%; fora: Zona Franca de Manaus, áreas de livre comércio, cesta básica, Prouni, Minha Casa Minha Vida, micro e pequenas empresas, TI e semicondutores, CPRB: https://www.congressoemfoco.com.br/noticia/131525/governo-apresenta-plano-de-ajuste-fiscal-com-economia-de-ate-r-60-bi ; https://investnews.com.br/economia/ajuste-fiscal-entenda-as-medidas-propostas-pelo-governo-lula/
+5. Supersalários: 120 dias para o Congresso regulamentar; economia de cerca de R$ 3 bi em 2027: https://jornaldebrasilia.com.br/noticias/politica-e-poder/entenda-ponto-a-ponto-o-plano-moretti-proposta-de-ajuste-fiscal-do-governo-lula/
+6. Petróleo: até 2030, receitas extraordinárias do petróleo (venda de óleo da União e Imposto de Exportação sobre petróleo) saem da RCL, base do piso da saúde (15% da RCL): mesmas fontes 1 e 3; regra de 15% da RCL e exclusão já feita na LC 235/2026 para 2027 (Raio X PLOA 2027, Câmara): https://www2.camara.leg.br/orcamento-da-uniao/raio-x-do-orcamento/2027/RaioX_PLOA_2027.pdf
+7. Saúde no PLOA 2026: R$ 245,6 bilhões para ações e serviços públicos de saúde: https://futurodasaude.com.br/?p=35929 ; https://medicinasa.com.br/?p=143004
+   - Atenção: comparação é PLOA 2026 (proposta) x piso 2027 (ministro). Roteiro diz "o projeto do Orçamento de 2026 previa".
+8. Protegidos do contingenciamento: benefícios previdenciários e assistenciais, salários de servidores, pisos de saúde e educação: https://jornaldebrasilia.com.br/noticias/politica-e-poder/entenda-ponto-a-ponto-o-plano-moretti-proposta-de-ajuste-fiscal-do-governo-lula/
+9. Ajuda o Banco Central a baixar juros (argumento do governo/defensores): coluna da Folha citada no vídeo de referência; e ministro: "não é choque fiscal" (fonte 1). Roteiro atribui ao governo.
+10. Crítica: CNM aponta queda nominal de cerca de R$ 2,1 bi (3,8%) na média e alta complexidade dos municípios no Orçamento de 2027: https://brasil61.com/n/saude-orcamento-de-2027-preve-corte-de-r-2-1-bilhoes-para-media-e-alta-complexidade-nos-municipios-bras2617413.amp
+11. Votação: 12/11/2026, texto principal aprovado por 45 a 31; quatro destaques para terça, 17/11; depois Câmara: https://www12.senado.leg.br/noticias/materias/2026/11/12/mesmo-com-urgencia-projeto-de-ajuste-fiscal-foi-alterado-por-emendas
+
+Antes de postar: reconferir resultado dos destaques (17/11) e se o texto mudou o trecho do petróleo.

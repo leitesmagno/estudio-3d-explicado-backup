@@ -18,4 +18,8 @@
 - Folhas: 3 de receita + 33 por setor (scripts/folhas.py, somas conferidas; IPTU mantido na folha de 2025 porque é falado).
 - Revisão (78 quadros em todas as viradas de fala, olhados em folhas de contato): tela igual à fala, nada sobreposto, 90 px das laterais. Corrigido: Esporte 2025 aparecia "R$ 579 MIL" (fala "578 mil"): valor com 5 casas no ANOS. Revisão APROVADA (modo autônomo).
 - ★ Melhoria (regra 14): torre do valor COMPROMETIDO (empenhado) de 2026 ao lado do gasto, e a comparação de 2024 na mesma gaveta e escala da torre dos eventos (assistência + agricultura + esporte), com chip "OS TRÊS JUNTOS: R$ 6,6 MI · EVENTOS: R$ 10,2 MI".
-- Etapa: vídeo final (esperando a trava de render).
+- Vídeo final (10:07 a 11:00, trava de render, nice e concorrência 1, sem aviso de calor): 5.352 quadros, 178,40 s, 1080x1920, 36 folhas coladas; volume médio -18,5 dB, pico -3,4 dB.
+- Capa: "Eventos 2024: / previa 4,65 mi. / Gastou: / R$ 10,2 mi." (fundo OrcamentoRiachaoDoJacuipeLimpo quadro 5000); pílula sem o ano (cortava na borda).
+- Legenda: edicoes/090.../RIACHÃO DO JACUÍPE - legenda.txt (hashtags só #RiachaoDoJacuipe #MagnoLeiteExplica, ⚖️ AVISO, comentário fixado).
+- Etapa: ENTREGUE 11/11/2026 ~11:05: ~/Documents/VIDEOS PRONTOS - FOLHA POR SETOR/RIACHÃO DO JACUÍPE.mp4 (cp -c); edicoes/090.../RIACHÃO DO JACUÍPE.mp4, capa e legenda; fontes.md em ~/Documents/FONTES; transcricao/transcript.md (67 frases). Travas soltas; apagados (meus): render-sem-folha, partes-google, junto/curto/sil.wav, revisao/*.jpg, folha-pdf/tmp. Nenhum chrome-headless-shell aberto. Site: com o coordenador.
+- PAUSA GERAL recebida em 11/11 11:02: nada em andamento (vídeo já entregue), nenhuma trava comigo, nenhum script na fila.

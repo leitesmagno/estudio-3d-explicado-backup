@@ -29,7 +29,7 @@ Conferência no Fundo Nacional de Saúde (consultafns.saude.gov.br): NÃO feita 
 |---|---|---|---|---|
 | Gastou 2024: R$ 62.343.632,74 | 2024_ANUAL_PCAGO015.pdf | p.1, "SUBTOTAL DAS DESPESAS (XI)" | Despesas liquidadas (empenhado 63.215.677,04) | fala "62 milhões e 300" |
 | = Prefeitura R$ 60.702.454,12 + Câmara R$ 1.641.178,62 | 2024-12_PCMGE015.pdf p.73 "Total do Poder" (liquidações até mês) | Câmara = Balanço - Prefeitura (o PCMGE015 da Câmara é escaneado, sem texto) | | |
-| Sobraram 2024: R$ 2.757.389,33 | conta: 65.101.022,07 - 62.343.632,74 | | | fala "2 milhões e 800" |
+| Sobraram 2024: R$ 2.757.389,33 | conta: 2.757.389,33 = 65.101.022,07 - 62.343.632,74 (2024_ANUAL_PCAGO015.pdf p.1) | | | fala "2 milhões e 800" |
 | Gastou 2025: R$ 69.730.537,98 | 2025_ANUAL_PCAGO015.pdf | p.1, "SUBTOTAL DAS DESPESAS (XI)" (o texto cola empenhada 70.975.036,85 e liquidada) | Despesas liquidadas | fala "69 milhões e 700" |
 | = Prefeitura R$ 67.638.225,40 + Câmara R$ 2.092.312,58 | 2025-12_PCMGE015.pdf p.90 "Total do Poder" | Câmara = Balanço - Prefeitura | | |
 | Sobraram 2025: R$ 2.124.541,18 | conta: 71.855.079,16 - 69.730.537,98 | | | fala "2 milhões e 100" |
@@ -68,7 +68,7 @@ Conferência no Fundo Nacional de Saúde (consultafns.saude.gov.br): NÃO feita 
 | Valor exato | Documento | Onde aparece |
 |---|---|---|
 | 2024: previsto (dotação inicial da LOA) R$ 1.146.176,00; dotação atualizada R$ 3.768.309,00; liquidado R$ 2.978.986,43 (serviços de pessoa jurídica 2.707.971,50, dos quais 255.000,00 pela fonte 1701) | 2024-12_PCMGE015.pdf p.26, ação 2.2030.13.392.50.2.2117 | fala "previa 1 milhão e 100 em 2024 e gastou 3 milhões" |
-| 2025: previsto R$ 1.792.600,00; atualizada R$ 4.983.829,60; liquidado R$ 3.506.924,38 (pessoa jurídica 3.209.249,90, dos quais 408.000,00 pela fonte 1701) | 2025-12_PCMGE015.pdf p.29-30 | fala "previa 1 milhão e 800 e gastou 3 milhões e 500" |
+| 2025: previsto R$ 1.792.600,00; atualizada R$ 4.983.829,60; liquidado R$ 3.506.924,38 (pessoa jurídica 3.209.249,90, dos quais 408.000,00 pela fonte 1701) | 2025-12_PCMGE015.pdf p.30 (Total do Projeto/Atividade; conferido 14/11/2026) | fala "previa 1 milhão e 800 e gastou 3 milhões e 500" |
 | 2026 até set: previsto R$ 1.890.000,00; atualizada R$ 4.690.000,00; liquidado R$ 3.955.313,25 | 2026-09_PCMGE015.pdf p.32 | fala "previa 1 milhão e 900, e até setembro já foram quase 4 milhões" |
 | O PDF não separa bandas e palco: tudo está em "Outros serviços de terceiros - pessoa jurídica" (3.3.90.39.99). | | o vídeo não fala de bandas nem palco |
 | Comparação do fecho: assistência social 2025 R$ 1.719.655,55 x festas 2025 R$ 3.506.924,38 | acima | pergunta final |
@@ -80,3 +80,13 @@ Conferência no Fundo Nacional de Saúde (consultafns.saude.gov.br): NÃO feita 
 ## Regra 111 (site)
 - PCAGO015 de 2017 a 2025 em documentos_tcm (2017, 2018 e 2019 vieram sem código, achados pelo título "Balanço Orçamentário"; 2017 e 2018 escaneados).
 - extrai_balancos.py pegou 2019, 2020, 2022, 2023 e 2024. 2017, 2018, 2021 e 2025 anotados à mão em SITE-EUMAGNOLEITE/dados/balancos_manuais.json ("CANDIBA", com página, linha e nota).
+
+## Conferência de soma (auditoria Aline, pedido p158, 13/11/2026)
+- Gastou 2026 até set R$ 49.783.121,50 é soma e não aparece escrito em nenhum PDF: Prefeitura 48.241.888,76 (2026-09_PCMGE015.pdf p. 99, "Total do Poder", Liquidações Até Mês) + Câmara 1.541.232,74 (2026-09_PCMGE065.pdf p. 68, seção da Câmara, liquidado; o mesmo valor está em 2026-09_CAMARA_PCMGE015.pdf p. 4) = 49.783.121,50. Parcelas lidas de novo nos PDFs; links certos. Número e fala sem mudança.
+
+## Conferência de soma (auditoria Aline, pedido p241, 14/11/2026)
+- Impostos e taxas 2025 R$ 4.246.316,63 = IPTU 14.114,20 + ITBI 89.859,56 + IR 2.239.324,31 (arrecadado 2.239.770,73 − anulado 446,42) + ISS 1.854.808,07 (arrecadado 1.855.220,01 − anulado 411,94) + taxas 48.210,49, 2025-12_PCMGE016.pdf. Link do site: p. 1
+
+- Conferência 14/11 (Antônio): contas refeitas e corretas: 71.855.079,16 − 69.730.537,98 = 2.124.541,18; SUS 6.533.092,11 + 358.749,68 + 3.632.988,00 = 10.524.829,79. Parcelas ligadas ao PCAGO015 p.1 e PCMGE016 p.3/6/8.
+
+- Auditoria 15/11 (Antônio, p633/p634): contas refeitas e corretas: 72.198.703,25 − 343.624,09 = 71.855.079,16 (PCMGE016 p.10 total e anulada; PCAGO015 p.1) e 7.617.964,13 − 36,11 = 7.617.928,02 (PCMGE016 p.5, 1.7.1.5). São valores líquidos (arrecadada − anulada), por isso não aparecem escritos.

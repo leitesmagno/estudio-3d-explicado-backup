@@ -63,7 +63,7 @@ Regra: "gastou" = LIQUIDADO. Receita = total declarado ao TCM (Balanço = Receit
     - Serviços de empresas, assessoria e consultoria: 1.533.691,13
     - Indenizações e restituições: 961.263,63
     - Diárias, passagens e material: 324.258,85
-- Dívidas: 52.447.743,37 · faixa: Pessoal (salários e encargos): R$ 0,00
+- Dívidas: 52.447.743,37 · faixa: Pessoal (salários e encargos): R$ 0,00 · soma conferida em 13/11/2026 (pedido p155): 2024-12_PCMGE015.pdf p.71, ação 2103 Amortização da dívida 49.589.704,64 + ação 2104 Contribuição ao PASEP 2.858.038,73, liquidado
     - Parcelas da dívida (principal): 37.339.704,64
     - Sentenças judiciais: 12.250.000,00
     - PASEP, tributos e contribuições: 2.858.038,73
@@ -114,6 +114,7 @@ Regra: "gastou" = LIQUIDADO. Receita = total declarado ao TCM (Balanço = Receit
     - Gestão das ações do FUNDEB 30% - ensino fundam…: 10.959.329,21
     - Outras 7 ações: 23.694.843,43
 - Saúde: 184.892.318,26 · faixa: Pessoal (salários e encargos): R$ 95.492.556,22 · diárias: R$ 408.573,28
+    - Conferido em 12/11/2026 (auditoria p66): o total está escrito em 07_2025-13_ANUAL_REC_ANEXO_09_PM_1b458c.pdf p.4 (Anexo 9 anual 2025); o Corretor já religou o número a essa página. Número e fala sem mudança.
     - Gestão da atenção a saude da população para pr…: 57.860.373,84
     - Incentivo financeiro da aps - capitação ponder…: 25.490.485,03
     - Manutencao da secretaria de saude: 22.700.296,48
@@ -188,6 +189,7 @@ Regra: "gastou" = LIQUIDADO. Receita = total declarado ao TCM (Balanço = Receit
     - Coordenação e manutenção dos serviços administ…: 545.425,14
     - Promoção e realização do carnaval: 140.000,00
     - Subvenção para a banda marcial guerreiros da b…: 100.000,00
+    - Conta conferida em 12/11/2026 (auditoria p65; é soma, não aparece pronto no PDF): 2025-12_PCMGE015.pdf, coluna liquidado até o mês, "Total do Órgão" da SECRETARIA MUNICIPAL DE TURISMO p.36 = 5.912.871,80 + SECRETARIA MUNICIPAL DE CULTURA p.39 = 3.879.163,92 = 9.792.035,72 (conta refeita com saida/acoes_2025.json). Número e fala sem mudança.
 
 ### 2026 · ~/Documents/RECEITAS-DESPESAS-ILHEUS/documentos_tcm/2026-08_PCMGE015.pdf (Prefeitura) + 2026-08_CAMARA_PCMGE015.pdf (escaneado, lido na imagem) + 2026-08_SUTRAM_PCMGE015.pdf + 2026-08_ULMM_PCMGE015.pdf
 - Educação: 150.235.199,12 · faixa: Pessoal (salários e encargos): R$ 132.829.371,44 · diárias: R$ 5.882,00
@@ -276,7 +278,7 @@ Regra: "gastou" = LIQUIDADO. Receita = total declarado ao TCM (Balanço = Receit
     - Manutenção dos serviços técnicos e apoio admin…: 72.561,77
     - Fomento às atividades artísticas e culturais: 26.500,00
 
-Classificação: por secretaria/unidade do PCMGE015 (script ~/Documents/RECEITAS-DESPESAS-ILHEUS/scripts/setores.py). Dívidas = função 28 (2024, 2025) e, em 2026, as ações 0001, 0006, 0007, 0008, 0020, 0099 da Sec. da Fazenda (PASEP, precatórios, serviço da dívida, restituições). Cultura e turismo = Sec. de Cultura + Sec. de Turismo (com os fundos). Administração e demais secretarias = gabinetes, procuradoria, controladoria, casa civil, relações institucionais, gestão, fazenda (sem a dívida), interior, desenvolvimento econômico, políticas para mulheres, transição. Fora da fala: Ordem Pública/Guarda/Defesa Civil (função 06): 2024 24.773.833,93; 2025 31.232.038,13; 2026 14.237.544,60.
+Classificação: por secretaria/unidade do PCMGE015 (script ~/Documents/RECEITAS-DESPESAS-ILHEUS/scripts/setores.py). Dívidas = função 28 (2024, 2025) e, em 2026, as ações 0001, 0006, 0007, 0008, 0020, 0099 da Sec. da Fazenda (PASEP, precatórios, serviço da dívida, restituições). Cultura e turismo = Sec. de Cultura + Sec. de Turismo (com os fundos). Administração e demais secretarias = gabinetes, procuradoria, controladoria, casa civil, relações institucionais, gestão, fazenda (sem a dívida), interior, desenvolvimento econômico, políticas para mulheres, transição. Fora da fala: Ordem Pública/Guarda/Defesa Civil (função 06): 2024 24.773.833,93; 2025 31.232.038,13; 2026 14.237.544,60. Conta Cultura e turismo 2026 (liquidado até agosto): 13.369.304,51 = 1.543.544,87 (15 - Sec. Municipal de Cultura, 2026-08_PCMGE015.pdf p.37) + 11.825.759,64 (17 - Sec. Municipal de Turismo, p.43); conferido em 14/11/2026.
 Câmara 2026: PCMGE015 escaneado, lido na imagem (páginas 2 a 5) e conferido com o total de cada ação: 1001 ampliação 160.894,60; 2001 administração 4.759.844,70; 2002 pessoal e encargos 744.765,23; 2003 gabinetes dos vereadores 219.000,00 (só diárias); 2166 gestão de pessoal 17.358.893,76 (vencimentos 10.370.711,51, 13º 795.502,41, férias 154.100,13, subsídios dos agentes políticos 2.906.400,00, INSS 2.780.560,68 lido como 2.780.560/580, fechado pelo total, indenizações 351.619,03); 2164 e 2165 zero. Soma 23.243.398,29 = RESUMO.
 Duodécimo: 2024 → 2024-13_CAMARA_PCAGE062.pdf (Recebimento do Duodécimo 24.968.939,26; Devolução 3.245.040,68; Despesas Orçamentárias 21.752.235,87). 2025 → 2025-13_CAMARA_PCAGE062.pdf página 2, escaneada (Recebimento 29.777.689,56; Devolução 300.000,00; Despesas 29.477.684,83; saldo 4,73). 2026 → 2026-08_PCMGE018.pdf da Prefeitura, conta 3.5.1.1.2.02.02 Repasse concedido ao Poder Legislativo 24.155.504,56.
 
@@ -360,3 +362,16 @@ Duodécimo: 2024 → 2024-13_CAMARA_PCAGE062.pdf (Recebimento do Duodécimo 24.9
 - Tarifas das autarquias 2026 até ago: 10.594,92 → SUTRAM 9.527,86 (fonte 1752) + Fundação 1.067,06 (fonte 1500), elemento 3.3.90.39.81, Liquidações até mês, 2026-08_SUTRAM_PCMGE015.pdf e 2026-08_ULMM_PCMGE015.pdf; 2024: nenhuma linha nos PCMGE015 da SUTRAM, Fundação e Câmara; 2025: PCMGE015 consolidado sem subelemento → não falado (fica no fontes)
 - "Tarifa pode ser negociada: já existe prefeitura com isenção total no contrato com o banco" → pesquisa do coordenador, regra 51b de projetos/_coordenacao-sessoes.md (09/11/2026): convênio de folha que isentou município e servidores de tarifas; editais de folha que proíbem tarifa na conta do município. Frase aprovada pelo coordenador; nenhum município citado → fala, chip
 - (cortado da fala na v3) Contas anuais 2024 e 2025 sem julgamento → TCM-BA > Decisões > Contas Anuais > Detalhe: 2024 processo 09700e25 e 2025 processo 10094e26, "Transitado em julgado: Não", última decisão em branco. Registro: documentos_tcm/decisoes/contas-anuais-2024-2025_consulta-09-11-2026.txt (09/11/2026 00:24) → fala, pastas
+
+## Conferência da auditoria (14/11/2026, pedido p296 da Aline)
+- Fala "Administração 2026 (até agosto): R$ 92.459.299,00" = SOMA do valor liquidado de 99 ações de 11 órgãos da Prefeitura (Gestão R$ 61.413.738,78 · Fazenda R$ 8.530.313,72 · Casa Civil R$ 6.063.933,78 · Gabinete do Prefeito R$ 4.768.423,18 · Interior R$ 4.358.206,88 · Desenvolvimento R$ 2.936.276,90 · Procuradoria R$ 2.850.043,61 · Controladoria R$ 576.776,58 · Relações R$ 413.236,33 · Vice-Prefeito R$ 316.985,56 · Políticas para R$ 231.363,68), tudo no 2026-08_PCMGE015.pdf da Prefeitura (Câmara, SUTRAM e ULMM não entram nesse setor). Soma refeita: R$ 92.459.299,00, exata (RECEITAS-DESPESAS-ILHEUS/saida/setores.json).
+- As 81 parcelas com valor liquidado maior que zero foram achadas no texto do PDF; a maior, Administração de pessoal da Secretaria de Gestão, R$ 44.004.865,37, está na p. 5. O total não aparece escrito em página nenhuma porque é soma de várias páginas; o número está certo e não precisa de correção na fala nem no site.
+
+## Conferência da auditoria (14/11/2026, pedido p312)
+- Assistência social 2025: R$ 11.715.314,81 = unidade 12001 Secretaria Municipal de Promoção Social e Combate à Pobreza 7.825.202,34 (2025-12_PCMGE015.pdf p.30, "Total da Unidade", liquidado até o mês) + unidade 12002 Fundo Municipal de Assistência Social 3.890.112,47 (2025-12_PCMGE015.pdf p.32, "Total da Unidade", liquidado até o mês). Soma refeita e confere. Link do site: p. 30
+
+- Nota de auditoria 14/11/2026 (pedido p457): Meio ambiente 3.550.306,59 = soma das ações 2.888.692,53 + 651.614,06 + 10.000,00 (conferida), liquidado até dez/2024, 2024-12_PCMGE015.pdf; não é uma linha única do PDF.
+- Soma conferida (auditoria 14/11): Transporte e trânsito 12.004.093,64 = 7.350.000,00 + 3.052.809,11 + 708.718,88 + 528.178,68 + 364.386,97 (ações da função em 2025-12_PCMGE015.pdf; não é linha única da p.1).
+- Conferência (14/11/2026, pedidos p519/p520): Meio ambiente 2026 = 2.793.136,25 (linha 260) e Educação 2025 = 231.152.117,22 (linha 108) são SOMAS das ações por secretaria (valor liquidado), não um número único na página; fontes: 2026-08_PCMGE015.pdf (+ Câmara, SUTRAM, ULMM) e 2025-12_PCMGE015.pdf. Soma já anotada acima; sem correção.
+
+| Soma conferida 14/11/2026: sobra 2025 | R$ 37.153.116,59 = 827.151.896,90 (receita realizada) − 789.998.780,31 (despesa liquidada), 2025_PCAGO015.pdf. Conta própria: o número não está escrito em nenhum PDF | RECEITAS-DESPESAS-ILHEUS/documentos_tcm/2025_PCAGO015.txt |

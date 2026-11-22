@@ -1,0 +1,11 @@
+# 165. dark horse e as emendas
+- Perfil: @eumagnoleite · Código: darkhorse · Nome: DarkHorse
+- Vídeo NACIONAL (explicativo), NÃO é prefeitura: NÃO vai para o site. Sem nomes de autoridades, só cargos.
+- Pedido (14/11/2026, Magno no chat): 4 vídeos Kit Mapas + Estúdio 3D a partir do vídeo do canal Desmascarando; "pode soltar bala", sem perguntar; conferir roteiro e fontes 3 vezes. Roteiro conferido = aprovado (modo autônomo).
+- 14/11: roteiro e fontes escritos; conferência 1 (Claude x fontes) feita; conferência 2 (IAs do Xandão) feita e correções aplicadas (163 contingenciamento; 164 quase 67%; 165 lista completa de crimes; sugestão de trocar 'duas investigações' recusada: são dois inquéritos distintos no STF).
+- 14/11: Magno liberou ("pode começar"); estilo eumagnoleite (moldes 152/156), nada da Tinho.
+- Conferência 3 feita (palavras proibidas, nomes, BB maior financiador confirmado).
+- Voz Google Algenib (rate 1,3, sem atempo, no ritmo do 152); transcrição local + alinhamento OK.
+- Código: src/videos/<codigo>/ + base comum src/videos/comum/Explicativo.tsx; Kit Mapas: src/videos/<pasta>-16x/ + nacionais-comum.tsx; mapas/mapa.mp4.
+- 15/11: revisão (2 rodadas, escalas corrigidas), render, capa e legenda feitos. ENTREGUE em edicoes/ (video final.mp4, capa.jpg, legenda do post.txt). Fontes copiadas para ~/Documents/FONTES. NÃO postado.
+- Antes de postar: ver 'Antes de postar' no audio/fontes.md.

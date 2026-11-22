@@ -108,6 +108,9 @@ def trabalhador():
 trabalhador.pegos = set()
 
 
+import threading as _th
+_TRAVA_PROX = _th.Lock(); _PROX = None
+
 class H(BaseHTTPRequestHandler):
     def log_message(self, *a): pass
 
@@ -127,6 +130,20 @@ class H(BaseHTTPRequestHandler):
 
     def do_GET(self):
         u = urllib.parse.urlparse(self.path); q = urllib.parse.parse_qs(u.query)
+        if u.path == "/etcm.js":   # 16/11/2026: baixador genérico por cidade (window.__MUN, window.__PASTA)
+            corpo = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "baixa_etcm.js"), "rb").read()
+            self._cab(200); self.send_header("Content-Type", "text/javascript; charset=utf-8"); self.end_headers(); self.wfile.write(corpo); return
+        if u.path == "/proxima":   # 16/11/2026: entrega a próxima cidade da fila_fontes.json, do FIM para o começo (abas do Chrome)
+            global _PROX
+            L = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "fila_fontes.json"), encoding="utf-8"))
+            with _TRAVA_PROX:
+                if _PROX is None: _PROX = len(L)
+                _PROX -= 1; i = _PROX
+            corpo = json.dumps(L[i] if i >= 0 else None, ensure_ascii=False).encode()
+            self._cab(200); self.end_headers(); self.wfile.write(corpo); return
+        if u.path == "/fila_fontes.json":   # 16/11/2026: cidades e prestações que faltam (PDFs citados nos fontes.md)
+            corpo = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "fila_fontes.json"), "rb").read()
+            self._cab(200); self.end_headers(); self.wfile.write(corpo); return
         if u.path == "/cofre.js":
             corpo = open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "cofre_pagina.js"), "rb").read()
             self._cab(200); self.send_header("Content-Type", "text/javascript; charset=utf-8"); self.end_headers(); self.wfile.write(corpo); return

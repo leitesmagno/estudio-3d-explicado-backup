@@ -1,0 +1,12 @@
+# 143. orçamento de itatim
+- Perfil: @eumagnoleite (id: eumagnoleite)
+- O número 143 está REPETIDO DE PROPÓSITO: o coordenador decidiu manter, em 12/11/2026. O outro projeto, "143. dino x deputados do PL", não é de contas públicas, não vai para o site e tem outro nome de pasta.
+- Código previsto: orcamentoitatim · Nome OrcamentoItatim. Kit Mapas: orcamento-itatim (IBGE 2916856).
+- Lote LARANJA, L32. Modo autônomo quando liberado; molde 137 Cordeiros (baixador já corrigido, `o.t`). Legenda com ⚖️ AVISO e #Itatim #MagnoLeiteExplica. Regra 111.
+- Pastas: projetos/143. orçamento de itatim, edicoes/143. orçamento de itatim, ~/Documents/RECEITAS-DESPESAS-ITATIM/ (documentos_tcm, siconfi, scripts, logs, saida).
+- 12/11/2026 ~04:25: PESQUISA INICIAL sem navegador: IBGE (Censo 2022 15.737 hab.); SICONFI RREO 2024/2025 6º bim, 2026 4º bim e DCA 2024/2025 (siconfi/). Cruzamento em audio/fontes.md; notícias em referencias/noticias.md; esqueleto em audio/roteiro-esqueleto.md.
+- Pistas: Cultura 5,8 / 8,2 / 6,4 mi (provável São João); complementação da União ao Fundeb 19,4 e 28,2 mi; Câmara 2,3 x 3,4 mi; encargos especiais zerados em 2024 e 2025.
+- 12/11/2026: PAUSA por ordem do Magno (vai fazer outro vídeo). Nada de trava nem processo até o coordenador mandar seguir.
+- Etapa: 1 (levantamento). ESPERANDO o "pode pesquisar" do coordenador (fila do TCM: Dom Basílio, Feira da Mata, Firmino Alves, Irecê, Itatim).
+- 13/11/2026 02:30: ORDEM DO MAGNO: o Braniac faz este vídeo INTEIRO (teste). Pacote 143-ITATIM - instrucoes para o Braniac.zip no Drive "Magno e Xandão" (método TCM, regras, visual, modelo 150 Salvador, exemplo 139, SICONFI de Itatim; sem código licenciado, sem chaves, sem as notícias internas) + recado pelo Link. A esteira não pesquisa Itatim; quando chegar o fontes.md do Braniac, auditar (auditoria_contas.py); quando chegar o vídeo, conferir número por número e cena por cena contra o modelo.
+- 15/11/2026: APROVADO pelo Magno ("aprovo todos") e entregue no site; transcrição pelo Whisper da Groq.

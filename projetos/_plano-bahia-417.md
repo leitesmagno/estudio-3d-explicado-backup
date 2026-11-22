@@ -1,5 +1,8 @@
 # Plano: todos os municípios da Bahia (417)
 
+**Previsão atualizada em 11/11/2026 ~16:45:** 100 com vídeo, 317 faltam. Ritmo "aos poucos" (pedido do Magno): no máximo 3 cidades ativas e 1 render por vez, cerca de 15 vídeos por dia. Primeiro termina o Lote LARANJA: Itaberaba, Senhor do Bonfim, Entre Rios, Monte Santo e L21 a L50, que são 33 cidades, até cerca de 14/11. Depois vêm 284 cidades por região, até cerca de 02/12/2026. É uma ESTIMATIVA: atrasos no TCM, correções e pedidos urgentes empurram as datas. As datas da tabela abaixo são da conta antiga, com 25 por dia, e ficaram adiantadas.
+
+
 Gerado em 10/11/2026 ~17h pelo coordenador. Prontos ou em produção: 75. Faltam 342.
 
 Ritmo usado na conta: ~25 vídeos por dia (2 a 3 cidades ao mesmo tempo, 1 render por vez; medido em 10/11: ~20 vídeos em 16 h). É uma ESTIMATIVA: atrasos no TCM, correções e pedidos urgentes empurram as datas.

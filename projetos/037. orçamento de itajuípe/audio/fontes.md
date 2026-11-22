@@ -67,3 +67,20 @@ Valores em R$ milhões.
 
 ## 2ª conferência (07/11/2026, pedido do Magno)
 Tabela frase por frase em `~/Documents/RECEITAS-DESPESAS-ITAJUIPE/saida/CHECAGEM_ROTEIRO.md`. Mudanças: 2026 sem "sobrou" (empenhado passa do arrecadado); multa "ao gestor"; "zero em programas" em agricultura e meio ambiente nos 3 anos; obras e zona rural presas ao nome da ação; "dívidas e encargos"; fecho e capa só com o fato de 2026.
+
+## Conferência da auditoria (13/11/2026)
+- Narração "Educação, 48 milhões e 800" (2025): Anexo 9 de 2025 (2025_TCM_ANUAL__PCAGO007, função Educação, linha "Total") = R$ 48.756.540,82. Arredondado para 48,8 milhões. Narração certa.
+- Narração "a Festa do Micapedro já levou 4 milhões e 500" (2026): PCMGE015 09/2026 da Prefeitura, ação 1.314.13.392.2.2.2107 "Realização dos festejos do Micapedro", total do projeto/atividade: empenhado até o mês R$ 4.481.537,20; liquidado R$ 4.480.772,70; pago R$ 4.351.734,12. Arredondado para 4,5 milhões (diferença de cerca de R$ 19 mil, 0,4%). Narração aceitável como arredondamento; não refazer o vídeo.
+- Legenda "R$ 5,5 mi do precatório do Fundef" (2025): PCMGE015 12/2025 da Prefeitura, ação 5.305.12.122.1.2.2031 "Precatório FUNDEF", total do projeto/atividade liquidado até o mês = R$ 5.526.181,74. Legenda certa.
+
+## Valor com centavos (conferência da auditoria, 14/11/2026)
+- Educação 2026 até setembro ("Educação, R$ 39,6 milhões"): R$ 39.591.265,91 (PCMGE015 09/2026, Total do Órgão da Educação, coluna da função 12; arredondado = 39,6 mi). Narração certa.
+
+## Conferência da auditoria (14/11/2026)
+- Fala 2025 "Cultura, 2 milhões e 900" = R$ 2,852 mi (tabela de despesa acima, função 13, Anexo 9 2025), arredondado para 2,9 mi. Conferido: bate.
+- Fala 2025 "Dívidas, 9 milhões e 100" = R$ 9,140 mi (função 28, Anexo 9 2025), arredondado para 9,1 mi. Conferido: bate.
+- Cultura 2025 exata: R$ 2.852.412,96 (PCAGO007 2025, Total, coluna Cultura).
+
+- Conferência (14/11/2026, pedido p525 da auditoria): "Administração, R$ 26 milhões" (fala, 2026 até set) = R$ 26,156 mi (tabela de funções, Administração da prefeitura, coluna 2026; PCMGE015 09/2026) → 26,2 arredonda para 26 mi. Narração certa. Soma anotada: 26,156 ≈ 26 mi (diferença 0,6%).
+
+- Conferência 14/11/2026 (Beatriz): "10 milhões e 900" = Obras e serviços urbanos 2025 R$ 10,866 mi (arredonda 10,9); "4 milhões e 200" = Água e esgoto (SAAE) 2025 R$ 4,174 mi (arredonda 4,2). Ambos conferidos na tabela de despesa 2025 (Anexo 9); narração correta.

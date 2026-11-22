@@ -21,10 +21,11 @@ Regras de agrupamento (conta própria, explicada): Obras, limpeza e iluminação
 - Educação: R$ 38.677.999,56 → fala "38 e 700" · plaquinha · folha
 - Saúde: R$ 20.836.222,58 → fala "20 e 800" · plaquinha · folha
 - Administração: R$ 13.414.756,23 → fala "13 e 400" · plaquinha · folha
+  - SOMA conferida (auditoria 14/11): liquidado de 7 ações em 2024-12_PCMGE015 (arquivo .txt, linhas): 2.2101 Gabinete 653.494,51 (l.73) + 2.2102 Procuradoria 349.793,24 (l.85) + 2.2103 Sec. Administração 10.758.135,77 (l.139/208) + 2.2107 Finanças 1.432.345,21 (l.266) + 2.2930 Dia do Evangélico 0,00 (l.774) + 2.5012 Planejamento 48.737,50 (l.1109) + 2.2148 Controle Interno 172.250,00 (l.1234) = 13.414.756,23 (saida/acoes_norm_2024.json, org Administração)
 - Obras, limpeza e iluminação: R$ 17.824.663,39 → fala "17 e 800" · plaquinha · folha
 - Câmara de Vereadores: R$ 3.046.382,11 → fala "3 milhões" · plaquinha · folha
 - Dívidas: R$ 2.878.835,54 → fala "2 e 900" · plaquinha · folha
-- Cultura: R$ 2.068.642,13 → fala "2 e 100" · plaquinha · folha
+- Cultura: R$ 2.068.642,13 → fala "2 e 100" · plaquinha · folha · soma conferida em 13/11/2026 (pedido p154): 2024-12_PCMGE015.pdf p.16, ação 2.2135 (ações culturais, esportivas e turísticas) 697.642,13 + ação 2.2151 (festejos tradicionais) 1.371.000,00, coluna liquidado
 - Assistência social: R$ 2.740.452,73 → fala "2 e 700" · plaquinha · folha
 - Meio ambiente e turismo: R$ 532.437,75 → fala "530 mil" · plaquinha · folha
 - Esporte: R$ 29.811,64 → fala "30 mil" · plaquinha · folha
@@ -32,14 +33,16 @@ Regras de agrupamento (conta própria, explicada): Obras, limpeza e iluminação
 ### 2025 · soma do liquidado ("Liquidações Até Mês" do "Total do Projeto/Atividade") das ações da Prefeitura em ~/Documents/RECEITAS-DESPESAS-UBAITABA/documentos_tcm/2025-12_PCMGE015.pdf (SIGA dez/2025); extraído em ~/Documents/RECEITAS-DESPESAS-UBAITABA/saida/acoes_*.json (scripts/acoes015c.py, scripts/setores.py)
 - Educação: R$ 39.866.843,01 → fala "39 e 900" · plaquinha · folha
 - Saúde: R$ 22.128.414,64 → fala "22 e 100" · plaquinha · folha
-- Administração: R$ 11.920.484,81 → fala "11 e 900" · plaquinha · folha
+- Administração: R$ 11.920.484,81 → fala "11 e 900" · plaquinha · folha · soma conferida em 15/11/2026 (pedido p588): 2025-12_PCMGE015.pdf, coluna liquidado do "Total do Projeto/Atividade" das ações 2.2101 Gabinete 1.322.128,12 + 2.2102 Procuradoria 240.487,34 + 2.2148 Controle Interno 266.734,30 + 2.2103 Administração 7.967.040,96 + 2.2107 Finanças 1.957.670,53 + 2.5012 Planejamento 166.423,56 = 11.920.484,81 (não é uma linha só; por isso não aparece escrito em um lugar)
 - Obras, limpeza e iluminação: R$ 13.141.080,19 → fala "13 e 100" · plaquinha · folha
 - Câmara de Vereadores: R$ 3.565.234,23 → fala "3 milhões e 600" · plaquinha · folha
+  - Conferido em 12/11/2026 (auditoria p64): o valor está escrito em 2025-12_CAMARA_PCMGE015.pdf (PCMGE015 da própria Câmara, dez/2025), linha "Total do Poder", coluna liquidado até o mês = 3.565.234,23; também em 2025-13_CAMARA_PCAGE062.pdf, "Despesas Orçamentárias" 3.565.234,23. O site ligava ao PCMGE015 da Prefeitura (onde a Câmara não aparece); o link certo é o PDF da Câmara. Número e fala sem mudança.
 - Dívidas: R$ 3.883.017,85 → fala "3 milhões e 900" · plaquinha · folha
 - Cultura: R$ 2.021.991,56 → fala "2 milhões" · plaquinha · folha
 - Assistência social: R$ 3.035.497,41 → fala "3 milhões" · plaquinha · folha
 - Meio ambiente e turismo: R$ 541.730,33 → fala "540 mil" · plaquinha · folha
 - Esporte: R$ 124.520,00 → fala "125 mil" · plaquinha · folha
+  - SOMA conferida (pedido p589, 15/11/2026): 2025-12_PCMGE015.txt, coluna liquidado do "Total do Projeto/Atividade": ação 2.2112 Apoio ao esporte amador 84.500,00 (linha 3678 do .txt) + ação 2.2905 Escolinha de canoagem 40.020,00 (linha 3729) = 124.520,00. O número não está escrito numa linha só; é soma de 2 ações. Páginas do PDF a religar quando o PDF for rebaixado do e-TCM (cópia local do PDF foi apagada na limpeza).
 - Agricultura: R$ 0,00 → fala "zero" · plaquinha · folha
 ### 2026 · soma do liquidado ("Liquidações Até Mês" do "Total do Projeto/Atividade") das ações da Prefeitura em ~/Documents/RECEITAS-DESPESAS-UBAITABA/documentos_tcm/2026-09_PCMGE015.pdf (SIGA set/2026); extraído em ~/Documents/RECEITAS-DESPESAS-UBAITABA/saida/acoes_*.json (scripts/acoes015c.py, scripts/setores.py)
 - Educação: R$ 31.223.763,69 → fala "31 e 200" · plaquinha · folha
@@ -49,7 +52,9 @@ Regras de agrupamento (conta própria, explicada): Obras, limpeza e iluminação
 - Câmara de Vereadores: R$ 2.934.957,40 → fala "2 milhões e 900" · plaquinha · folha
 - Dívidas: R$ 2.532.815,79 → fala "2 milhões e 500" · plaquinha · folha
 - Cultura: R$ 1.617.419,21 → fala "1 e 600" · plaquinha · folha
+  - SOMA conferida (pedido p597, 15/11/2026): Cultura 2026 R$ 1.617.419,21 = 591.419,90 (ação 2.2038 Festejos juninos, p. 59) + 632.973,48 (ação 2.2135 Gestão das ações e atividades culturais, artísticas, esportivas e turísticas, p. 61) + 393.025,83 (ação 2.2151 Festejos e atividades tradicionais populares e culturais, p. 61); coluna Liquidações Até Mês do "Total do Projeto/Atividade", 2026-09_PCMGE015.pdf (txt: linhas 3389, 3501, 3512 de documentos_tcm/2026-09_PCMGE015.txt). O número não está escrito numa linha só; é soma de 3 ações (a ação 1.1150, p. 58-59, liquidou 0,00).
 - Assistência social: R$ 2.464.536,01 → fala "2 e meio" · plaquinha · folha
+  - Assistência social 2026 R$ 2.464.536,01 = 2.070,00 (p. 10) + 1.749.708,88 (p. 41) + 135.884,93 (p. 43) + 165.645,69 (p. 43) + 92.413,85 (p. 44) + 82.853,21 (p. 46) + 211.868,82 (p. 48) + 4.530,38 (p. 49) + 5.726,35 (p. 50) + 13.833,90 (p. 51), Liquidações Até Mês, 2026-09_PCMGE015.pdf (função 08 + ações da Secretaria de Desenvolvimento Social/FMAS; soma refeita e conferida 14/11/2026, pedido p259). Link do site: p. 41.
 - Meio ambiente e turismo: R$ 561.813,27 → fala "560 mil" · plaquinha · folha
 - Esporte: R$ 133.023,50 → fala "133 mil" · plaquinha · folha
 - Agricultura: R$ 304.519,20 → fala "305 mil" · plaquinha · folha
@@ -86,3 +91,5 @@ Notícias conferidas de novo: nenhuma notícia muda fato dito no vídeo (sem obr
 - Dívidas 2025: R$ 3.883.017,85 (mesma linha do setor Dívidas acima) → "3 milhões e 900" · torre e plaquinha "R$ 3,9 MI".
 - Câmara 2025: R$ 3.565.234,23 → "3 milhões e 600".
 - Faixa "Pessoal (salários e encargos) · diárias" de cada folha: soma dos elementos 3.1.90.04/11/13/16/94, 3.1.91.13 e auxílio-alimentação (pessoal) e 3.3.90.14 (diárias) de todas as ações do setor no PCMGE015 do ano, coluna liquidado; a soma de todos os elementos fecha com o liquidado de cada setor (diferença 0,00; só Administração 2025 tem R$ 59,39 numa linha quebrada de serviços de pessoa jurídica, fora do pessoal). Script ~/Documents/RECEITAS-DESPESAS-UBAITABA/scripts/pessoal.py → saida/pessoal_setor.json.
+
+| Soma conferida 14/11/2026: Administração 2026 | R$ 8.977.108,29 = soma do liquidado (liq) das ações da Prefeitura com org "Administração" em saida/acoes_norm_2026.json, extraídas de 2026-09_PCMGE015.pdf. É soma de várias linhas: o número não está escrito em nenhuma página | RECEITAS-DESPESAS-UBAITABA/saida/acoes_norm_2026.json |

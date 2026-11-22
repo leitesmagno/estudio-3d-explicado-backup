@@ -17,6 +17,8 @@ Precisa de: `projetos/NNN. nome/audio/narracao-norm.wav` e `projetos/NNN. nome/a
 .venv/bin/python tools/transcrever.py "projetos/NNN. nome"
 ```
 
+Motor (desde 11/11/2026): por padrão usa a **Groq na nuvem** (Whisper large-v3, chave no Chaveiro `groq-agente`), cerca de 5 s em vez de 4 min e sem esquentar o Mac. Se a Groq falhar, ele cai sozinho no faster-whisper local. Para forçar: `--motor local` ou `--motor groq`. Testado no 093: depois do alinhamento, a diferença mediana para o local foi 0,04 s (máximo 0,86 s em trechos de número), por isso confira os números na revisão como sempre.
+
 O script usa o `roteiro-falado.txt` como dica de vocabulário. Opções úteis: `--modelo small` em computador mais simples, `--idioma pt` (padrão). Se já existir um `palavras.json`, ele guarda o antigo como `palavras-anterior.json`.
 
 Saída em `projetos/NNN. nome/transcricao/`:

@@ -801,7 +801,7 @@ export const CapaOrcamentoRiachaoDoJacuipe: React.FC<{estilo?: string; linhas?: 
     <AbsoluteFill style={{backgroundColor: tema.fundo}}>
       <Img src={staticFile(fundo)} style={{position: 'absolute', left: 0, top: desce, width: W, height: H}} />
       <AbsoluteFill style={{background: `linear-gradient(180deg, ${tema.fundo} 0px, ${tema.fundo} ${desce + 10}px, ${tema.fundo}00 ${desce + 300}px)`}} />
-      <Pilula tema={tema} estado={`${SERIE} · RIACHÃO DO JACUÍPE · 2024`} t={1} troca={0} y={SEGURO.topo + 160} />
+      <Pilula tema={tema} estado={`${SERIE} · RIACHÃO DO JACUÍPE`} t={1} troca={0} y={SEGURO.topo + 160} />
       <div style={{position: 'absolute', left: SEGURO.esq, right: W - SEGURO.dir, top: SEGURO.topo + 250}}>
         {linhas.map((l, k) => (
           <div key={k} style={{fontFamily: FONTE, fontSize: l.length > 10 ? 100 : 120, fontWeight: 850, letterSpacing: -5, lineHeight: 1.0, color: k === linhas.length - 1 ? tema.acento : tema.texto, whiteSpace: 'nowrap'}}>

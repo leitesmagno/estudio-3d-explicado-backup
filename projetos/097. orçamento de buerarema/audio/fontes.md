@@ -56,7 +56,7 @@ Arquivos: 2024-12_PCMGE065.pdf (76 ações) · 2025-12_PCMGE065.pdf (77 ações)
 | Valor | Arquivo | Página · linha |
 |---|---|---|
 | recebeu da prefeitura 2.982.132,75 em 2024 | 2024-12_CAMARA_PCMGE018.pdf (razão) | p.7 · 4.5.1.1.2.02.00 REPASSE RECEBIDO · Creditado até o mês |
-| sobrou 225,61 em 2024 | conta própria | 2.982.132,75 − 2.981.907,14 (liquidado) |
+| sobrou 225,61 em 2024 | 2024-12_CAMARA_PCMGE018.pdf e 2024-12_CAMARA_PCMGE015.pdf | conta própria (reconferida 12/11 22:40): 2.982.132,75 repasse recebido (PCMGE018 p.7) − 2.981.907,14 liquidado (PCMGE015 p.3, Total do Órgão) = 225,61 |
 | recebeu 3.423.866,97 em 2025 | 2025-12_CAMARA_PCMGE018.pdf | p.8 · REPASSE RECEBIDO · Creditado até o mês |
 | devolveu 16.118,97 em 2025 | 2025-12_CAMARA_PCMGE018.pdf | p.7 · 3.5.1.1.2.09.00 DEVOLUÇÃO DE TRANSFERÊNCIAS · Debitado até o mês |
 | recebeu 2.818.603,71 até set/2026 | 2026-09_CAMARA_PCMGE018.pdf | p.7 · REPASSE RECEBIDO · Creditado até o mês |
@@ -83,3 +83,6 @@ Não usadas no vídeo. Nenhuma obra ou serviço é citado como feito ou não fei
 - 2026 sem gasto: relidas as linhas TOTAL das ações 1.022, 2.057, 2.062 e 2.033 (empenhado, liquidado e pago 0,00). CORREÇÃO: o caminhão da agricultura (ação 1.026) tinha liquidado 0,00 mas 700.000,00 EMPENHADOS; foi trocado no roteiro pela proteção à criança (2.033) e a voz do parágrafo foi refeita (roteiro v1 guardado em "roteiro-falado (versão 1).txt").
 - Dívida: Anexo 16 de 2025 relido (TOTAIS 85.030.493,37; INSS 71.983.270,04 + 5.000.000,00 + 19.669,15).
 - Câmara (folhas): razão PCMGE018 dos três anos relido (repasse recebido e devolução).
+
+## Conferência da auditoria (13/11/2026, pedido p159 da Márcia)
+- Fala "previam 1 milhão e 200" (2026, Natal sem Fome + segurança alimentar + habitação + proteção à criança) = soma de 4 ações do 2026-09_PCMGE065.pdf, linha TOTAL DA AÇÃO/PROJETO, dotação atual: 198.243,00 (p. 22) + 322.000,45 (p. 23) + 403.492,11 (p. 24) + 322.363,07 (ação 2.033 começa na p. 27; o TOTAL DA AÇÃO fica na p. 28) = 1.246.098,63. Nas quatro, empenhado, liquidado e pago 0,00. Arredondado para 1,2 mi na fala (padrão "X milhões e Y" na centena de mil): está certo. Correção só de página: a 4ª parcela está escrita na p. 28, não na p. 27. Número e fala sem mudança.

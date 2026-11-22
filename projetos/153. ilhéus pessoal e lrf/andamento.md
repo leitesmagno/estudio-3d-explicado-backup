@@ -1,0 +1,12 @@
+# 153. ilhéus pessoal e lrf
+- Perfil: @eumagnoleite · Código: pessoalilheus · Nome: PessoalIlheus
+- Pedido do Magno em 13/11/2026 (conversa da varredura de Ilhéus): vídeo sobre o atraso das contas e o gasto com pessoal x LRF, Kit Mapas + Estúdio 3D. Modo autônomo (roteiro revisado = aprovado).
+- Sem nome de gestor; tom informativo. Levantamento: ~/Documents/ILHEUS-10-ANOS-TCM/pessoal_2026/.
+- 13/11 ~20:55: Magno pediu que o ATRASO seja o ponto principal → roteiro v2 abre pelo atraso (v1 em audio/antigos/v1).
+- Voz Algenib 1,3, atempo 1,15: 191,39 s. Sincronia local (626 palavras, fim 191,10 s).
+- Mapa: Kit Mapas composição PessoalIlheusMapa (src/videos/pessoal-ilheus), 22,4 s → mapas/pessoalilheus.mp4.
+- Código: src/videos/pessoalilheus/ (PessoalIlheus, Guia, Limpo, CapaPessoalIlheus).
+- Etapa atual: quadros de revisão.
+- Antes de postar: reconsultar e-TCM (09/2026) e SICONFI (RGF 2º quad); se entregues, refazer o trecho do atraso.
+- ENTREGUE 13/11/2026 ~21:40: edicoes/153. ilhéus pessoal e lrf/ (video final.mp4 3:12, capa.jpg, legenda do post.txt 2.006 caracteres). Revisão: 67 quadros + 8 refeitos conferidos (régua por degrau, pasta em "Passou", placas maiores, câmera nos carimbos de atraso, fecho com pasta ATRASADA). Fontes copiadas para ~/Documents/FONTES. Site (atualiza.py) não rodado.
+- 13/11 ~22h: Magno pediu caber em 3 min → acelerado 1,075x (setpts+atempo) = 2:58,9; original 3:12 em edicoes/.../antigos/v1-sem-acelerar/.

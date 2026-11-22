@@ -1,0 +1,4056 @@
+{
+ "titulo": "232. O economista que avisou (motor Carlão)",
+ "estilo": "mesa",
+ "audio": "audio/232-economista-narracao.wav",
+ "cabecalho": {
+  "titulo": "O ECONOMISTA QUE AVISOU",
+  "arroba": "@eumagnoleite",
+  "fonte": "FONTES: SENADO, IBGE, EC 95, LC 200, BANCO CENTRAL, PLP 299/2026"
+ },
+ "legenda": [
+  {
+   "inicio": 0.0,
+   "fim": 1.12,
+   "texto": "Novembro de 2016.",
+   "palavras": [
+    {
+     "inicio": 0.0,
+     "fim": 0.38,
+     "texto": "Novembro"
+    },
+    {
+     "inicio": 0.38,
+     "fim": 0.48,
+     "texto": "de"
+    },
+    {
+     "inicio": 0.48,
+     "fim": 1.12,
+     "texto": "2016."
+    }
+   ]
+  },
+  {
+   "inicio": 1.44,
+   "fim": 2.7,
+   "texto": "Um economista vai ao Senado",
+   "palavras": [
+    {
+     "inicio": 1.44,
+     "fim": 1.74,
+     "texto": "Um"
+    },
+    {
+     "inicio": 1.74,
+     "fim": 2.16,
+     "texto": "economista"
+    },
+    {
+     "inicio": 2.16,
+     "fim": 2.3,
+     "texto": "vai"
+    },
+    {
+     "inicio": 2.3,
+     "fim": 2.44,
+     "texto": "ao"
+    },
+    {
+     "inicio": 2.44,
+     "fim": 2.7,
+     "texto": "Senado"
+    }
+   ]
+  },
+  {
+   "inicio": 2.7,
+   "fim": 3.36,
+   "texto": "e diz que a conta",
+   "palavras": [
+    {
+     "inicio": 2.7,
+     "fim": 2.8,
+     "texto": "e"
+    },
+    {
+     "inicio": 2.8,
+     "fim": 2.96,
+     "texto": "diz"
+    },
+    {
+     "inicio": 2.96,
+     "fim": 3.06,
+     "texto": "que"
+    },
+    {
+     "inicio": 3.06,
+     "fim": 3.16,
+     "texto": "a"
+    },
+    {
+     "inicio": 3.16,
+     "fim": 3.36,
+     "texto": "conta"
+    }
+   ]
+  },
+  {
+   "inicio": 3.36,
+   "fim": 4.28,
+   "texto": "do Teto de Gastos não",
+   "palavras": [
+    {
+     "inicio": 3.36,
+     "fim": 3.48,
+     "texto": "do"
+    },
+    {
+     "inicio": 3.48,
+     "fim": 3.72,
+     "texto": "Teto"
+    },
+    {
+     "inicio": 3.72,
+     "fim": 3.82,
+     "texto": "de"
+    },
+    {
+     "inicio": 3.82,
+     "fim": 4.14,
+     "texto": "Gastos"
+    },
+    {
+     "inicio": 4.14,
+     "fim": 4.28,
+     "texto": "não"
+    }
+   ]
+  },
+  {
+   "inicio": 4.28,
+   "fim": 4.66,
+   "texto": "fecha.",
+   "palavras": [
+    {
+     "inicio": 4.28,
+     "fim": 4.66,
+     "texto": "fecha."
+    }
+   ]
+  },
+  {
+   "inicio": 4.96,
+   "fim": 6.02,
+   "texto": "Dez anos depois, o governo",
+   "palavras": [
+    {
+     "inicio": 4.96,
+     "fim": 5.2,
+     "texto": "Dez"
+    },
+    {
+     "inicio": 5.2,
+     "fim": 5.34,
+     "texto": "anos"
+    },
+    {
+     "inicio": 5.34,
+     "fim": 5.64,
+     "texto": "depois,"
+    },
+    {
+     "inicio": 5.82,
+     "fim": 5.82,
+     "texto": "o"
+    },
+    {
+     "inicio": 5.82,
+     "fim": 6.02,
+     "texto": "governo"
+    }
+   ]
+  },
+  {
+   "inicio": 6.02,
+   "fim": 7.12,
+   "texto": "manda ao Congresso mais um",
+   "palavras": [
+    {
+     "inicio": 6.02,
+     "fim": 6.32,
+     "texto": "manda"
+    },
+    {
+     "inicio": 6.32,
+     "fim": 6.42,
+     "texto": "ao"
+    },
+    {
+     "inicio": 6.42,
+     "fim": 6.78,
+     "texto": "Congresso"
+    },
+    {
+     "inicio": 6.78,
+     "fim": 6.98,
+     "texto": "mais"
+    },
+    {
+     "inicio": 6.98,
+     "fim": 7.12,
+     "texto": "um"
+    }
+   ]
+  },
+  {
+   "inicio": 7.12,
+   "fim": 8.58,
+   "texto": "ajuste, de 60 bilhões.",
+   "palavras": [
+    {
+     "inicio": 7.12,
+     "fim": 7.56,
+     "texto": "ajuste,"
+    },
+    {
+     "inicio": 7.62,
+     "fim": 7.82,
+     "texto": "de"
+    },
+    {
+     "inicio": 7.82,
+     "fim": 8.2,
+     "texto": "60"
+    },
+    {
+     "inicio": 8.2,
+     "fim": 8.58,
+     "texto": "bilhões."
+    }
+   ]
+  },
+  {
+   "inicio": 8.84,
+   "fim": 9.68,
+   "texto": "Ele tinha avisado?",
+   "palavras": [
+    {
+     "inicio": 8.84,
+     "fim": 9.08,
+     "texto": "Ele"
+    },
+    {
+     "inicio": 9.08,
+     "fim": 9.24,
+     "texto": "tinha"
+    },
+    {
+     "inicio": 9.24,
+     "fim": 9.68,
+     "texto": "avisado?"
+    }
+   ]
+  },
+  {
+   "inicio": 9.82,
+   "fim": 10.36,
+   "texto": "Vem comigo.",
+   "palavras": [
+    {
+     "inicio": 9.82,
+     "fim": 10.04,
+     "texto": "Vem"
+    },
+    {
+     "inicio": 10.04,
+     "fim": 10.36,
+     "texto": "comigo."
+    }
+   ]
+  },
+  {
+   "inicio": 10.66,
+   "fim": 12.46,
+   "texto": "Pedro Paulo Zahluth Bastos, professor",
+   "palavras": [
+    {
+     "inicio": 10.66,
+     "fim": 10.92,
+     "texto": "Pedro"
+    },
+    {
+     "inicio": 10.92,
+     "fim": 11.22,
+     "texto": "Paulo"
+    },
+    {
+     "inicio": 11.22,
+     "fim": 11.58,
+     "texto": "Zahluth"
+    },
+    {
+     "inicio": 11.58,
+     "fim": 12.0,
+     "texto": "Bastos,"
+    },
+    {
+     "inicio": 12.12,
+     "fim": 12.46,
+     "texto": "professor"
+    }
+   ]
+  },
+  {
+   "inicio": 12.46,
+   "fim": 13.92,
+   "texto": "titular de economia da Unicamp.",
+   "palavras": [
+    {
+     "inicio": 12.46,
+     "fim": 12.84,
+     "texto": "titular"
+    },
+    {
+     "inicio": 12.84,
+     "fim": 12.98,
+     "texto": "de"
+    },
+    {
+     "inicio": 12.98,
+     "fim": 13.4,
+     "texto": "economia"
+    },
+    {
+     "inicio": 13.4,
+     "fim": 13.52,
+     "texto": "da"
+    },
+    {
+     "inicio": 13.52,
+     "fim": 13.92,
+     "texto": "Unicamp."
+    }
+   ]
+  },
+  {
+   "inicio": 14.16,
+   "fim": 15.34,
+   "texto": "Ele é desenvolvimentista:",
+   "palavras": [
+    {
+     "inicio": 14.16,
+     "fim": 14.38,
+     "texto": "Ele"
+    },
+    {
+     "inicio": 14.38,
+     "fim": 14.46,
+     "texto": "é"
+    },
+    {
+     "inicio": 14.46,
+     "fim": 15.34,
+     "texto": "desenvolvimentista:"
+    }
+   ]
+  },
+  {
+   "inicio": 15.58,
+   "fim": 17.08,
+   "texto": "defende o Estado investindo para",
+   "palavras": [
+    {
+     "inicio": 15.58,
+     "fim": 16.04,
+     "texto": "defende"
+    },
+    {
+     "inicio": 16.04,
+     "fim": 16.16,
+     "texto": "o"
+    },
+    {
+     "inicio": 16.16,
+     "fim": 16.36,
+     "texto": "Estado"
+    },
+    {
+     "inicio": 16.36,
+     "fim": 16.88,
+     "texto": "investindo"
+    },
+    {
+     "inicio": 16.88,
+     "fim": 17.08,
+     "texto": "para"
+    }
+   ]
+  },
+  {
+   "inicio": 17.08,
+   "fim": 17.98,
+   "texto": "puxar o crescimento.",
+   "palavras": [
+    {
+     "inicio": 17.08,
+     "fim": 17.42,
+     "texto": "puxar"
+    },
+    {
+     "inicio": 17.42,
+     "fim": 17.5,
+     "texto": "o"
+    },
+    {
+     "inicio": 17.5,
+     "fim": 17.98,
+     "texto": "crescimento."
+    }
+   ]
+  },
+  {
+   "inicio": 18.12,
+   "fim": 18.92,
+   "texto": "E há mais de dez",
+   "palavras": [
+    {
+     "inicio": 18.12,
+     "fim": 18.34,
+     "texto": "E"
+    },
+    {
+     "inicio": 18.34,
+     "fim": 18.42,
+     "texto": "há"
+    },
+    {
+     "inicio": 18.42,
+     "fim": 18.58,
+     "texto": "mais"
+    },
+    {
+     "inicio": 18.58,
+     "fim": 18.7,
+     "texto": "de"
+    },
+    {
+     "inicio": 18.7,
+     "fim": 18.92,
+     "texto": "dez"
+    }
+   ]
+  },
+  {
+   "inicio": 18.92,
+   "fim": 20.28,
+   "texto": "anos critica a austeridade.",
+   "palavras": [
+    {
+     "inicio": 18.92,
+     "fim": 19.18,
+     "texto": "anos"
+    },
+    {
+     "inicio": 19.18,
+     "fim": 19.6,
+     "texto": "critica"
+    },
+    {
+     "inicio": 19.6,
+     "fim": 19.7,
+     "texto": "a"
+    },
+    {
+     "inicio": 19.7,
+     "fim": 20.28,
+     "texto": "austeridade."
+    }
+   ]
+  },
+  {
+   "inicio": 20.54,
+   "fim": 21.76,
+   "texto": "Primeiro, duas palavras.",
+   "palavras": [
+    {
+     "inicio": 20.54,
+     "fim": 20.92,
+     "texto": "Primeiro,"
+    },
+    {
+     "inicio": 21.12,
+     "fim": 21.34,
+     "texto": "duas"
+    },
+    {
+     "inicio": 21.34,
+     "fim": 21.76,
+     "texto": "palavras."
+    }
+   ]
+  },
+  {
+   "inicio": 22.1,
+   "fim": 23.24,
+   "texto": "Gasto primário é o que",
+   "palavras": [
+    {
+     "inicio": 22.1,
+     "fim": 22.54,
+     "texto": "Gasto"
+    },
+    {
+     "inicio": 22.54,
+     "fim": 22.92,
+     "texto": "primário"
+    },
+    {
+     "inicio": 22.92,
+     "fim": 23.08,
+     "texto": "é"
+    },
+    {
+     "inicio": 23.08,
+     "fim": 23.18,
+     "texto": "o"
+    },
+    {
+     "inicio": 23.18,
+     "fim": 23.24,
+     "texto": "que"
+    }
+   ]
+  },
+  {
+   "inicio": 23.24,
+   "fim": 24.4,
+   "texto": "o governo gasta com você:",
+   "palavras": [
+    {
+     "inicio": 23.24,
+     "fim": 23.32,
+     "texto": "o"
+    },
+    {
+     "inicio": 23.32,
+     "fim": 23.58,
+     "texto": "governo"
+    },
+    {
+     "inicio": 23.58,
+     "fim": 23.96,
+     "texto": "gasta"
+    },
+    {
+     "inicio": 23.96,
+     "fim": 24.1,
+     "texto": "com"
+    },
+    {
+     "inicio": 24.1,
+     "fim": 24.4,
+     "texto": "você:"
+    }
+   ]
+  },
+  {
+   "inicio": 24.62,
+   "fim": 27.68,
+   "texto": "saúde, escola, aposentadoria, Bolsa Família,",
+   "palavras": [
+    {
+     "inicio": 24.62,
+     "fim": 25.06,
+     "texto": "saúde,"
+    },
+    {
+     "inicio": 25.32,
+     "fim": 25.74,
+     "texto": "escola,"
+    },
+    {
+     "inicio": 25.96,
+     "fim": 26.7,
+     "texto": "aposentadoria,"
+    },
+    {
+     "inicio": 27.02,
+     "fim": 27.26,
+     "texto": "Bolsa"
+    },
+    {
+     "inicio": 27.26,
+     "fim": 27.68,
+     "texto": "Família,"
+    }
+   ]
+  },
+  {
+   "inicio": 27.94,
+   "fim": 28.22,
+   "texto": "obra.",
+   "palavras": [
+    {
+     "inicio": 27.94,
+     "fim": 28.22,
+     "texto": "obra."
+    }
+   ]
+  },
+  {
+   "inicio": 28.22,
+   "fim": 29.72,
+   "texto": "Gasto financeiro é o que",
+   "palavras": [
+    {
+     "inicio": 28.22,
+     "fim": 28.88,
+     "texto": "Gasto"
+    },
+    {
+     "inicio": 28.88,
+     "fim": 29.32,
+     "texto": "financeiro"
+    },
+    {
+     "inicio": 29.32,
+     "fim": 29.58,
+     "texto": "é"
+    },
+    {
+     "inicio": 29.58,
+     "fim": 29.64,
+     "texto": "o"
+    },
+    {
+     "inicio": 29.64,
+     "fim": 29.72,
+     "texto": "que"
+    }
+   ]
+  },
+  {
+   "inicio": 29.72,
+   "fim": 30.52,
+   "texto": "ele paga de juros da",
+   "palavras": [
+    {
+     "inicio": 29.72,
+     "fim": 29.8,
+     "texto": "ele"
+    },
+    {
+     "inicio": 29.8,
+     "fim": 30.06,
+     "texto": "paga"
+    },
+    {
+     "inicio": 30.06,
+     "fim": 30.18,
+     "texto": "de"
+    },
+    {
+     "inicio": 30.18,
+     "fim": 30.4,
+     "texto": "juros"
+    },
+    {
+     "inicio": 30.4,
+     "fim": 30.52,
+     "texto": "da"
+    }
+   ]
+  },
+  {
+   "inicio": 30.52,
+   "fim": 30.8,
+   "texto": "dívida.",
+   "palavras": [
+    {
+     "inicio": 30.52,
+     "fim": 30.8,
+     "texto": "dívida."
+    }
+   ]
+  },
+  {
+   "inicio": 31.04,
+   "fim": 32.26,
+   "texto": "As regras fiscais do Brasil",
+   "palavras": [
+    {
+     "inicio": 31.04,
+     "fim": 31.28,
+     "texto": "As"
+    },
+    {
+     "inicio": 31.28,
+     "fim": 31.54,
+     "texto": "regras"
+    },
+    {
+     "inicio": 31.54,
+     "fim": 31.92,
+     "texto": "fiscais"
+    },
+    {
+     "inicio": 31.92,
+     "fim": 32.0,
+     "texto": "do"
+    },
+    {
+     "inicio": 32.0,
+     "fim": 32.26,
+     "texto": "Brasil"
+    }
+   ]
+  },
+  {
+   "inicio": 32.26,
+   "fim": 33.1,
+   "texto": "limitam o primeiro.",
+   "palavras": [
+    {
+     "inicio": 32.26,
+     "fim": 32.72,
+     "texto": "limitam"
+    },
+    {
+     "inicio": 32.72,
+     "fim": 32.8,
+     "texto": "o"
+    },
+    {
+     "inicio": 32.8,
+     "fim": 33.1,
+     "texto": "primeiro."
+    }
+   ]
+  },
+  {
+   "inicio": 33.3,
+   "fim": 34.28,
+   "texto": "Os juros ficam de fora",
+   "palavras": [
+    {
+     "inicio": 33.3,
+     "fim": 33.48,
+     "texto": "Os"
+    },
+    {
+     "inicio": 33.48,
+     "fim": 33.68,
+     "texto": "juros"
+    },
+    {
+     "inicio": 33.68,
+     "fim": 33.94,
+     "texto": "ficam"
+    },
+    {
+     "inicio": 33.94,
+     "fim": 34.02,
+     "texto": "de"
+    },
+    {
+     "inicio": 34.02,
+     "fim": 34.28,
+     "texto": "fora"
+    }
+   ]
+  },
+  {
+   "inicio": 34.28,
+   "fim": 34.98,
+   "texto": "de qualquer limite.",
+   "palavras": [
+    {
+     "inicio": 34.28,
+     "fim": 34.4,
+     "texto": "de"
+    },
+    {
+     "inicio": 34.4,
+     "fim": 34.62,
+     "texto": "qualquer"
+    },
+    {
+     "inicio": 34.62,
+     "fim": 34.98,
+     "texto": "limite."
+    }
+   ]
+  },
+  {
+   "inicio": 35.18,
+   "fim": 36.32,
+   "texto": "E a crítica dele começa",
+   "palavras": [
+    {
+     "inicio": 35.18,
+     "fim": 35.44,
+     "texto": "E"
+    },
+    {
+     "inicio": 35.44,
+     "fim": 35.52,
+     "texto": "a"
+    },
+    {
+     "inicio": 35.52,
+     "fim": 35.84,
+     "texto": "crítica"
+    },
+    {
+     "inicio": 35.84,
+     "fim": 36.02,
+     "texto": "dele"
+    },
+    {
+     "inicio": 36.02,
+     "fim": 36.32,
+     "texto": "começa"
+    }
+   ]
+  },
+  {
+   "inicio": 36.32,
+   "fim": 36.54,
+   "texto": "aí.",
+   "palavras": [
+    {
+     "inicio": 36.32,
+     "fim": 36.54,
+     "texto": "aí."
+    }
+   ]
+  },
+  {
+   "inicio": 36.84,
+   "fim": 37.36,
+   "texto": "2015.",
+   "palavras": [
+    {
+     "inicio": 36.84,
+     "fim": 37.36,
+     "texto": "2015."
+    }
+   ]
+  },
+  {
+   "inicio": 37.74,
+   "fim": 39.32,
+   "texto": "O governo recém-reeleito faz um",
+   "palavras": [
+    {
+     "inicio": 37.74,
+     "fim": 37.96,
+     "texto": "O"
+    },
+    {
+     "inicio": 37.96,
+     "fim": 38.22,
+     "texto": "governo"
+    },
+    {
+     "inicio": 38.22,
+     "fim": 38.98,
+     "texto": "recém-reeleito"
+    },
+    {
+     "inicio": 38.98,
+     "fim": 39.2,
+     "texto": "faz"
+    },
+    {
+     "inicio": 39.2,
+     "fim": 39.32,
+     "texto": "um"
+    }
+   ]
+  },
+  {
+   "inicio": 39.32,
+   "fim": 40.74,
+   "texto": "ajuste forte numa economia que",
+   "palavras": [
+    {
+     "inicio": 39.32,
+     "fim": 39.72,
+     "texto": "ajuste"
+    },
+    {
+     "inicio": 39.72,
+     "fim": 40.02,
+     "texto": "forte"
+    },
+    {
+     "inicio": 40.02,
+     "fim": 40.18,
+     "texto": "numa"
+    },
+    {
+     "inicio": 40.18,
+     "fim": 40.62,
+     "texto": "economia"
+    },
+    {
+     "inicio": 40.62,
+     "fim": 40.74,
+     "texto": "que"
+    }
+   ]
+  },
+  {
+   "inicio": 40.74,
+   "fim": 41.58,
+   "texto": "já desacelerava.",
+   "palavras": [
+    {
+     "inicio": 40.74,
+     "fim": 40.88,
+     "texto": "já"
+    },
+    {
+     "inicio": 40.88,
+     "fim": 41.58,
+     "texto": "desacelerava."
+    }
+   ]
+  },
+  {
+   "inicio": 41.82,
+   "fim": 43.38,
+   "texto": "Em outubro, o professor avisa:",
+   "palavras": [
+    {
+     "inicio": 41.82,
+     "fim": 42.04,
+     "texto": "Em"
+    },
+    {
+     "inicio": 42.04,
+     "fim": 42.46,
+     "texto": "outubro,"
+    },
+    {
+     "inicio": 42.56,
+     "fim": 42.64,
+     "texto": "o"
+    },
+    {
+     "inicio": 42.64,
+     "fim": 42.94,
+     "texto": "professor"
+    },
+    {
+     "inicio": 42.94,
+     "fim": 43.38,
+     "texto": "avisa:"
+    }
+   ]
+  },
+  {
+   "inicio": 43.56,
+   "fim": 45.1,
+   "texto": "a arrecadação vai cair, a",
+   "palavras": [
+    {
+     "inicio": 43.56,
+     "fim": 43.74,
+     "texto": "a"
+    },
+    {
+     "inicio": 43.74,
+     "fim": 44.28,
+     "texto": "arrecadação"
+    },
+    {
+     "inicio": 44.28,
+     "fim": 44.44,
+     "texto": "vai"
+    },
+    {
+     "inicio": 44.44,
+     "fim": 44.72,
+     "texto": "cair,"
+    },
+    {
+     "inicio": 44.94,
+     "fim": 45.1,
+     "texto": "a"
+    }
+   ]
+  },
+  {
+   "inicio": 45.1,
+   "fim": 46.32,
+   "texto": "dívida vai subir, e o",
+   "palavras": [
+    {
+     "inicio": 45.1,
+     "fim": 45.36,
+     "texto": "dívida"
+    },
+    {
+     "inicio": 45.36,
+     "fim": 45.54,
+     "texto": "vai"
+    },
+    {
+     "inicio": 45.54,
+     "fim": 45.84,
+     "texto": "subir,"
+    },
+    {
+     "inicio": 45.84,
+     "fim": 46.2,
+     "texto": "e"
+    },
+    {
+     "inicio": 46.2,
+     "fim": 46.32,
+     "texto": "o"
+    }
+   ]
+  },
+  {
+   "inicio": 46.32,
+   "fim": 47.48,
+   "texto": "PIB deve cair perto de",
+   "palavras": [
+    {
+     "inicio": 46.32,
+     "fim": 46.5,
+     "texto": "PIB"
+    },
+    {
+     "inicio": 46.5,
+     "fim": 46.74,
+     "texto": "deve"
+    },
+    {
+     "inicio": 46.74,
+     "fim": 47.04,
+     "texto": "cair"
+    },
+    {
+     "inicio": 47.04,
+     "fim": 47.32,
+     "texto": "perto"
+    },
+    {
+     "inicio": 47.32,
+     "fim": 47.48,
+     "texto": "de"
+    }
+   ]
+  },
+  {
+   "inicio": 47.48,
+   "fim": 48.1,
+   "texto": "3 por cento.",
+   "palavras": [
+    {
+     "inicio": 47.48,
+     "fim": 47.55,
+     "texto": "3"
+    },
+    {
+     "inicio": 47.55,
+     "fim": 47.76,
+     "texto": "por"
+    },
+    {
+     "inicio": 47.76,
+     "fim": 48.1,
+     "texto": "cento."
+    }
+   ]
+  },
+  {
+   "inicio": 48.1,
+   "fim": 50.9,
+   "texto": "O IBGE fechou 2015 com",
+   "palavras": [
+    {
+     "inicio": 48.1,
+     "fim": 48.6,
+     "texto": "O"
+    },
+    {
+     "inicio": 48.6,
+     "fim": 49.06,
+     "texto": "IBGE"
+    },
+    {
+     "inicio": 49.06,
+     "fim": 49.72,
+     "texto": "fechou"
+    },
+    {
+     "inicio": 49.72,
+     "fim": 50.3,
+     "texto": "2015"
+    },
+    {
+     "inicio": 50.3,
+     "fim": 50.9,
+     "texto": "com"
+    }
+   ]
+  },
+  {
+   "inicio": 50.9,
+   "fim": 51.85,
+   "texto": "queda de mais de 3",
+   "palavras": [
+    {
+     "inicio": 50.9,
+     "fim": 51.14,
+     "texto": "queda"
+    },
+    {
+     "inicio": 51.14,
+     "fim": 51.3,
+     "texto": "de"
+    },
+    {
+     "inicio": 51.3,
+     "fim": 51.5,
+     "texto": "mais"
+    },
+    {
+     "inicio": 51.5,
+     "fim": 51.64,
+     "texto": "de"
+    },
+    {
+     "inicio": 51.64,
+     "fim": 51.85,
+     "texto": "3"
+    }
+   ]
+  },
+  {
+   "inicio": 51.85,
+   "fim": 52.69,
+   "texto": "por cento.",
+   "palavras": [
+    {
+     "inicio": 51.85,
+     "fim": 52.48,
+     "texto": "por"
+    },
+    {
+     "inicio": 52.48,
+     "fim": 52.69,
+     "texto": "cento."
+    }
+   ]
+  },
+  {
+   "inicio": 52.69,
+   "fim": 54.6,
+   "texto": "Num artigo de 2017, ele",
+   "palavras": [
+    {
+     "inicio": 52.69,
+     "fim": 52.82,
+     "texto": "Num"
+    },
+    {
+     "inicio": 52.82,
+     "fim": 53.16,
+     "texto": "artigo"
+    },
+    {
+     "inicio": 53.16,
+     "fim": 53.28,
+     "texto": "de"
+    },
+    {
+     "inicio": 53.28,
+     "fim": 53.98,
+     "texto": "2017,"
+    },
+    {
+     "inicio": 54.36,
+     "fim": 54.6,
+     "texto": "ele"
+    }
+   ]
+  },
+  {
+   "inicio": 54.6,
+   "fim": 55.26,
+   "texto": "explica o resto:",
+   "palavras": [
+    {
+     "inicio": 54.6,
+     "fim": 54.9,
+     "texto": "explica"
+    },
+    {
+     "inicio": 54.9,
+     "fim": 55.0,
+     "texto": "o"
+    },
+    {
+     "inicio": 55.0,
+     "fim": 55.26,
+     "texto": "resto:"
+    }
+   ]
+  },
+  {
+   "inicio": 55.26,
+   "fim": 56.98,
+   "texto": "a recessão tirou a popularidade",
+   "palavras": [
+    {
+     "inicio": 55.26,
+     "fim": 55.6,
+     "texto": "a"
+    },
+    {
+     "inicio": 55.6,
+     "fim": 56.02,
+     "texto": "recessão"
+    },
+    {
+     "inicio": 56.02,
+     "fim": 56.3,
+     "texto": "tirou"
+    },
+    {
+     "inicio": 56.3,
+     "fim": 56.38,
+     "texto": "a"
+    },
+    {
+     "inicio": 56.38,
+     "fim": 56.98,
+     "texto": "popularidade"
+    }
+   ]
+  },
+  {
+   "inicio": 56.98,
+   "fim": 58.22,
+   "texto": "do governo até entre quem",
+   "palavras": [
+    {
+     "inicio": 56.98,
+     "fim": 57.1,
+     "texto": "do"
+    },
+    {
+     "inicio": 57.1,
+     "fim": 57.44,
+     "texto": "governo"
+    },
+    {
+     "inicio": 57.44,
+     "fim": 57.78,
+     "texto": "até"
+    },
+    {
+     "inicio": 57.78,
+     "fim": 58.04,
+     "texto": "entre"
+    },
+    {
+     "inicio": 58.04,
+     "fim": 58.22,
+     "texto": "quem"
+    }
+   ]
+  },
+  {
+   "inicio": 58.22,
+   "fim": 58.8,
+   "texto": "votou nele.",
+   "palavras": [
+    {
+     "inicio": 58.22,
+     "fim": 58.54,
+     "texto": "votou"
+    },
+    {
+     "inicio": 58.54,
+     "fim": 58.8,
+     "texto": "nele."
+    }
+   ]
+  },
+  {
+   "inicio": 59.08,
+   "fim": 60.22,
+   "texto": "Sem apoio nas ruas e",
+   "palavras": [
+    {
+     "inicio": 59.08,
+     "fim": 59.34,
+     "texto": "Sem"
+    },
+    {
+     "inicio": 59.34,
+     "fim": 59.68,
+     "texto": "apoio"
+    },
+    {
+     "inicio": 59.68,
+     "fim": 59.84,
+     "texto": "nas"
+    },
+    {
+     "inicio": 59.84,
+     "fim": 60.14,
+     "texto": "ruas"
+    },
+    {
+     "inicio": 60.14,
+     "fim": 60.22,
+     "texto": "e"
+    }
+   ]
+  },
+  {
+   "inicio": 60.22,
+   "fim": 61.68,
+   "texto": "no Congresso, abriu-se o caminho",
+   "palavras": [
+    {
+     "inicio": 60.22,
+     "fim": 60.3,
+     "texto": "no"
+    },
+    {
+     "inicio": 60.3,
+     "fim": 60.76,
+     "texto": "Congresso,"
+    },
+    {
+     "inicio": 60.92,
+     "fim": 61.36,
+     "texto": "abriu-se"
+    },
+    {
+     "inicio": 61.36,
+     "fim": 61.42,
+     "texto": "o"
+    },
+    {
+     "inicio": 61.42,
+     "fim": 61.68,
+     "texto": "caminho"
+    }
+   ]
+  },
+  {
+   "inicio": 61.68,
+   "fim": 62.24,
+   "texto": "para o impeachment.",
+   "palavras": [
+    {
+     "inicio": 61.68,
+     "fim": 61.84,
+     "texto": "para"
+    },
+    {
+     "inicio": 61.84,
+     "fim": 61.94,
+     "texto": "o"
+    },
+    {
+     "inicio": 61.94,
+     "fim": 62.24,
+     "texto": "impeachment."
+    }
+   ]
+  },
+  {
+   "inicio": 62.52,
+   "fim": 63.38,
+   "texto": "Essa é a leitura dele.",
+   "palavras": [
+    {
+     "inicio": 62.52,
+     "fim": 62.72,
+     "texto": "Essa"
+    },
+    {
+     "inicio": 62.72,
+     "fim": 62.78,
+     "texto": "é"
+    },
+    {
+     "inicio": 62.78,
+     "fim": 62.86,
+     "texto": "a"
+    },
+    {
+     "inicio": 62.86,
+     "fim": 63.12,
+     "texto": "leitura"
+    },
+    {
+     "inicio": 63.12,
+     "fim": 63.38,
+     "texto": "dele."
+    }
+   ]
+  },
+  {
+   "inicio": 63.6,
+   "fim": 64.56,
+   "texto": "Aí veio o Teto de",
+   "palavras": [
+    {
+     "inicio": 63.6,
+     "fim": 63.88,
+     "texto": "Aí"
+    },
+    {
+     "inicio": 63.88,
+     "fim": 64.14,
+     "texto": "veio"
+    },
+    {
+     "inicio": 64.14,
+     "fim": 64.28,
+     "texto": "o"
+    },
+    {
+     "inicio": 64.28,
+     "fim": 64.46,
+     "texto": "Teto"
+    },
+    {
+     "inicio": 64.46,
+     "fim": 64.56,
+     "texto": "de"
+    }
+   ]
+  },
+  {
+   "inicio": 64.56,
+   "fim": 64.96,
+   "texto": "Gastos:",
+   "palavras": [
+    {
+     "inicio": 64.56,
+     "fim": 64.96,
+     "texto": "Gastos:"
+    }
+   ]
+  },
+  {
+   "inicio": 65.14,
+   "fim": 66.54,
+   "texto": "o gasto primário congelado por",
+   "palavras": [
+    {
+     "inicio": 65.14,
+     "fim": 65.3,
+     "texto": "o"
+    },
+    {
+     "inicio": 65.3,
+     "fim": 65.56,
+     "texto": "gasto"
+    },
+    {
+     "inicio": 65.56,
+     "fim": 65.9,
+     "texto": "primário"
+    },
+    {
+     "inicio": 65.9,
+     "fim": 66.36,
+     "texto": "congelado"
+    },
+    {
+     "inicio": 66.36,
+     "fim": 66.54,
+     "texto": "por"
+    }
+   ]
+  },
+  {
+   "inicio": 66.54,
+   "fim": 68.02,
+   "texto": "20 anos, corrigido só pela",
+   "palavras": [
+    {
+     "inicio": 66.54,
+     "fim": 66.74,
+     "texto": "20"
+    },
+    {
+     "inicio": 66.74,
+     "fim": 67.06,
+     "texto": "anos,"
+    },
+    {
+     "inicio": 67.34,
+     "fim": 67.68,
+     "texto": "corrigido"
+    },
+    {
+     "inicio": 67.68,
+     "fim": 67.86,
+     "texto": "só"
+    },
+    {
+     "inicio": 67.86,
+     "fim": 68.02,
+     "texto": "pela"
+    }
+   ]
+  },
+  {
+   "inicio": 68.02,
+   "fim": 68.44,
+   "texto": "inflação.",
+   "palavras": [
+    {
+     "inicio": 68.02,
+     "fim": 68.44,
+     "texto": "inflação."
+    }
+   ]
+  },
+  {
+   "inicio": 68.68,
+   "fim": 70.14,
+   "texto": "No Senado, ele mostrou que,",
+   "palavras": [
+    {
+     "inicio": 68.68,
+     "fim": 68.96,
+     "texto": "No"
+    },
+    {
+     "inicio": 68.96,
+     "fim": 69.32,
+     "texto": "Senado,"
+    },
+    {
+     "inicio": 69.46,
+     "fim": 69.66,
+     "texto": "ele"
+    },
+    {
+     "inicio": 69.66,
+     "fim": 70.0,
+     "texto": "mostrou"
+    },
+    {
+     "inicio": 70.0,
+     "fim": 70.14,
+     "texto": "que,"
+    }
+   ]
+  },
+  {
+   "inicio": 70.14,
+   "fim": 71.62,
+   "texto": "com a Previdência subindo, todo",
+   "palavras": [
+    {
+     "inicio": 70.14,
+     "fim": 70.26,
+     "texto": "com"
+    },
+    {
+     "inicio": 70.26,
+     "fim": 70.36,
+     "texto": "a"
+    },
+    {
+     "inicio": 70.36,
+     "fim": 70.78,
+     "texto": "Previdência"
+    },
+    {
+     "inicio": 70.78,
+     "fim": 71.18,
+     "texto": "subindo,"
+    },
+    {
+     "inicio": 71.44,
+     "fim": 71.62,
+     "texto": "todo"
+    }
+   ]
+  },
+  {
+   "inicio": 71.62,
+   "fim": 72.62,
+   "texto": "o resto do governo teria",
+   "palavras": [
+    {
+     "inicio": 71.62,
+     "fim": 71.74,
+     "texto": "o"
+    },
+    {
+     "inicio": 71.74,
+     "fim": 71.96,
+     "texto": "resto"
+    },
+    {
+     "inicio": 71.96,
+     "fim": 72.08,
+     "texto": "do"
+    },
+    {
+     "inicio": 72.08,
+     "fim": 72.4,
+     "texto": "governo"
+    },
+    {
+     "inicio": 72.4,
+     "fim": 72.62,
+     "texto": "teria"
+    }
+   ]
+  },
+  {
+   "inicio": 72.62,
+   "fim": 73.5,
+   "texto": "de caber em menos de",
+   "palavras": [
+    {
+     "inicio": 72.62,
+     "fim": 72.78,
+     "texto": "de"
+    },
+    {
+     "inicio": 72.78,
+     "fim": 73.04,
+     "texto": "caber"
+    },
+    {
+     "inicio": 73.04,
+     "fim": 73.14,
+     "texto": "em"
+    },
+    {
+     "inicio": 73.14,
+     "fim": 73.36,
+     "texto": "menos"
+    },
+    {
+     "inicio": 73.36,
+     "fim": 73.5,
+     "texto": "de"
+    }
+   ]
+  },
+  {
+   "inicio": 73.5,
+   "fim": 74.38,
+   "texto": "1 por cento do PIB",
+   "palavras": [
+    {
+     "inicio": 73.5,
+     "fim": 73.62,
+     "texto": "1"
+    },
+    {
+     "inicio": 73.62,
+     "fim": 73.74,
+     "texto": "por"
+    },
+    {
+     "inicio": 73.74,
+     "fim": 73.94,
+     "texto": "cento"
+    },
+    {
+     "inicio": 73.94,
+     "fim": 74.14,
+     "texto": "do"
+    },
+    {
+     "inicio": 74.14,
+     "fim": 74.38,
+     "texto": "PIB"
+    }
+   ]
+  },
+  {
+   "inicio": 74.38,
+   "fim": 75.66,
+   "texto": "até 2036.",
+   "palavras": [
+    {
+     "inicio": 74.38,
+     "fim": 74.82,
+     "texto": "até"
+    },
+    {
+     "inicio": 74.82,
+     "fim": 75.66,
+     "texto": "2036."
+    }
+   ]
+  },
+  {
+   "inicio": 76.16,
+   "fim": 76.92,
+   "texto": "\"Inviável\", disse.",
+   "palavras": [
+    {
+     "inicio": 76.16,
+     "fim": 76.64,
+     "texto": "\"Inviável\","
+    },
+    {
+     "inicio": 76.72,
+     "fim": 76.92,
+     "texto": "disse."
+    }
+   ]
+  },
+  {
+   "inicio": 77.24,
+   "fim": 78.22,
+   "texto": "E levou números que ele",
+   "palavras": [
+    {
+     "inicio": 77.24,
+     "fim": 77.42,
+     "texto": "E"
+    },
+    {
+     "inicio": 77.42,
+     "fim": 77.64,
+     "texto": "levou"
+    },
+    {
+     "inicio": 77.64,
+     "fim": 77.96,
+     "texto": "números"
+    },
+    {
+     "inicio": 77.96,
+     "fim": 78.12,
+     "texto": "que"
+    },
+    {
+     "inicio": 78.12,
+     "fim": 78.22,
+     "texto": "ele"
+    }
+   ]
+  },
+  {
+   "inicio": 78.22,
+   "fim": 78.94,
+   "texto": "atribuiu ao IPEA:",
+   "palavras": [
+    {
+     "inicio": 78.22,
+     "fim": 78.6,
+     "texto": "atribuiu"
+    },
+    {
+     "inicio": 78.6,
+     "fim": 78.7,
+     "texto": "ao"
+    },
+    {
+     "inicio": 78.7,
+     "fim": 78.94,
+     "texto": "IPEA:"
+    }
+   ]
+  },
+  {
+   "inicio": 79.14,
+   "fim": 80.36,
+   "texto": "cada real de gasto social",
+   "palavras": [
+    {
+     "inicio": 79.14,
+     "fim": 79.44,
+     "texto": "cada"
+    },
+    {
+     "inicio": 79.44,
+     "fim": 79.66,
+     "texto": "real"
+    },
+    {
+     "inicio": 79.66,
+     "fim": 79.8,
+     "texto": "de"
+    },
+    {
+     "inicio": 79.8,
+     "fim": 80.08,
+     "texto": "gasto"
+    },
+    {
+     "inicio": 80.08,
+     "fim": 80.36,
+     "texto": "social"
+    }
+   ]
+  },
+  {
+   "inicio": 80.36,
+   "fim": 81.74,
+   "texto": "volta para a economia como",
+   "palavras": [
+    {
+     "inicio": 80.36,
+     "fim": 80.66,
+     "texto": "volta"
+    },
+    {
+     "inicio": 80.66,
+     "fim": 80.8,
+     "texto": "para"
+    },
+    {
+     "inicio": 80.8,
+     "fim": 80.88,
+     "texto": "a"
+    },
+    {
+     "inicio": 80.88,
+     "fim": 81.2,
+     "texto": "economia"
+    },
+    {
+     "inicio": 81.2,
+     "fim": 81.74,
+     "texto": "como"
+    }
+   ]
+  },
+  {
+   "inicio": 81.74,
+   "fim": 82.2,
+   "texto": "1 real e 70.",
+   "palavras": [
+    {
+     "inicio": 81.74,
+     "fim": 81.74,
+     "texto": "1"
+    },
+    {
+     "inicio": 81.74,
+     "fim": 81.74,
+     "texto": "real"
+    },
+    {
+     "inicio": 81.74,
+     "fim": 81.89,
+     "texto": "e"
+    },
+    {
+     "inicio": 81.89,
+     "fim": 82.2,
+     "texto": "70."
+    }
+   ]
+  },
+  {
+   "inicio": 82.54,
+   "fim": 83.86,
+   "texto": "Cada real de juros, como",
+   "palavras": [
+    {
+     "inicio": 82.54,
+     "fim": 82.8,
+     "texto": "Cada"
+    },
+    {
+     "inicio": 82.8,
+     "fim": 83.06,
+     "texto": "real"
+    },
+    {
+     "inicio": 83.06,
+     "fim": 83.2,
+     "texto": "de"
+    },
+    {
+     "inicio": 83.2,
+     "fim": 83.5,
+     "texto": "juros,"
+    },
+    {
+     "inicio": 83.5,
+     "fim": 83.86,
+     "texto": "como"
+    }
+   ]
+  },
+  {
+   "inicio": 83.86,
+   "fim": 84.68,
+   "texto": "70 centavos.",
+   "palavras": [
+    {
+     "inicio": 83.86,
+     "fim": 84.12,
+     "texto": "70"
+    },
+    {
+     "inicio": 84.12,
+     "fim": 84.68,
+     "texto": "centavos."
+    }
+   ]
+  },
+  {
+   "inicio": 84.92,
+   "fim": 86.14,
+   "texto": "O Teto foi furado várias",
+   "palavras": [
+    {
+     "inicio": 84.92,
+     "fim": 85.1,
+     "texto": "O"
+    },
+    {
+     "inicio": 85.1,
+     "fim": 85.36,
+     "texto": "Teto"
+    },
+    {
+     "inicio": 85.36,
+     "fim": 85.52,
+     "texto": "foi"
+    },
+    {
+     "inicio": 85.52,
+     "fim": 85.84,
+     "texto": "furado"
+    },
+    {
+     "inicio": 85.84,
+     "fim": 86.14,
+     "texto": "várias"
+    }
+   ]
+  },
+  {
+   "inicio": 86.14,
+   "fim": 87.86,
+   "texto": "vezes e substituído em 2023.",
+   "palavras": [
+    {
+     "inicio": 86.14,
+     "fim": 86.52,
+     "texto": "vezes"
+    },
+    {
+     "inicio": 86.52,
+     "fim": 86.66,
+     "texto": "e"
+    },
+    {
+     "inicio": 86.66,
+     "fim": 87.2,
+     "texto": "substituído"
+    },
+    {
+     "inicio": 87.2,
+     "fim": 87.3,
+     "texto": "em"
+    },
+    {
+     "inicio": 87.3,
+     "fim": 87.86,
+     "texto": "2023."
+    }
+   ]
+  },
+  {
+   "inicio": 88.36,
+   "fim": 89.6,
+   "texto": "No lugar dele entrou o",
+   "palavras": [
+    {
+     "inicio": 88.36,
+     "fim": 88.8,
+     "texto": "No"
+    },
+    {
+     "inicio": 88.8,
+     "fim": 89.0,
+     "texto": "lugar"
+    },
+    {
+     "inicio": 89.0,
+     "fim": 89.2,
+     "texto": "dele"
+    },
+    {
+     "inicio": 89.2,
+     "fim": 89.5,
+     "texto": "entrou"
+    },
+    {
+     "inicio": 89.5,
+     "fim": 89.6,
+     "texto": "o"
+    }
+   ]
+  },
+  {
+   "inicio": 89.6,
+   "fim": 90.2,
+   "texto": "arcabouço fiscal.",
+   "palavras": [
+    {
+     "inicio": 89.6,
+     "fim": 89.92,
+     "texto": "arcabouço"
+    },
+    {
+     "inicio": 89.92,
+     "fim": 90.2,
+     "texto": "fiscal."
+    }
+   ]
+  },
+  {
+   "inicio": 90.58,
+   "fim": 91.16,
+   "texto": "A regra:",
+   "palavras": [
+    {
+     "inicio": 90.58,
+     "fim": 90.84,
+     "texto": "A"
+    },
+    {
+     "inicio": 90.84,
+     "fim": 91.16,
+     "texto": "regra:"
+    }
+   ]
+  },
+  {
+   "inicio": 91.28,
+   "fim": 92.36,
+   "texto": "o gasto só cresce 70",
+   "palavras": [
+    {
+     "inicio": 91.28,
+     "fim": 91.48,
+     "texto": "o"
+    },
+    {
+     "inicio": 91.48,
+     "fim": 91.8,
+     "texto": "gasto"
+    },
+    {
+     "inicio": 91.8,
+     "fim": 91.92,
+     "texto": "só"
+    },
+    {
+     "inicio": 91.92,
+     "fim": 92.22,
+     "texto": "cresce"
+    },
+    {
+     "inicio": 92.22,
+     "fim": 92.36,
+     "texto": "70"
+    }
+   ]
+  },
+  {
+   "inicio": 92.36,
+   "fim": 93.3,
+   "texto": "por cento do que a",
+   "palavras": [
+    {
+     "inicio": 92.36,
+     "fim": 92.56,
+     "texto": "por"
+    },
+    {
+     "inicio": 92.56,
+     "fim": 92.9,
+     "texto": "cento"
+    },
+    {
+     "inicio": 92.9,
+     "fim": 93.14,
+     "texto": "do"
+    },
+    {
+     "inicio": 93.14,
+     "fim": 93.22,
+     "texto": "que"
+    },
+    {
+     "inicio": 93.22,
+     "fim": 93.3,
+     "texto": "a"
+    }
+   ]
+  },
+  {
+   "inicio": 93.3,
+   "fim": 95.46,
+   "texto": "receita crescer, entre 0,6 e",
+   "palavras": [
+    {
+     "inicio": 93.3,
+     "fim": 93.58,
+     "texto": "receita"
+    },
+    {
+     "inicio": 93.58,
+     "fim": 93.94,
+     "texto": "crescer,"
+    },
+    {
+     "inicio": 94.14,
+     "fim": 94.42,
+     "texto": "entre"
+    },
+    {
+     "inicio": 94.42,
+     "fim": 95.28,
+     "texto": "0,6"
+    },
+    {
+     "inicio": 95.28,
+     "fim": 95.46,
+     "texto": "e"
+    }
+   ]
+  },
+  {
+   "inicio": 95.46,
+   "fim": 96.92,
+   "texto": "2,5 por cento ao ano",
+   "palavras": [
+    {
+     "inicio": 95.46,
+     "fim": 96.48,
+     "texto": "2,5"
+    },
+    {
+     "inicio": 96.48,
+     "fim": 96.55,
+     "texto": "por"
+    },
+    {
+     "inicio": 96.55,
+     "fim": 96.66,
+     "texto": "cento"
+    },
+    {
+     "inicio": 96.66,
+     "fim": 96.7,
+     "texto": "ao"
+    },
+    {
+     "inicio": 96.7,
+     "fim": 96.92,
+     "texto": "ano"
+    }
+   ]
+  },
+  {
+   "inicio": 96.92,
+   "fim": 97.76,
+   "texto": "acima da inflação.",
+   "palavras": [
+    {
+     "inicio": 96.92,
+     "fim": 97.24,
+     "texto": "acima"
+    },
+    {
+     "inicio": 97.24,
+     "fim": 97.36,
+     "texto": "da"
+    },
+    {
+     "inicio": 97.36,
+     "fim": 97.76,
+     "texto": "inflação."
+    }
+   ]
+  },
+  {
+   "inicio": 97.94,
+   "fim": 99.86,
+   "texto": "Em maio de 2023, ele",
+   "palavras": [
+    {
+     "inicio": 97.94,
+     "fim": 98.44,
+     "texto": "Em"
+    },
+    {
+     "inicio": 98.44,
+     "fim": 98.64,
+     "texto": "maio"
+    },
+    {
+     "inicio": 98.64,
+     "fim": 98.76,
+     "texto": "de"
+    },
+    {
+     "inicio": 98.76,
+     "fim": 99.4,
+     "texto": "2023,"
+    },
+    {
+     "inicio": 99.4,
+     "fim": 99.86,
+     "texto": "ele"
+    }
+   ]
+  },
+  {
+   "inicio": 99.86,
+   "fim": 100.82,
+   "texto": "fez uma conta simples.",
+   "palavras": [
+    {
+     "inicio": 99.86,
+     "fim": 100.08,
+     "texto": "fez"
+    },
+    {
+     "inicio": 100.08,
+     "fim": 100.2,
+     "texto": "uma"
+    },
+    {
+     "inicio": 100.2,
+     "fim": 100.44,
+     "texto": "conta"
+    },
+    {
+     "inicio": 100.44,
+     "fim": 100.82,
+     "texto": "simples."
+    }
+   ]
+  },
+  {
+   "inicio": 101.04,
+   "fim": 102.68,
+   "texto": "Saúde e educação crescem junto",
+   "palavras": [
+    {
+     "inicio": 101.04,
+     "fim": 101.54,
+     "texto": "Saúde"
+    },
+    {
+     "inicio": 101.54,
+     "fim": 101.7,
+     "texto": "e"
+    },
+    {
+     "inicio": 101.7,
+     "fim": 102.1,
+     "texto": "educação"
+    },
+    {
+     "inicio": 102.1,
+     "fim": 102.46,
+     "texto": "crescem"
+    },
+    {
+     "inicio": 102.46,
+     "fim": 102.68,
+     "texto": "junto"
+    }
+   ]
+  },
+  {
+   "inicio": 102.68,
+   "fim": 103.32,
+   "texto": "com a receita.",
+   "palavras": [
+    {
+     "inicio": 102.68,
+     "fim": 102.82,
+     "texto": "com"
+    },
+    {
+     "inicio": 102.82,
+     "fim": 102.9,
+     "texto": "a"
+    },
+    {
+     "inicio": 102.9,
+     "fim": 103.32,
+     "texto": "receita."
+    }
+   ]
+  },
+  {
+   "inicio": 103.54,
+   "fim": 105.0,
+   "texto": "Aposentadoria cresce com o salário",
+   "palavras": [
+    {
+     "inicio": 103.54,
+     "fim": 104.2,
+     "texto": "Aposentadoria"
+    },
+    {
+     "inicio": 104.2,
+     "fim": 104.56,
+     "texto": "cresce"
+    },
+    {
+     "inicio": 104.56,
+     "fim": 104.66,
+     "texto": "com"
+    },
+    {
+     "inicio": 104.66,
+     "fim": 104.78,
+     "texto": "o"
+    },
+    {
+     "inicio": 104.78,
+     "fim": 105.0,
+     "texto": "salário"
+    }
+   ]
+  },
+  {
+   "inicio": 105.0,
+   "fim": 105.26,
+   "texto": "mínimo.",
+   "palavras": [
+    {
+     "inicio": 105.0,
+     "fim": 105.26,
+     "texto": "mínimo."
+    }
+   ]
+  },
+  {
+   "inicio": 105.6,
+   "fim": 106.52,
+   "texto": "Se o total só cresce",
+   "palavras": [
+    {
+     "inicio": 105.6,
+     "fim": 105.78,
+     "texto": "Se"
+    },
+    {
+     "inicio": 105.78,
+     "fim": 105.84,
+     "texto": "o"
+    },
+    {
+     "inicio": 105.84,
+     "fim": 106.02,
+     "texto": "total"
+    },
+    {
+     "inicio": 106.02,
+     "fim": 106.24,
+     "texto": "só"
+    },
+    {
+     "inicio": 106.24,
+     "fim": 106.52,
+     "texto": "cresce"
+    }
+   ]
+  },
+  {
+   "inicio": 106.52,
+   "fim": 107.96,
+   "texto": "70 por cento, alguém vai",
+   "palavras": [
+    {
+     "inicio": 106.52,
+     "fim": 106.78,
+     "texto": "70"
+    },
+    {
+     "inicio": 106.78,
+     "fim": 107.16,
+     "texto": "por"
+    },
+    {
+     "inicio": 107.16,
+     "fim": 107.45,
+     "texto": "cento,"
+    },
+    {
+     "inicio": 107.45,
+     "fim": 107.8,
+     "texto": "alguém"
+    },
+    {
+     "inicio": 107.8,
+     "fim": 107.96,
+     "texto": "vai"
+    }
+   ]
+  },
+  {
+   "inicio": 107.96,
+   "fim": 108.54,
+   "texto": "ser espremido.",
+   "palavras": [
+    {
+     "inicio": 107.96,
+     "fim": 108.1,
+     "texto": "ser"
+    },
+    {
+     "inicio": 108.1,
+     "fim": 108.54,
+     "texto": "espremido."
+    }
+   ]
+  },
+  {
+   "inicio": 108.84,
+   "fim": 109.44,
+   "texto": "A previsão:",
+   "palavras": [
+    {
+     "inicio": 108.84,
+     "fim": 109.02,
+     "texto": "A"
+    },
+    {
+     "inicio": 109.02,
+     "fim": 109.44,
+     "texto": "previsão:"
+    }
+   ]
+  },
+  {
+   "inicio": 109.58,
+   "fim": 110.94,
+   "texto": "um dia o governo teria",
+   "palavras": [
+    {
+     "inicio": 109.58,
+     "fim": 109.86,
+     "texto": "um"
+    },
+    {
+     "inicio": 109.86,
+     "fim": 110.12,
+     "texto": "dia"
+    },
+    {
+     "inicio": 110.26,
+     "fim": 110.42,
+     "texto": "o"
+    },
+    {
+     "inicio": 110.42,
+     "fim": 110.7,
+     "texto": "governo"
+    },
+    {
+     "inicio": 110.7,
+     "fim": 110.94,
+     "texto": "teria"
+    }
+   ]
+  },
+  {
+   "inicio": 110.94,
+   "fim": 112.06,
+   "texto": "de mexer no salário mínimo,",
+   "palavras": [
+    {
+     "inicio": 110.94,
+     "fim": 111.12,
+     "texto": "de"
+    },
+    {
+     "inicio": 111.12,
+     "fim": 111.4,
+     "texto": "mexer"
+    },
+    {
+     "inicio": 111.4,
+     "fim": 111.52,
+     "texto": "no"
+    },
+    {
+     "inicio": 111.52,
+     "fim": 111.8,
+     "texto": "salário"
+    },
+    {
+     "inicio": 111.8,
+     "fim": 112.06,
+     "texto": "mínimo,"
+    }
+   ]
+  },
+  {
+   "inicio": 112.26,
+   "fim": 113.48,
+   "texto": "nos pisos ou no resto",
+   "palavras": [
+    {
+     "inicio": 112.26,
+     "fim": 112.54,
+     "texto": "nos"
+    },
+    {
+     "inicio": 112.54,
+     "fim": 112.92,
+     "texto": "pisos"
+    },
+    {
+     "inicio": 112.92,
+     "fim": 113.12,
+     "texto": "ou"
+    },
+    {
+     "inicio": 113.12,
+     "fim": 113.22,
+     "texto": "no"
+    },
+    {
+     "inicio": 113.22,
+     "fim": 113.48,
+     "texto": "resto"
+    }
+   ]
+  },
+  {
+   "inicio": 113.48,
+   "fim": 114.04,
+   "texto": "do orçamento.",
+   "palavras": [
+    {
+     "inicio": 113.48,
+     "fim": 113.6,
+     "texto": "do"
+    },
+    {
+     "inicio": 113.6,
+     "fim": 114.04,
+     "texto": "orçamento."
+    }
+   ]
+  },
+  {
+   "inicio": 114.4,
+   "fim": 115.76,
+   "texto": "Novembro de 2026:",
+   "palavras": [
+    {
+     "inicio": 114.4,
+     "fim": 114.82,
+     "texto": "Novembro"
+    },
+    {
+     "inicio": 114.82,
+     "fim": 114.92,
+     "texto": "de"
+    },
+    {
+     "inicio": 114.92,
+     "fim": 115.76,
+     "texto": "2026:"
+    }
+   ]
+  },
+  {
+   "inicio": 116.02,
+   "fim": 117.42,
+   "texto": "chega ao Congresso o projeto",
+   "palavras": [
+    {
+     "inicio": 116.02,
+     "fim": 116.42,
+     "texto": "chega"
+    },
+    {
+     "inicio": 116.42,
+     "fim": 116.54,
+     "texto": "ao"
+    },
+    {
+     "inicio": 116.54,
+     "fim": 116.96,
+     "texto": "Congresso"
+    },
+    {
+     "inicio": 116.96,
+     "fim": 117.14,
+     "texto": "o"
+    },
+    {
+     "inicio": 117.14,
+     "fim": 117.42,
+     "texto": "projeto"
+    }
+   ]
+  },
+  {
+   "inicio": 117.42,
+   "fim": 120.04,
+   "texto": "299, o ajuste de 2027.",
+   "palavras": [
+    {
+     "inicio": 117.42,
+     "fim": 118.22,
+     "texto": "299,"
+    },
+    {
+     "inicio": 118.6,
+     "fim": 118.8,
+     "texto": "o"
+    },
+    {
+     "inicio": 118.8,
+     "fim": 119.16,
+     "texto": "ajuste"
+    },
+    {
+     "inicio": 119.16,
+     "fim": 119.24,
+     "texto": "de"
+    },
+    {
+     "inicio": 119.24,
+     "fim": 120.04,
+     "texto": "2027."
+    }
+   ]
+  },
+  {
+   "inicio": 120.44,
+   "fim": 121.68,
+   "texto": "O piso da saúde cresce",
+   "palavras": [
+    {
+     "inicio": 120.44,
+     "fim": 120.72,
+     "texto": "O"
+    },
+    {
+     "inicio": 120.72,
+     "fim": 120.92,
+     "texto": "piso"
+    },
+    {
+     "inicio": 120.92,
+     "fim": 121.04,
+     "texto": "da"
+    },
+    {
+     "inicio": 121.04,
+     "fim": 121.34,
+     "texto": "saúde"
+    },
+    {
+     "inicio": 121.34,
+     "fim": 121.68,
+     "texto": "cresce"
+    }
+   ]
+  },
+  {
+   "inicio": 121.68,
+   "fim": 122.98,
+   "texto": "menos do que cresceria, como",
+   "palavras": [
+    {
+     "inicio": 121.68,
+     "fim": 121.9,
+     "texto": "menos"
+    },
+    {
+     "inicio": 121.9,
+     "fim": 122.04,
+     "texto": "do"
+    },
+    {
+     "inicio": 122.04,
+     "fim": 122.12,
+     "texto": "que"
+    },
+    {
+     "inicio": 122.12,
+     "fim": 122.6,
+     "texto": "cresceria,"
+    },
+    {
+     "inicio": 122.74,
+     "fim": 122.98,
+     "texto": "como"
+    }
+   ]
+  },
+  {
+   "inicio": 122.98,
+   "fim": 123.76,
+   "texto": "eu mostrei no vídeo do",
+   "palavras": [
+    {
+     "inicio": 122.98,
+     "fim": 123.06,
+     "texto": "eu"
+    },
+    {
+     "inicio": 123.06,
+     "fim": 123.32,
+     "texto": "mostrei"
+    },
+    {
+     "inicio": 123.32,
+     "fim": 123.44,
+     "texto": "no"
+    },
+    {
+     "inicio": 123.44,
+     "fim": 123.64,
+     "texto": "vídeo"
+    },
+    {
+     "inicio": 123.64,
+     "fim": 123.76,
+     "texto": "do"
+    }
+   ]
+  },
+  {
+   "inicio": 123.76,
+   "fim": 124.22,
+   "texto": "ajuste.",
+   "palavras": [
+    {
+     "inicio": 123.76,
+     "fim": 124.22,
+     "texto": "ajuste."
+    }
+   ]
+  },
+  {
+   "inicio": 124.48,
+   "fim": 125.88,
+   "texto": "Para ele, é 2015 de",
+   "palavras": [
+    {
+     "inicio": 124.48,
+     "fim": 124.62,
+     "texto": "Para"
+    },
+    {
+     "inicio": 124.62,
+     "fim": 124.84,
+     "texto": "ele,"
+    },
+    {
+     "inicio": 124.96,
+     "fim": 125.12,
+     "texto": "é"
+    },
+    {
+     "inicio": 125.12,
+     "fim": 125.6,
+     "texto": "2015"
+    },
+    {
+     "inicio": 125.6,
+     "fim": 125.88,
+     "texto": "de"
+    }
+   ]
+  },
+  {
+   "inicio": 125.88,
+   "fim": 126.12,
+   "texto": "novo.",
+   "palavras": [
+    {
+     "inicio": 125.88,
+     "fim": 126.12,
+     "texto": "novo."
+    }
+   ]
+  },
+  {
+   "inicio": 126.3,
+   "fim": 127.52,
+   "texto": "E ele volta aos juros:",
+   "palavras": [
+    {
+     "inicio": 126.3,
+     "fim": 126.74,
+     "texto": "E"
+    },
+    {
+     "inicio": 126.74,
+     "fim": 126.86,
+     "texto": "ele"
+    },
+    {
+     "inicio": 126.86,
+     "fim": 127.12,
+     "texto": "volta"
+    },
+    {
+     "inicio": 127.12,
+     "fim": 127.24,
+     "texto": "aos"
+    },
+    {
+     "inicio": 127.24,
+     "fim": 127.52,
+     "texto": "juros:"
+    }
+   ]
+  },
+  {
+   "inicio": 127.72,
+   "fim": 129.18,
+   "texto": "em 12 meses, até setembro,",
+   "palavras": [
+    {
+     "inicio": 127.72,
+     "fim": 127.82,
+     "texto": "em"
+    },
+    {
+     "inicio": 127.82,
+     "fim": 128.02,
+     "texto": "12"
+    },
+    {
+     "inicio": 128.02,
+     "fim": 128.38,
+     "texto": "meses,"
+    },
+    {
+     "inicio": 128.56,
+     "fim": 128.74,
+     "texto": "até"
+    },
+    {
+     "inicio": 128.74,
+     "fim": 129.18,
+     "texto": "setembro,"
+    }
+   ]
+  },
+  {
+   "inicio": 129.32,
+   "fim": 130.34,
+   "texto": "foram cerca de 1 trilhão",
+   "palavras": [
+    {
+     "inicio": 129.32,
+     "fim": 129.54,
+     "texto": "foram"
+    },
+    {
+     "inicio": 129.54,
+     "fim": 129.78,
+     "texto": "cerca"
+    },
+    {
+     "inicio": 129.78,
+     "fim": 129.92,
+     "texto": "de"
+    },
+    {
+     "inicio": 129.92,
+     "fim": 130.04,
+     "texto": "1"
+    },
+    {
+     "inicio": 130.04,
+     "fim": 130.34,
+     "texto": "trilhão"
+    }
+   ]
+  },
+  {
+   "inicio": 130.34,
+   "fim": 131.76,
+   "texto": "e 200 bilhões, perto de",
+   "palavras": [
+    {
+     "inicio": 130.34,
+     "fim": 130.44,
+     "texto": "e"
+    },
+    {
+     "inicio": 130.44,
+     "fim": 130.72,
+     "texto": "200"
+    },
+    {
+     "inicio": 130.72,
+     "fim": 131.16,
+     "texto": "bilhões,"
+    },
+    {
+     "inicio": 131.38,
+     "fim": 131.62,
+     "texto": "perto"
+    },
+    {
+     "inicio": 131.62,
+     "fim": 131.76,
+     "texto": "de"
+    }
+   ]
+  },
+  {
+   "inicio": 131.76,
+   "fim": 132.64,
+   "texto": "9 por cento do PIB.",
+   "palavras": [
+    {
+     "inicio": 131.76,
+     "fim": 131.96,
+     "texto": "9"
+    },
+    {
+     "inicio": 131.96,
+     "fim": 132.06,
+     "texto": "por"
+    },
+    {
+     "inicio": 132.06,
+     "fim": 132.22,
+     "texto": "cento"
+    },
+    {
+     "inicio": 132.22,
+     "fim": 132.42,
+     "texto": "do"
+    },
+    {
+     "inicio": 132.42,
+     "fim": 132.64,
+     "texto": "PIB."
+    }
+   ]
+  },
+  {
+   "inicio": 132.82,
+   "fim": 133.96,
+   "texto": "O ajuste inteiro é de",
+   "palavras": [
+    {
+     "inicio": 132.82,
+     "fim": 133.08,
+     "texto": "O"
+    },
+    {
+     "inicio": 133.08,
+     "fim": 133.48,
+     "texto": "ajuste"
+    },
+    {
+     "inicio": 133.48,
+     "fim": 133.72,
+     "texto": "inteiro"
+    },
+    {
+     "inicio": 133.72,
+     "fim": 133.86,
+     "texto": "é"
+    },
+    {
+     "inicio": 133.86,
+     "fim": 133.96,
+     "texto": "de"
+    }
+   ]
+  },
+  {
+   "inicio": 133.96,
+   "fim": 134.72,
+   "texto": "60 bilhões.",
+   "palavras": [
+    {
+     "inicio": 133.96,
+     "fim": 134.28,
+     "texto": "60"
+    },
+    {
+     "inicio": 134.28,
+     "fim": 134.72,
+     "texto": "bilhões."
+    }
+   ]
+  },
+  {
+   "inicio": 135.02,
+   "fim": 136.14,
+   "texto": "Quem defende a regra diz",
+   "palavras": [
+    {
+     "inicio": 135.02,
+     "fim": 135.24,
+     "texto": "Quem"
+    },
+    {
+     "inicio": 135.24,
+     "fim": 135.56,
+     "texto": "defende"
+    },
+    {
+     "inicio": 135.56,
+     "fim": 135.68,
+     "texto": "a"
+    },
+    {
+     "inicio": 135.68,
+     "fim": 135.9,
+     "texto": "regra"
+    },
+    {
+     "inicio": 135.9,
+     "fim": 136.14,
+     "texto": "diz"
+    }
+   ]
+  },
+  {
+   "inicio": 136.14,
+   "fim": 137.9,
+   "texto": "que ela dá previsibilidade, segura",
+   "palavras": [
+    {
+     "inicio": 136.14,
+     "fim": 136.26,
+     "texto": "que"
+    },
+    {
+     "inicio": 136.26,
+     "fim": 136.34,
+     "texto": "ela"
+    },
+    {
+     "inicio": 136.34,
+     "fim": 136.46,
+     "texto": "dá"
+    },
+    {
+     "inicio": 136.46,
+     "fim": 137.2,
+     "texto": "previsibilidade,"
+    },
+    {
+     "inicio": 137.52,
+     "fim": 137.9,
+     "texto": "segura"
+    }
+   ]
+  },
+  {
+   "inicio": 137.9,
+   "fim": 139.02,
+   "texto": "a dívida e abre espaço",
+   "palavras": [
+    {
+     "inicio": 137.9,
+     "fim": 138.06,
+     "texto": "a"
+    },
+    {
+     "inicio": 138.06,
+     "fim": 138.26,
+     "texto": "dívida"
+    },
+    {
+     "inicio": 138.26,
+     "fim": 138.46,
+     "texto": "e"
+    },
+    {
+     "inicio": 138.46,
+     "fim": 138.66,
+     "texto": "abre"
+    },
+    {
+     "inicio": 138.66,
+     "fim": 139.02,
+     "texto": "espaço"
+    }
+   ]
+  },
+  {
+   "inicio": 139.02,
+   "fim": 139.74,
+   "texto": "para os juros caírem.",
+   "palavras": [
+    {
+     "inicio": 139.02,
+     "fim": 139.18,
+     "texto": "para"
+    },
+    {
+     "inicio": 139.18,
+     "fim": 139.26,
+     "texto": "os"
+    },
+    {
+     "inicio": 139.26,
+     "fim": 139.42,
+     "texto": "juros"
+    },
+    {
+     "inicio": 139.42,
+     "fim": 139.74,
+     "texto": "caírem."
+    }
+   ]
+  },
+  {
+   "inicio": 139.74,
+   "fim": 140.94,
+   "texto": "O governo diz que não",
+   "palavras": [
+    {
+     "inicio": 139.74,
+     "fim": 140.14,
+     "texto": "O"
+    },
+    {
+     "inicio": 140.14,
+     "fim": 140.44,
+     "texto": "governo"
+    },
+    {
+     "inicio": 140.44,
+     "fim": 140.74,
+     "texto": "diz"
+    },
+    {
+     "inicio": 140.74,
+     "fim": 140.84,
+     "texto": "que"
+    },
+    {
+     "inicio": 140.84,
+     "fim": 140.94,
+     "texto": "não"
+    }
+   ]
+  },
+  {
+   "inicio": 140.94,
+   "fim": 141.66,
+   "texto": "é choque fiscal.",
+   "palavras": [
+    {
+     "inicio": 140.94,
+     "fim": 141.06,
+     "texto": "é"
+    },
+    {
+     "inicio": 141.06,
+     "fim": 141.32,
+     "texto": "choque"
+    },
+    {
+     "inicio": 141.32,
+     "fim": 141.66,
+     "texto": "fiscal."
+    }
+   ]
+  },
+  {
+   "inicio": 142.04,
+   "fim": 143.12,
+   "texto": "O professor discorda:",
+   "palavras": [
+    {
+     "inicio": 142.04,
+     "fim": 142.26,
+     "texto": "O"
+    },
+    {
+     "inicio": 142.26,
+     "fim": 142.6,
+     "texto": "professor"
+    },
+    {
+     "inicio": 142.6,
+     "fim": 143.12,
+     "texto": "discorda:"
+    }
+   ]
+  },
+  {
+   "inicio": 143.32,
+   "fim": 144.52,
+   "texto": "para ele, o Brasil não",
+   "palavras": [
+    {
+     "inicio": 143.32,
+     "fim": 143.52,
+     "texto": "para"
+    },
+    {
+     "inicio": 143.52,
+     "fim": 143.78,
+     "texto": "ele,"
+    },
+    {
+     "inicio": 143.9,
+     "fim": 144.12,
+     "texto": "o"
+    },
+    {
+     "inicio": 144.12,
+     "fim": 144.36,
+     "texto": "Brasil"
+    },
+    {
+     "inicio": 144.36,
+     "fim": 144.52,
+     "texto": "não"
+    }
+   ]
+  },
+  {
+   "inicio": 144.52,
+   "fim": 145.58,
+   "texto": "vive uma crise de dívida,",
+   "palavras": [
+    {
+     "inicio": 144.52,
+     "fim": 144.76,
+     "texto": "vive"
+    },
+    {
+     "inicio": 144.76,
+     "fim": 144.92,
+     "texto": "uma"
+    },
+    {
+     "inicio": 144.92,
+     "fim": 145.14,
+     "texto": "crise"
+    },
+    {
+     "inicio": 145.14,
+     "fim": 145.28,
+     "texto": "de"
+    },
+    {
+     "inicio": 145.28,
+     "fim": 145.58,
+     "texto": "dívida,"
+    }
+   ]
+  },
+  {
+   "inicio": 145.82,
+   "fim": 147.0,
+   "texto": "vive uma crise do custo",
+   "palavras": [
+    {
+     "inicio": 145.82,
+     "fim": 146.12,
+     "texto": "vive"
+    },
+    {
+     "inicio": 146.12,
+     "fim": 146.28,
+     "texto": "uma"
+    },
+    {
+     "inicio": 146.28,
+     "fim": 146.54,
+     "texto": "crise"
+    },
+    {
+     "inicio": 146.54,
+     "fim": 146.68,
+     "texto": "do"
+    },
+    {
+     "inicio": 146.68,
+     "fim": 147.0,
+     "texto": "custo"
+    }
+   ]
+  },
+  {
+   "inicio": 147.0,
+   "fim": 147.42,
+   "texto": "da dívida.",
+   "palavras": [
+    {
+     "inicio": 147.0,
+     "fim": 147.1,
+     "texto": "da"
+    },
+    {
+     "inicio": 147.1,
+     "fim": 147.42,
+     "texto": "dívida."
+    }
+   ]
+  },
+  {
+   "inicio": 147.6,
+   "fim": 148.42,
+   "texto": "E o que ele propõe?",
+   "palavras": [
+    {
+     "inicio": 147.6,
+     "fim": 147.8,
+     "texto": "E"
+    },
+    {
+     "inicio": 147.8,
+     "fim": 147.88,
+     "texto": "o"
+    },
+    {
+     "inicio": 147.88,
+     "fim": 147.92,
+     "texto": "que"
+    },
+    {
+     "inicio": 147.92,
+     "fim": 148.04,
+     "texto": "ele"
+    },
+    {
+     "inicio": 148.04,
+     "fim": 148.42,
+     "texto": "propõe?"
+    }
+   ]
+  },
+  {
+   "inicio": 148.52,
+   "fim": 149.04,
+   "texto": "Cinco coisas.",
+   "palavras": [
+    {
+     "inicio": 148.52,
+     "fim": 148.72,
+     "texto": "Cinco"
+    },
+    {
+     "inicio": 148.72,
+     "fim": 149.04,
+     "texto": "coisas."
+    }
+   ]
+  },
+  {
+   "inicio": 149.4,
+   "fim": 149.56,
+   "texto": "Um:",
+   "palavras": [
+    {
+     "inicio": 149.4,
+     "fim": 149.56,
+     "texto": "Um:"
+    }
+   ]
+  },
+  {
+   "inicio": 149.7,
+   "fim": 150.8,
+   "texto": "o limite de gasto crescer",
+   "palavras": [
+    {
+     "inicio": 149.7,
+     "fim": 149.82,
+     "texto": "o"
+    },
+    {
+     "inicio": 149.82,
+     "fim": 150.08,
+     "texto": "limite"
+    },
+    {
+     "inicio": 150.08,
+     "fim": 150.22,
+     "texto": "de"
+    },
+    {
+     "inicio": 150.22,
+     "fim": 150.52,
+     "texto": "gasto"
+    },
+    {
+     "inicio": 150.52,
+     "fim": 150.8,
+     "texto": "crescer"
+    }
+   ]
+  },
+  {
+   "inicio": 150.8,
+   "fim": 151.78,
+   "texto": "pelo menos tanto quanto a",
+   "palavras": [
+    {
+     "inicio": 150.8,
+     "fim": 151.0,
+     "texto": "pelo"
+    },
+    {
+     "inicio": 151.0,
+     "fim": 151.22,
+     "texto": "menos"
+    },
+    {
+     "inicio": 151.22,
+     "fim": 151.44,
+     "texto": "tanto"
+    },
+    {
+     "inicio": 151.44,
+     "fim": 151.66,
+     "texto": "quanto"
+    },
+    {
+     "inicio": 151.66,
+     "fim": 151.78,
+     "texto": "a"
+    }
+   ]
+  },
+  {
+   "inicio": 151.78,
+   "fim": 152.64,
+   "texto": "saúde e a educação.",
+   "palavras": [
+    {
+     "inicio": 151.78,
+     "fim": 152.06,
+     "texto": "saúde"
+    },
+    {
+     "inicio": 152.06,
+     "fim": 152.2,
+     "texto": "e"
+    },
+    {
+     "inicio": 152.2,
+     "fim": 152.24,
+     "texto": "a"
+    },
+    {
+     "inicio": 152.24,
+     "fim": 152.64,
+     "texto": "educação."
+    }
+   ]
+  },
+  {
+   "inicio": 152.92,
+   "fim": 153.18,
+   "texto": "Dois:",
+   "palavras": [
+    {
+     "inicio": 152.92,
+     "fim": 153.18,
+     "texto": "Dois:"
+    }
+   ]
+  },
+  {
+   "inicio": 153.44,
+   "fim": 154.72,
+   "texto": "tirar o investimento público da",
+   "palavras": [
+    {
+     "inicio": 153.44,
+     "fim": 153.74,
+     "texto": "tirar"
+    },
+    {
+     "inicio": 153.74,
+     "fim": 153.82,
+     "texto": "o"
+    },
+    {
+     "inicio": 153.82,
+     "fim": 154.28,
+     "texto": "investimento"
+    },
+    {
+     "inicio": 154.28,
+     "fim": 154.56,
+     "texto": "público"
+    },
+    {
+     "inicio": 154.56,
+     "fim": 154.72,
+     "texto": "da"
+    }
+   ]
+  },
+  {
+   "inicio": 154.72,
+   "fim": 155.02,
+   "texto": "regra.",
+   "palavras": [
+    {
+     "inicio": 154.72,
+     "fim": 155.02,
+     "texto": "regra."
+    }
+   ]
+  },
+  {
+   "inicio": 155.24,
+   "fim": 155.46,
+   "texto": "Três:",
+   "palavras": [
+    {
+     "inicio": 155.24,
+     "fim": 155.46,
+     "texto": "Três:"
+    }
+   ]
+  },
+  {
+   "inicio": 155.84,
+   "fim": 156.98,
+   "texto": "cobrar mais imposto de quem",
+   "palavras": [
+    {
+     "inicio": 155.84,
+     "fim": 156.18,
+     "texto": "cobrar"
+    },
+    {
+     "inicio": 156.18,
+     "fim": 156.4,
+     "texto": "mais"
+    },
+    {
+     "inicio": 156.4,
+     "fim": 156.76,
+     "texto": "imposto"
+    },
+    {
+     "inicio": 156.76,
+     "fim": 156.86,
+     "texto": "de"
+    },
+    {
+     "inicio": 156.86,
+     "fim": 156.98,
+     "texto": "quem"
+    }
+   ]
+  },
+  {
+   "inicio": 156.98,
+   "fim": 157.48,
+   "texto": "ganha muito.",
+   "palavras": [
+    {
+     "inicio": 156.98,
+     "fim": 157.2,
+     "texto": "ganha"
+    },
+    {
+     "inicio": 157.2,
+     "fim": 157.48,
+     "texto": "muito."
+    }
+   ]
+  },
+  {
+   "inicio": 157.76,
+   "fim": 158.12,
+   "texto": "Quatro:",
+   "palavras": [
+    {
+     "inicio": 157.76,
+     "fim": 158.12,
+     "texto": "Quatro:"
+    }
+   ]
+  },
+  {
+   "inicio": 158.32,
+   "fim": 159.26,
+   "texto": "uma meta de inflação de",
+   "palavras": [
+    {
+     "inicio": 158.32,
+     "fim": 158.5,
+     "texto": "uma"
+    },
+    {
+     "inicio": 158.5,
+     "fim": 158.74,
+     "texto": "meta"
+    },
+    {
+     "inicio": 158.74,
+     "fim": 158.84,
+     "texto": "de"
+    },
+    {
+     "inicio": 158.84,
+     "fim": 159.14,
+     "texto": "inflação"
+    },
+    {
+     "inicio": 159.14,
+     "fim": 159.26,
+     "texto": "de"
+    }
+   ]
+  },
+  {
+   "inicio": 159.26,
+   "fim": 160.58,
+   "texto": "4,5 por cento, para baixar",
+   "palavras": [
+    {
+     "inicio": 159.26,
+     "fim": 159.62,
+     "texto": "4,5"
+    },
+    {
+     "inicio": 159.62,
+     "fim": 159.62,
+     "texto": "por"
+    },
+    {
+     "inicio": 159.62,
+     "fim": 159.62,
+     "texto": "cento,"
+    },
+    {
+     "inicio": 159.62,
+     "fim": 160.32,
+     "texto": "para"
+    },
+    {
+     "inicio": 160.32,
+     "fim": 160.58,
+     "texto": "baixar"
+    }
+   ]
+  },
+  {
+   "inicio": 160.58,
+   "fim": 160.92,
+   "texto": "os juros.",
+   "palavras": [
+    {
+     "inicio": 160.58,
+     "fim": 160.7,
+     "texto": "os"
+    },
+    {
+     "inicio": 160.7,
+     "fim": 160.92,
+     "texto": "juros."
+    }
+   ]
+  },
+  {
+   "inicio": 161.28,
+   "fim": 161.64,
+   "texto": "Cinco:",
+   "palavras": [
+    {
+     "inicio": 161.28,
+     "fim": 161.64,
+     "texto": "Cinco:"
+    }
+   ]
+  },
+  {
+   "inicio": 162.2,
+   "fim": 163.76,
+   "texto": "reindustrializar o país, aproveitando a",
+   "palavras": [
+    {
+     "inicio": 162.2,
+     "fim": 162.64,
+     "texto": "reindustrializar"
+    },
+    {
+     "inicio": 162.64,
+     "fim": 162.76,
+     "texto": "o"
+    },
+    {
+     "inicio": 162.76,
+     "fim": 163.04,
+     "texto": "país,"
+    },
+    {
+     "inicio": 163.2,
+     "fim": 163.68,
+     "texto": "aproveitando"
+    },
+    {
+     "inicio": 163.68,
+     "fim": 163.76,
+     "texto": "a"
+    }
+   ]
+  },
+  {
+   "inicio": 163.76,
+   "fim": 164.94,
+   "texto": "disputa entre China e Estados",
+   "palavras": [
+    {
+     "inicio": 163.76,
+     "fim": 164.12,
+     "texto": "disputa"
+    },
+    {
+     "inicio": 164.12,
+     "fim": 164.24,
+     "texto": "entre"
+    },
+    {
+     "inicio": 164.24,
+     "fim": 164.54,
+     "texto": "China"
+    },
+    {
+     "inicio": 164.54,
+     "fim": 164.7,
+     "texto": "e"
+    },
+    {
+     "inicio": 164.7,
+     "fim": 164.94,
+     "texto": "Estados"
+    }
+   ]
+  },
+  {
+   "inicio": 164.94,
+   "fim": 165.3,
+   "texto": "Unidos.",
+   "palavras": [
+    {
+     "inicio": 164.94,
+     "fim": 165.3,
+     "texto": "Unidos."
+    }
+   ]
+  },
+  {
+   "inicio": 165.64,
+   "fim": 166.94,
+   "texto": "Ele acertou ou exagerou?",
+   "palavras": [
+    {
+     "inicio": 165.64,
+     "fim": 165.94,
+     "texto": "Ele"
+    },
+    {
+     "inicio": 165.94,
+     "fim": 166.36,
+     "texto": "acertou"
+    },
+    {
+     "inicio": 166.36,
+     "fim": 166.48,
+     "texto": "ou"
+    },
+    {
+     "inicio": 166.48,
+     "fim": 166.94,
+     "texto": "exagerou?"
+    }
+   ]
+  },
+  {
+   "inicio": 167.12,
+   "fim": 168.6,
+   "texto": "Ajuste é prudência ou aperto?",
+   "palavras": [
+    {
+     "inicio": 167.12,
+     "fim": 167.62,
+     "texto": "Ajuste"
+    },
+    {
+     "inicio": 167.62,
+     "fim": 167.66,
+     "texto": "é"
+    },
+    {
+     "inicio": 167.66,
+     "fim": 168.02,
+     "texto": "prudência"
+    },
+    {
+     "inicio": 168.02,
+     "fim": 168.16,
+     "texto": "ou"
+    },
+    {
+     "inicio": 168.16,
+     "fim": 168.6,
+     "texto": "aperto?"
+    }
+   ]
+  },
+  {
+   "inicio": 168.84,
+   "fim": 169.46,
+   "texto": "Comenta aqui.",
+   "palavras": [
+    {
+     "inicio": 168.84,
+     "fim": 169.28,
+     "texto": "Comenta"
+    },
+    {
+     "inicio": 169.28,
+     "fim": 169.46,
+     "texto": "aqui."
+    }
+   ]
+  },
+  {
+   "inicio": 169.74,
+   "fim": 171.08,
+   "texto": "Eu sou Magno Leite, e",
+   "palavras": [
+    {
+     "inicio": 169.74,
+     "fim": 170.0,
+     "texto": "Eu"
+    },
+    {
+     "inicio": 170.0,
+     "fim": 170.18,
+     "texto": "sou"
+    },
+    {
+     "inicio": 170.18,
+     "fim": 170.54,
+     "texto": "Magno"
+    },
+    {
+     "inicio": 170.54,
+     "fim": 170.82,
+     "texto": "Leite,"
+    },
+    {
+     "inicio": 171.0,
+     "fim": 171.08,
+     "texto": "e"
+    }
+   ]
+  },
+  {
+   "inicio": 171.08,
+   "fim": 171.78,
+   "texto": "aqui eu te explico.",
+   "palavras": [
+    {
+     "inicio": 171.08,
+     "fim": 171.24,
+     "texto": "aqui"
+    },
+    {
+     "inicio": 171.24,
+     "fim": 171.34,
+     "texto": "eu"
+    },
+    {
+     "inicio": 171.34,
+     "fim": 171.44,
+     "texto": "te"
+    },
+    {
+     "inicio": 171.44,
+     "fim": 171.78,
+     "texto": "explico."
+    }
+   ]
+  }
+ ],
+ "cenas": [
+  {
+   "peca": "numero",
+   "dados": {
+    "valor": "R$ 60 bi",
+    "rotulo": "Ajuste mandado ao Congresso em 2026",
+    "detalhe": "Nov/2016, no Senado: \"a conta do Teto não fecha\""
+   },
+   "inicio": 0.0,
+   "fim": 10.66
+  },
+  {
+   "peca": "numero",
+   "dados": {
+    "valor": "Unicamp",
+    "rotulo": "Pedro Paulo Zahluth Bastos, professor titular de economia",
+    "detalhe": "Desenvolvimentista · critica a austeridade"
+   },
+   "inicio": 10.66,
+   "fim": 20.54
+  },
+  {
+   "peca": "numero",
+   "dados": {
+    "valor": "Primário x juros",
+    "rotulo": "As regras fiscais limitam o gasto primário",
+    "detalhe": "Os juros ficam de fora de qualquer limite"
+   },
+   "inicio": 20.54,
+   "fim": 36.84
+  },
+  {
+   "peca": "numero",
+   "dados": {
+    "valor": "~3%",
+    "rotulo": "Queda do PIB que ele previu em out/2015",
+    "detalhe": "Arrecadação cai, dívida sobe"
+   },
+   "inicio": 36.84,
+   "fim": 48.1
+  },
+  {
+   "peca": "numero",
+   "dados": {
+    "valor": "-3,5%",
+    "rotulo": "IBGE: PIB de 2015",
+    "detalhe": "Artigo de 2017: recessão, perda de apoio, impeachment (leitura dele)"
+   },
+   "inicio": 48.1,
+   "fim": 63.6
+  },
+  {
+   "peca": "numero",
+   "dados": {
+    "valor": "< 1% do PIB",
+    "rotulo": "Resto do governo em 2036, pela conta dele",
+    "detalhe": "Teto: 20 anos corrigido só pela inflação · \"Inviável\""
+   },
+   "inicio": 63.6,
+   "fim": 77.24
+  },
+  {
+   "peca": "linha",
+   "dados": {
+    "valores": [
+     1.7,
+     0.7
+    ],
+    "rotulos": [
+     "Gasto social",
+     "Juros"
+    ],
+    "rotulo": "Volta para a economia de cada R$ 1 (números que ele atribuiu ao IPEA)",
+    "prefixo": "R$ ",
+    "sufixo": "",
+    "casas": 2
+   },
+   "inicio": 77.24,
+   "fim": 88.36
+  },
+  {
+   "peca": "numero",
+   "dados": {
+    "valor": "70%",
+    "rotulo": "Do que a receita crescer pode virar gasto",
+    "detalhe": "Entre 0,6% e 2,5% ao ano acima da inflação · maio/2023: alguém vai ser espremido"
+   },
+   "inicio": 88.36,
+   "fim": 114.4
+  },
+  {
+   "peca": "numero",
+   "dados": {
+    "valor": "PLP 299",
+    "rotulo": "Ajuste de 2027, chegou ao Congresso em nov/2026",
+    "detalhe": "Piso da saúde cresce menos · \"2015 de novo\", para ele"
+   },
+   "inicio": 114.4,
+   "fim": 126.3
+  },
+  {
+   "peca": "linha",
+   "dados": {
+    "valores": [
+     1200,
+     60
+    ],
+    "rotulos": [
+     "Juros em 12 meses",
+     "Ajuste inteiro"
+    ],
+    "rotulo": "Juros até setembro x ajuste (R$ bilhões)",
+    "prefixo": "R$ ",
+    "sufixo": " bi",
+    "casas": 0
+   },
+   "inicio": 126.3,
+   "fim": 135.02
+  },
+  {
+   "peca": "numero",
+   "dados": {
+    "valor": "Custo da dívida",
+    "rotulo": "Para ele, a crise é do custo da dívida, não da dívida",
+    "detalhe": "Defensores: previsibilidade · governo: não é choque fiscal"
+   },
+   "inicio": 135.02,
+   "fim": 147.6
+  },
+  {
+   "peca": "numero",
+   "dados": {
+    "valor": "5 propostas",
+    "rotulo": "Limite pela saúde e educação · investimento fora da regra",
+    "detalhe": "Mais imposto de quem ganha muito · meta de 4,5% · reindustrializar"
+   },
+   "inicio": 147.6,
+   "fim": 165.64
+  },
+  {
+   "peca": "numero",
+   "dados": {
+    "valor": "Acertou ou exagerou?",
+    "rotulo": "Comenta aqui",
+    "detalhe": "Segue @eumagnoleite"
+   },
+   "inicio": 165.64,
+   "fim": 172.18
+  }
+ ]
+}

@@ -36,3 +36,5 @@ Todos os documentos do e-TCM (https://e.tcm.ba.gov.br/epp/ConsultaPublica/listVi
 ## Notícias (conferência interna, 09/11/2026)
 - Busca "Paramirim Bahia prefeitura dívida INSS parcelamento 2025": nada específico de Paramirim.
 - Busca "Paramirim BA prefeitura festas 2026 TCM denúncia": Correio (sem data visível) cita recomendação do MP-BA sobre cachê de São João em Paramirim; não usada no vídeo (fonte não oficial do guia e sem documento salvo). Nada contradiz os números do vídeo.
+
+- 16/11/2026 (auditoria p635): fala 01:30 "Educação, 60 e 300" = Educação 2026 até set 60.339.356,12 (soma da função no 2026-09_PCMGE065.pdf, linha 22 acima), com Precatórios FUNDEF 10.197.373,43 na p. 48. A transcrição automática tinha "63,00" e "Saúde 38,00" (erro de reconhecimento; a voz diz 60 e 300 / 30 e 800); transcript.md e site corrigidos.

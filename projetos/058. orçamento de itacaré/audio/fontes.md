@@ -65,3 +65,9 @@ Critério:
 - PDFs reabertos e texto extraído de novo com pdfplumber (sem usar os .txt antigos): 57 de 57 valores literais achados (Balanços, Anexos 6, 9 e 10, PCMGE015/016 de 08/2026 da Prefeitura, PCMGE015 08/2026 da Câmara, PCMGE015 09/2026 da Itacaré-Tur). As somas (setores de 2026, administração, obras, turismo e cultura, eventos, total de 2026) são as mesmas do script setores058.py. Nada mudou.
 - TCM: 02244E25 continua sem deliberação nem voto publicados (2025 e 2026: HTTP 404 às 08:5x de 08/11/2026). Fala mantida: "Ainda sem decisão."
 - Tela conferida contra a fala na revisão (quadros em revisao/).
+
+- Conferência 13/11/2026 (pedido p169, auditoria) — soma refeita, confere:
+  - Empenhado 2026 até 08: R$ 139.411.062,45 = Câmara 4.519.329,04 (Empenhos Até Mês, escrito nas p. 3 e 4 do 2026-08_CAMARA_PCMGE015.pdf) + Prefeitura 134.891.733,41 (Empenhos Até Mês, escrito na p. 115 do 2026-08_PCMGE015.pdf). Link do site: p. 115.
+
+- Conferência 13/11/2026 (pedido p170, auditoria) — soma refeita, confere:
+  - Liquidado 2026 até 08: R$ 132.431.700,68 = Prefeitura 129.270.362,07 (Liquidações Até Mês, "Total do Poder", p. 115 do 2026-08_PCMGE015.pdf) + Câmara 3.161.338,61 (Liquidações Até Mês, escrito nas p. 3 e 4 do 2026-08_CAMARA_PCMGE015.pdf). Links do site (p. 115 e p. 3) certos.

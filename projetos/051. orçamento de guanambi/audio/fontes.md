@@ -39,6 +39,9 @@ Todos os números de dinheiro vêm dos documentos que a Prefeitura e a Câmara d
 | Agricultura (20) | 4,297 | 3,283 | 2,615 | 4 e 300 / 3 e 300 / 2 e 600 |
 | Esporte (ação "Gestão das ações de esporte e lazer", lançada na função 13 em 2024 e 2025; função 27 em 2026) | 0,559 | 0,259 | 0,138 | 560 mil / 260 mil / 140 mil |
 | Meio ambiente (18) | 1,879 | 2,097 | 1,288 | 1 e 900 / 2 e 100 / 1 e 300 |
+- Valor exato (conferência da auditoria, 14/11/2026): Saúde 2025 = R$ 144.937.223,29 → ~/Documents/RECEITAS-DESPESAS-GUANAMBI/documentos_tcm/2025_PCAGO007.pdf (Anexo 9), linha "3 - FUNDO MUNICIPAL DE SAÚDE GUANAMBI", coluna Saúde (txt linha 92; Total da coluna = 144.937.223,29). Legenda "saúde R$ 144,9 mi" está certa.
+
+- Educação 2025: R$ 163.400.547,25 = soma do empenhado das 24 ações da função 12 (Educação) no 2025-12_PCMGE015.pdf (liquidado 163.223.267,10; pago 157.609.204,67) → fala "Educação, 163 milhões" (conferido 13/11/2026, pedido da auditoria).
 
 Fora da fala: Segurança pública/Guarda de Trânsito (06) 2,395 / 3,550 / 2,979 (regra: não entra); Desenvolvimento econômico (22) 2,656 / 2,627 / 2,924; PPP (23) 0 / 4,458 / 3,664; Transporte (26) 1,759 / 1,860 / 1,986; Assessoria jurídica (03) 1,697 / 2,269 / 1,674; Comunicações (24) 0,095 / 0 / 0; Habitação (16) 0 / 0 (reservou R$ 979 mil) / 0,043.
 
@@ -84,3 +87,7 @@ Fora da fala: Segurança pública/Guarda de Trânsito (06) 2,395 / 3,550 / 2,979
 - "O site iGuanambi chegou a falar em 12 e 700 para os professores, mas esse é o valor da dívida": iGuanambi, 27/10/2026 (fonte ASCOM/PMG): "A primeira parcela [...] soma R$ 12.712.549,47". https://www.iguanambi.com.br/noticias/2026/10/27/prefeitura-de-guanambi-iniciara-pagamento-dos-precatorios-do-fundef-na-proxima-semana/
 - "Quem decide é a Justiça": a regra dos 60% e a base de cálculo são decididas pelo Judiciário (ADPF 528, RE 1.428.399, ações individuais no TJBA).
 - Saiu da fala na v2: o hospital (obra do Estado, sem valor confirmado), para caber o tempo.
+
+- Conferência 14/11 (Beatriz): "138 milhões" = Educação 2024, R$ 138,059 mi (Anexo 9), arredondado de 138.059.xxx; narração certa.
+
+- Conferência (14/11/2026, pedido p395 da auditoria): "1 milhão e 900" aparece duas vezes na fala e ambas conferem: Água e saneamento 2025 = R$ 1.871.469,24 (~/Documents/RECEITAS-DESPESAS-GUANAMBI/documentos_tcm/2025_PCAGO007.pdf, Anexo 9, linha "Total", função 17, txt linha 173) e Meio ambiente 2024 = R$ 1.878.750,99 (2024_PCAGO007.pdf, Anexo 9, linha "Total", função 18, txt linha 173). Valores escritos nos PDFs, sem soma; arredondados a "1 e 900" (1,87 e 1,88).

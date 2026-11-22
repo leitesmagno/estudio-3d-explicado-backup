@@ -446,7 +446,7 @@ const CENAS: Cena[] = [
     ini: T.camara - 0.1,
     arco: 0.03,
     chaves: [
-      [T.camara - 0.1, E([CM_X, 1.0, ZD], 6.8, 6.0, [0, 1.5, 1])],
+      [T.camara - 0.1, E([CM_X, 1.0, ZD], 8.6, 6.4, [0, 1.5, 1])],
       [T.rec24 - 0.2, E(soma(meio(CM.rec24.p, CM.dev24.p), [0, 1.3, 0]), 3.6, 5.2, [-0.03, 1.3, 1])],
       [T.rec25 - 0.4, E(soma(meio(CM.rec24.p, CM.dev24.p), [0, 1.3, 0]), 3.4, 5.2, [-0.02, 1.3, 1])],
       [T.rec25 + 0.2, E(soma(meio(CM.rec25.p, CM.dev25.p), [0, 1.4, 0]), 3.4, 5.2, [0.0, 1.3, 1])],
@@ -516,7 +516,7 @@ const CHIPS: Txt[] = (() => {
   ANOS.forEach((y) => {
     y.entradas.forEach((e, k) => {
       const prox = k + 1 < y.entradas.length ? y.entradas[k + 1].t : y.fim;
-      c.push({a: e.t, b: prox, texto: e.v === 0 ? `${nomeDe(e.s)}: R$ 0 · OS R$ 172 MIL PREVISTOS FORAM CANCELADOS` : `${nomeDe(e.s)}: ${fmtV(e.v)}`, destaque: e.v === 0});
+      c.push({a: e.t, b: prox, texto: e.v === 0 ? `${nomeDe(e.s)}: R$ 0 EM 2025` : `${nomeDe(e.s)}: ${fmtV(e.v)}`, destaque: e.v === 0});
     });
   });
   c.push(
